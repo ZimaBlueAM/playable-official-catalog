@@ -1,47 +1,8 @@
 {
-  "revision": 3,
-  "issuedAt": "2026-08-10T21:44:02Z",
-  "expiresAt": "2026-09-09T21:44:02Z",
+  "revision": 4,
+  "issuedAt": "2026-08-10T22:13:37Z",
+  "expiresAt": "2026-09-09T22:13:37Z",
   "entries": [
-    {
-      "gameID": "pack-take-five",
-      "packID": "take-five-first-edition",
-      "packVersion": 1,
-      "rulesVersion": 1,
-      "minimumAppBuild": 44,
-      "engine": {
-        "family": "cardTurn",
-        "version": 1
-      },
-      "minimumPlayers": 2,
-      "maximumPlayers": 4,
-      "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json",
-      "byteCount": 1527,
-      "envelopeSHA256": "b4cd2882d37e8372c52acc455f14b59299d6b44a0bcb8199802bfff38a2bd785",
-      "contentSHA256": "f32109ebc2540e33d613b6030060b8be80ac8abf5b9765e6bd20e63245b5f205",
-      "packKeyID": "playable-content-2026-01",
-      "source": {
-        "name": "Playable Studio",
-        "url": "https://zimablueam.github.io/playable-official-catalog/source"
-      },
-      "license": {
-        "attribution": "Playable Studio",
-        "identifier": "LicenseRef-Playable"
-      },
-      "metadata": {
-        "en": {
-          "summary": "Take one, two, or three tokens. The last move wins.",
-          "systemImage": "hand.tap.fill",
-          "title": "Take Five"
-        },
-        "zh-Hans": {
-          "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
-          "systemImage": "hand.tap.fill",
-          "title": "拿五"
-        }
-      }
-    },
     {
       "gameID": "pack-prism-shift",
       "packID": "prism-shift-first-edition",
@@ -78,6 +39,45 @@
           "summary": "交换相邻棱镜，连成同色消除，在十六回合内赢得最高分。",
           "systemImage": "sparkles.rectangle.stack.fill",
           "title": "棱镜交换"
+        }
+      }
+    },
+    {
+      "gameID": "pack-take-five",
+      "packID": "take-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 44,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json",
+      "byteCount": 1527,
+      "envelopeSHA256": "b4cd2882d37e8372c52acc455f14b59299d6b44a0bcb8199802bfff38a2bd785",
+      "contentSHA256": "f32109ebc2540e33d613b6030060b8be80ac8abf5b9765e6bd20e63245b5f205",
+      "packKeyID": "playable-content-2026-01",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one, two, or three tokens. The last move wins.",
+          "systemImage": "hand.tap.fill",
+          "title": "Take Five"
+        },
+        "zh-Hans": {
+          "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
+          "systemImage": "hand.tap.fill",
+          "title": "拿五"
         }
       }
     }
