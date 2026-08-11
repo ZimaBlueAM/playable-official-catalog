@@ -166,3 +166,14 @@ Batch BK taxonomy is sidecar-only in `batch-20260812-bk.manifest.json` and
 
 Batch BL taxonomy is sidecar-only in `batch-20260812-bl.manifest.json` and
 `audits/batch-20260812-bl.json`; revision 72 contains no taxonomy fields.
+
+## Batch BM
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Courtyard | 9×4, 7 colors | 4 | 46 | exactly 2 | Four shallow rows keep scarce duel courtyard swaps inside the lower thumb sweep. |
+| Open Spectrum Colonnade | 7×10, 6 colors | 3 | 130 | 2–6 | Seven compact columns keep quick shared colonnades focused in lower active rows. |
+| Five Seat Clover Promenade | 10×6, 8 colors | 5 | 88 | exactly 5 | Local adjacent swaps keep the wide five-seat promenade inside one-thumb reach. |
+
+Batch BM taxonomy is sidecar-only in `batch-20260812-bm.manifest.json` and
+`audits/batch-20260812-bm.json`; revision 73 contains no taxonomy fields.

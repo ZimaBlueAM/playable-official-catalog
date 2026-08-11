@@ -1,7 +1,7 @@
 {
-  "revision": 72,
-  "issuedAt": "2026-08-12T00:40:00Z",
-  "expiresAt": "2026-08-19T00:40:00Z",
+  "revision": 73,
+  "issuedAt": "2026-08-12T00:50:00Z",
+  "expiresAt": "2026-08-19T00:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6530,6 +6530,15 @@
     },
     {
       "gameID":"pack-four-seat-amber-promenade","packID":"four-seat-amber-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-amber-promenade-v1.playablepack.json","byteCount":1629,"envelopeSHA256":"2d99e05b3c65bcf326c1a2632981dd814e53bc2c17930ce03b0c3a516babe412","contentSHA256":"c99dc3a438aba34e33dad2939b533d54c4c97679b02458136c70d2dde13c68de","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players trace scarce four-tile promenades across a broad seven-color amber field.","systemImage":"figure.walk","title":"Four Seat Amber Promenade"},"zh-Hans":{"summary":"严格四位玩家在宽阔七色琥珀棋盘中勾勒稀有四连长廊。","systemImage":"figure.walk","title":"四席琥珀长廊"}}
+    },
+    {
+      "gameID":"pack-dual-meadow-courtyard","packID":"dual-meadow-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-courtyard-v1.playablepack.json","byteCount":1620,"envelopeSHA256":"e50dbf6733ec6c04b8e397db96d4e1c651db1fbad240ec9d70dc01757fe98c96","contentSHA256":"2b6e10c9e0f7e25996da3fa07f56c6fb50da8d1a2803c3d319c401fe52e597b4","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players frame scarce four-tile courtyards across a shallow seven-color meadow field.","systemImage":"square.grid.3x3.fill","title":"Dual Meadow Courtyard"},"zh-Hans":{"summary":"两位玩家在浅层七色草甸棋盘中构筑稀有四连庭院。","systemImage":"square.grid.3x3.fill","title":"双人草甸庭院"}}
+    },
+    {
+      "gameID":"pack-open-spectrum-colonnade","packID":"open-spectrum-colonnade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-colonnade-v1.playablepack.json","byteCount":1670,"envelopeSHA256":"8eaafb50cfd389d796c46727f245a2fb46c5fe2dd91f899d2678052d3a91544d","contentSHA256":"7c09548b0a89117ea9f1dffaa8e5dfcb8ac031e8aeed61a57c24fb2ce69923ab","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players raise quick three-tile colonnades through a tall six-color spectrum field.","systemImage":"rectangle.split.3x1.fill","title":"Open Spectrum Colonnade"},"zh-Hans":{"summary":"二至六位玩家在高耸六色光谱棋盘中筑起快速三连柱廊。","systemImage":"rectangle.split.3x1.fill","title":"开放光谱柱廊"}}
+    },
+    {
+      "gameID":"pack-five-seat-clover-promenade","packID":"five-seat-clover-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-clover-promenade-v1.playablepack.json","byteCount":1630,"envelopeSHA256":"ea6190303aee20047349c6c1d5260be9f056874d6ff5cca934abe8da0d560859","contentSHA256":"32ed1ed4fcd0d9001be78ed411df2a2689fdf748c30441edb1a8e14fbc7822c2","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players trace rare five-tile promenades across a wide eight-color clover field.","systemImage":"figure.walk","title":"Five Seat Clover Promenade"},"zh-Hans":{"summary":"严格五位玩家在宽阔八色苜蓿棋盘中勾勒稀有五连长廊。","systemImage":"figure.walk","title":"五席苜蓿长廊"}}
     }
   ]
 }
