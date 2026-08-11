@@ -165,3 +165,14 @@ Batch AE taxonomy is sidecar-only in `batch-20260811-ae.manifest.json` and
 
 Batch AF taxonomy is sidecar-only in `batch-20260811-af.manifest.json` and
 `audits/batch-20260811-af.json`; revision 40 contains no taxonomy fields.
+
+## Batch AG
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Ladder | 5×6, 7 colors | 4 | 15 | exactly 2 | Five narrow columns keep scarce duel rungs inside the lower thumb lane. |
+| Open Prism Citadel | 9×8, 8 colors | 5 | 36 | 2–3 | Short local swaps keep rare citadel walls in the lower active rows. |
+| Party Clover Tower | 7×10, 3 colors | 3 | 58 | 4–6 | Frequent tower input stays inside the lower one-thumb sweep. |
+
+Batch AG taxonomy is sidecar-only in `batch-20260811-ag.manifest.json` and
+`audits/batch-20260811-ag.json`; revision 41 contains no taxonomy fields.

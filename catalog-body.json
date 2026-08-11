@@ -1,7 +1,7 @@
 {
-  "revision": 40,
-  "issuedAt": "2026-08-11T19:20:00Z",
-  "expiresAt": "2026-08-18T19:20:00Z",
+  "revision": 41,
+  "issuedAt": "2026-08-11T19:30:00Z",
+  "expiresAt": "2026-08-18T19:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3939,6 +3939,123 @@
           "summary": "严格三位玩家在浅层棋盘构筑密集五连苜蓿大道。",
           "systemImage": "road.lanes",
           "title": "三席苜蓿大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-spectrum-ladder",
+      "packID": "dual-spectrum-ladder-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-spectrum-ladder-v1.playablepack.json",
+      "byteCount": 1572,
+      "envelopeSHA256": "8cd94d56fc2c632a2e54c8d35dd339b2e7a67cebd354edfa99f40956f87f3745",
+      "contentSHA256": "6a725b431f0756da3358f217a0c071cdece218bb8ac2749cdbc00075cf907d39",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players climb scarce four-tile rungs through a compact seven-color spectrum ladder.",
+          "systemImage": "ladder",
+          "title": "Dual Spectrum Ladder"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在紧凑七色光谱阶梯中攀登稀有四连横档。",
+          "systemImage": "ladder",
+          "title": "双人光谱阶梯"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-prism-citadel",
+      "packID": "open-prism-citadel-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-prism-citadel-v1.playablepack.json",
+      "byteCount": 1611,
+      "envelopeSHA256": "8f669baf56dc53affba84512c8a3e3be098fdd4627a7e2fbfd861c98ecd1f49b",
+      "contentSHA256": "ee4e2d7c9a026d0d20e156417540d30feb6ef517d3678a3399163c4b0ec124f7",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two or three players raise rare five-tile walls across a broad eight-color prism citadel.",
+          "systemImage": "building.columns.fill",
+          "title": "Open Prism Citadel"
+        },
+        "zh-Hans": {
+          "summary": "两至三位玩家在宽阔八色棱镜城堡筑起稀有五连墙。",
+          "systemImage": "building.columns.fill",
+          "title": "开放棱镜城堡"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-clover-tower",
+      "packID": "party-clover-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-clover-tower-v1.playablepack.json",
+      "byteCount": 1590,
+      "envelopeSHA256": "c474dabb43438cf869e9185d45e38d22bdd2658421f68678b783509d52e66a75",
+      "contentSHA256": "73047582082b38def23806f9c1ae9373935edd9b868440180c1184b7009ad930",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Four to six friends steer dense triple cascades through a tall three-color clover tower.",
+          "systemImage": "building.2.fill",
+          "title": "Party Clover Tower"
+        },
+        "zh-Hans": {
+          "summary": "四至六位朋友在高耸三色苜蓿塔中引导密集三连瀑布。",
+          "systemImage": "building.2.fill",
+          "title": "派对苜蓿塔"
         }
       }
     }
