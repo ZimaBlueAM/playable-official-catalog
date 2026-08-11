@@ -154,3 +154,14 @@ Batch BC taxonomy is sidecar-only in `batch-20260811-bc.manifest.json` and
 
 Batch BD taxonomy is sidecar-only in `batch-20260811-bd.manifest.json` and
 `audits/batch-20260811-bd.json`; revision 64 contains no taxonomy fields.
+
+## Batch BE
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Colonnade | 7×4, 6 colors | 5 | 38 | exactly 2 | Four shallow rows keep rare duel colonnades inside the lower thumb sweep. |
+| Open Aurora Courtyard | 9×9, 8 colors | 3 | 106 | 2–4 | Short local swaps keep the shared courtyard focused in lower active rows. |
+| Six Seat Clover Rampart | 6×10, 3 colors | 4 | 72 | exactly 6 | Six compact columns keep dense six-seat ramparts inside one-thumb reach. |
+
+Batch BE taxonomy is sidecar-only in `batch-20260811-be.manifest.json` and
+`audits/batch-20260811-be.json`; revision 65 contains no taxonomy fields.
