@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 15,
+  "issuedAt": "2026-08-11T02:20:44Z",
+  "expiresAt": "2026-08-18T02:20:44Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,84 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pentad-twenty",
+      "packID": "pentad-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pentad-twenty-v1.playablepack.json",
+      "byteCount": 8276,
+      "envelopeSHA256": "d2f03429f8adda51f29257ebfd17571be906bae16b54bab8899c5101ff83f56c",
+      "contentSHA256": "74d7ff581e04e4c7bd2d845ea13b259fac945ae248a4e405dad32b97a17ac8a8",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Five players share a broad twenty-tile restoration, one thumb move each.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Pentad Twenty"
+        },
+        "zh-Hans": {
+          "summary": "五位玩家每人一次拇指滑动，共同还原宽阔二十格。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格五重奏"
+        }
+      }
+    },
+    {
+      "gameID": "pack-trio-nine",
+      "packID": "trio-nine-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-trio-nine-v1.playablepack.json",
+      "byteCount": 3107,
+      "envelopeSHA256": "11690fb6236d8b583a7e5fa3aa546ad531d50b26fc016859a1c12503505ff257",
+      "contentSHA256": "aeb0c0c9c50302a44db86453d6e27448fb316ddd739a75236afd67f436c89bde",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three players pass a compact nine-tile puzzle around the room.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Trio Nine"
+        },
+        "zh-Hans": {
+          "summary": "三位玩家在房间中依次传递，合作还原紧凑九格。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格三重奏"
         }
       }
     }
