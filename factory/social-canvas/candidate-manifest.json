@@ -1,15 +1,6 @@
 {
   "taxonomyVersion": 1,
   "allowedValues": {
-    "genre": [
-      "board",
-      "cards",
-      "dice",
-      "puzzle",
-      "party",
-      "action",
-      "drawing"
-    ],
     "players": [
       "solo",
       "two-player",
@@ -29,6 +20,32 @@
       "one-thumb",
       "two-thumb",
       "canvas"
+    ],
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
     ]
   },
   "entries": [
@@ -71,9 +88,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -85,6 +99,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -130,9 +151,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "cards"
-        ],
         "players": [
           "two-player"
         ],
@@ -144,6 +162,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -189,9 +214,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "puzzle"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -203,6 +225,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -248,9 +277,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "puzzle"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -262,6 +288,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -307,9 +340,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "cards"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -321,6 +351,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -366,9 +403,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -380,6 +414,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -425,9 +466,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -439,6 +477,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -484,9 +529,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -498,6 +540,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -543,9 +591,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -557,6 +602,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -602,9 +653,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -616,6 +664,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -661,9 +716,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -675,6 +727,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -720,9 +779,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -734,6 +790,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -779,9 +841,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -793,6 +852,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -838,9 +903,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -852,6 +914,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -897,9 +966,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -911,6 +977,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -956,9 +1029,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -970,6 +1040,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -1015,9 +1091,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1029,6 +1102,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -1074,9 +1153,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1088,6 +1164,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -1133,9 +1216,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1147,6 +1227,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -1192,9 +1279,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1206,6 +1290,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -1251,9 +1341,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1265,6 +1352,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -1310,9 +1403,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1324,6 +1414,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -1369,9 +1466,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "party"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1383,6 +1477,13 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
         ]
       },
       "evidence": {
@@ -1428,9 +1529,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1442,6 +1540,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {
@@ -1487,9 +1591,6 @@
         }
       },
       "tags": {
-        "genre": [
-          "drawing"
-        ],
         "players": [
           "party-3-6"
         ],
@@ -1501,6 +1602,12 @@
         ],
         "input": [
           "canvas"
+        ],
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching"
         ]
       },
       "evidence": {

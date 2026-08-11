@@ -18,9 +18,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "genre": [
-            "board"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -32,6 +29,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -45,9 +49,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 2,
         "tags": {
-          "genre": [
-            "cards"
-          ],
           "players": [
             "two-player"
           ],
@@ -59,6 +60,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -72,9 +80,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "genre": [
-            "puzzle"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -86,6 +91,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -99,9 +111,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "genre": [
-            "puzzle"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -113,6 +122,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -126,9 +142,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "genre": [
-            "cards"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -140,6 +153,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -153,9 +173,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -167,6 +184,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -180,9 +204,6 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -194,6 +215,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -207,9 +235,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -221,6 +246,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -234,9 +265,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -248,6 +276,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -261,9 +295,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -275,6 +306,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -288,9 +326,6 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -302,6 +337,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -315,9 +357,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -329,6 +368,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -342,9 +387,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -356,6 +398,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -369,9 +417,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -383,6 +428,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -396,9 +448,6 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -410,6 +459,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -423,9 +479,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -437,6 +490,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -450,9 +509,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -464,6 +520,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -477,9 +539,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -491,6 +550,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -504,9 +570,6 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -518,6 +581,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -531,9 +601,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -545,6 +612,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -558,9 +631,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -572,6 +642,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -585,9 +661,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -599,6 +672,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -612,9 +692,6 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "party"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -626,6 +703,13 @@
           ],
           "input": [
             "one-thumb"
+          ],
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
           ]
         }
       },
@@ -639,9 +723,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -653,6 +734,12 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
@@ -666,9 +753,6 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "genre": [
-            "drawing"
-          ],
           "players": [
             "party-3-6"
           ],
@@ -680,10 +764,44 @@
           ],
           "input": [
             "canvas"
+          ],
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching"
           ]
         }
       },
       "tags": null
     }
-  ]
+  ],
+  "allowedValues": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ]
+  }
 }

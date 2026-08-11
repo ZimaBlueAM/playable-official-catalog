@@ -33,8 +33,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Picnic Pictures** — draw a picnic favorite for friends to guess.
 - **Library Doodles** — sketch a quiet library object and race to recognize it.
 
-Candidate taxonomy and its audit are maintained separately from the signed
-schema 1 catalog so older Playable builds can ignore future taxonomy fields.
+Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
+`input`) and its audit are maintained separately from the signed schema 1
+catalog so older Playable builds retain feed compatibility. `carrier` is the
+homepage grouping; `mechanics` is the secondary recommendation filter.
 See `factory/social-canvas/candidate-manifest.json` and
 `audits/social-canvas-taxonomy.json`.
 
