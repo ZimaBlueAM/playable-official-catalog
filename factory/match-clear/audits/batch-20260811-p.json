@@ -1,0 +1,50 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {
+      "gameID": "pack-dual-ember-dash",
+      "carrier": "tiles",
+      "mechanics": ["matching", "alignment", "race"],
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "players": ["two-player"],
+      "pace": "quick-round",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "7x5 board; adjacent swap; four-color three-tile clears; strict 2-player; 11 turns; vector 3ad904f7bf9a93a6"
+    },
+    {
+      "gameID": "pack-trio-longline",
+      "carrier": "board",
+      "mechanics": ["matching", "alignment", "spatial"],
+      "minPlayers": 3,
+      "maxPlayers": 3,
+      "players": ["party-3-6"],
+      "pace": "turn-based",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "8x7 board; adjacent swap; six-color five-tile clears; strict 3-player; 23 turns; vector 9c03879086db80df"
+    },
+    {
+      "gameID": "pack-six-seat-pocket-surge",
+      "carrier": "board",
+      "mechanics": ["matching", "alignment", "spatial"],
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "players": ["party-3-6"],
+      "pace": "turn-based",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "6x6 board; adjacent swap; dense three-color four-tile clears; 3-6 players; 27 turns; vector 4460ed5a08f65e0d"
+    }
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}

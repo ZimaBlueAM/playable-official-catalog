@@ -1,7 +1,7 @@
 {
-  "revision": 23,
-  "issuedAt": "2026-08-11T16:30:00Z",
-  "expiresAt": "2026-08-18T16:30:00Z",
+  "revision": 24,
+  "issuedAt": "2026-08-11T16:40:00Z",
+  "expiresAt": "2026-08-18T16:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1950,6 +1950,123 @@
           "summary": "三至六位朋友在五色宽阔棋盘培育五连王冠。",
           "systemImage": "crown.fill",
           "title": "派对王冠场"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-ember-dash",
+      "packID": "dual-ember-dash-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-ember-dash-v1.playablepack.json",
+      "byteCount": 1547,
+      "envelopeSHA256": "47332579ff01cfa4671a89d924b00a6db171b3279965d866abd67481cc5c2c87",
+      "contentSHA256": "f4b041c2fc61bcab23d0d9a5fcc63ae56cd4fd81c9eb52c8ca8f3049cd7d1f72",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players race through an ember-bright four-color field in eleven compact turns.",
+          "systemImage": "flame.fill",
+          "title": "Dual Ember Dash"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在四色余烬棋盘中竞速，共十一回合。",
+          "systemImage": "flame.fill",
+          "title": "双人余烬冲刺"
+        }
+      }
+    },
+    {
+      "gameID": "pack-trio-longline",
+      "packID": "trio-longline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-trio-longline-v1.playablepack.json",
+      "byteCount": 1564,
+      "envelopeSHA256": "fade6735d353f3111cf6290d57248ca553e403914031e02f8568395e135e8448",
+      "contentSHA256": "58dc497948ca83ec1072452c45b4702d99473fae9b6de62aedf6011a816e905a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players shape demanding five-tile lines across a six-color field.",
+          "systemImage": "line.3.horizontal",
+          "title": "Trio Longline"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在六色棋盘塑造高要求的五连。",
+          "systemImage": "line.3.horizontal",
+          "title": "三席长线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-pocket-surge",
+      "packID": "six-seat-pocket-surge-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-pocket-surge-v1.playablepack.json",
+      "byteCount": 1578,
+      "envelopeSHA256": "07031ff255d25c097c457b1d57c2c6f79291810dde52cb064cb7bf54ab2fcb6b",
+      "contentSHA256": "d511afd9189c444d59ef988834d7f5a36788574aab504f443c48fcdf04bdaa8c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends build dense four-tile surges on a compact three-color board.",
+          "systemImage": "bolt.fill",
+          "title": "Six Seat Pocket Surge"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在紧凑三色棋盘构筑密集四连浪潮。",
+          "systemImage": "bolt.fill",
+          "title": "六席口袋浪潮"
         }
       }
     }

@@ -160,3 +160,14 @@ Batch N taxonomy is sidecar-only in `batch-20260811-n.manifest.json` and
 
 Batch O taxonomy is sidecar-only in `batch-20260811-o.manifest.json` and
 `audits/batch-20260811-o.json`; revision 23 contains no taxonomy fields.
+
+## Batch P
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Ember Dash | 7×5, 4 colors | 3 | 11 | exactly 2 | Five shallow rows keep rapid adjacent swaps inside the lower one-thumb duel field. |
+| Trio Longline | 8×7, 6 colors | 5 | 23 | exactly 3 | Local swaps build long lines while the active lower rows remain in the thumb wiper arc. |
+| Six Seat Pocket Surge | 6×6, 3 colors | 4 | 27 | 3–6 | A compact board concentrates party turns and dense four-line choices in the lower half. |
+
+Batch P taxonomy is sidecar-only in `batch-20260811-p.manifest.json` and
+`audits/batch-20260811-p.json`; revision 24 contains no taxonomy fields.

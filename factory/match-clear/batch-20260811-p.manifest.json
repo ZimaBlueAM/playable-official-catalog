@@ -1,0 +1,39 @@
+{
+  "contract": "playable-taxonomy-candidate-v1",
+  "catalogPublication": "schema1-tags-stripped",
+  "entries": [
+    {
+      "gameID": "pack-dual-ember-dash",
+      "labels": {
+        "carrier": "tiles",
+        "mechanics": ["matching", "alignment", "race"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-trio-longline",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "spatial"],
+        "players": ["party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-six-seat-pocket-surge",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "spatial"],
+        "players": ["party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}
