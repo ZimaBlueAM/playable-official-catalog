@@ -5214,6 +5214,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-waterworks",
+      "packID": "hidden-waterworks-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-waterworks-v1.playablepack",
+      "byteCount": 1989,
+      "envelopeSHA256": "21fc3830809418e3c129f49bfc5c9c2f9fddb4f2e577c88563e9fdf3994908c3",
+      "contentSHA256": "179390f35bbfc9eee2a0b84372d13cf813d0375fa2be69abed3fce7811f5cabc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One operator changed the pressure log; compare reports and vote before release.",
+          "systemImage": "drop.fill",
+          "title": "Waterworks Report"
+        },
+        "zh-Hans": {
+          "summary": "一名操作员改动了压力日志；比较报告，在放水前投票。",
+          "systemImage": "drop.fill",
+          "title": "水务站报告"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-arcade",
+      "packID": "canvas-arcade-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-arcade-v1.playablepack",
+      "byteCount": 1836,
+      "envelopeSHA256": "c80d12ffc6020088a20740e55733c683cf696105417aee5971a568744fe613de",
+      "contentSHA256": "553041605b326479e24fd9db04a9343c477853015365d0579731a6529a73896e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch an arcade clue and race the table to identify it.",
+          "systemImage": "gamecontroller.fill",
+          "title": "Arcade Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出游戏厅线索，和大家一起抢答。",
+          "systemImage": "gamecontroller.fill",
+          "title": "游戏厅速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
