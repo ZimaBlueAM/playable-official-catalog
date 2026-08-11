@@ -155,3 +155,14 @@ Batch BQ taxonomy is sidecar-only in `batch-20260812-bq.manifest.json` and
 
 Batch BR taxonomy is sidecar-only in `batch-20260812-br.manifest.json` and
 `audits/batch-20260812-br.json`; revision 78 contains no taxonomy fields.
+
+## Batch BS
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Courtyard | 9×4, 8 colors | 4 | 52 | exactly 2 | Four shallow rows keep scarce duel courtyard swaps inside the lower thumb sweep. |
+| Open Spectrum Gallery | 7×10, 4 colors | 3 | 148 | 2–4 | Seven compact columns keep dense shared gallery play focused in lower active rows. |
+| Three Seat Clover Gallery | 5×9, 6 colors | 5 | 100 | exactly 3 | Five narrow columns keep rare three-seat gallery matches inside one-thumb reach. |
+
+Batch BS taxonomy is sidecar-only in `batch-20260812-bs.manifest.json` and
+`audits/batch-20260812-bs.json`; revision 79 contains no taxonomy fields.
