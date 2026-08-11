@@ -166,3 +166,14 @@ Batch CK taxonomy is sidecar-only in `batch-20260812-ck.manifest.json` and
 
 Batch CL taxonomy is sidecar-only in `batch-20260812-cl.manifest.json` and
 `audits/batch-20260812-cl.json`; revision 98 contains no taxonomy fields.
+
+## Batch CM
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Opal Gallery | 8×4, 6 colors | 4 | 72 | exactly 2 | Four shallow rows keep duel gallery swaps inside the lower thumb sweep. |
+| Open Opal Courtyard | 6×10, 7 colors | 3 | 195 | 2–5 | Six narrow columns keep quick shared courtyard play focused in lower active rows. |
+| Three Seat Pearl Gallery | 9×8, 5 colors | 5 | 140 | exactly 3 | Adjacent local swaps keep rare three-seat gallery play inside one-thumb reach. |
+
+Batch CM taxonomy is sidecar-only in `batch-20260812-cm.manifest.json` and
+`audits/batch-20260812-cm.json`; revision 99 contains no taxonomy fields.
