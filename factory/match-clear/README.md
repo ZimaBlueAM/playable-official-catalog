@@ -21,3 +21,11 @@ private Playable content key locally; only their resulting signed envelopes are 
 | Orbit Garden | 7×5, 5 colors | 3 | 14 | 2–6 | Seven columns remain within the lower-half thumb sweep; adjacent vertical swaps create shared garden chains. |
 | Switchback | 5×7, 6 colors | 3 | 15 | 2–5 | The taller five-column board preserves one-handed reach while vertical swaps reverse crowded columns. |
 | Tide Three | 8×4, 4 colors | 3 | 10 | 2–4 | The low four-row board keeps horizontal tides visible and every move thumb-accessible in the lower screen. |
+
+## Batch C
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Hexa Drift | 6×6, 5 colors | 3 | 13 | 2–6 | The square board keeps the lower-half swap grid balanced for one-handed drift moves. |
+| Ladder Bloom | 5×8, 5 colors | 4 | 17 | 2–4 | Five columns keep the vertical ladder readable and reachable while four-tile blooms demand planning. |
+| Shortwave | 9×4, 6 colors | 3 | 11 | 2–5 | The shallow wide board keeps short horizontal waves and all adjacent swaps in thumb range. |
