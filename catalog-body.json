@@ -1,8 +1,47 @@
 {
-  "revision": 4,
-  "issuedAt": "2026-08-10T22:13:37Z",
-  "expiresAt": "2026-09-09T22:13:37Z",
+  "revision": 5,
+  "issuedAt": "2026-08-11T00:17:03Z",
+  "expiresAt": "2026-09-10T00:17:03Z",
   "entries": [
+    {
+      "gameID": "pack-pocket-slider",
+      "packID": "pocket-slider-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-slider-v1.playablepack.json",
+      "byteCount": 1141,
+      "envelopeSHA256": "98cd906f2b16100513e4e727fc11c8137fdd50fce10c8f105dd9f91ed27a23c8",
+      "contentSHA256": "c5f7876d1525252447172496f5b780c384a3c51b267c19cc7b3bd0a25ce08f7d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take turns sliding numbered tiles into the empty space and restore the grid.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Pocket Slider"
+        },
+        "zh-Hans": {
+          "summary": "轮流将数字滑入空格，在步数用尽前还原方阵。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "掌上华容格"
+        }
+      }
+    },
     {
       "gameID": "pack-prism-shift",
       "packID": "prism-shift-first-edition",
