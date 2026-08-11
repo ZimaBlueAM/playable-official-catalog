@@ -1,7 +1,7 @@
 {
-  "revision": 22,
-  "issuedAt": "2026-08-11T10:30:00Z",
-  "expiresAt": "2026-08-18T10:30:00Z",
+  "revision": 23,
+  "issuedAt": "2026-08-11T11:00:00Z",
+  "expiresAt": "2026-08-18T11:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2067,6 +2067,123 @@
           "summary": "两至六人在袖珍重力棋盘中落子，率先底部三子成线获胜。",
           "systemImage": "square.grid.3x3.fill",
           "title": "袖珍落三"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mirror-rise-six",
+      "packID": "mirror-rise-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mirror-rise-six-v1.playablepack",
+      "byteCount": 4945,
+      "envelopeSHA256": "c125b7cc73952d99bd65f1e66068c75d5cd45f82b17d7474cf61fed9d28fcb2b",
+      "contentSHA256": "4447e25d2c4685628cf35cbaa9f96d2d70d1f96a22a5209cdd9c4e0661768cf2",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a mirrored six-step diagonal through a gravity rack.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Mirror Rise Six"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在重力棋架中反向搭建支撑，争先完成镜像六子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "镜升斜六"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quick-diagonal-three",
+      "packID": "quick-diagonal-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quick-diagonal-three-v1.playablepack",
+      "byteCount": 2862,
+      "envelopeSHA256": "3408bac5a8bbe9ff3f6a86c55f62b879deea06215cb61f6447ca30ee1533bb3f",
+      "contentSHA256": "8d095b6f7c7dacd17658beeefbda4f36362fcf44b7f7cb87619acb3feb947034",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a short supported diagonal on a pocket gravity board.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Quick Diagonal Three"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在袖珍重力棋盘中搭建支撑，快速完成三子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "快斜三连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spire-seven",
+      "packID": "open-spire-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spire-seven-v1.playablepack",
+      "byteCount": 4731,
+      "envelopeSHA256": "ec2ca66ec898b3419c08c69371dd580c53bf910e184cc40a2d639ac4df6bbcb9",
+      "contentSHA256": "e48830216b19a16cb5f89c8c692ef1d561e4b925cbc06e1b1b817b05de5589a9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players place freely on a tall board and raise a vertical line of seven.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Spire Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在高长开放棋盘中自由落子，争先筑成竖向七连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放七塔"
         }
       }
     }
