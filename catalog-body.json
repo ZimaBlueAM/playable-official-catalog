@@ -1,7 +1,7 @@
 {
-  "revision": 10,
-  "issuedAt": "2026-08-11T02:37:20Z",
-  "expiresAt": "2026-08-18T02:37:20Z",
+  "revision": 24,
+  "issuedAt": "2026-08-11T02:46:01Z",
+  "expiresAt": "2026-08-18T02:46:01Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -391,6 +391,84 @@
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "gameID": "pack-column-fifteen",
+      "packID": "column-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-column-fifteen-v1.playablepack.json",
+      "byteCount": 15445,
+      "envelopeSHA256": "e64e94811e4f9fa066005a293f0b3cdeb3067018a48c73ea357b4b7542c5ca46",
+      "contentSHA256": "68a946659e4048ce4feaeb358241be3117e1aa7ffdd64cf9bb12e384ed885a01",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Reorder a tall column of fifteen tiles with space to recover and adjust.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Column Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "沿纵向十五格轮流还原，并保留回退与调整空间。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格纵列"
+        }
+      }
+    },
+    {
+      "gameID": "pack-gridlock-sixteen",
+      "packID": "gridlock-sixteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gridlock-sixteen-v1.playablepack.json",
+      "byteCount": 18993,
+      "envelopeSHA256": "ab3390f70aa3b237f88e8bfe06fc14a9ad72bfdb0e43ee5e411b906ef2c8347d",
+      "contentSHA256": "d4fd48e996c5fc61ea044610284528ae18cf596a4167911b3b6d25a179212e62",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Break a sixteen-tile gridlock in exactly fifty-six shared moves.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Gridlock Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "从双人到六席轮流行动，恰好五十六步解开十六格锁阵。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六格锁阵"
+        }
       }
     }
   ]
