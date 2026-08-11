@@ -88,3 +88,14 @@ Batch AW taxonomy is sidecar-only in `batch-20260811-aw.manifest.json` and
 
 Batch AX taxonomy is sidecar-only in `batch-20260811-ax.manifest.json` and
 `audits/batch-20260811-ax.json`; revision 58 contains no taxonomy fields.
+
+## Batch AY
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Arcade | 7×4, 4 colors | 3 | 32 | exactly 2 | Four shallow rows keep quick duel-arcade swaps inside the lower thumb sweep. |
+| Open Amber Rampart | 10×9, 8 colors | 4 | 88 | 2–6 | Adjacent local swaps keep the broad shared rampart focused in lower active rows. |
+| Five Seat Meadow Needle | 4×9, 5 colors | 5 | 59 | exactly 5 | Four narrow columns focus rare vertical needles inside one-thumb reach. |
+
+Batch AY taxonomy is sidecar-only in `batch-20260811-ay.manifest.json` and
+`audits/batch-20260811-ay.json`; revision 59 contains no taxonomy fields.

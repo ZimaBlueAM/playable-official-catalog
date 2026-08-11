@@ -1,7 +1,7 @@
 {
-  "revision": 58,
-  "issuedAt": "2026-08-11T22:20:00Z",
-  "expiresAt": "2026-08-18T22:20:00Z",
+  "revision": 59,
+  "issuedAt": "2026-08-11T22:30:00Z",
+  "expiresAt": "2026-08-18T22:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6046,6 +6046,72 @@
           "systemImage": "road.lanes",
           "title": "六席紫罗兰大道"
         }
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-arcade",
+      "packID": "dual-clover-arcade-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-arcade-v1.playablepack.json",
+      "byteCount": 1592,
+      "envelopeSHA256": "39f45584a09bd712a3a715b4d7dde817baa360532c71fb56f9d43146722be46b",
+      "contentSHA256": "684b490551801a02419d1cd82c162e96d9d4156c46cdd4f3657aee55e04e5480",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two players race through quick triples across a shallow four-color clover arcade.", "systemImage": "rectangle.3.group.fill", "title": "Dual Clover Arcade"},
+        "zh-Hans": {"summary": "两位玩家在浅短四色苜蓿拱廊中竞逐灵活三连。", "systemImage": "rectangle.3.group.fill", "title": "双人苜蓿拱廊"}
+      }
+    },
+    {
+      "gameID": "pack-open-amber-rampart",
+      "packID": "open-amber-rampart-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-amber-rampart-v1.playablepack.json",
+      "byteCount": 1631,
+      "envelopeSHA256": "7d1f5ec3dbcbde20d3d79eedaea46256490cf65745d34d68c42949ac1b94ec2f",
+      "contentSHA256": "fe03c6c053dcdfec3fab4fef2333c248ff36ed285f195d6c36c8c6b1424754fd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players raise scarce four-tile ramparts across a broad eight-color amber field.", "systemImage": "shield.lefthalf.filled", "title": "Open Amber Rampart"},
+        "zh-Hans": {"summary": "二至六位玩家在宽阔八色琥珀棋盘中筑起稀有四连壁垒。", "systemImage": "shield.lefthalf.filled", "title": "开放琥珀壁垒"}
+      }
+    },
+    {
+      "gameID": "pack-five-seat-meadow-needle",
+      "packID": "five-seat-meadow-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-meadow-needle-v1.playablepack.json",
+      "byteCount": 1621,
+      "envelopeSHA256": "c55b87f6c2f9c3cabd975589da80dd459efc977f57bccfbabe024b48bec43ba0",
+      "contentSHA256": "695c5bb2942d12647b31873022d3272eaae6af77926ce308769e4c5d7336724f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Exactly five players grow rare vertical five-tile needles through a narrow five-color meadow.", "systemImage": "arrow.up.to.line", "title": "Five Seat Meadow Needle"},
+        "zh-Hans": {"summary": "严格五位玩家在狭长五色草甸中培育稀有纵向五连针塔。", "systemImage": "arrow.up.to.line", "title": "五席草甸针塔"}
       }
     }
   ]
