@@ -1,0 +1,131 @@
+[
+  {
+    "gameID": "pack-harbor-six",
+    "packID": "harbor-six-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "rules": {
+      "columns": 10,
+      "connectionLength": 6,
+      "rows": 6,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "expectedChecksum": "2e59978f32d153c1",
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-column-sprint",
+    "packID": "column-sprint-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "rules": {
+      "columns": 3,
+      "connectionLength": 3,
+      "rows": 10,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "expectedChecksum": "4d1fb95cb2e42f89",
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-five-bridges",
+    "packID": "five-bridges-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "rules": {
+      "columns": 11,
+      "connectionLength": 5,
+      "rows": 5,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "expectedChecksum": "1bcdfe8534c7d31f",
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]

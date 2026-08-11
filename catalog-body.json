@@ -1,7 +1,7 @@
 {
-  "revision": 13,
-  "issuedAt": "2026-08-11T06:00:00Z",
-  "expiresAt": "2026-08-18T06:00:00Z",
+  "revision": 14,
+  "issuedAt": "2026-08-11T06:30:00Z",
+  "expiresAt": "2026-08-18T06:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -214,7 +214,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-edge-weave-v1.playablepack",
       "byteCount": 1917,
       "envelopeSHA256": "a1e56105e4ca5d5c59a21a6780de0cfcb00c90ee46a089ab31d25c721d680e2c",
-      "contentSHA256": null,
+      "contentSHA256": "d1288542b0c1b5e457e940f6058bb37df1ea7481b72e8671a21b11bc3f234981",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -253,7 +253,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-skyline-five-v1.playablepack",
       "byteCount": 2052,
       "envelopeSHA256": "25b655e3e5018971dc83694bfa10683c7594016084a88144a48a74f94ea7fab0",
-      "contentSHA256": null,
+      "contentSHA256": "ed65f76141756e9d2ecc7f841ed34ec08475096f83c7697c5b85504dd55033b4",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -292,7 +292,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-triad-lane-v1.playablepack",
       "byteCount": 1799,
       "envelopeSHA256": "efd5773953511d6e92c15ccaa9e89cf941a15c5b03b24a9415d31089298f6bdd",
-      "contentSHA256": null,
+      "contentSHA256": "56bf30f4418e0b56bad90ca51f90d53390edb4181d0625358a7d71b5060bb371",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -331,7 +331,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-hexa-rail-v1.playablepack",
       "byteCount": 1912,
       "envelopeSHA256": "5ae414d57c1282b1cf092d05c0e1da181d29466517381ee50552bd66d30cf05b",
-      "contentSHA256": null,
+      "contentSHA256": "2125219812f74b8e84070596be573e7c61d0959bd4b4da5df8c9d0dc2b5ed253",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -370,7 +370,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-corner-circuit-v1.playablepack",
       "byteCount": 2056,
       "envelopeSHA256": "8970309aa144ab3c695315c6bc4d7a033f4efee7d3f5ab80588397561d56c19a",
-      "contentSHA256": null,
+      "contentSHA256": "c2947d683653ec1eff18509b1600f141998257440101a7576c817849580b4198",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -409,7 +409,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-twin-gates-v1.playablepack",
       "byteCount": 1794,
       "envelopeSHA256": "76980c087f2c0eda0a284869c45cd3835b8431d9e6bd390a5ef45afb070303c1",
-      "contentSHA256": null,
+      "contentSHA256": "8dc05647a600b482f465742699d26c64bbb3d2b0e10b56d0d32f35045ac3f658",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -448,7 +448,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-ladder-v1.playablepack",
       "byteCount": 1916,
       "envelopeSHA256": "aec8f1834b0eb711b4cb43c39617109169575f4cfb0405a4b26de87f9ce5ab60",
-      "contentSHA256": null,
+      "contentSHA256": "bb899ab4e38a8668235cdc5d98646574a6c8726a3acc36ac18a172dd32373937",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -487,7 +487,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-beacon-five-v1.playablepack",
       "byteCount": 2045,
       "envelopeSHA256": "c33a7cb560103bf02405f6da88537fd780a1031e8166b835c50c42194b12be7b",
-      "contentSHA256": null,
+      "contentSHA256": "9a6539d1ff32a08b6687c7e403a532db181e900364b508028302814f915e271a",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -526,7 +526,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cross-current-v1.playablepack",
       "byteCount": 1811,
       "envelopeSHA256": "48cefdc27961fe1f643e7eff69fc6772c66a4242f49c9e4ee4193781323ffeb6",
-      "contentSHA256": null,
+      "contentSHA256": "dff237d08af67431aa2ab3b4551254f90ad52311d8cc1fcd0c5f5d7c11986b82",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -565,7 +565,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quadra-bloom-v1.playablepack",
       "byteCount": 1928,
       "envelopeSHA256": "f16bd66613c1471bdc92f8e5d3bc1df55f76bb01ba2ae012df67d9a053f3ed08",
-      "contentSHA256": null,
+      "contentSHA256": "6d344ff0a6e2075c456463da468db6781a9b7efbb6e8dd5e7c4a714d9931276a",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -604,7 +604,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ring-of-six-v1.playablepack",
       "byteCount": 2151,
       "envelopeSHA256": "2a631ba11c1453deb0b2a87f343180e0c3af69d7510ef6bd82aad750b870a6e5",
-      "contentSHA256": null,
+      "contentSHA256": "a5adb3d99c10905824773b1c9573fff20732826883cc6b3cde674baa1c5c669b",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -643,7 +643,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-narrow-three-v1.playablepack",
       "byteCount": 1820,
       "envelopeSHA256": "797f33f6ac361d0a51a8a79ee27721cbbf5cbd1b554805d578cee2b4cb30aad2",
-      "contentSHA256": null,
+      "contentSHA256": "7bff957e2cf58454f4a05d6fa165ce02da6c4aad90918a5bbf1ae32e85e60415",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -682,7 +682,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-span-v1.playablepack",
       "byteCount": 2290,
       "envelopeSHA256": "ffd57f79da631169d8e9e39351fde84aaabc76ed9d5abb7ccfbe8b9d4b59da3b",
-      "contentSHA256": null,
+      "contentSHA256": "f6228436a8b6bc971c0904a8af55aa4a291c55bfcc99749e6a17fdc3624a9ed5",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -721,7 +721,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pinwheel-four-v1.playablepack",
       "byteCount": 1931,
       "envelopeSHA256": "acb689b3c1a875168db30441bc4747403ea1b0aee3c56905049e4543e1d094fb",
-      "contentSHA256": null,
+      "contentSHA256": "7a863b0efddeef401d3b0a5d0dd5e0d5aee08d54f8a0a808b089bbbbcf784110",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -760,7 +760,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vertical-five-v1.playablepack",
       "byteCount": 2044,
       "envelopeSHA256": "fea1441a0079349997dc21b019e45ed01f35bb4725f6fdb62ab43f34e104b398",
-      "contentSHA256": null,
+      "contentSHA256": "ea72adec3f047e44205e41c4fe16d5af68556dad7cbc63fb0714ffbf7f040ce5",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -799,7 +799,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-octave-grid-v1.playablepack",
       "byteCount": 2416,
       "envelopeSHA256": "8861742bbc09a1f8032ae78818b708a94331cb012fee8390858287f6e08805c9",
-      "contentSHA256": null,
+      "contentSHA256": "805739040eb720d168f4fe37656e5870c1dc4ab91643cd8ff9717a227caee05c",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -838,7 +838,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ladder-five-v1.playablepack",
       "byteCount": 2054,
       "envelopeSHA256": "8fc8462c20d2cd7e22db15e751c3d66f395a78a5bbb9eec5fb04e7be9cb99e1b",
-      "contentSHA256": null,
+      "contentSHA256": "845a18a7e211d5a70878f670f7cb78d082d5f0a1c8c87a275365c92e4a965216",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -877,7 +877,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-trio-field-v1.playablepack",
       "byteCount": 1804,
       "envelopeSHA256": "6dd18a194ba22a78d662207d25a81ae9d1de461a5818996ced9f6d0066bede45",
-      "contentSHA256": null,
+      "contentSHA256": "a79dca841fc0bb85982054f6536eebbfa9a4056fd3a5b387d866332b8ed58f99",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -916,7 +916,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-nine-cross-v1.playablepack",
       "byteCount": 2419,
       "envelopeSHA256": "08b37ad2828e6ac39e63b84eca5c1e8da873eef547090df835afb1e72ebcf251",
-      "contentSHA256": null,
+      "contentSHA256": "8f20fe803b1f1c263c0cb55a8108b74aaf824de3330720794404c33b779b3c49",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -955,7 +955,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-stepped-four-v1.playablepack",
       "byteCount": 1932,
       "envelopeSHA256": "c72198f778cbe3b8ff18c19597cc3b843c443647e67bb160484a08cffb3d50d2",
-      "contentSHA256": null,
+      "contentSHA256": "09326e84daf62e28533eb3a643ae83748d9dd82cfb2f052f952df730959403d6",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -994,7 +994,7 @@
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-wide-three-v1.playablepack",
       "byteCount": 1795,
       "envelopeSHA256": "7c80f3827427466070dc00bf850d0c7e43f7094b8a26f94094bd1cf0748109d0",
-      "contentSHA256": null,
+      "contentSHA256": "1f0b9fdf98e7245bc23d828c1d51e1e18495f6a41aa23f2efaee0287b3e083b8",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -1014,6 +1014,123 @@
           "summary": "在低矮宽阔的棋面上布局，快速三点成线。",
           "systemImage": "square.grid.3x3.fill",
           "title": "宽场三连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-harbor-six",
+      "packID": "harbor-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-harbor-six-v1.playablepack",
+      "byteCount": 2177,
+      "envelopeSHA256": "8b0525a66648f89686ac54c10333b55cd9f2b0ab960c86eb326e32aa719158fa",
+      "contentSHA256": "261678775c093283b58c57b17d89723eab1131607da879b2982f0b6b56eebc59",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Claim open berths across a broad board and connect six along the harbor.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Harbor Six"
+        },
+        "zh-Hans": {
+          "summary": "在宽阔棋盘上占据泊位，沿港湾连成六枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "港湾六连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-column-sprint",
+      "packID": "column-sprint-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-column-sprint-v1.playablepack",
+      "byteCount": 1807,
+      "envelopeSHA256": "740b6d217ef469d7ca9521c25b34f8bf1d256dbfec806604bd9e30a3d45c4071",
+      "contentSHA256": "a490857bfcf366878dfea16f4b34e9c04bd8589a3e3e1f41d36e12ffb6637bfa",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Drop into three narrow lanes and race to stack three markers first.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Column Sprint"
+        },
+        "zh-Hans": {
+          "summary": "在三条狭窄竖道中落子，率先叠起三枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "窄列冲刺"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-bridges",
+      "packID": "five-bridges-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-bridges-v1.playablepack",
+      "byteCount": 2054,
+      "envelopeSHA256": "45ba86f67914f722aee766e4a14ae38604eb09fd5baa5c0699731361651f21d7",
+      "contentSHA256": "316d90c93d73f485ea76393dc2a227722d15d260797ef13bc7224261ff4bd23b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Build across a long open field and complete a five-mark bridge.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Five Bridges"
+        },
+        "zh-Hans": {
+          "summary": "在狭长开放棋面上铺设布局，完成五点桥梁连线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "五桥连阵"
         }
       }
     }
