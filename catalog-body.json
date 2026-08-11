@@ -1,7 +1,7 @@
 {
-  "revision": 21,
-  "issuedAt": "2026-08-11T10:00:00Z",
-  "expiresAt": "2026-08-18T10:00:00Z",
+  "revision": 22,
+  "issuedAt": "2026-08-11T10:30:00Z",
+  "expiresAt": "2026-08-18T10:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1950,6 +1950,123 @@
           "summary": "两至六人在九条重力通道中落子，率先三子成线获胜。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九道快三"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mirror-rise-five",
+      "packID": "mirror-rise-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mirror-rise-five-v1.playablepack",
+      "byteCount": 4209,
+      "envelopeSHA256": "f39a5f4cd0cddb4bdb5af47b89fb9fc971430c83e6886f3b78f06908531c0b2a",
+      "contentSHA256": "cfda09bc6d59e054a443080982cf476cf03e94086d8a781a24a22cd019abff7e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a mirrored five-step diagonal in a gravity rack.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Mirror Rise Five"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在重力棋架中反向搭建支撑，争先完成镜像五子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "镜升斜五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-reverse-eight",
+      "packID": "reverse-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-reverse-eight-v1.playablepack",
+      "byteCount": 5247,
+      "envelopeSHA256": "f7ce5906c7729d3117d67f9fe54058d442afa5c1143900d343ef19609e855ea5",
+      "contentSHA256": "a8a42216381c050833a2afdc9403d6ce5a2a3dcb45136a11c2473f837a7254c1",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players traverse a large open square along a reverse diagonal of eight.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Reverse Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在大型开放方阵中布局，争先完成反向八子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "逆斜八连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pocket-drop-three",
+      "packID": "pocket-drop-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-drop-three-v1.playablepack",
+      "byteCount": 2714,
+      "envelopeSHA256": "1fa05e99bcecff79a3c79110f93abcb2916ff166c5b5885988714759dfcdedae",
+      "contentSHA256": "b810f8cc69b27d663cc78fa80140afc4e1f7749fd887a08b557113e8d0ff7a21",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players share a compact gravity board; three along the base wins.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Pocket Drop Three"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在袖珍重力棋盘中落子，率先底部三子成线获胜。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "袖珍落三"
         }
       }
     }
