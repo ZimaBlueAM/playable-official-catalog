@@ -1,7 +1,7 @@
 {
-  "revision": 33,
-  "issuedAt": "2026-08-12T01:00:00Z",
-  "expiresAt": "2026-08-19T01:00:00Z",
+  "revision": 34,
+  "issuedAt": "2026-08-12T02:00:00Z",
+  "expiresAt": "2026-08-19T02:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3237,6 +3237,84 @@
           "summary": "画出庭院线索，和大家一起抢答。",
           "systemImage": "tree.fill",
           "title": "庭院速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-control-room",
+      "packID": "hidden-control-room-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-control-room-v1.playablepack",
+      "byteCount": 2060,
+      "envelopeSHA256": "485519ad5270efad937c0f7fb6d690fa1fdeca4b3b438ca6c71faf8ce08186d3",
+      "contentSHA256": "2526de869a06eaf5532363e21cc8180f534bc0576aff05785b0f67fffed2fa84",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One technician altered the alarm log; compare reports and vote before restart.",
+          "systemImage": "exclamationmark.triangle.fill",
+          "title": "Control Room Log"
+        },
+        "zh-Hans": {
+          "summary": "一名技术员改动了警报日志；比较报告，在重启前投票。",
+          "systemImage": "exclamationmark.triangle.fill",
+          "title": "控制室日志"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-boardwalk",
+      "packID": "canvas-boardwalk-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-boardwalk-v1.playablepack",
+      "byteCount": 1818,
+      "envelopeSHA256": "85a855e076027b44efc23363a3179837f75c10aa730f8798c8f4454f8a55630d",
+      "contentSHA256": "6520bda54d9db0507494208bb9b53f97354cd429fd7c7642999142b2bbd1ce95",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a boardwalk clue and race the table to identify it.",
+          "systemImage": "figure.walk",
+          "title": "Boardwalk Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出海滨木栈道线索，和大家一起抢答。",
+          "systemImage": "figure.walk",
+          "title": "木栈道速写"
         }
       }
     }
