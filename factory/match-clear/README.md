@@ -187,3 +187,14 @@ Batch AO taxonomy is sidecar-only in `batch-20260811-ao.manifest.json` and
 
 Batch AP taxonomy is sidecar-only in `batch-20260811-ap.manifest.json` and
 `audits/batch-20260811-ap.json`; revision 50 contains no taxonomy fields.
+
+## Batch AQ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Boulevard | 10×4, 5 colors | 4 | 24 | exactly 2 | Four shallow rows keep the long duel boulevard inside the lower thumb sweep. |
+| Party Prism Crown | 7×9, 7 colors | 5 | 64 | 3–6 | Seven compact columns keep rare party crowns in the lower one-thumb arc. |
+| Six Seat Aurora Needle | 4×10, 8 colors | 3 | 44 | exactly 6 | Four narrow columns keep six-seat needle swaps entirely thumb reachable. |
+
+Batch AQ taxonomy is sidecar-only in `batch-20260811-aq.manifest.json` and
+`audits/batch-20260811-aq.json`; revision 51 contains no taxonomy fields.
