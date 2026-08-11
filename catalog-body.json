@@ -1,7 +1,7 @@
 {
-  "revision": 16,
-  "issuedAt": "2026-08-11T03:12:52Z",
-  "expiresAt": "2026-08-18T03:12:52Z",
+  "revision": 31,
+  "issuedAt": "2026-08-11T03:17:43Z",
+  "expiresAt": "2026-08-18T03:17:43Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -898,6 +898,84 @@
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "gameID": "pack-summit-twenty-five",
+      "packID": "summit-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-summit-twenty-five-v1.playablepack.json",
+      "byteCount": 17454,
+      "envelopeSHA256": "0ea36971889ba18506d3f05ac3c3f97b62ef01b47e768e31899c613980c7d37d",
+      "contentSHA256": "49a237bce6df926caffbdc7b5da77487f983880a1ccccea95130c06f33160ae4",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a maximum-depth twenty-five-tile summit through one exact shared route.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Summit Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "两至三人轮流攀登最大深度的二十五格峰顶，在一百二十八步内完成还原。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格峰顶"
+        }
+      }
+    },
+    {
+      "gameID": "pack-delta-twelve",
+      "packID": "delta-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-delta-twelve-v1.playablepack.json",
+      "byteCount": 19316,
+      "envelopeSHA256": "f20ecadd91c702cf9a1a3c6efdeabec5e4ebb9a555d81078ae853c8375281641",
+      "contentSHA256": "42cad1bc64bb056cd230e3e968fc5b55f9fcaf002aba3f5e3c2e87ba5aaae9c8",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Reconnect a wide twelve-tile delta with a full reserve for rerouting the flow.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Delta Twelve"
+        },
+        "zh-Hans": {
+          "summary": "两至四人在横向十二格中重新汇流，并以完整余量调整错误路线。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格汇流"
+        }
       }
     }
   ]
