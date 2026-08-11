@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "audit": "official-factory-preflight",
+  "generatedAt": "2026-08-11T08:35:00Z",
+  "catalogTransport": "Build106-schema1-unchanged",
+  "taxonomy": "app-taxonomy-v2",
+  "accepted": [
+    {
+      "branch": "factory/grid-board/grid-board-wave-20260811",
+      "commit": "a0943d7",
+      "candidateCount": 42,
+      "catalogEntryCount": 47,
+      "packAudit": "47/47 PASS: schema, byteCount, envelopeSHA256, bilingual metadata, license, deterministic vector",
+      "signatureAudit": "catalog and 47 packs PASS against production/legacy trust-ring public keys",
+      "taxonomyAudit": "v2 carrier/mechanics/players/pace/context/input sidecars cover all new candidates; no genre/difficulty"
+    },
+    {
+      "branch": "factory/sliding-grid/20260811-021352",
+      "commit": "3447593",
+      "candidateCount": 3,
+      "candidateIDs": [
+        "pack-cascade-twenty",
+        "pack-meridian-fifteen",
+        "pack-quickstep-nine"
+      ],
+      "catalogEntryCount": 8,
+      "packAudit": "8/8 PASS: schema, byteCount, envelopeSHA256, bilingual metadata, license, deterministic vector",
+      "signatureAudit": "catalog and 8 packs PASS against production/legacy trust-ring public keys",
+      "taxonomyAudit": "sidecar covers all 8 entries; carrier is scalar and no genre/difficulty"
+    }
+  ],
+  "rejected": [
+    {
+      "branch": "factory/card-turn/wave-20260811-d",
+      "commit": "99f90f3",
+      "candidateCount": 13,
+      "reason": "carrier is encoded as an array instead of the required single carrier value in the candidate/audit contract; normalize before resubmission"
+    },
+    {
+      "branch": "factory/match-clear/batch-20260811-h",
+      "commit": "e3f626d",
+      "candidateCount": 24,
+      "reason": "catalog entries for pack-cascade-relay, pack-corner-bloom, and pack-quadra-pulse point to missing pack files; catalog/pack binding is incomplete"
+    },
+    {
+      "branch": "factory/social-canvas/batch-20260811-hidden-canvas",
+      "commit": "f3ac432",
+      "candidateCount": 32,
+      "reason": "carrier is encoded as a one-element array in candidate/audit sidecars; the v2 contract requires one scalar carrier value"
+    }
+  ],
+  "notAuditedForPromotion": [
+    "factory/card-turn/wave-20260811-a",
+    "factory/card-turn/wave-20260811-b",
+    "factory/card-turn/wave-20260811-c",
+    "factory/match-clear/batch-20260811-a",
+    "factory/match-clear/batch-20260811-b",
+    "factory/match-clear/batch-20260811-c",
+    "factory/match-clear/batch-20260811-d",
+    "factory/match-clear/batch-20260811-e",
+    "factory/match-clear/batch-20260811-f",
+    "factory/match-clear/batch-20260811-g",
+    "factory/sliding-grid/20260811-015255",
+    "factory/sliding-grid/20260811-015655",
+    "factory/sliding-grid/20260811-015923"
+  ],
+  "publisherInstruction": "Promote only accepted branch/commit candidates. Strip all sidecar tags before Build107 taxonomy transport is sealed; do not add tags to catalog schema1 or metadata."
+}
