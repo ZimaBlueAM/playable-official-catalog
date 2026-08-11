@@ -171,3 +171,14 @@ Batch O taxonomy is sidecar-only in `batch-20260811-o.manifest.json` and
 
 Batch P taxonomy is sidecar-only in `batch-20260811-p.manifest.json` and
 `audits/batch-20260811-p.json`; revision 24 contains no taxonomy fields.
+
+## Batch Q
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Ladder | 4×8, 7 colors | 3 | 8 | exactly 2 | A narrow ladder keeps rapid lower-row swaps inside the one-thumb wiper arc. |
+| Open Monolith | 9×7, 4 colors | 5 | 26 | 2–4 | Local adjacent swaps grow long monuments while the lower rows remain thumb reachable. |
+| Five Seat Emberwall | 10×5, 3 colors | 4 | 32 | exactly 5 | Five shallow rows concentrate dense party choices across the lower interaction zone. |
+
+Batch Q taxonomy is sidecar-only in `batch-20260811-q.manifest.json` and
+`audits/batch-20260811-q.json`; revision 25 contains no taxonomy fields.

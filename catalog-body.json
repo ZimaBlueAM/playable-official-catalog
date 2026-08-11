@@ -1,7 +1,7 @@
 {
-  "revision": 24,
-  "issuedAt": "2026-08-11T16:40:00Z",
-  "expiresAt": "2026-08-18T16:40:00Z",
+  "revision": 25,
+  "issuedAt": "2026-08-11T16:50:00Z",
+  "expiresAt": "2026-08-18T16:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2067,6 +2067,123 @@
           "summary": "三至六位朋友在紧凑三色棋盘构筑密集四连浪潮。",
           "systemImage": "bolt.fill",
           "title": "六席口袋浪潮"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-aurora-ladder",
+      "packID": "dual-aurora-ladder-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-ladder-v1.playablepack.json",
+      "byteCount": 1535,
+      "envelopeSHA256": "18d1bbe4b72d184a89a0cf204d3ad98bc2d41cdaa75e908c4dc066b5f00f2d73",
+      "contentSHA256": "4419ef0c8cd184d6f783bb9b80d5d19156e70d9b9e618a4746e6c2113521ec40",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players climb a narrow seven-color ladder in eight rapid turns.",
+          "systemImage": "sparkles",
+          "title": "Dual Aurora Ladder"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在狭长七色阶梯竞逐八个快速回合。",
+          "systemImage": "sparkles",
+          "title": "双人极光阶梯"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-monolith",
+      "packID": "open-monolith-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-monolith-v1.playablepack.json",
+      "byteCount": 1578,
+      "envelopeSHA256": "ff01a003a71e400dfc8a6f1be75c405023d36c679da53520faed9978130c279b",
+      "contentSHA256": "5652aa1280bccf4e362e3cca60f446870c704027fd7c9ce72ffbb61c173c184e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to four players assemble five-tile monuments across a broad four-color board.",
+          "systemImage": "rectangle.portrait.fill",
+          "title": "Open Monolith"
+        },
+        "zh-Hans": {
+          "summary": "二至四位玩家在宽阔四色棋盘组建五连丰碑。",
+          "systemImage": "rectangle.portrait.fill",
+          "title": "开放丰碑"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-seat-emberwall",
+      "packID": "five-seat-emberwall-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-emberwall-v1.playablepack.json",
+      "byteCount": 1582,
+      "envelopeSHA256": "a332568b912c3d5b2c0774273112139f793f2837d65f724bea7f858e8fd55169",
+      "contentSHA256": "7ec7534a01e475c2c6d8f48bb013100e9f4f636426b2a4e0025c86289304d24b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly five players raise four-tile ember walls across a wide three-color field.",
+          "systemImage": "flame.fill",
+          "title": "Five Seat Emberwall"
+        },
+        "zh-Hans": {
+          "summary": "严格五位玩家在宽阔三色棋盘筑起四连余烬墙。",
+          "systemImage": "flame.fill",
+          "title": "五席余烬墙"
         }
       }
     }

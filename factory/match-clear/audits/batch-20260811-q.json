@@ -1,0 +1,50 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {
+      "gameID": "pack-dual-aurora-ladder",
+      "carrier": "tiles",
+      "mechanics": ["matching", "alignment", "race"],
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "players": ["two-player"],
+      "pace": "quick-round",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "4x8 board; adjacent swap; seven-color three-tile clears; strict 2-player; 8 turns; vector af1eb75981b08965"
+    },
+    {
+      "gameID": "pack-open-monolith",
+      "carrier": "board",
+      "mechanics": ["matching", "alignment", "spatial"],
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "players": ["two-player", "party-3-6"],
+      "pace": "turn-based",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "9x7 board; adjacent swap; four-color five-tile clears; 2-4 players; 26 turns; vector cab959fe333c8720"
+    },
+    {
+      "gameID": "pack-five-seat-emberwall",
+      "carrier": "board",
+      "mechanics": ["matching", "alignment", "spatial"],
+      "minPlayers": 5,
+      "maxPlayers": 5,
+      "players": ["party-3-6"],
+      "pace": "turn-based",
+      "context": "friends-room",
+      "input": "one-thumb",
+      "evidence": "10x5 board; adjacent swap; dense three-color four-tile clears; strict 5-player; 32 turns; vector c898a07fbe353bb1"
+    }
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}
