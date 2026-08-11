@@ -233,3 +233,69 @@ Batch BK taxonomy is sidecar-only in `batch-20260812-bk.manifest.json` and
 
 Batch BL taxonomy is sidecar-only in `batch-20260812-bl.manifest.json` and
 `audits/batch-20260812-bl.json`; revision 72 contains no taxonomy fields.
+
+## Batch BM
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Courtyard | 9×4, 7 colors | 4 | 46 | exactly 2 | Four shallow rows keep scarce duel courtyard swaps inside the lower thumb sweep. |
+| Open Spectrum Colonnade | 7×10, 6 colors | 3 | 130 | 2–6 | Seven compact columns keep quick shared colonnades focused in lower active rows. |
+| Five Seat Clover Promenade | 10×6, 8 colors | 5 | 88 | exactly 5 | Local adjacent swaps keep the wide five-seat promenade inside one-thumb reach. |
+
+Batch BM taxonomy is sidecar-only in `batch-20260812-bm.manifest.json` and
+`audits/batch-20260812-bm.json`; revision 73 contains no taxonomy fields.
+
+## Batch BN
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Colonnade | 10×4, 8 colors | 5 | 47 | exactly 2 | Four shallow rows keep rare duel colonnades inside the lower thumb sweep. |
+| Open Amber Gallery | 8×9, 4 colors | 4 | 133 | 2–3 | Local adjacent swaps keep the tall shared gallery focused in lower active rows. |
+| Six Seat Spectrum Promenade | 6×8, 7 colors | 3 | 90 | exactly 6 | Six compact columns keep quick six-seat promenade play inside one-thumb reach. |
+
+Batch BN taxonomy is sidecar-only in `batch-20260812-bn.manifest.json` and
+`audits/batch-20260812-bn.json`; revision 74 contains no taxonomy fields.
+
+## Batch BO
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Courtyard | 5×4, 4 colors | 3 | 48 | exactly 2 | A pocket board keeps the quick duel courtyard entirely inside the lower thumb sweep. |
+| Open Prism Gallery | 9×10, 7 colors | 4 | 136 | 2–4 | Local adjacent swaps keep the tall shared gallery focused in lower active rows. |
+| Three Seat Meadow Colonnade | 8×8, 5 colors | 5 | 92 | exactly 3 | Adjacent local swaps keep rare three-seat colonnades inside one-thumb reach. |
+
+Batch BO taxonomy is sidecar-only in `batch-20260812-bo.manifest.json` and
+`audits/batch-20260812-bo.json`; revision 75 contains no taxonomy fields.
+
+## Batch BP
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Courtyard | 6×4, 5 colors | 4 | 49 | exactly 2 | Four shallow rows keep the quick duel courtyard inside the lower thumb sweep. |
+| Open Clover Promenade | 10×10, 8 colors | 3 | 139 | 2–5 | Adjacent local swaps keep the maximum shared promenade focused in lower rows. |
+| Four Seat Aurora Gallery | 7×9, 6 colors | 5 | 94 | exactly 4 | Seven compact columns keep rare four-seat gallery matches inside one-thumb reach. |
+
+Batch BP taxonomy is sidecar-only in `batch-20260812-bp.manifest.json` and
+`audits/batch-20260812-bp.json`; revision 76 contains no taxonomy fields.
+
+## Batch BQ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Gallery | 7×4, 6 colors | 5 | 50 | exactly 2 | Four shallow rows keep rare duel gallery swaps inside the lower thumb sweep. |
+| Open Aurora Promenade | 5×10, 5 colors | 4 | 142 | 2–6 | Five narrow columns keep the shared promenade focused in lower active rows. |
+| Five Seat Violet Courtyard | 9×8, 7 colors | 3 | 96 | exactly 5 | Adjacent local swaps keep quick five-seat courtyard play inside one-thumb reach. |
+
+Batch BQ taxonomy is sidecar-only in `batch-20260812-bq.manifest.json` and
+`audits/batch-20260812-bq.json`; revision 77 contains no taxonomy fields.
+
+## Batch BR
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Promenade | 8×4, 7 colors | 3 | 51 | exactly 2 | Four shallow rows keep the quick duel promenade inside the lower thumb sweep. |
+| Open Meadow Courtyard | 6×10, 6 colors | 5 | 145 | 2–3 | Six compact columns keep rare shared courtyard matches focused in lower active rows. |
+| Six Seat Amber Gallery | 10×7, 8 colors | 4 | 98 | exactly 6 | Local adjacent swaps keep the wide six-seat gallery inside one-thumb reach. |
+
+Batch BR taxonomy is sidecar-only in `batch-20260812-br.manifest.json` and
+`audits/batch-20260812-br.json`; revision 78 contains no taxonomy fields.
