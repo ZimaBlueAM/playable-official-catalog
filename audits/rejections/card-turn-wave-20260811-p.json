@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:12:40Z",
+  "sourceBranch": "factory/card-turn/wave-20260811-p",
+  "sourceCommit": "f97747b653721f5ac60e04ca8ac0662a02926f4c",
+  "decision": "rejected",
+  "reasonCodes": ["TAXONOMY_CARRIER_NOT_SCALAR", "MISSING_COMPLETE_TERMINAL_VECTOR"],
+  "games": [
+    {"gameID": "pack-fjord-reserve", "vectorPlayerCount": 2, "vectorActionCount": 3},
+    {"gameID": "pack-copper-count", "vectorPlayerCount": 2, "vectorActionCount": 3},
+    {"gameID": "pack-orbit-relay", "vectorPlayerCount": 2, "vectorActionCount": 3}
+  ],
+  "taxonomyEvidence": "The candidate sidecar encodes carrier as [cards], not the required scalar cards.",
+  "catalogAction": "none",
+  "retryRequirement": "Use a scalar carrier and provide deterministic legal vectors that reach finished states for all declared player counts."
+}
