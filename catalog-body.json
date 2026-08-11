@@ -1,7 +1,7 @@
 {
-  "revision": 18,
-  "issuedAt": "2026-08-11T11:30:00Z",
-  "expiresAt": "2026-08-18T11:30:00Z",
+  "revision": 19,
+  "issuedAt": "2026-08-11T12:30:00Z",
+  "expiresAt": "2026-08-18T12:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1365,6 +1365,123 @@
           "summary": "在大型方阵中编织四连色带，完成三十回合共享长局。",
           "systemImage": "square.grid.3x3.fill",
           "title": "宏幅编织"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-corners",
+      "packID": "four-corners-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-corners-v1.playablepack.json",
+      "byteCount": 1639,
+      "envelopeSHA256": "791843323c0136f8bff7b46f26ac13a58f83ffa4f5dab83978cd9b3bdc8899bd",
+      "contentSHA256": "cd7cc0c7b3486217add8b3fcdced027e6c22438a0a8bb1f4f04cab76fa813b09",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to five players search an eight-color field for scarce four-tile corner lines.",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "Four Corners"
+        },
+        "zh-Hans": {
+          "summary": "三至五位玩家在八色棋盘中寻找稀有四连角线。",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "四角连线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-tiny-crown",
+      "packID": "tiny-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-tiny-crown-v1.playablepack.json",
+      "byteCount": 1579,
+      "envelopeSHA256": "8896d972abe7ce473a6bb94e14f956c07a7fab6835bd04bfd6571b4e6d87d9da",
+      "contentSHA256": "436c1545bee38cb4a27241c06be139632aefffeeff7598fb11af71d46f49c987",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Complete full-width five-tile crowns on a tiny three-color board in eight turns.",
+          "systemImage": "crown.fill",
+          "title": "Tiny Crown"
+        },
+        "zh-Hans": {
+          "summary": "在三色微型棋盘完成横贯全宽的五连王冠，共八回合。",
+          "systemImage": "crown.fill",
+          "title": "微型王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-wide-current",
+      "packID": "wide-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-wide-current-v1.playablepack.json",
+      "byteCount": 1597,
+      "envelopeSHA256": "f131e87a025bd3d03534a81325962c5e6e930e22b1e9abac49dde9f4a6ec56ff",
+      "contentSHA256": "151668afdb41424cd8a0a69b725b303697dc76711472feae17f851c046869a15",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Five or six players steer six-color currents across a maximum-size board for forty turns.",
+          "systemImage": "water.waves",
+          "title": "Wide Current"
+        },
+        "zh-Hans": {
+          "summary": "五至六位玩家在最大尺寸棋盘引导六色潮流，完成四十回合。",
+          "systemImage": "water.waves",
+          "title": "广域潮流"
         }
       }
     }

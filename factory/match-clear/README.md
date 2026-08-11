@@ -105,3 +105,14 @@ strict two-player games omit `party-3-6`, while the 3–6 player game omits
 Batch J taxonomy is sidecar-only in `batch-20260811-j.manifest.json` and
 `audits/batch-20260811-j.json`; revision 18 remains schema-1 compatible and
 contains no taxonomy fields.
+
+## Batch K
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Four Corners | 8×10, 8 colors | 4 | 22 | 3–5 | Eight columns keep high-color four-run setup within short one-thumb adjacent swaps. |
+| Tiny Crown | 5×5, 3 colors | 5 | 8 | 2–4 | The compact board fits the lower thumb sweep while every clear spans the full width. |
+| Wide Current | 10×10, 6 colors | 3 | 40 | 5–6 | Frequent input remains short adjacent swaps in the lower active rows of the maximum board. |
+
+Batch K taxonomy is sidecar-only in `batch-20260811-k.manifest.json` and
+`audits/batch-20260811-k.json`; revision 19 contains no taxonomy fields.
