@@ -4,8 +4,8 @@
   "transport": "factory-sidecar-only-before-build107",
   "releaseRule": "Do not add tags to signed catalog entries, pack bodies, or catalog metadata; publish with known schema only.",
   "games": [
-    {"gameID":"pack-rain-gauge","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 29; [2,3]; lastMoveWins=false; min=2 max=5"},
+    {"gameID":"pack-rain-gauge","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 29; [1,2,3]; lastMoveWins=false; min=2 max=5"},
     {"gameID":"pack-echo-ferry","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 37; [1,4,9]; lastMoveWins=true; min=2 max=6"},
-    {"gameID":"pack-star-harvest","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 34; [2,6,7]; lastMoveWins=true; min=2 max=5"}
+    {"gameID":"pack-star-harvest","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 34; [1,2,6,7]; lastMoveWins=true; min=2 max=5"}
   ]
 }

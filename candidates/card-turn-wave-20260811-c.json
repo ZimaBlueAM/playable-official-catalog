@@ -6,7 +6,7 @@
   "status": "candidate",
   "games": [
     {"gameID":"pack-copper-avoid","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=23; takeOptions=[1,3,4]; lastMoveWins=false","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
-    {"gameID":"pack-glacier-steps","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=45; takeOptions=[3,7]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-glacier-steps","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=45; takeOptions=[1,3,7]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
     {"gameID":"pack-moon-relay","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=39; takeOptions=[1,2,5,8]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
   ],
   "verification": {
