@@ -1,7 +1,7 @@
 {
-  "revision": 31,
-  "issuedAt": "2026-08-11T17:00:00Z",
-  "expiresAt": "2026-08-18T17:00:00Z",
+  "revision": 32,
+  "issuedAt": "2026-08-11T18:00:00Z",
+  "expiresAt": "2026-08-18T18:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2917,6 +2917,72 @@
       "metadata": {
         "en": {"summary": "Two to six players drop through twelve lanes and race to claim an eight-stone horizon along the floor.", "systemImage": "square.grid.3x3.fill", "title": "Gravity Horizon Eight"},
         "zh-Hans": {"summary": "两至六人在十二条重力通道中落子，争先沿底层贯通横向八连。", "systemImage": "square.grid.3x3.fill", "title": "重力横八"}
+      }
+    },
+    {
+      "gameID": "pack-gravity-floor-four",
+      "packID": "gravity-floor-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gravity-floor-four-v1.playablepack",
+      "byteCount": 3227,
+      "envelopeSHA256": "2db6ee2000c183fc5f4f3b7129e34ea936897ebd8b0c3c23b0cad6a758c9c829",
+      "contentSHA256": "d40c1e112a0ae1c6985224fb843413998eda749bcb7bdba0b6e1b97bd5069720",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players drop into five lanes and race to claim four adjacent floor cells.", "systemImage": "square.grid.3x3.fill", "title": "Gravity Floor Four"},
+        "zh-Hans": {"summary": "两至六人在五条重力通道中落子，争先占据底层相邻四格。", "systemImage": "square.grid.3x3.fill", "title": "重力底横四"}
+      }
+    },
+    {
+      "gameID": "pack-ten-lane-floor-six",
+      "packID": "ten-lane-floor-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ten-lane-floor-six-v1.playablepack",
+      "byteCount": 4230,
+      "envelopeSHA256": "b6231726dfe9f6ce7fa79d0df5a7e747ec565919bf9b6370f05f6fb44092a2b5",
+      "contentSHA256": "51a91e912b55c79aa23552fdc44c301da4a76808d136861f361b602e3efd3abc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players drop through ten lanes and race to secure six neighboring cells along the floor.", "systemImage": "square.grid.3x3.fill", "title": "Ten-Lane Floor Six"},
+        "zh-Hans": {"summary": "两至六人在十条重力通道中落子，争先沿底层占成横向六连。", "systemImage": "square.grid.3x3.fill", "title": "十道底横六"}
+      }
+    },
+    {
+      "gameID": "pack-reverse-ridge-seven",
+      "packID": "reverse-ridge-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-reverse-ridge-seven-v1.playablepack",
+      "byteCount": 4795,
+      "envelopeSHA256": "fc08f798a55c476f78bfada5b62104311873c4acfbeb3a5091a5880decc31d0d",
+      "contentSHA256": "7b3befeb7b5af7f14edf868d6e432b055e535008e84ee128e7fe0cdfcc7c86ae",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players place freely and race to descend across an open board with a reverse diagonal of seven.", "systemImage": "square.grid.3x3.fill", "title": "Reverse Ridge Seven"},
+        "zh-Hans": {"summary": "两至六人在开放棋盘中自由落子，争先铺成七子下降反斜线。", "systemImage": "square.grid.3x3.fill", "title": "反斜七脊"}
       }
     }
   ]

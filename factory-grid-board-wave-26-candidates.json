@@ -1,0 +1,20 @@
+[
+  {
+    "gameID":"pack-gravity-floor-four","packID":"gravity-floor-four-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":5,"rows":7,"connectionLength":4,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["e788804369d88fd7","4421df3120a4a59e"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-ten-lane-floor-six","packID":"ten-lane-floor-six-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":10,"rows":11,"connectionLength":6,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["8ab7d4bf82b03921","00200ee0b25a196b"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-reverse-ridge-seven","packID":"reverse-ridge-seven-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":11,"rows":8,"connectionLength":7,"usesGravity":false},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["1ec6d5f6816ace11","fbfc579dc7745d81"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  }
+]
