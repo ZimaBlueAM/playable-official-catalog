@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/card-turn/wave-20260811-u",
+  "gateTier": "playable",
+  "fix": "add factory-candidate-manifest.json and tag-audit.json with scalar carrier plus complete carrier/mechanics/players/pace/context/input tags",
+  "fields": ["factory-candidate-manifest.json", "tag-audit.json"]
+}
