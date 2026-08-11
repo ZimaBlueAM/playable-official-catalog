@@ -1,5 +1,5 @@
 {
-  "revision": 9,
+  "revision": 10,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -351,6 +351,123 @@
           "summary": "每回合从潮池取走两枚或四枚贝壳，取到最后一枚者获胜。",
           "systemImage": "water.waves",
           "title": "静潮拾贝"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cinder-choice",
+      "packID": "pack-cinder-choice-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cinder-choice-v1.playablepack.json",
+      "byteCount": 1697,
+      "envelopeSHA256": "2104793c24c150f0e2dcc1fdc297eef5e741e832452ecdd3d915fe3e6b21c32a",
+      "contentSHA256": "facc30f7b173f907c070eb45054d6321806252eb4568f8a739098583d2ba127e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Choose two, three, or five cinders from the shared brazier; the final cinder wins the round.",
+          "systemImage": "sparkles",
+          "title": "Cinder Choice"
+        },
+        "zh-Hans": {
+          "summary": "每回合从火盆取走二、三或五枚炭火，拿到最后一枚者赢得本局。",
+          "systemImage": "sparkles",
+          "title": "炭火择取"
+        }
+      }
+    },
+    {
+      "gameID": "pack-harbor-pull",
+      "packID": "pack-harbor-pull-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-harbor-pull-v1.playablepack.json",
+      "byteCount": 1689,
+      "envelopeSHA256": "ae078522f79261cb9a65b27d2ccbfba3edfaeb7fe3a6fa9f0273cd05b72858e6",
+      "contentSHA256": "10642a47a51ad7e11b08adef8cdd55b0931d94b730731401eeec43b86969bd02",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pull two or five buoys from the harbor line; whoever takes the last buoy wins.",
+          "systemImage": "anchor.fill",
+          "title": "Harbor Pull"
+        },
+        "zh-Hans": {
+          "summary": "每回合从港湾浮标线取走两或五枚浮标，拿到最后一枚者获胜。",
+          "systemImage": "anchor.fill",
+          "title": "港湾牵引"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orchard-ladder",
+      "packID": "pack-orchard-ladder-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orchard-ladder-v1.playablepack.json",
+      "byteCount": 1719,
+      "envelopeSHA256": "e52b25b0c671fd3be7c2f292e81e007769fe708137d7f688ce430d74dc625f4c",
+      "contentSHA256": "721b1f32115170ffa748a5123f6f4b0d358ef703131ec78a8ab9472ada9cb0aa",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pick one, four, or six apples from the orchard ladder; the player picking the last apple wins.",
+          "systemImage": "leaf.circle.fill",
+          "title": "Orchard Ladder"
+        },
+        "zh-Hans": {
+          "summary": "每回合从果园取走一、四或六枚苹果，拿到最后一枚者获胜。",
+          "systemImage": "leaf.circle.fill",
+          "title": "果园梯影"
         }
       }
     }

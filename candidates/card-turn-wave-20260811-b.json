@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "lane": "cardTurn",
+  "batch": "card-turn-wave-20260811-b",
+  "catalogRevision": 10,
+  "status": "candidate",
+  "games": [
+    {"gameID":"pack-cinder-choice","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=24; takeOptions=[2,3,5]; lastMoveWins=true"},
+    {"gameID":"pack-harbor-pull","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=31; takeOptions=[2,5]; lastMoveWins=true"},
+    {"gameID":"pack-orchard-ladder","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=42; takeOptions=[1,4,6]; lastMoveWins=true"}
+  ],
+  "verification": {
+    "packBuilder": "scripts/build_declarative_game_pack.sh",
+    "contentSignature": "P-256 local signing passed; key material not included",
+    "catalogSignature": "P-256 local signing passed; key material not included",
+    "source": "Playable Studio original declarative rule data",
+    "license": "LicenseRef-Playable",
+    "runtimePayload": "non-executable declarative JSON only"
+  }
+}
