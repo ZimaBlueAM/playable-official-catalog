@@ -1,8 +1,47 @@
 {
-  "revision": 6,
-  "issuedAt": "2026-08-11T00:28:51Z",
-  "expiresAt": "2026-09-10T00:28:51Z",
+  "revision": 7,
+  "issuedAt": "2026-08-11T01:40:58Z",
+  "expiresAt": "2026-09-10T01:40:58Z",
   "entries": [
+    {
+      "gameID": "pack-last-one-loses",
+      "packID": "last-one-loses-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 104,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-last-one-loses-v1.playablepack.json",
+      "byteCount": 2034,
+      "envelopeSHA256": "eea40e8fa32f37eebb11f7fa9f914d63c4170096cbb14373fcccdd57621bf16d",
+      "contentSHA256": "a65988478c23c81676cb1228bf35c64ed110dce68f2e8d217e73687ce6dd7859",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one, two, or three stones. Whoever takes the final stone loses.",
+          "systemImage": "circle.grid.3x3.fill",
+          "title": "Last One Loses"
+        },
+        "zh-Hans": {
+          "summary": "每回合拿走一、二或三颗石子，拿走最后一颗的人输。",
+          "systemImage": "circle.grid.3x3.fill",
+          "title": "最后一个输"
+        }
+      }
+    },
     {
       "gameID": "pack-pocket-slider",
       "packID": "pocket-slider-first-edition",
