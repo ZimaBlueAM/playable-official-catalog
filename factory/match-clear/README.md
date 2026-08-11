@@ -44,3 +44,14 @@ Batch T taxonomy is sidecar-only in `batch-20260811-t.manifest.json` and
 
 Batch U taxonomy is sidecar-only in `batch-20260811-u.manifest.json` and
 `audits/batch-20260811-u.json`; revision 29 contains no taxonomy fields.
+
+## Batch V
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Tower | 4×9, 5 colors | 3 | 12 | exactly 2 | Four narrow columns keep vertical duel swaps inside the lower one-thumb lane. |
+| Party Prism Square | 8×8, 7 colors | 4 | 38 | 3–6 | Short local swaps keep frequent party input in the lower active square. |
+| Five Seat Clover Bar | 6×4, 3 colors | 5 | 17 | exactly 5 | Four shallow rows keep near-full-width bars visible and thumb reachable. |
+
+Batch V taxonomy is sidecar-only in `batch-20260811-v.manifest.json` and
+`audits/batch-20260811-v.json`; revision 30 contains no taxonomy fields.

@@ -1,7 +1,7 @@
 {
-  "revision": 29,
-  "issuedAt": "2026-08-11T17:30:00Z",
-  "expiresAt": "2026-08-18T17:30:00Z",
+  "revision": 30,
+  "issuedAt": "2026-08-11T17:40:00Z",
+  "expiresAt": "2026-08-18T17:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2652,6 +2652,123 @@
           "summary": "严格六位玩家在宽阔四色琥珀棋盘竞逐快速三连。",
           "systemImage": "circle.hexagongrid.fill",
           "title": "六席琥珀竞速"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-meadow-tower",
+      "packID": "dual-meadow-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-tower-v1.playablepack.json",
+      "byteCount": 1573,
+      "envelopeSHA256": "7eb35e73e9b382cc2194a2b36aafbd1b89f2064c2bdb8a3cfe281924493ff764",
+      "contentSHA256": "d0500453b3144b86729da92724894269136268e26dcc16a52f50642e55e903ab",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players climb a narrow five-color tower through twelve triple-clearing turns.",
+          "systemImage": "building.2.fill",
+          "title": "Dual Meadow Tower"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在狭长五色塔中攀升，进行十二回合三连消除。",
+          "systemImage": "building.2.fill",
+          "title": "双人草甸塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-prism-square",
+      "packID": "party-prism-square-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-prism-square-v1.playablepack.json",
+      "byteCount": 1601,
+      "envelopeSHA256": "4fa1a16b794dfeb46317b695b49c3437cb9edf905e81fa4cdde871b96a308c1f",
+      "contentSHA256": "17d8a303a3bd0f2616696a38c9979df5e21477c14edd3d5168cd7cbfe7b5e41c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends shape scarce four-tile bands across a seven-color square prism.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Party Prism Square"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在七色方形棱镜中塑造稀有四连带。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "派对棱镜方阵"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-seat-clover-bar",
+      "packID": "five-seat-clover-bar-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-clover-bar-v1.playablepack.json",
+      "byteCount": 1581,
+      "envelopeSHA256": "d2ce12e4e381e7ad7e4d4800dc45b9f5cfb65b97c2258bd82d74ea6e3d047161",
+      "contentSHA256": "148de1caed11031f54aa984acd022578c89ebe40f021c7345dcdcd5a2edc46c7",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly five players forge near-full-width clover bars on a shallow three-color field.",
+          "systemImage": "rectangle.fill",
+          "title": "Five Seat Clover Bar"
+        },
+        "zh-Hans": {
+          "summary": "严格五位玩家在浅层三色棋盘锻造近满宽五连苜蓿条。",
+          "systemImage": "rectangle.fill",
+          "title": "五席苜蓿条"
         }
       }
     }
