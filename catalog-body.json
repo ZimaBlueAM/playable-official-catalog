@@ -1,7 +1,7 @@
 {
-  "revision": 105,
-  "issuedAt": "2026-08-12T16:00:00Z",
-  "expiresAt": "2026-08-19T16:00:00Z",
+  "revision": 106,
+  "issuedAt": "2026-08-12T17:00:00Z",
+  "expiresAt": "2026-08-19T17:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6827,6 +6827,15 @@
     },
     {
       "gameID":"pack-five-seat-coral-mosaic","packID":"five-seat-coral-mosaic-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-coral-mosaic-v1.playablepack.json","byteCount":1647,"envelopeSHA256":"3c781d424939e082816a82051134af263c76118ab61cf350fd9cbfff9c98efb7","contentSHA256":"c88c1513f733a7af4396b284729ef4d5a7878bbeb75c4921ebcc0b98ff0e7a40","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players trigger quick triples across a broad six-color coral mosaic.","systemImage":"square.grid.3x3.topleft.filled","title":"Five Seat Coral Mosaic"},"zh-Hans":{"summary":"严格五位玩家在宽阔六色珊瑚拼图中触发快速三连。","systemImage":"square.grid.3x3.topleft.filled","title":"五席珊瑚拼图"}}
+    },
+    {
+      "gameID":"pack-dual-pearl-mosaic","packID":"dual-pearl-mosaic-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-pearl-mosaic-v1.playablepack.json","byteCount":1601,"envelopeSHA256":"3fbfff2a89d3f4afd15e9b54804f037ae49f49eb7169cb51dede023c892e5b9e","contentSHA256":"76c53350343eae100b0d0c2d571fd4b3a81f3f7ebf1b2b07db32d9ab8305810e","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players trigger quick triples across a shallow seven-color pearl mosaic.","systemImage":"square.grid.3x3.topleft.filled","title":"Dual Pearl Mosaic"},"zh-Hans":{"summary":"两位玩家在浅层七色珍珠拼图中触发快速三连。","systemImage":"square.grid.3x3.topleft.filled","title":"双人珍珠拼图"}}
+    },
+    {
+      "gameID":"pack-open-jade-causeway","packID":"open-jade-causeway-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-jade-causeway-v1.playablepack.json","byteCount":1610,"envelopeSHA256":"40c1c64729df75766579f032dbaf3e5dbd198d01f251b03778ae3baf04896d6c","contentSHA256":"b44e86f1c4aa539b6f007006197f022c69fd72dba535897881a1758679bae68b","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to four players shape four-tile lanes through a tall five-color jade causeway.","systemImage":"square.grid.3x3.fill","title":"Open Jade Causeway"},"zh-Hans":{"summary":"二至四位玩家在高耸五色翡翠堤道中构筑四连通道。","systemImage":"square.grid.3x3.fill","title":"开放翡翠堤道"}}
+    },
+    {
+      "gameID":"pack-three-seat-quartz-arcade","packID":"three-seat-quartz-arcade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":3,"maximumPlayers":3,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-quartz-arcade-v1.playablepack.json","byteCount":1650,"envelopeSHA256":"1be128da595d0dc4799cad0be80b8963a9af1d050501208b2a6474124b6f8872","contentSHA256":"f6f17ad0a657bebb2d1b68facec6fc79c19837fd1125ab11bd44dfd5ab193243","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly three players seek rare five-tile lanes across a broad eight-color quartz arcade.","systemImage":"square.grid.3x3.fill","title":"Three Seat Quartz Arcade"},"zh-Hans":{"summary":"严格三位玩家在宽阔八色石英游廊中寻找稀有五连通道。","systemImage":"square.grid.3x3.fill","title":"三席石英游廊"}}
     }
   ]
 }
