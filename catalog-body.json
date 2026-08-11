@@ -1,7 +1,7 @@
 {
-  "revision": 7,
-  "issuedAt": "2026-08-11T03:00:00Z",
-  "expiresAt": "2026-08-18T03:00:00Z",
+  "revision": 8,
+  "issuedAt": "2026-08-11T03:30:00Z",
+  "expiresAt": "2026-08-18T03:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -312,6 +312,123 @@
           "summary": "占据紧凑棋盘的空格，三点成线即可拿下通道。",
           "systemImage": "square.grid.3x3.fill",
           "title": "三点通道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-hexa-rail",
+      "packID": "hexa-rail-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-hexa-rail-v1.playablepack",
+      "byteCount": 1912,
+      "envelopeSHA256": "5ae414d57c1282b1cf092d05c0e1da181d29466517381ee50552bd66d30cf05b",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Drop markers into a long rail and connect four before the route closes.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Hexa Rail"
+        },
+        "zh-Hans": {
+          "summary": "在长棋轨中落子，先连成四子即可封锁路线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "六轨连线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-corner-circuit",
+      "packID": "corner-circuit-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-corner-circuit-v1.playablepack",
+      "byteCount": 2056,
+      "envelopeSHA256": "8970309aa144ab3c695315c6bc4d7a033f4efee7d3f5ab80588397561d56c19a",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Claim a square board and close a five-point circuit through any direction.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Corner Circuit"
+        },
+        "zh-Hans": {
+          "summary": "在方阵中占位，沿任意方向闭合五点回路。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "角落回路"
+        }
+      }
+    },
+    {
+      "gameID": "pack-twin-gates",
+      "packID": "twin-gates-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-twin-gates-v1.playablepack",
+      "byteCount": 1794,
+      "envelopeSHA256": "76980c087f2c0eda0a284869c45cd3835b8431d9e6bd390a5ef45afb070303c1",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Race across a compact board where three aligned markers open the gate.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Twin Gates"
+        },
+        "zh-Hans": {
+          "summary": "在紧凑棋盘竞逐，三点成线即可打开关门。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "双门竞逐"
         }
       }
     }
