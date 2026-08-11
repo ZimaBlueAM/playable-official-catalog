@@ -1,5 +1,5 @@
 {
-  "revision": 22,
+  "revision": 23,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1872,6 +1872,123 @@
           "summary": "每回合织走一、五、十一、十六或二十缕天顶线，拿到最后一缕者获胜。",
           "systemImage": "sun.max.fill",
           "title": "天顶织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ridge-reserve",
+      "packID": "pack-ridge-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ridge-reserve-v1.playablepack.json",
+      "byteCount": 1735,
+      "envelopeSHA256": "6e2d44b5ca18845f218b209b05330826acbebc1a08352727f00678547ba5f5e9",
+      "contentSHA256": "4af2190368162bc4bb0a9673fde1bf505595cd9558e7b224f474327bb60eb5ba",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, eleven, or eighteen ridge markers, but the player clearing the final marker loses.",
+          "systemImage": "mountain.2.fill",
+          "title": "Ridge Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、十一或十八枚山脊标记，但清除最后一枚者落败。",
+          "systemImage": "mountain.2.fill",
+          "title": "山脊留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-alder-count",
+      "packID": "pack-alder-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-alder-count-v1.playablepack.json",
+      "byteCount": 1718,
+      "envelopeSHA256": "f315b677462104399b363d9ea1708a8febdf8cecbb32286f95b173e7155cf164",
+      "contentSHA256": "4cedd00388e701c02be1cdced01eda7125caa47d1b1eb44e2f569e8fd99fbc60",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Gather one, ten, fourteen, or twenty alder tokens; the final token wins.",
+          "systemImage": "leaf.circle.fill",
+          "title": "Alder Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、十、十四或二十枚桤木标记，拿到最后一枚者获胜。",
+          "systemImage": "leaf.circle.fill",
+          "title": "桤木计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-meridian-loom",
+      "packID": "pack-meridian-loom-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-meridian-loom-v1.playablepack.json",
+      "byteCount": 1789,
+      "envelopeSHA256": "e6d75c97684ff0552f8419595abeb875dc5af6f6d1745f91bac19a4ce7429c64",
+      "contentSHA256": "a06ebe655e2afd6379f81b82bebe4d1e8d11fcbbf06c5403464b16284bf59142",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave one, six, twelve, seventeen, or twenty-one meridian threads; the final thread wins.",
+          "systemImage": "globe.americas.fill",
+          "title": "Meridian Loom"
+        },
+        "zh-Hans": {
+          "summary": "每回合织走一、六、十二、十七或二十一缕经线，拿到最后一缕者获胜。",
+          "systemImage": "globe.americas.fill",
+          "title": "经线织机"
         }
       }
     }
