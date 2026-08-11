@@ -1,5 +1,5 @@
 {
-  "revision": 14,
+  "revision": 15,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -936,6 +936,123 @@
           "summary": "每回合从缓存取走一、五或六枚信号标记，拿到最后一枚者获胜。",
           "systemImage": "antenna.radiowaves.left.and.right",
           "title": "信号缓存"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quarry-mercy",
+      "packID": "pack-quarry-mercy-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quarry-mercy-v1.playablepack.json",
+      "byteCount": 1727,
+      "envelopeSHA256": "50834e8f54e02eedf8daabc519175f19ca0afafd882c0f7478a8dcbd33cd8d49",
+      "contentSHA256": "29ca2b4f9b1263d83b04c63d36b30f82758f6d0b3092be4aaad69dd42fbfa855",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Remove one, two, six, or eleven stones, but the player taking the final stone loses.",
+          "systemImage": "mountain.2.fill",
+          "title": "Quarry Mercy"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、二、六或十一枚石头，但拿到最后一枚者落败。",
+          "systemImage": "mountain.2.fill",
+          "title": "石场留手"
+        }
+      }
+    },
+    {
+      "gameID": "pack-vine-ladder",
+      "packID": "pack-vine-ladder-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vine-ladder-v1.playablepack.json",
+      "byteCount": 1687,
+      "envelopeSHA256": "f34a6c5b5b96a60cd1f49713d120506b5e6d7edd8492c4d6eb97c9e07ba3410b",
+      "contentSHA256": "6e503b0cd642c3237e8af7baa3e83a3d093e99306fcb69acb55b1306a000f856",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clip one, four, five, or twelve vine rungs; the player clipping the final rung wins.",
+          "systemImage": "leaf.fill",
+          "title": "Vine Ladder"
+        },
+        "zh-Hans": {
+          "summary": "每回合剪下一、四、五或十二节藤梯，剪下最后一节者获胜。",
+          "systemImage": "leaf.fill",
+          "title": "藤梯裁节"
+        }
+      }
+    },
+    {
+      "gameID": "pack-polar-relay",
+      "packID": "pack-polar-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-polar-relay-v1.playablepack.json",
+      "byteCount": 1669,
+      "envelopeSHA256": "35c0e4478112d2c5ae238602e559dc22f459d00976a8d44b4312679454ae674f",
+      "contentSHA256": "48281b4f130defa5fa7c7c448cf1344f885557fb5d6e529510cbbabec102bd22",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Carry one, seven, or eight ice tokens across the relay; the final token wins.",
+          "systemImage": "snowflake",
+          "title": "Polar Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合运送一、七或八枚冰标，送走最后一枚者获胜。",
+          "systemImage": "snowflake",
+          "title": "极地接力"
         }
       }
     }

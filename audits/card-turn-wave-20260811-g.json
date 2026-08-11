@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "batch": "card-turn-wave-20260811-g",
+  "transport": "factory-sidecar-only-before-build107",
+  "releaseRule": "Do not add tags to signed catalog entries, pack bodies, or catalog metadata; publish with known schema only.",
+  "games": [
+    {"gameID":"pack-quarry-mercy","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 49; [1,2,6,11]; lastMoveWins=false; min=2 max=6; no reachable deadlock","twoPlayerLosingStatesPrefix":[1,4,8,11,16,20,23,28,32,35,40,44,47,52,56,59]},
+    {"gameID":"pack-vine-ladder","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 50; [1,4,5,12]; lastMoveWins=true; min=2 max=5; no reachable deadlock","twoPlayerLosingStatesPrefix":[0,2,8,10,16,18,24,26,32,34,40,42,48,50,56,58]},
+    {"gameID":"pack-polar-relay","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 52; [1,7,8]; lastMoveWins=true; min=2 max=6; no reachable deadlock","twoPlayerLosingStatesPrefix":[0,2,4,6,15,17,19,21,30,32,34,36,45,47,49,51]}
+  ]
+}
