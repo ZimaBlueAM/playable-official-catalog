@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "status": "published-candidate",
+  "sourceBranch": "factory/sliding-grid/20260811-105814",
+  "sourceCommit": "50b0d6e37a6eb5513cf9f1e280eab83b5d05f384",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "entries": [
+    {
+      "gameID": "pack-keystone-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-atlas-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}

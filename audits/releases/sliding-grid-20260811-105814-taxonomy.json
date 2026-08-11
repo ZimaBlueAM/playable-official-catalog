@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-keystone-fifteen",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 6, "board": "3x5", "scrambleMoves": 96, "turnLimit": 144, "testedPlayerCounts": [2, 3, 4, 5, 6]}
+    },
+    {
+      "gameID": "pack-atlas-twenty",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 5, "board": "5x4", "scrambleMoves": 128, "turnLimit": 256, "testedPlayerCounts": [2, 3, 4, 5]}
+    }
+  ]
+}
