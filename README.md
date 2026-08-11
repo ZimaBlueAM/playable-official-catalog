@@ -16,6 +16,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Lantern Watch** — bluff and observe to catch the route-knowing watcher.
 - **Postcard Scribble** — draw a tiny postcard clue and guess the destination.
 - **Shadow Recipe** — sketch a mystery ingredient for the table to identify.
+- **Ribbon Code** — read the room and vote out the false route.
+- **Weather Front** — spot the calm-weather team before the vote storm.
+- **Constellation Notes** — sketch a starry clue and name the pattern.
+- **Whisper Sketch** — turn a quiet everyday sound into a tiny drawing.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and

@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T01:00:00Z",
-  "expiresAt": "2026-08-18T01:00:00Z",
+  "revision": 10,
+  "issuedAt": "2026-08-11T02:00:00Z",
+  "expiresAt": "2026-08-18T02:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -351,6 +351,162 @@
           "summary": "画出神秘食材，最快猜中的玩家赢得本回合。",
           "systemImage": "fork.knife.circle.fill",
           "title": "影子食谱"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-ribbon",
+      "packID": "hidden-ribbon-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ribbon-v1.playablepack",
+      "byteCount": 1809,
+      "envelopeSHA256": "c5158bdfb03a25dcb5df22ca8f90368f8e9bfdc0789fd9a2de54df138ececd7a",
+      "contentSHA256": "e8fbc2878a63f85ac62f2c87238982bbbb66820813a4f934fbf406bd66a4f35d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One courier carries the ribbon code; read the room and vote out the false route.",
+          "systemImage": "ribbon.fill",
+          "title": "Ribbon Code"
+        },
+        "zh-Hans": {
+          "summary": "一名信使掌握彩带密码；读懂气氛，投出错误路线。",
+          "systemImage": "ribbon.fill",
+          "title": "彩带密码"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-weather",
+      "packID": "hidden-weather-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-weather-v1.playablepack",
+      "byteCount": 1792,
+      "envelopeSHA256": "63897a810341e6c45495a4fb5bb05dfd900847783d71f9ce9ec56ae01ea1b2bd",
+      "contentSHA256": "b06ccbf9481eec1de723ff19dc948403fd3b6f4a5c1c87aefa3bf36774f90286",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Spot the calm-weather team before the storm of votes sweeps the table.",
+          "systemImage": "cloud.sun.rain.fill",
+          "title": "Weather Front"
+        },
+        "zh-Hans": {
+          "summary": "在投票风暴席卷桌面前，找出晴朗阵营。",
+          "systemImage": "cloud.sun.rain.fill",
+          "title": "天气锋面"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-constellation",
+      "packID": "canvas-constellation-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-constellation-v1.playablepack",
+      "byteCount": 1601,
+      "envelopeSHA256": "ab9541d66706f5ceb4ccbe708b63d43971b2a0977416f033c017614dde1e4c1d",
+      "contentSHA256": "89d3d7f441a2fd20d5029e65d52f4217a6aed544eddeb9b7886308150f730646",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a starry clue in a few strokes and let the table name the pattern.",
+          "systemImage": "sparkles",
+          "title": "Constellation Notes"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出星空线索，让大家说出图案。",
+          "systemImage": "sparkles",
+          "title": "星图便签"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-whisper",
+      "packID": "canvas-whisper-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-whisper-v1.playablepack",
+      "byteCount": 1601,
+      "envelopeSHA256": "4bc1c304b657a52624fdf20f03001c75cbfab382d792bdad77a3d76a4b1ef35a",
+      "contentSHA256": "09ee746e0e262efac70a4dd3c7033d20d29d201578ea369a67f728607b6088b8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Turn a quiet everyday sound into a tiny drawing before guesses fade away.",
+          "systemImage": "waveform",
+          "title": "Whisper Sketch"
+        },
+        "zh-Hans": {
+          "summary": "把日常细小声音画成线索，在猜测消散前抢答。",
+          "systemImage": "waveform",
+          "title": "耳语速写"
         }
       }
     }
