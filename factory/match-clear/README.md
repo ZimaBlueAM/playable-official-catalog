@@ -57,3 +57,15 @@ mechanics are the secondary filters. No difficulty label is used.
 Batch F taxonomy follows the same sidecar-only contract in
 `batch-20260811-f.manifest.json` and `audits/batch-20260811-f.json`. The signed
 schema-1 catalog contains no taxonomy fields.
+
+## Batch G
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Quint Arc | 8×8, 6 colors | 5 | 20 | 2–6 | Long five-tile arcs use short adjacent swaps on the lower board; the active area remains one-thumb reachable. |
+| Pocket Weave | 4×10, 3 colors | 4 | 16 | 2–4 | Four narrow columns keep every vertical weave within the lower thumb sweep. |
+| Flash Mosaic | 10×5, 8 colors | 3 | 7 | 2–5 | Five shallow rows expose scarce triples for quick one-thumb horizontal scanning. |
+
+Batch G taxonomy is recorded only in `batch-20260811-g.manifest.json` and
+`audits/batch-20260811-g.json`; revision 15 remains a Build106-compatible
+schema-1 catalog with taxonomy stripped.
