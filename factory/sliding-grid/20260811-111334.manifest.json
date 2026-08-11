@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "status": "published-candidate",
+  "gateTier": "playable",
+  "sourceBranch": "factory/sliding-grid/20260811-111334",
+  "sourceCommit": "a45ab8a8456d1f91482522d61cfad83b8d80d817",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "entries": [
+    {
+      "gameID": "pack-facet-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-canopy-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}

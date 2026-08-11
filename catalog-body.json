@@ -1,7 +1,7 @@
 {
-  "revision": 16,
-  "issuedAt": "2026-08-11T03:12:52Z",
-  "expiresAt": "2026-08-18T03:12:52Z",
+  "revision": 17,
+  "issuedAt": "2026-08-11T03:18:20Z",
+  "expiresAt": "2026-08-18T03:18:20Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -892,6 +892,84 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "beacon-fifteen-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 9577,
+      "contentSHA256": "2410b1cd7038a9991dde430c82a0b2093a17274cfe8f2280b42c61de5765a147",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-facet-nine-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "9c2c3901e035a803880b81d4380c3f7e4fe51ce4fc3a38610e100b29f9ffeedc",
+      "gameID": "pack-facet-nine",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 5,
+      "metadata": {
+        "en": {
+          "summary": "Polish a compact nine-tile facet through an exact thirty-two-move shared route.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Facet Nine"
+        },
+        "zh-Hans": {
+          "summary": "两至五人轮流打磨紧凑九格，在恰好三十二步的共享路线中完成还原。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格棱面"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "facet-nine-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 21550,
+      "contentSHA256": "83331d3fafa6eb11de20e4c02ef2515e14e5a6bbc9f623c0357bf471681281e7",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-canopy-twenty-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "80d31ed0622d88885d16d6c1ea194ba496f8ca3e5a2f60d8675f0d6f39cefbd7",
+      "gameID": "pack-canopy-twenty",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 6,
+      "metadata": {
+        "en": {
+          "summary": "Open a twenty-tile canopy with a broad recovery reserve for a full shared table.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Canopy Twenty"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在纵向二十格树冠中轮流开路，并以充足余量修正分支。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格树冠"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "canopy-twenty-first-edition",
       "packKeyID": "sliding-grid-content-2026-08",
       "packVersion": 1,
       "rulesVersion": 1,
