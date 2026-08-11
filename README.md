@@ -52,6 +52,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Gate Change** — inspect the group and find the hidden traveler.
 - **Orchard Sketches** — draw an orchard clue for friends to name.
 - **Studio Sketchbook** — sketch an art-studio object and race to identify it.
+- **Missing Parcel** — compare the accounts and vote before dispatch.
+- **Backstage Cue** — inspect the cast and find the hidden actor.
+- **Aquarium Sketches** — draw an underwater clue for friends to name.
+- **Schoolyard Sketchbook** — sketch a playground object and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

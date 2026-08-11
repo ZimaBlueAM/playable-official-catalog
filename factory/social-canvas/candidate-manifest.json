@@ -2778,6 +2778,249 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-postoffice",
+      "packID": "hidden-postoffice-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-postoffice-v1.playablepack",
+      "byteCount": 1938,
+      "envelopeSHA256": "4eed0200ebf38afa6274796ea80aebb3bbda5c05493b9dbcd6f886f128df6a2f",
+      "contentSHA256": "a5b8fe2e1be11e4f3959cfdaa3f25882065acd75bf2c0a5a63ca1cbdd2e5b8af",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One clerk rerouted the parcel; compare the accounts and vote before dispatch.",
+          "systemImage": "shippingbox.fill",
+          "title": "Missing Parcel"
+        },
+        "zh-Hans": {
+          "summary": "一名职员改投了包裹；比较说法，在发件前投票。",
+          "systemImage": "shippingbox.fill",
+          "title": "失踪包裹"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-theater",
+      "packID": "hidden-theater-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-theater-v1.playablepack",
+      "byteCount": 2136,
+      "envelopeSHA256": "1dd6e85f2cb883677b29d4fdda6a13eccb57b6a9ab0fd648ca4ccbdfb3b37a8c",
+      "contentSHA256": "cb78a43cc26075d1d5d53e7b920003498878e77a854196cf8a5f54bc66948f36",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden actor changed the cue; inspect the cast and vote before curtain.",
+          "systemImage": "theatermasks.fill",
+          "title": "Backstage Cue"
+        },
+        "zh-Hans": {
+          "summary": "隐藏演员改动了提示；观察剧组，在开幕前投票。",
+          "systemImage": "theatermasks.fill",
+          "title": "后台暗号"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-aquarium",
+      "packID": "canvas-aquarium-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-aquarium-v1.playablepack",
+      "byteCount": 1816,
+      "envelopeSHA256": "56393ac7c86e6e026bde66475066dba469af5518b3db3c721a580acaba09dca5",
+      "contentSHA256": "5601dd6d1821f7ff883f27d4535b66803c02d9fc70b89144c594c4cbfcf98eba",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw an underwater clue in a few strokes and let friends name it.",
+          "systemImage": "fish.fill",
+          "title": "Aquarium Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出水下线索，让朋友说出它。",
+          "systemImage": "fish.fill",
+          "title": "水族馆速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-schoolyard",
+      "packID": "canvas-schoolyard-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-schoolyard-v1.playablepack",
+      "byteCount": 1807,
+      "envelopeSHA256": "f5fd985e017b290283bf14d138cee631e9b65983a84c884f826dee850e4c56a6",
+      "contentSHA256": "3367572f108401a9d2dd68305d9c84b33bd4358321fafb9aba51478bfb663a86",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a playground object and race the table to identify it.",
+          "systemImage": "figure.play",
+          "title": "Schoolyard Sketchbook"
+        },
+        "zh-Hans": {
+          "summary": "画出操场里的物件，和大家一起抢答。",
+          "systemImage": "figure.play",
+          "title": "操场速写本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
