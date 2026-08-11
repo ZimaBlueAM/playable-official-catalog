@@ -12,6 +12,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Take Five** — take one to three tokens; the final move wins.
 - **Prism Shift** — swap neighboring prisms to clear matching lines on a
   thumb-friendly 5×5 board.
+- **Signal Circle** — read the table talk, find the lone signal, and vote.
+- **Lantern Watch** — bluff and observe to catch the route-knowing watcher.
+- **Postcard Scribble** — draw a tiny postcard clue and guess the destination.
+- **Shadow Recipe** — sketch a mystery ingredient for the table to identify.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
