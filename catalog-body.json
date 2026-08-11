@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 9,
+  "issuedAt": "2026-08-11T02:30:00Z",
+  "expiresAt": "2026-08-18T02:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cascade-relay",
+      "packID": "cascade-relay-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cascade-relay-v1.playablepack",
+      "byteCount": 1602,
+      "envelopeSHA256": "6cb2088b691774656187d6b9b26b2271e61ef37dbb87aab13e42045143a5d9ca",
+      "contentSHA256": "2fd7496026206263b2e70b4d34bf297192f19eb15dd1699a1693940bafbfaebb",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Swap adjacent tiles to trigger chain clears; every cascade feeds the next teammate.",
+          "systemImage": "arrow.triangle.2.circlepath",
+          "title": "Cascade Relay"
+        },
+        "zh-Hans": {
+          "summary": "交换相邻方块触发连锁消除，每次连锁为下一位队友蓄力。",
+          "systemImage": "arrow.triangle.2.circlepath",
+          "title": "连锁接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-corner-bloom",
+      "packID": "corner-bloom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-corner-bloom-v1.playablepack",
+      "byteCount": 1603,
+      "envelopeSHA256": "0384123e4faae887fe47c9608fe9928db0e9f49c6f80140ad3a1684545048b67",
+      "contentSHA256": "f22e7c5b3a677926294a80087d7c17be9847c1eda8ff86b125ccebd2ba98119d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Build four-tile blooms from the corners, balancing solo scores against rivals.",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "Corner Bloom"
+        },
+        "zh-Hans": {
+          "summary": "从角落培育四连花簇，在单人挑战或对手竞速中争取高分。",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "角落花簇"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quadra-pulse",
+      "packID": "quadra-pulse-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quadra-pulse-v1.playablepack",
+      "byteCount": 1576,
+      "envelopeSHA256": "fcba96b092de8c07ca039ea959e00bfebff25fb344536fff64309807838f9cd3",
+      "contentSHA256": "a3a7e00612319b49770bc22c516c6e565dd8e1ef5b2b5273621da7657ea8c91f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Make compact three-tile pulses on a narrow board where each move changes the tempo.",
+          "systemImage": "waveform.path.ecg",
+          "title": "Quadra Pulse"
+        },
+        "zh-Hans": {
+          "summary": "在窄棋盘制造紧凑三连脉冲，每一步都改变节奏。",
+          "systemImage": "waveform.path.ecg",
+          "title": "四格脉冲"
         }
       }
     }
