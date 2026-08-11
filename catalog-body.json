@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 9,
+  "issuedAt": "2026-08-11T02:00:14Z",
+  "expiresAt": "2026-08-18T02:00:14Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-garden-twenty-five",
+      "packID": "garden-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-garden-twenty-five-v1.playablepack.json",
+      "byteCount": 1485,
+      "envelopeSHA256": "9e2f57f926307f773b21eface02447995e5c53b6a2cdedcd7d2650be522953d0",
+      "contentSHA256": "8d6adc7e79bb3e3171fc49df87324954273aa0006a44e6464214f7be8e1fae53",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Tend a five-by-five garden one deliberate tile at a time.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Garden Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "一次滑动一块，耐心整理五乘五数字花园。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格花园"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orbit-nine",
+      "packID": "orbit-nine-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-nine-v1.playablepack.json",
+      "byteCount": 1452,
+      "envelopeSHA256": "e38da5460a8b0a367af1835db13de387f162917448b701279327dc7625166e5e",
+      "contentSHA256": "cea83f0d6400269c928ee7b4f0f0a58c45e586221e0ad49acfdba0b732de0dc0",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Orbit nine tiles back into place with clean, circular-feeling thumb moves.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Orbit Nine"
+        },
+        "zh-Hans": {
+          "summary": "用干净利落的拇指滑动，让九块方块回到轨道。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格回环"
+        }
+      }
+    },
+    {
+      "gameID": "pack-river-twelve",
+      "packID": "river-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-river-twelve-v1.playablepack.json",
+      "byteCount": 1483,
+      "envelopeSHA256": "7ccc993e7d8dc4931f967ca63372fa71cf53a5a31d32c5af83b52b6ed0c0b92e",
+      "contentSHA256": "ebb3f91127dbcfb09b54f0866e1bc8ce690624f0403f513c2490e18c53d43068",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the empty space along a twelve-tile river before the moves run dry.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "River Twelve"
+        },
+        "zh-Hans": {
+          "summary": "在步数耗尽前，让空格穿过十二格数字河流。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格行舟"
         }
       }
     }
