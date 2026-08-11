@@ -121,3 +121,14 @@ Batch AZ taxonomy is sidecar-only in `batch-20260811-az.manifest.json` and
 
 Batch BA taxonomy is sidecar-only in `batch-20260811-ba.manifest.json` and
 `audits/batch-20260811-ba.json`; revision 61 contains no taxonomy fields.
+
+## Batch BB
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Causeway | 10×4, 5 colors | 3 | 35 | exactly 2 | Four shallow rows keep quick duel causeways inside the lower thumb sweep. |
+| Open Aurora Rampart | 8×10, 8 colors | 4 | 97 | 2–6 | Short local swaps keep the tall shared rampart focused in lower active rows. |
+| Six Seat Violet Needle | 4×8, 6 colors | 5 | 65 | exactly 6 | Four narrow columns focus rare vertical needles inside one-thumb reach. |
+
+Batch BB taxonomy is sidecar-only in `batch-20260811-bb.manifest.json` and
+`audits/batch-20260811-bb.json`; revision 62 contains no taxonomy fields.

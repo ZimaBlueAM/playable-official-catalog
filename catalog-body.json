@@ -1,7 +1,7 @@
 {
-  "revision": 61,
-  "issuedAt": "2026-08-11T22:50:00Z",
-  "expiresAt": "2026-08-18T22:50:00Z",
+  "revision": 62,
+  "issuedAt": "2026-08-11T23:00:00Z",
+  "expiresAt": "2026-08-18T23:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6244,6 +6244,72 @@
       "metadata": {
         "en": {"summary": "Exactly four players race through scarce triples across a compact eight-color amber arcade.", "systemImage": "rectangle.3.group.fill", "title": "Four Seat Amber Arcade"},
         "zh-Hans": {"summary": "严格四位玩家在紧凑八色琥珀拱廊中竞逐稀有三连。", "systemImage": "rectangle.3.group.fill", "title": "四席琥珀拱廊"}
+      }
+    },
+    {
+      "gameID": "pack-dual-meadow-causeway",
+      "packID": "dual-meadow-causeway-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-causeway-v1.playablepack.json",
+      "byteCount": 1582,
+      "envelopeSHA256": "d1cae03b2557336963bcd1b172f458fba6b84af03065c45744275273c93d227c",
+      "contentSHA256": "b74fbcca9dcbbe36e1d52c78e13d4006142f51b6b98fad08e9a60a414d0d5649",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two players steer quick triples across a long, shallow five-color meadow causeway.", "systemImage": "road.lanes", "title": "Dual Meadow Causeway"},
+        "zh-Hans": {"summary": "两位玩家在狭长五色草甸堤道中引导灵活三连。", "systemImage": "road.lanes", "title": "双人草甸堤道"}
+      }
+    },
+    {
+      "gameID": "pack-open-aurora-rampart",
+      "packID": "open-aurora-rampart-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-aurora-rampart-v1.playablepack.json",
+      "byteCount": 1636,
+      "envelopeSHA256": "2e9121988f7dfab46cbc636af0cea73d2b99aef6354e0ae7f6e99b765e756e9f",
+      "contentSHA256": "94306117acf286525ec1c60ad4c63c31468f8b0a45f23385a83c604601f6b36d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players raise scarce four-tile ramparts through a tall eight-color aurora field.", "systemImage": "shield.lefthalf.filled", "title": "Open Aurora Rampart"},
+        "zh-Hans": {"summary": "二至六位玩家在高耸八色极光棋盘中筑起稀有四连壁垒。", "systemImage": "shield.lefthalf.filled", "title": "开放极光壁垒"}
+      }
+    },
+    {
+      "gameID": "pack-six-seat-violet-needle",
+      "packID": "six-seat-violet-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-violet-needle-v1.playablepack.json",
+      "byteCount": 1634,
+      "envelopeSHA256": "e5d4136b57d3e7ae5d9e6f6405dbdbd62b825b013aab711d44bc0258e1dd48ab",
+      "contentSHA256": "010316cde67191769169947f0e532ee5aaea5249e5eada6d02233427477dd8be",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Exactly six players grow rare vertical five-tile needles through a narrow six-color violet field.", "systemImage": "arrow.up.to.line", "title": "Six Seat Violet Needle"},
+        "zh-Hans": {"summary": "严格六位玩家在狭长六色紫罗兰棋盘中培育稀有纵向五连针塔。", "systemImage": "arrow.up.to.line", "title": "六席紫罗兰针塔"}
       }
     }
   ]
