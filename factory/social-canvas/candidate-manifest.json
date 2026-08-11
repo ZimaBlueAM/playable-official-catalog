@@ -3994,6 +3994,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-powerstation",
+      "packID": "hidden-powerstation-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-powerstation-v1.playablepack",
+      "byteCount": 1972,
+      "envelopeSHA256": "3d084e202f25837588a5be794bf3f389ffbcba2acd582ebca353961bd609f5be",
+      "contentSHA256": "4bede11bc2e1826a9f5648485a1181b3d521f4f28f3118e96bbacfd74ca05642",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One technician changed the switch log; compare reports and vote before restart.",
+          "systemImage": "bolt.fill",
+          "title": "Power Station Log"
+        },
+        "zh-Hans": {
+          "summary": "一名技术员改动了开关记录；比较报告，在重启前投票。",
+          "systemImage": "bolt.fill",
+          "title": "电站日志"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-wintermarket",
+      "packID": "canvas-wintermarket-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-wintermarket-v1.playablepack",
+      "byteCount": 1832,
+      "envelopeSHA256": "660546cfe0fcc53e045cfebea46d000e6f26368beb99809613d5b966aa3de374",
+      "contentSHA256": "92a85e4b32c39cfef2a26b3c4a83f53409db91cd2f67c14c48449400873a2c25",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a winter-market clue and race the table to identify it.",
+          "systemImage": "snowflake",
+          "title": "Winter Market Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出冬日集市线索，和大家一起抢答。",
+          "systemImage": "snowflake",
+          "title": "冬日集市速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }

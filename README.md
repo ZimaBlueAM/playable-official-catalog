@@ -72,6 +72,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Botanical Sketchbook** — sketch a plant clue and race to identify it.
 - **Lab Notebook** — compare reports and vote before sealing.
 - **Rainy Day Sketches** — sketch a rainy-day clue and race to identify it.
+- **Power Station Log** — compare reports and vote before restart.
+- **Winter Market Sketches** — sketch a frosty market clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
