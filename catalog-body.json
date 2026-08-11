@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T02:25:39Z",
-  "expiresAt": "2026-08-18T02:25:39Z",
+  "revision": 18,
+  "issuedAt": "2026-08-11T02:29:28Z",
+  "expiresAt": "2026-08-18T02:29:28Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -312,6 +312,84 @@
           "summary": "轮流快速滑动九块方砖，在节奏中断前完成还原。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九格快步"
+        }
+      }
+    },
+    {
+      "gameID": "pack-longform-twenty-five",
+      "packID": "longform-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-longform-twenty-five-v1.playablepack.json",
+      "byteCount": 25379,
+      "envelopeSHA256": "b4cec0c270959c47f56037118f721e563edbb0adddf37e73d51cd24a1512d00c",
+      "contentSHA256": "d94bd14490d79646597c52ba8597525b93ad17d8ac939aeb78bc74b06df57aa0",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Settle into a deep twenty-five-tile restoration for two to four players.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Longform Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "两至四人沉浸轮转，完成深度二十五格数字还原。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格长局"
+        }
+      }
+    },
+    {
+      "gameID": "pack-sprint-twelve",
+      "packID": "sprint-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-sprint-twelve-v1.playablepack.json",
+      "byteCount": 7348,
+      "envelopeSHA256": "a9a4c06322d52a19b4343646a9bed48be82e2fedf2de8866a6e2b92ecb940d75",
+      "contentSHA256": "686f503d44a68165d0910d08fd90bb3068a801425e33b59ff0bbebd28ff55a1f",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Finish twelve tiles in eighteen exact moves, from two players through six.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Sprint Twelve"
+        },
+        "zh-Hans": {
+          "summary": "从双人到六席，用恰好十八次接力滑动完成十二格冲刺。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格冲刺"
         }
       }
     }
