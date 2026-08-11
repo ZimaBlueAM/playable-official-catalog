@@ -1,5 +1,5 @@
 {
-  "revision": 21,
+  "revision": 22,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1755,6 +1755,123 @@
           "summary": "每回合织走一、四、十、十五或十九缕光环线，拿到最后一缕者获胜。",
           "systemImage": "circle.dotted",
           "title": "光环织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-canyon-reserve",
+      "packID": "pack-canyon-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-canyon-reserve-v1.playablepack.json",
+      "byteCount": 1734,
+      "envelopeSHA256": "e782166344193c27b51a08783aec73aaffe09eb740772c5f00837648664f3aa7",
+      "contentSHA256": "4c3bf7e57356e5864e514b347e937cf0fc1adbfd39dd2e4126e7c90f02a53cbb",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, ten, or seventeen canyon markers, but the player clearing the final marker loses.",
+          "systemImage": "mountain.2.fill",
+          "title": "Canyon Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、十或十七枚峡谷标记，但清除最后一枚者落败。",
+          "systemImage": "mountain.2.fill",
+          "title": "峡谷留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-willow-count",
+      "packID": "pack-willow-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-willow-count-v1.playablepack.json",
+      "byteCount": 1705,
+      "envelopeSHA256": "c571e2b2456427a237f2a7d74d07fe5031d6d7b4f4918d6319be2f7b1a725e86",
+      "contentSHA256": "4f97cfcdd2e6dc37f7582b7f7e6f720075271a5ff6b9bf51e6009b7e0e491d66",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Gather one, eight, thirteen, or nineteen willow tokens; the final token wins.",
+          "systemImage": "leaf.fill",
+          "title": "Willow Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、八、十三或十九枚柳叶标记，拿到最后一枚者获胜。",
+          "systemImage": "leaf.fill",
+          "title": "柳叶计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-zenith-loom",
+      "packID": "pack-zenith-loom-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-zenith-loom-v1.playablepack.json",
+      "byteCount": 1749,
+      "envelopeSHA256": "3d3c4c48b2937ec2cd00536ee1992770fa9e092e2fcb5fb7019ae0c6588749d4",
+      "contentSHA256": "9b002b0ae777eed3b497e017f33644867d134ab5a4b699024861badad7a09ccd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave one, five, eleven, sixteen, or twenty zenith threads; the final thread wins.",
+          "systemImage": "sun.max.fill",
+          "title": "Zenith Loom"
+        },
+        "zh-Hans": {
+          "summary": "每回合织走一、五、十一、十六或二十缕天顶线，拿到最后一缕者获胜。",
+          "systemImage": "sun.max.fill",
+          "title": "天顶织机"
         }
       }
     }
