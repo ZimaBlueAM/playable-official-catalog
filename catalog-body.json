@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T02:25:39Z",
-  "expiresAt": "2026-08-18T02:25:39Z",
+  "revision": 22,
+  "issuedAt": "2026-08-11T02:40:25Z",
+  "expiresAt": "2026-08-18T02:40:25Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -312,6 +312,84 @@
           "summary": "轮流快速滑动九块方砖，在节奏中断前完成还原。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九格快步"
+        }
+      }
+    },
+    {
+      "gameID": "pack-gallery-twenty",
+      "packID": "gallery-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gallery-twenty-v1.playablepack.json",
+      "byteCount": 18271,
+      "envelopeSHA256": "4dfa2439f40f95b2d457b4dbdb88d42c893583bd5709e7dedb4aabc8739283b8",
+      "contentSHA256": "d804f40d9053e9e7fbddbec8655654a6a932b44ff403de9717668378e4a3de51",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Restore a tall gallery of twenty numbered panels with room to reconsider.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Gallery Twenty"
+        },
+        "zh-Hans": {
+          "summary": "在纵向二十格数字画廊中轮流滑动，并保留重新调整的空间。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格画廊"
+        }
+      }
+    },
+    {
+      "gameID": "pack-switchback-fifteen",
+      "packID": "switchback-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-switchback-fifteen-v1.playablepack.json",
+      "byteCount": 16569,
+      "envelopeSHA256": "146691a21a2ce47bae8452628ceb6c723ab296288d51164489734eb8ff0f5063",
+      "contentSHA256": "7d0babf7f3d9e1a07982156c09fd64e17a55e72a32192c084573c47f11243259",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Trace a fifteen-tile switchback in exactly forty-eight shared moves.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Switchback Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "沿十五格折返路线轮流滑动，恰好四十八步完成还原。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格折返"
         }
       }
     }
