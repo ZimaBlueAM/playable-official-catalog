@@ -122,3 +122,14 @@ Batch BN taxonomy is sidecar-only in `batch-20260812-bn.manifest.json` and
 
 Batch BO taxonomy is sidecar-only in `batch-20260812-bo.manifest.json` and
 `audits/batch-20260812-bo.json`; revision 75 contains no taxonomy fields.
+
+## Batch BP
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Courtyard | 6×4, 5 colors | 4 | 49 | exactly 2 | Four shallow rows keep the quick duel courtyard inside the lower thumb sweep. |
+| Open Clover Promenade | 10×10, 8 colors | 3 | 139 | 2–5 | Adjacent local swaps keep the maximum shared promenade focused in lower rows. |
+| Four Seat Aurora Gallery | 7×9, 6 colors | 5 | 94 | exactly 4 | Seven compact columns keep rare four-seat gallery matches inside one-thumb reach. |
+
+Batch BP taxonomy is sidecar-only in `batch-20260812-bp.manifest.json` and
+`audits/batch-20260812-bp.json`; revision 76 contains no taxonomy fields.
