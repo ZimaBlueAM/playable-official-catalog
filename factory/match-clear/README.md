@@ -122,3 +122,14 @@ Batch BU taxonomy is sidecar-only in `batch-20260812-bu.manifest.json` and
 
 Batch BV taxonomy is sidecar-only in `batch-20260812-bv.manifest.json` and
 `audits/batch-20260812-bv.json`; revision 82 contains no taxonomy fields.
+
+## Batch BW
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Gallery | 7×4, 7 colors | 5 | 56 | exactly 2 | Four shallow rows keep rare duel gallery swaps inside the lower thumb sweep. |
+| Open Aurora Gallery | 5×10, 4 colors | 4 | 160 | 2–5 | Five narrow columns keep dense shared gallery play focused in lower active rows. |
+| Six Seat Violet Courtyard | 9×9, 8 colors | 3 | 108 | exactly 6 | Local adjacent swaps keep quick six-seat courtyard play inside one-thumb reach. |
+
+Batch BW taxonomy is sidecar-only in `batch-20260812-bw.manifest.json` and
+`audits/batch-20260812-bw.json`; revision 83 contains no taxonomy fields.
