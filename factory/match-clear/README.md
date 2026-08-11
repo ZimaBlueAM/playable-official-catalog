@@ -29,3 +29,11 @@ private Playable content key locally; only their resulting signed envelopes are 
 | Hexa Drift | 6×6, 5 colors | 3 | 13 | 2–6 | The square board keeps the lower-half swap grid balanced for one-handed drift moves. |
 | Ladder Bloom | 5×8, 5 colors | 4 | 17 | 2–4 | Five columns keep the vertical ladder readable and reachable while four-tile blooms demand planning. |
 | Shortwave | 9×4, 6 colors | 3 | 11 | 2–5 | The shallow wide board keeps short horizontal waves and all adjacent swaps in thumb range. |
+
+## Batch D
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Mosaic March | 7×6, 4 colors | 3 | 16 | 2–6 | The seven-column lower board supports quick one-handed lane changes and passing turns. |
+| Fourfold Forge | 4×7, 5 colors | 4 | 14 | 2–4 | A compact four-column tower keeps vertical four-run setup inside the thumb sweep. |
+| Rainline | 8×5, 6 colors | 3 | 12 | 2–5 | The low wide board makes horizontal rain lines visible and adjacent swaps reachable. |

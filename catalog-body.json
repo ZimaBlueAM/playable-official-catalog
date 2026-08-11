@@ -1,7 +1,7 @@
 {
-  "revision": 11,
-  "issuedAt": "2026-08-11T04:30:00Z",
-  "expiresAt": "2026-08-18T04:30:00Z",
+  "revision": 12,
+  "issuedAt": "2026-08-11T05:30:00Z",
+  "expiresAt": "2026-08-18T05:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -546,6 +546,123 @@
           "summary": "让短波穿过宽棋盘，在信号消退前完成得分。",
           "systemImage": "dot.radiowaves.left.and.right",
           "title": "短波"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mosaic-march",
+      "packID": "mosaic-march-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mosaic-march-v1.playablepack.json",
+      "byteCount": 1596,
+      "envelopeSHA256": "013008feba41030472541313ad936aee3f449e9ae6fce7fae41effade0c6cb52",
+      "contentSHA256": "fd6f28cca92945f64e3179281e0d20333b9ff54450b96d774e7124a29af57ee6",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "March colors across a bright mosaic and hand the next player a freshly opened lane.",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "Mosaic March"
+        },
+        "zh-Hans": {
+          "summary": "让颜色穿过明亮马赛克，为下一位玩家打开新路线。",
+          "systemImage": "square.grid.3x3.topleft.filled",
+          "title": "马赛克行进"
+        }
+      }
+    },
+    {
+      "gameID": "pack-fourfold-forge",
+      "packID": "fourfold-forge-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-fourfold-forge-v1.playablepack.json",
+      "byteCount": 1572,
+      "envelopeSHA256": "f8aea58f606d1a2744e85a40d70667cc55143bc61338388d62addb9ab4544f9b",
+      "contentSHA256": "cc7f4c8f8b5fe929b452398b338c37f9b8607bb1ea3ec7ea5d852d80dd33a705",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Forge four-tile runs on a narrow tower where every vertical swap reshapes the next turn.",
+          "systemImage": "flame.fill",
+          "title": "Fourfold Forge"
+        },
+        "zh-Hans": {
+          "summary": "在窄塔棋盘中锻造四连，每次纵向交换都会重塑下一回合。",
+          "systemImage": "flame.fill",
+          "title": "四连锻造"
+        }
+      }
+    },
+    {
+      "gameID": "pack-rainline",
+      "packID": "rainline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rainline-v1.playablepack.json",
+      "byteCount": 1583,
+      "envelopeSHA256": "529b4f042841a9ebc9cd61bcdb05179322ab7a082e6b509d0b2c27360ea2d337",
+      "contentSHA256": "1223a105bb2612e179bd3a768e9c0d8daf1038f790d3da0ffe85a013ca88dfd7",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw falling color lines across a low board and score quick triples before the rain moves on.",
+          "systemImage": "cloud.rain.fill",
+          "title": "Rainline"
+        },
+        "zh-Hans": {
+          "summary": "让下落的颜色连线穿过低矮棋盘，在雨幕移动前快速完成三连。",
+          "systemImage": "cloud.rain.fill",
+          "title": "雨幕连线"
         }
       }
     }
