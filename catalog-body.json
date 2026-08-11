@@ -1,8 +1,47 @@
 {
-  "revision": 7,
-  "issuedAt": "2026-08-11T01:40:58Z",
-  "expiresAt": "2026-09-10T01:40:58Z",
+  "revision": 8,
+  "issuedAt": "2026-08-11T01:48:18Z",
+  "expiresAt": "2026-08-18T01:48:18Z",
   "entries": [
+    {
+      "gameID": "pack-stack-four",
+      "packID": "stack-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 104,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-stack-four-v1.playablepack.json",
+      "byteCount": 1919,
+      "envelopeSHA256": "c2b03f83e8f8816b90282bf6dcea2ec9653fefb8538d8db87c813af04ee1a5c7",
+      "contentSHA256": "8cd3c58d805103f9ac4125e8aecfb96c30fcef4da937374f742421f238dd072f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Drop discs into columns and connect four before your friends do.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Stack Four"
+        },
+        "zh-Hans": {
+          "summary": "把棋子落入列中，先连成四子即可获胜。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "四连叠"
+        }
+      }
+    },
     {
       "gameID": "pack-last-one-loses",
       "packID": "last-one-loses-first-edition",
