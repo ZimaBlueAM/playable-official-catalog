@@ -165,3 +165,14 @@ Batch AM taxonomy is sidecar-only in `batch-20260811-am.manifest.json` and
 
 Batch AN taxonomy is sidecar-only in `batch-20260811-an.manifest.json` and
 `audits/batch-20260811-an.json`; revision 48 contains no taxonomy fields.
+
+## Batch AO
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Crownline | 8×4, 7 colors | 5 | 22 | exactly 2 | Four shallow rows keep rare duel crownlines inside the lower thumb sweep. |
+| Open Meadow Current | 9×10, 5 colors | 3 | 58 | 2–4 | Frequent local swaps keep the tall shared current focused in the lower active rows. |
+| Four Seat Amber Loom | 5×9, 6 colors | 4 | 40 | exactly 4 | Five narrow columns keep four-seat loom work inside the one-thumb wiper lane. |
+
+Batch AO taxonomy is sidecar-only in `batch-20260811-ao.manifest.json` and
+`audits/batch-20260811-ao.json`; revision 49 contains no taxonomy fields.
