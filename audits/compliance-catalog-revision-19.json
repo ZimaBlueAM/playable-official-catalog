@@ -591,5 +591,8 @@
   "repair": {
     "required": null,
     "notes": "Both existing signed source URLs are now served by the public provenance pages; no catalog revision or pack signature changed."
-  }
+  },
+  "revision": 19,
+  "status": "passed",
+  "summary": "All 25 revision 19 source URLs return HTTP 200; license/provenance, clean-room implementation boundary, zero declared resources, and age recommendations are recorded without changing catalog content."
 }
