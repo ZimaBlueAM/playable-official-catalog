@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "status": "blocked-engine-expansion",
+  "observedAt": "2026-08-11T15:54:59Z",
+  "candidateRef": "factory/engine-expansion/20260811-current-base-audit",
+  "base": {
+    "remote": "https://github.com/ZimaBlueAM/playable-official-catalog.git",
+    "mainCommit": "a42f2b0235a2aa020e34429acd7b0c319a39afde",
+    "catalogRevision": 19,
+    "catalogEntryCount": 25,
+    "pagesURL": "https://zimablueam.github.io/playable-official-catalog/catalog.json",
+    "pagesStatus": 200,
+    "pagesLastModified": "2026-08-11T15:26:15Z",
+    "pagesBodySHA256": "72cb26b793cf8b9b1cc284963f050e7f300f0c3071159110e156b4776c2974ed",
+    "pagesCatalogKeyID": "playable-catalog-2026-02",
+    "pagesExpiresAt": "2026-08-18T05:00:00Z"
+  },
+  "currentMainByEngine": {
+    "cardTurn": {
+      "count": 2,
+      "gameIDs": ["pack-last-one-loses", "pack-take-five"]
+    },
+    "gridBoard": {
+      "count": 1,
+      "gameIDs": ["pack-stack-four"]
+    },
+    "hiddenRole": {
+      "count": 0,
+      "gameIDs": []
+    },
+    "canvasGuess": {
+      "count": 0,
+      "gameIDs": []
+    },
+    "matchClear": {
+      "count": 1,
+      "gameIDs": ["pack-prism-shift"]
+    },
+    "slidingGrid": {
+      "count": 21,
+      "gameIDs": [
+        "pack-pocket-slider",
+        "pack-cascade-twenty",
+        "pack-meridian-fifteen",
+        "pack-quickstep-nine",
+        "pack-horizon-twenty",
+        "pack-ladder-twelve",
+        "pack-gallery-twenty",
+        "pack-switchback-fifteen",
+        "pack-pulse-nine",
+        "pack-ribbon-twelve",
+        "pack-vault-twenty-five",
+        "pack-flash-nine",
+        "pack-mosaic-sixteen",
+        "pack-keystone-fifteen",
+        "pack-atlas-twenty",
+        "pack-citadel-twenty",
+        "pack-orbit-twenty-five",
+        "pack-ember-twelve",
+        "pack-beacon-fifteen",
+        "pack-facet-nine",
+        "pack-canopy-twenty"
+      ]
+    }
+  },
+  "engineAudit": [
+    {
+      "family": "cardTurn",
+      "boundedActionAlgebra": "take one allowed amount from a finite takeOptions set; finish when remaining reaches zero; lastMoveWins selects normal or misere outcome",
+      "currentMainCoverage": "take-away already has normal and misere entries",
+      "soloOrFairLocalBot": true,
+      "decision": "reject-for-batch",
+      "reason": "Remaining fields only change the pile size, allowed amounts, or last-move polarity; that is parameter variation, not a new mechanism."
+    },
+    {
+      "family": "gridBoard",
+      "boundedActionAlgebra": "place a marker in a bounded cell or gravity column; finish on a connection or a full-board draw",
+      "currentMainCoverage": "gravity connection-four via pack-stack-four",
+      "soloOrFairLocalBot": true,
+      "decision": "hold-at-most-one",
+      "reason": "Open placement is a possible distinct rule mode, but it cannot make the required 3-5 batch by itself; the historical grid wave already explored many geometry/connection variants and was rejected for missing terminal coverage and rule-description mismatches."
+    },
+    {
+      "family": "hiddenRole",
+      "boundedActionAlgebra": "private role assignment, sequential vote, plurality elimination, team-survival terminal",
+      "currentMainCoverage": "none in current main",
+      "soloOrFairLocalBot": false,
+      "decision": "hold",
+      "reason": "The installed runtime expresses the mechanic, but the current catalog registration has no configured Solo or local-Bot path for this family. Role/team/prompt changes would also be parameter-only within the same vote-elimination algebra."
+    },
+    {
+      "family": "canvasGuess",
+      "boundedActionAlgebra": "bounded stroke submission, deterministic prompt selection, finite guess/pass rounds, score terminal",
+      "currentMainCoverage": "none in current main",
+      "soloOrFairLocalBot": false,
+      "decision": "hold",
+      "reason": "The installed runtime expresses the mechanic, but the current catalog registration has no configured Solo or local-Bot path for this family. Prompt sets and themes do not create independent games."
+    },
+    {
+      "family": "matchClear",
+      "boundedActionAlgebra": "adjacent swap that must create a run, deterministic cascade/refill, score by cleared cells, finite turn terminal",
+      "currentMainCoverage": "swap-clear scoring via pack-prism-shift",
+      "soloOrFairLocalBot": false,
+      "decision": "reject-for-batch",
+      "reason": "The runtime has one swap-run-score-terminal algebra and no Solo/local-Bot path. The historical match-clear chain was a parameter aggregation (revision 108 with 305 entries) and was explicitly rejected against current revision 19/25."
+    },
+    {
+      "family": "slidingGrid",
+      "boundedActionAlgebra": "slide an adjacent tile into the empty cell; deterministic bounded scramble; solved or turn-limit terminal",
+      "currentMainCoverage": "21 entries, including 20 later sliding-grid entries",
+      "soloOrFairLocalBot": true,
+      "decision": "reject-for-batch",
+      "reason": "All audited candidates use the same slide-to-solve mechanic; dimensions, scramble depth, turn limit, title, and theme are prohibited surface/parameter variation."
+    }
+  ],
+  "historicalFactoryRefs": {
+    "totalVisibleRefs": 154,
+    "byFamily": {
+      "cardTurn": 23,
+      "gridBoard": 1,
+      "matchClear": 100,
+      "slidingGrid": 29,
+      "socialCanvas": 1
+    },
+    "slidingGridManifestRefs": 24,
+    "rejectedExamples": [
+      {
+        "ref": "factory/match-clear/batch-20260812-cv",
+        "reason": "revision 108/305 aggregation was not a bounded delta from current revision 19/25"
+      },
+      {
+        "ref": "factory/grid-board/grid-board-wave-20260811",
+        "reason": "missing terminal vectors for declared player ranges and rule-description mismatches"
+      },
+      {
+        "ref": "factory/social-canvas/batch-20260811-hidden-canvas",
+        "reason": "taxonomy carrier was not scalar; no current-base publication evidence"
+      },
+      {
+        "ref": "factory/sliding-grid/20260811-112224",
+        "reason": "candidate taxonomy player tags did not match declared player ranges"
+      }
+    ],
+    "neverReuse": [
+      "revision-108/305 parameter aggregation chain",
+      "candidate refs whose parent is not current main",
+      "candidate refs that delete root/source provenance pages"
+    ]
+  },
+  "minimumExpansionRequirement": {
+    "type": "bounded-local-bot-integration",
+    "schemaChangeRequired": false,
+    "targetBuild": "next App build after current Build 106 baseline",
+    "families": ["hiddenRole", "canvasGuess", "matchClear"],
+    "requirements": [
+      "Expose a configured Solo/local-Bot launch path for each family.",
+      "Use deterministic legal-action generation and a deterministic tie-break policy.",
+      "For hiddenRole, the Bot may see only its own projected role plus public state; it must not receive other seats' hidden roles.",
+      "For canvasGuess, the Bot must use the seeded prompt/stroke contract without leaking a human drawer's private prompt.",
+      "For matchClear, the Bot must choose only legal adjacent swaps and use a deterministic public-state policy.",
+      "Preserve existing action bounds, round/turn budgets, winner/draw terminal semantics, and checksum determinism.",
+      "Add Result and Rematch journey tests for each newly Solo-capable family.",
+      "Add offline signed-pack launch/finish evidence and the existing 44pt/lower-half thumb Fast Gate."
+    ],
+    "unlocksPotentialBatch": [
+      "one hidden-role deduction game",
+      "one canvas drawing/guessing game",
+      "one match-clear scoring game"
+    ],
+    "acceptanceEvidence": [
+      "same schema-1 declarative bodies validate without executable resources",
+      "two-seat Solo launch completes from Add through Result and Rematch",
+      "all legal actions and terminal vectors are deterministic and budget-bounded",
+      "Bot decisions are reproducible from public state and seed",
+      "signed content hash, pack key ID, catalog binding, and offline replay verify"
+    ]
+  },
+  "safety": {
+    "privateSourcePublished": false,
+    "privatePathsPublished": false,
+    "privateKeysPublished": false,
+    "executableContentAdded": false,
+    "mainModified": false,
+    "catalogRevisionAdvanced": false
+  }
+}

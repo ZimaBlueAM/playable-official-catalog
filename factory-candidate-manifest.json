@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "status": "blocked-engine-expansion",
+  "gateTier": "not-submitted",
+  "candidateRef": "factory/engine-expansion/20260811-current-base-audit",
+  "baseMainCommit": "a42f2b0235a2aa020e34429acd7b0c319a39afde",
+  "baseCatalogRevision": 19,
+  "baseCatalogEntryCount": 25,
+  "candidateCatalogRevision": null,
+  "entries": [],
+  "contentStatus": "no-candidate-packs-created",
+  "signatureStatus": "not-applicable-no-candidate",
+  "reason": "No bounded 3-5 game batch from the installed six declarative families can satisfy both mechanism de-duplication and the Solo-or-fair-local-Bot Fast Gate on current main.",
+  "audit": "factory/engine-expansion/20260811-current-base-audit.json",
+  "noCatalogMutation": true,
+  "noPrivateAppMutation": true
+}
