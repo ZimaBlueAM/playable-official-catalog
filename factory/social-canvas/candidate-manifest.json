@@ -88,9 +88,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "board"
-        ],
+        "carrier": "board",
         "mechanics": [
           "alignment",
           "connection"
@@ -149,9 +147,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "cards"
-        ],
+        "carrier": "cards",
         "mechanics": [
           "take-away"
         ],
@@ -208,9 +204,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "tiles"
-        ],
+        "carrier": "tiles",
         "mechanics": [
           "spatial"
         ],
@@ -268,9 +262,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "tiles"
-        ],
+        "carrier": "tiles",
         "mechanics": [
           "matching"
         ],
@@ -328,9 +320,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "cards"
-        ],
+        "carrier": "cards",
         "mechanics": [
           "take-away"
         ],
@@ -388,9 +378,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -423,10 +411,10 @@
       "minimumPlayers": 3,
       "maximumPlayers": 6,
       "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-lantern-v1.playablepack",
-      "byteCount": 1826,
-      "envelopeSHA256": "012cbaf0fd7d472d6c38953067b63386df3d391324b203bd6e2263dd5b642eb9",
-      "contentSHA256": "159f6bef1ea21254194622f9c973d9218e05fdd1d03f1bd493ea4c5cdaa5e18b",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-lantern-v1.playablepack.json",
+      "byteCount": 4639,
+      "envelopeSHA256": "5ed934b82d31c98f26e79960f1903f19a9a44a02806e849f5afe6ac28489fcc1",
+      "contentSHA256": "eebf91f397492a495a06e64da8cc20d6c91cae113e7d9560ce2d94ef468a1e63",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -449,9 +437,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -509,9 +495,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -570,9 +554,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -605,10 +587,10 @@
       "minimumPlayers": 2,
       "maximumPlayers": 6,
       "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ribbon-v1.playablepack",
-      "byteCount": 1809,
-      "envelopeSHA256": "c5158bdfb03a25dcb5df22ca8f90368f8e9bfdc0789fd9a2de54df138ececd7a",
-      "contentSHA256": "e8fbc2878a63f85ac62f2c87238982bbbb66820813a4f934fbf406bd66a4f35d",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ribbon-v1.playablepack.json",
+      "byteCount": 4582,
+      "envelopeSHA256": "8aa148d84fbc39c1fd498cb7efccf736bd72a8a4ce91f4023157977c7d1c0415",
+      "contentSHA256": "e220877f22c77d5fa2e62d69b7f9eb89fa598bc2551d4c39d817749e26888d40",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -631,9 +613,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -692,9 +672,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -752,9 +730,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -813,9 +789,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -874,9 +848,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -935,9 +907,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -995,9 +965,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1030,10 +998,10 @@
       "minimumPlayers": 2,
       "maximumPlayers": 6,
       "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-market-v1.playablepack",
-      "byteCount": 1581,
-      "envelopeSHA256": "f0ab361c07a30245d9cce2e6272057ec4ad066260cb0779a09d01aed32b11fb8",
-      "contentSHA256": "a1a7ffe03570775eacd218a83e049203fed74b406d3be6ef19b57d165def2ec5",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-market-v1.playablepack.json",
+      "byteCount": 9416,
+      "envelopeSHA256": "1bf230378664f7928b3f47a6c683cdcb3162355aafc18a18c4dac49f992db545",
+      "contentSHA256": "c21b8bab8b0ddc58298d0d865f0e8e00e6f3084476a4dc0e0a585bc162a434ad",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -1056,9 +1024,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1117,9 +1083,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1178,9 +1142,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1212,10 +1174,10 @@
       "minimumPlayers": 2,
       "maximumPlayers": 6,
       "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-cabin-v1.playablepack",
-      "byteCount": 1595,
-      "envelopeSHA256": "7eadb3faf6f9436f3bb1fbfd0dad48f74b196523bab3b5180731d6b8a7c96d69",
-      "contentSHA256": "4d4cec2fe26013eddaa524228c208d671c4c43d260a0ae233a03e393545f6332",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-cabin-v1.playablepack.json",
+      "byteCount": 6650,
+      "envelopeSHA256": "6c6593737fafc1ebe8ee454fcc6cab25c474ae8e07fb14424b951393518173f7",
+      "contentSHA256": "974b01a5bb848b6d5fdf3ff26ca8678469d1438c189b07ddee8774522e1f10cb",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -1238,9 +1200,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1299,9 +1259,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1360,9 +1318,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1421,9 +1377,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1481,9 +1435,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1542,9 +1494,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1603,9 +1553,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1664,9 +1612,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1724,9 +1670,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1785,9 +1729,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -1846,9 +1788,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1907,9 +1847,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -1967,9 +1905,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2028,9 +1964,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2089,9 +2023,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2150,9 +2082,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2210,9 +2140,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2271,9 +2199,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2332,9 +2258,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2393,9 +2317,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2453,9 +2375,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2514,9 +2434,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2575,9 +2493,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2610,10 +2526,10 @@
       "minimumPlayers": 3,
       "maximumPlayers": 6,
       "lifecycle": "available",
-      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-airport-v1.playablepack",
-      "byteCount": 2150,
-      "envelopeSHA256": "9a40edde0955f69e5867e36f8bb669311799669332c2b378287fbdf1f6c65653",
-      "contentSHA256": "9b32de6da21161b7219c24dc935c27cc17c0d71dcf92f6b1dc3f08531a847d30",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-airport-v1.playablepack.json",
+      "byteCount": 4727,
+      "envelopeSHA256": "dabb4aa16b97dc3b4a1b8f9b6c816045d45cac15b713abb3efb827ace75ef9e7",
+      "contentSHA256": "c30a67800bab8b7da10e6a0ba15bfc27f5727fc02f251348189651face7eaddb",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -2636,9 +2552,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2696,9 +2610,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2757,9 +2669,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -2818,9 +2728,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2879,9 +2787,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -2939,9 +2845,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3000,9 +2904,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3061,9 +2963,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3122,9 +3022,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3182,9 +3080,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3243,9 +3139,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3304,9 +3198,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3365,9 +3257,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3425,9 +3315,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3486,9 +3374,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3547,9 +3433,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3608,9 +3492,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3668,9 +3550,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3729,9 +3609,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3790,9 +3668,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3851,9 +3727,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -3912,9 +3786,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -3973,9 +3845,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4034,9 +3904,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4095,9 +3963,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4156,9 +4022,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4217,9 +4081,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4278,9 +4140,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4339,9 +4199,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4400,9 +4258,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4461,9 +4317,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4522,9 +4376,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4583,9 +4435,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4644,9 +4494,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4705,9 +4553,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4766,9 +4612,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4827,9 +4671,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -4888,9 +4730,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -4949,9 +4789,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -5010,9 +4848,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -5071,9 +4907,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -5132,9 +4966,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -5193,9 +5025,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -5254,9 +5084,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -5315,9 +5143,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -5376,9 +5202,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -5437,9 +5261,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"
@@ -5498,9 +5320,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "action"
-        ],
+        "carrier": "action",
         "mechanics": [
           "bluff",
           "deduction"
@@ -5559,9 +5379,7 @@
         }
       },
       "tags": {
-        "carrier": [
-          "canvas"
-        ],
+        "carrier": "canvas",
         "mechanics": [
           "matching",
           "word"

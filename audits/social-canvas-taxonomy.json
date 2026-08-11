@@ -4,8 +4,10 @@
   "contract": "Candidate-only taxonomy; signed catalog schema 1 remains unchanged until Build107 taxonomy transport is sealed.",
   "checks": [
     "all six dimensions present",
+    "carrier is exactly one allowed scalar value",
     "carrier and mechanics agree with complete engine rules",
     "players agrees with minimumPlayers and maximumPlayers",
+    "publisher retry entries have terminal replay for every declared player count",
     "only bounded values are used",
     "catalog entries and pack bodies contain no taxonomy fields"
   ],
@@ -18,9 +20,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "carrier": [
-            "board"
-          ],
+          "carrier": "board",
           "mechanics": [
             "alignment",
             "connection"
@@ -49,9 +49,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 2,
         "tags": {
-          "carrier": [
-            "cards"
-          ],
+          "carrier": "cards",
           "mechanics": [
             "take-away"
           ],
@@ -78,9 +76,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "carrier": [
-            "tiles"
-          ],
+          "carrier": "tiles",
           "mechanics": [
             "spatial"
           ],
@@ -108,9 +104,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "carrier": [
-            "tiles"
-          ],
+          "carrier": "tiles",
           "mechanics": [
             "matching"
           ],
@@ -138,9 +132,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
-          "carrier": [
-            "cards"
-          ],
+          "carrier": "cards",
           "mechanics": [
             "take-away"
           ],
@@ -168,9 +160,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -199,9 +189,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -218,6 +206,43 @@
           "input": [
             "one-thumb"
           ]
+        },
+        "testedPlayerCounts": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "7135bd812815e5f1"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "7133c427cdf0ff24"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "e8bcdb625741f178"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "f951ac2f3ec7f68c"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 3,
+          "maximumRounds": 4,
+          "minimumPlayers": 3,
+          "maximumPlayers": 6
         }
       }
     },
@@ -229,9 +254,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -260,9 +283,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -291,9 +312,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -311,6 +330,49 @@
           "input": [
             "one-thumb"
           ]
+        },
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 1,
+            "checksum": "78dc849d645d6cad"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "5e15dbd360a2bb23"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "53cfe95c2b54d062"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "0bd5783938c01f39"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "3e7850afb15253c4"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 2,
+          "maximumRounds": 3,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
         }
       }
     },
@@ -322,9 +384,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -352,9 +412,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -383,9 +441,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -414,9 +470,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -445,9 +499,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -475,9 +527,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -506,9 +556,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -526,6 +574,52 @@
           "input": [
             "canvas"
           ]
+        },
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "09ddae40256f9b05"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "4803a2caa4583499"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "4acb0665e4474858"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "d063971cee25ebcc"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "57676811e5643cbf"
+          }
+        },
+        "actionKinds": [
+          "guess",
+          "pass",
+          "stroke"
+        ],
+        "ruleConfiguration": {
+          "roundCount": 8,
+          "maximumStrokesPerRound": 10,
+          "promptCount": 8,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
         }
       }
     },
@@ -537,9 +631,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -568,9 +660,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -598,9 +688,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -618,6 +706,51 @@
           "input": [
             "canvas"
           ]
+        },
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "96fbe2bf85d0dcd2"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "5354052ad7cecbe6"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 1,
+            "checksum": "55074e68555f4988"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "2a9ef15bbb83c5eb"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "01f1a5215c398145"
+          }
+        },
+        "actionKinds": [
+          "guess",
+          "stroke"
+        ],
+        "ruleConfiguration": {
+          "roundCount": 6,
+          "maximumStrokesPerRound": 8,
+          "promptCount": 8,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
         }
       }
     },
@@ -629,9 +762,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -660,9 +791,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -691,9 +820,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -721,9 +848,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -752,9 +877,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -783,9 +906,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -814,9 +935,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -844,9 +963,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -875,9 +992,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -906,9 +1021,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -937,9 +1050,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -967,9 +1078,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -998,9 +1107,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1029,9 +1136,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1060,9 +1165,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1090,9 +1193,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1121,9 +1222,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1152,9 +1251,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1183,9 +1280,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1213,9 +1308,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1244,9 +1337,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1275,9 +1366,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1306,9 +1395,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1325,6 +1412,43 @@
           "input": [
             "one-thumb"
           ]
+        },
+        "testedPlayerCounts": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "17496da94abcec11"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "1f4b365dc633db48"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "662668a5aac81785"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "32d856f0e7a73a88"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 2,
+          "maximumRounds": 4,
+          "minimumPlayers": 3,
+          "maximumPlayers": 6
         }
       }
     },
@@ -1336,9 +1460,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1367,9 +1489,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1398,9 +1518,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1429,9 +1547,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1459,9 +1575,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1490,9 +1604,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1521,9 +1633,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1552,9 +1662,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1582,9 +1690,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1613,9 +1719,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1644,9 +1748,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1675,9 +1777,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1705,9 +1805,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1736,9 +1834,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1767,9 +1863,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1798,9 +1892,7 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1828,9 +1920,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1859,9 +1949,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1890,9 +1978,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1921,9 +2007,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -1952,9 +2036,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -1983,9 +2065,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2014,9 +2094,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2045,9 +2123,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2076,9 +2152,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2107,9 +2181,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2138,9 +2210,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2169,9 +2239,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2200,9 +2268,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2231,9 +2297,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2262,9 +2326,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2293,9 +2355,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2324,9 +2384,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2355,9 +2413,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2386,9 +2442,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2417,9 +2471,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2448,9 +2500,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2479,9 +2529,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2510,9 +2558,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2541,9 +2587,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2572,9 +2616,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2603,9 +2645,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2634,9 +2674,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2665,9 +2703,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2696,9 +2732,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2727,9 +2761,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"
@@ -2758,9 +2790,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "action"
-          ],
+          "carrier": "action",
           "mechanics": [
             "bluff",
             "deduction"
@@ -2789,9 +2819,7 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
-          "carrier": [
-            "canvas"
-          ],
+          "carrier": "canvas",
           "mechanics": [
             "matching",
             "word"

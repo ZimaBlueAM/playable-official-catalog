@@ -106,6 +106,11 @@ homepage grouping; `mechanics` is the secondary recommendation filter.
 See `factory/social-canvas/candidate-manifest.json` and
 `audits/social-canvas-taxonomy.json`.
 
+The five-game publisher retry uses scalar `carrier`, canonical
+`.playablepack.json` URLs, and terminal replay for every declared player count.
+See `factory/social-canvas/publisher-retry-20260811-01.manifest.json` and
+`audits/social-canvas-publisher-retry-20260811-01.json`.
+
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
 never downloads executable code from this repository.

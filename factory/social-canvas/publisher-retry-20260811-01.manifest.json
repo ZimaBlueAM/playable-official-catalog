@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "status": "publisher-retry-candidate",
+  "gateTier": "playable",
+  "sourceBranch": "factory/social-canvas/batch-20260811-hidden-canvas",
+  "sourceRejection": "audits/rejections/social-canvas-batch-20260811-d924255.json",
+  "catalogRevision": 38,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "candidate-and-audit-sidecar-only",
+  "entries": [
+    {
+      "gameID": "hidden-lantern",
+      "packVersion": 1,
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-lantern-v1.playablepack.json",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-ribbon",
+      "packVersion": 1,
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ribbon-v1.playablepack.json",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-market",
+      "packVersion": 1,
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-market-v1.playablepack.json",
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-cabin",
+      "packVersion": 1,
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-cabin-v1.playablepack.json",
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-airport",
+      "packVersion": 1,
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-airport-v1.playablepack.json",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    }
+  ]
+}
