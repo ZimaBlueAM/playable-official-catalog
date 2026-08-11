@@ -1,7 +1,7 @@
 {
-  "revision": 31,
-  "issuedAt": "2026-08-11T23:00:00Z",
-  "expiresAt": "2026-08-18T23:00:00Z",
+  "revision": 32,
+  "issuedAt": "2026-08-12T00:00:00Z",
+  "expiresAt": "2026-08-19T00:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3081,6 +3081,84 @@
           "summary": "画出老城线索，和大家一起抢答。",
           "systemImage": "building.columns.fill",
           "title": "老城速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-customs",
+      "packID": "hidden-customs-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-customs-v1.playablepack",
+      "byteCount": 1986,
+      "envelopeSHA256": "729c254fbdb8870e51e72ddf62b44c2400361c22766559fd27064a79be632487",
+      "contentSHA256": "6a56c72dd756d34b65d6ba6d1ec80085ed1b44cce0ab1e69447b6b40be47bd91",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One traveler changed the declaration; compare answers and vote before clearance.",
+          "systemImage": "shippingbox.fill",
+          "title": "Customs Desk"
+        },
+        "zh-Hans": {
+          "summary": "一名旅客改动了申报单；比较回答，在放行前投票。",
+          "systemImage": "shippingbox.fill",
+          "title": "海关柜台"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-village-square",
+      "packID": "canvas-village-square-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-village-square-v1.playablepack",
+      "byteCount": 1863,
+      "envelopeSHA256": "6305c38f9cea03d9f0fe701d4254dac926a7656760abac7651f71e01db53ec30",
+      "contentSHA256": "0e15e2b243b8ee36425959872353a5b8830b105fc5a53f8889bb6aca80b028f1",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a village-square clue and race the table to identify it.",
+          "systemImage": "building.2.fill",
+          "title": "Village Square Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出村庄广场线索，和大家一起抢答。",
+          "systemImage": "building.2.fill",
+          "title": "村庄广场速写"
         }
       }
     }
