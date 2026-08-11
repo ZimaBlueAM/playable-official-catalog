@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "sourceBranch": "factory/card-turn/wave-20260811-d",
+  "sourceCommit": "99f90f376d0823e9e49f2f085faa9302940d245e",
+  "candidateCatalogRevision": 12,
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "The only deterministic vector for each candidate stops after three legal actions and does not reach the declared terminal state. Rule declarations and partial checksums do not satisfy the complete-game publication gate.",
+  "games": [
+    {"gameID": "pack-ember-count", "initialCount": 26, "vectorActionCount": 3, "vectorTakenTotal": 7},
+    {"gameID": "pack-lantern-lose", "initialCount": 17, "vectorActionCount": 3, "vectorTakenTotal": 4},
+    {"gameID": "pack-moss-last", "initialCount": 35, "vectorActionCount": 3, "vectorTakenTotal": 9},
+    {"gameID": "pack-quiet-tide", "initialCount": 28, "vectorActionCount": 3, "vectorTakenTotal": 10},
+    {"gameID": "pack-cinder-choice", "initialCount": 24, "vectorActionCount": 3, "vectorTakenTotal": 10},
+    {"gameID": "pack-harbor-pull", "initialCount": 31, "vectorActionCount": 3, "vectorTakenTotal": 12},
+    {"gameID": "pack-orchard-ladder", "initialCount": 42, "vectorActionCount": 3, "vectorTakenTotal": 11},
+    {"gameID": "pack-copper-avoid", "initialCount": 23, "vectorActionCount": 3, "vectorTakenTotal": 8},
+    {"gameID": "pack-glacier-steps", "initialCount": 45, "vectorActionCount": 3, "vectorTakenTotal": 17},
+    {"gameID": "pack-moon-relay", "initialCount": 39, "vectorActionCount": 3, "vectorTakenTotal": 15},
+    {"gameID": "pack-rain-gauge", "initialCount": 29, "vectorActionCount": 3, "vectorTakenTotal": 8},
+    {"gameID": "pack-echo-ferry", "initialCount": 37, "vectorActionCount": 3, "vectorTakenTotal": 14},
+    {"gameID": "pack-star-harvest", "initialCount": 34, "vectorActionCount": 3, "vectorTakenTotal": 15}
+  ],
+  "retryRequirement": "Provide at least one deterministic legal vector per game that reaches a finished state, with a verified final checksum and winner or draw outcome."
+}

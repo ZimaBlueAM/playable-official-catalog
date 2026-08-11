@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "catalogRevision": 9,
+  "sourceBranch": "factory/sliding-grid/20260811-021352",
+  "sourceCommit": "34475939126f000e42737d2f76ecd4c9cb121955",
+  "decision": "accepted",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "games": [
+    {
+      "gameID": "pack-quickstep-nine",
+      "declaredPlayers": [2, 3],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 0, "checksum": "cdd1f3083c404991"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "9a5f7146c240c46e"}
+      }
+    },
+    {
+      "gameID": "pack-meridian-fifteen",
+      "declaredPlayers": [2, 3, 4],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 0, "checksum": "18dead1cac65cdf2"},
+        "3": {"finished": true, "winnerSeat": 1, "checksum": "e9db609f887310a1"},
+        "4": {"finished": true, "winnerSeat": 0, "checksum": "bde41f1ad8702558"}
+      }
+    },
+    {
+      "gameID": "pack-cascade-twenty",
+      "declaredPlayers": [2, 3, 4, 5, 6],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 0, "checksum": "3e55928d65c8cad2"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "3f4d9853fd8ee4a4"},
+        "4": {"finished": true, "winnerSeat": 0, "checksum": "03855a7fd98be479"},
+        "5": {"finished": true, "winnerSeat": 1, "checksum": "c11ef148f9265aff"},
+        "6": {"finished": true, "winnerSeat": 2, "checksum": "a9f2188116769a51"}
+      }
+    }
+  ],
+  "gates": {
+    "productionContentSignature": "PASS",
+    "envelopeSHA256": "PASS",
+    "schema1Compatibility": "PASS",
+    "localizedEnglishAndSimplifiedChinese": "PASS",
+    "license": "PASS: LicenseRef-Playable",
+    "nonExecutablePayload": "PASS",
+    "packBudget": "PASS",
+    "uniqueRuleConfiguration": "PASS",
+    "completeTerminalReplayForDeclaredPlayerRange": "PASS",
+    "taxonomy": "PASS: carrier/mechanics/players/pace/context/input sidecar only"
+  }
+}
