@@ -1,7 +1,7 @@
 {
-  "revision": 30,
-  "issuedAt": "2026-08-11T16:00:00Z",
-  "expiresAt": "2026-08-18T16:00:00Z",
+  "revision": 31,
+  "issuedAt": "2026-08-11T17:00:00Z",
+  "expiresAt": "2026-08-18T17:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2851,6 +2851,72 @@
       "metadata": {
         "en": {"summary": "Two to six players stack across eleven gravity lanes and race to raise an eight-stone summit.", "systemImage": "square.grid.3x3.fill", "title": "Eleven-Lane Summit Eight"},
         "zh-Hans": {"summary": "两至六人在十一条重力通道中堆叠，争先筑起八子高峰。", "systemImage": "square.grid.3x3.fill", "title": "十一道峰八"}
+      }
+    },
+    {
+      "gameID": "pack-four-lane-quick-three",
+      "packID": "four-lane-quick-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-lane-quick-three-v1.playablepack",
+      "byteCount": 2753,
+      "envelopeSHA256": "6f33e9f3914e798e5fc98d1484825c18ad3eb05fd17a34640f0c3498bcffc0a8",
+      "contentSHA256": "403f2729de03e73463354a25e9507f491fc6f082b49f4ab5a5b700e512254a6f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players rotate through four gravity lanes and race to stack a quick line of three.", "systemImage": "square.grid.3x3.fill", "title": "Four-Lane Quick Three"},
+        "zh-Hans": {"summary": "两至六人在四条重力通道中轮流落子，争先快速叠成三连。", "systemImage": "square.grid.3x3.fill", "title": "四道速三"}
+      }
+    },
+    {
+      "gameID": "pack-open-ramp-five",
+      "packID": "open-ramp-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-ramp-five-v1.playablepack",
+      "byteCount": 3754,
+      "envelopeSHA256": "41a19c87221b7c203ea2cde01b0924de7621b229263368fcf86ffe292cea0924",
+      "contentSHA256": "262d2641abc79cb236513692d877bfa1d1c94bf62abf476aa322109d863bf81a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players place freely across a tall open field and race to climb a five-stone diagonal ramp.", "systemImage": "square.grid.3x3.fill", "title": "Open Ramp Five"},
+        "zh-Hans": {"summary": "两至六人在高挑开放棋盘中自由落子，争先铺成五子斜坡。", "systemImage": "square.grid.3x3.fill", "title": "开放斜坡五"}
+      }
+    },
+    {
+      "gameID": "pack-gravity-horizon-eight",
+      "packID": "gravity-horizon-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gravity-horizon-eight-v1.playablepack",
+      "byteCount": 5250,
+      "envelopeSHA256": "dc5fd5f5e690e2fb9cdc31c399e339959177ef56e28136bfb0abbf7b3bcbfa16",
+      "contentSHA256": "e1959629290670b76e77ed46fd0249abc1c83ada07c4407d16a7a7cddfdd4582",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players drop through twelve lanes and race to claim an eight-stone horizon along the floor.", "systemImage": "square.grid.3x3.fill", "title": "Gravity Horizon Eight"},
+        "zh-Hans": {"summary": "两至六人在十二条重力通道中落子，争先沿底层贯通横向八连。", "systemImage": "square.grid.3x3.fill", "title": "重力横八"}
       }
     }
   ]
