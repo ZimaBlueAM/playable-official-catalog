@@ -44,3 +44,14 @@ Batch AS taxonomy is sidecar-only in `batch-20260811-as.manifest.json` and
 
 Batch AT taxonomy is sidecar-only in `batch-20260811-at.manifest.json` and
 `audits/batch-20260811-at.json`; revision 54 contains no taxonomy fields.
+
+## Batch AU
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Current | 8×4, 5 colors | 3 | 28 | exactly 2 | Four shallow rows keep quick duel-current swaps inside the lower thumb sweep. |
+| Open Aurora Crown | 9×10, 8 colors | 5 | 76 | 2–5 | Short local swaps keep rare shared crowns focused in the lower active rows. |
+| Six Seat Clover Loom | 6×9, 4 colors | 4 | 52 | exactly 6 | Six compact columns keep dense six-seat loom work inside one-thumb reach. |
+
+Batch AU taxonomy is sidecar-only in `batch-20260811-au.manifest.json` and
+`audits/batch-20260811-au.json`; revision 55 contains no taxonomy fields.

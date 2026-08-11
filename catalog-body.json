@@ -1,7 +1,7 @@
 {
-  "revision": 54,
-  "issuedAt": "2026-08-11T21:40:00Z",
-  "expiresAt": "2026-08-18T21:40:00Z",
+  "revision": 55,
+  "issuedAt": "2026-08-11T21:50:00Z",
+  "expiresAt": "2026-08-18T21:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -5577,6 +5577,123 @@
           "summary": "严格五位玩家在狭长七色紫罗兰潮流中引导稀有三连。",
           "systemImage": "water.waves",
           "title": "五席紫罗兰潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-meadow-current",
+      "packID": "dual-meadow-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-current-v1.playablepack.json",
+      "byteCount": 1572,
+      "envelopeSHA256": "962ecdb429a943e03b1f0d78a12c1eb2eccde3a45ac40da88c809db98d2cc063",
+      "contentSHA256": "00b6d5f0ec0db19a0a84450c39c0148bfcb0da858074d7e34ff41240f3429e3d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players steer quick triples across a shallow five-color meadow current.",
+          "systemImage": "water.waves",
+          "title": "Dual Meadow Current"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短五色草甸潮流中引导灵活三连。",
+          "systemImage": "water.waves",
+          "title": "双人草甸潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-aurora-crown",
+      "packID": "open-aurora-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-aurora-crown-v1.playablepack.json",
+      "byteCount": 1596,
+      "envelopeSHA256": "818859332f97519704200e9216d36306d6ea4951d1fb1f27b591bc40402cd062",
+      "contentSHA256": "eba091deb2ade164649ee456d2d5ca3124100b3683796e4820f560635ae29a14",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players shape rare five-tile crowns through a tall eight-color aurora field.",
+          "systemImage": "crown.fill",
+          "title": "Open Aurora Crown"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在高耸八色极光棋盘中塑造稀有五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "开放极光王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-clover-loom",
+      "packID": "six-seat-clover-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-clover-loom-v1.playablepack.json",
+      "byteCount": 1615,
+      "envelopeSHA256": "9c1db32d14bc0833bf70c4585bcd7f374450ae92e2ffb42e4c16917767c1af7a",
+      "contentSHA256": "919aa756bb25cd58e88be95bbefa1a99431cde37ff07642b2fe24f77d88e1efe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly six players weave dense four-tile bands through a compact four-color clover loom.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Six Seat Clover Loom"
+        },
+        "zh-Hans": {
+          "summary": "严格六位玩家在紧凑四色苜蓿织机中编织密集四连色带。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "六席苜蓿织机"
         }
       }
     }
