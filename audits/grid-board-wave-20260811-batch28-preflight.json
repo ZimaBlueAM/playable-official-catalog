@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T20:15:00Z",
+  "policy": "playable-release-gates-v2",
+  "sourceBranch": "factory/grid-board/grid-board-wave-20260811",
+  "sourceMainCommit": "611e35b574da2f4360400e4fe182c0eec74ff629",
+  "contentCommit": "cf4f5bdf76e67eb0f7bd1d5f88666bba5c2c0fec",
+  "contentParentCommit": "ee26bf327f1028d6aa91959e98a54087d779bb23",
+  "candidateBatch": 28,
+  "candidateType": "publisher-retry",
+  "decision": "ready-for-publisher-gate",
+  "candidateCount": 5,
+  "catalogRevision": 34,
+  "catalogEntryCount": 86,
+  "gameIDs": [
+    "pack-seven-well-five",
+    "pack-open-column-five",
+    "pack-diagonal-causeway-six",
+    "pack-open-span-six",
+    "pack-ten-lane-tower-seven"
+  ],
+  "resolvedRejections": [
+    "audits/rejections/grid-board-wave-20260811-batch21.json",
+    "audits/rejections/grid-board-wave-20260811-batch22.json"
+  ],
+  "resolvedReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+  "mergeContract": {
+    "mode": "candidate-delta",
+    "candidateManifest": "factory-grid-board-wave-28-candidates.json",
+    "catalogEntrySource": "candidates[].catalogEntry",
+    "candidateCount": 5,
+    "packArtifacts": [
+      "games/pack-seven-well-five-v1.playablepack.json",
+      "games/pack-open-column-five-v1.playablepack.json",
+      "games/pack-diagonal-causeway-six-v1.playablepack.json",
+      "games/pack-open-span-six-v1.playablepack.json",
+      "games/pack-ten-lane-tower-seven-v1.playablepack.json"
+    ],
+    "excludeWholeFactoryCatalog": true,
+    "reason": "Merge only the five corrected entries and packs; unrelated factory candidates remain outside this retry."
+  },
+  "publisherGateEvidence": {
+    "status": "passed",
+    "canonicalDownloadURLs": 5,
+    "scalarCarrierCandidates": 5,
+    "declaredPlayerRangesCovered": 5,
+    "testedPlayerCountsPerCandidate": [2, 3, 4, 5, 6],
+    "deterministicTerminalVectors": 25,
+    "officiallySignedPacks": 5,
+    "hashByteBindings": 5,
+    "schema1TaxonomyFields": 0,
+    "nonExecutablePacks": 5,
+    "governanceFailures": 0
+  },
+  "checks": [
+    {"name": "exact-content-commit-binding", "status": "passed"},
+    {"name": "five-candidate-delta-only", "status": "passed"},
+    {"name": "canonical-url-matches-artifact-path", "status": "passed"},
+    {"name": "scalar-carrier", "status": "passed"},
+    {"name": "terminal-vector-for-every-player-count-2-through-6", "status": "passed"},
+    {"name": "signed-pack-content-envelope-and-byte-binding", "status": "passed"},
+    {"name": "taxonomy-sidecar-only-before-build-107", "status": "passed"},
+    {"name": "repository-governance", "status": "passed"}
+  ]
+}
