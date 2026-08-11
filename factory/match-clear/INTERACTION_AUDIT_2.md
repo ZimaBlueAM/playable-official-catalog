@@ -365,3 +365,69 @@ Batch BW taxonomy is sidecar-only in `batch-20260812-bw.manifest.json` and
 
 Batch BX taxonomy is sidecar-only in `batch-20260812-bx.manifest.json` and
 `audits/batch-20260812-bx.json`; revision 84 contains no taxonomy fields.
+
+## Batch BY
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Coral Courtyard | 9×4, 6 colors | 3 | 58 | exactly 2 | Four shallow rows keep dense duel courtyard swaps inside the lower thumb sweep. |
+| Open Indigo Gallery | 7×10, 6 colors | 4 | 166 | 2–5 | Seven compact columns keep shared gallery play focused in lower active rows. |
+| Three Seat Prism Gallery | 8×8, 8 colors | 5 | 112 | exactly 3 | Adjacent local swaps keep rare three-seat gallery play inside one-thumb reach. |
+
+Batch BY taxonomy is sidecar-only in `batch-20260812-by.manifest.json` and
+`audits/batch-20260812-by.json`; revision 85 contains no taxonomy fields.
+
+## Batch BZ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Indigo Promenade | 10×4, 7 colors | 4 | 59 | exactly 2 | Four shallow rows keep duel promenade swaps inside the lower thumb sweep. |
+| Open Coral Courtyard | 8×10, 4 colors | 3 | 169 | 2–6 | Local adjacent swaps keep dense shared courtyard play focused in lower active rows. |
+| Five Seat Aurora Gallery | 9×8, 6 colors | 5 | 114 | exactly 5 | Adjacent local swaps keep rare five-seat gallery play inside one-thumb reach. |
+
+Batch BZ taxonomy is sidecar-only in `batch-20260812-bz.manifest.json` and
+`audits/batch-20260812-bz.json`; revision 86 contains no taxonomy fields.
+
+## Batch CA
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Saffron Gallery | 6×4, 5 colors | 5 | 60 | exactly 2 | Four shallow rows keep rare duel gallery swaps inside the lower thumb sweep. |
+| Open Teal Courtyard | 9×10, 7 colors | 4 | 172 | 2–4 | Local adjacent swaps keep shared courtyard play focused in lower active rows. |
+| Six Seat Coral Gallery | 10×9, 8 colors | 3 | 116 | exactly 6 | Adjacent local swaps keep quick six-seat gallery play inside one-thumb reach. |
+
+Batch CA taxonomy is sidecar-only in `batch-20260812-ca.manifest.json` and
+`audits/batch-20260812-ca.json`; revision 87 contains no taxonomy fields.
+
+## Batch CB
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Teal Courtyard | 7×4, 8 colors | 3 | 61 | exactly 2 | Four shallow rows keep quick duel courtyard swaps inside the lower thumb sweep. |
+| Open Saffron Gallery | 10×10, 5 colors | 4 | 175 | 2–5 | Local adjacent swaps keep shared gallery play focused in lower active rows. |
+| Four Seat Indigo Gallery | 6×9, 7 colors | 5 | 118 | exactly 4 | Six narrow columns keep rare four-seat gallery play inside one-thumb reach. |
+
+Batch CB taxonomy is sidecar-only in `batch-20260812-cb.manifest.json` and
+`audits/batch-20260812-cb.json`; revision 88 contains no taxonomy fields.
+
+## Batch CC
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Coral Gallery | 8×4, 4 colors | 4 | 62 | exactly 2 | Four shallow rows keep duel gallery swaps inside the lower thumb sweep. |
+| Open Teal Gallery | 6×10, 8 colors | 3 | 178 | 2–6 | Six narrow columns keep quick shared gallery play focused in lower active rows. |
+| Three Seat Saffron Courtyard | 7×9, 5 colors | 5 | 120 | exactly 3 | Seven compact columns keep rare three-seat courtyard play inside one-thumb reach. |
+
+Batch CC taxonomy is sidecar-only in `batch-20260812-cc.manifest.json` and
+`audits/batch-20260812-cc.json`; revision 89 contains no taxonomy fields.
+
+## Batch CD
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Mint Courtyard | 9×4, 5 colors | 3 | 63 | exactly 2 | Four shallow rows keep dense duel courtyard swaps inside the lower thumb sweep. |
+| Open Coral Gallery | 7×10, 4 colors | 4 | 181 | 2–5 | Seven compact columns keep dense shared gallery play focused in lower active rows. |
+| Five Seat Teal Gallery | 8×9, 6 colors | 5 | 122 | exactly 5 | Adjacent local swaps keep rare five-seat gallery play inside one-thumb reach. |
+
+Batch CD taxonomy is sidecar-only in `batch-20260812-cd.manifest.json` and
+`audits/batch-20260812-cd.json`; revision 90 contains no taxonomy fields.
