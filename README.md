@@ -76,6 +76,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Winter Market Sketches** — sketch a frosty market clue and race to identify it.
 - **Printshop Proof** — compare notes and vote before the press starts.
 - **Mountain Lodge Sketches** — sketch a lodge-side clue and race to identify it.
+- **Repair Shop Ticket** — compare reports and vote before pickup.
+- **Lakeside Sketches** — sketch a lakeside clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

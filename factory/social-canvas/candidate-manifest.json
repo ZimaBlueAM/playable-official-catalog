@@ -4238,6 +4238,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-repairshop",
+      "packID": "hidden-repairshop-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-repairshop-v1.playablepack",
+      "byteCount": 1979,
+      "envelopeSHA256": "f066357f35ac0c176cb8cd99abef12f1cfd2bf8455bcf2340a7ebbc17ba8cadc",
+      "contentSHA256": "128d885abdeb1c8a374c4ed0ff821a1114ae94ba1a5d358062588ffa7eb72d6e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One mechanic changed the ticket; compare reports and vote before pickup.",
+          "systemImage": "wrench.and.screwdriver.fill",
+          "title": "Repair Shop Ticket"
+        },
+        "zh-Hans": {
+          "summary": "一名技师改动了工单；比较报告，在取件前投票。",
+          "systemImage": "wrench.and.screwdriver.fill",
+          "title": "维修店工单"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-lakeside",
+      "packID": "canvas-lakeside-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-lakeside-v1.playablepack",
+      "byteCount": 1794,
+      "envelopeSHA256": "b52e4a3ca4b0040c79216babe9f066afa9ea261a64d6fae5052baecb97b19176",
+      "contentSHA256": "1c6f625308bed0fa08896cdf806755618bd421a1e681c187618d37bbc7b877af",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a lakeside clue and race the table to identify it.",
+          "systemImage": "water.waves",
+          "title": "Lakeside Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出湖畔线索，和大家一起抢答。",
+          "systemImage": "water.waves",
+          "title": "湖畔速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
