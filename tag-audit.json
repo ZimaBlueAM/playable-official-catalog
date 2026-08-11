@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
+    ]
+  },
+  "entries": [
+    {
+      "gameID": "pack-facet-nine",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "engine": "slidingGrid",
+        "board": "3x3",
+        "scrambleMoves": 32,
+        "turnLimit": 32,
+        "completionVectorActions": [
+          32,
+          32,
+          32,
+          32
+        ],
+        "expectedWinnerSeats": [
+          1,
+          1,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "gameID": "pack-canopy-twenty",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "engine": "slidingGrid",
+        "board": "4x5",
+        "scrambleMoves": 64,
+        "turnLimit": 160,
+        "completionVectorActions": [
+          64,
+          64,
+          64,
+          64,
+          64
+        ],
+        "expectedWinnerSeats": [
+          1,
+          0,
+          3,
+          3,
+          3
+        ]
+      }
+    }
+  ]
+}
