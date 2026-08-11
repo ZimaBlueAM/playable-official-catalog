@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 16,
+  "issuedAt": "2026-08-11T02:23:27Z",
+  "expiresAt": "2026-08-18T02:23:27Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,84 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-bridge-twelve",
+      "packID": "bridge-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-bridge-twelve-v1.playablepack.json",
+      "byteCount": 6716,
+      "envelopeSHA256": "edf07559610de25d36e0152c729c22a9ad29389e3d28aab19b9350cec79ec954",
+      "contentSHA256": "1d6fe1c43ba26dd984814806f5b3a381090ac1e9909f47a1d8f143f5ae3bde87",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Build a shared path across twelve tiles, from a duel to a four-seat room.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Bridge Twelve"
+        },
+        "zh-Hans": {
+          "summary": "从双人对局到四席房间，轮流在十二格上搭起归位之桥。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格桥梁"
+        }
+      }
+    },
+    {
+      "gameID": "pack-gathering-twenty-five",
+      "packID": "gathering-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gathering-twenty-five-v1.playablepack.json",
+      "byteCount": 13906,
+      "envelopeSHA256": "27820f3152f438fc1b99689a52688fdcf0895d0562eda792245372569ccf2523",
+      "contentSHA256": "7b54667ead218b41ebe6b54aef3913100debb52051da63fef7733b502370a90b",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Restore twenty-five tiles as a pair or as a full six-seat gathering.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Gathering Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "两人或完整六席共同轮转，还原二十五格数字会场。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格集会"
         }
       }
     }

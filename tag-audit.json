@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-bridge-twelve","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"testedPlayerCounts":[2,4],"engine":"slidingGrid","board":"4x3","scrambleMoves":42,"turnLimit":96,"completionVectorActions":[42,42],"expectedWinnerSeats":[1,1]}},
+    {"gameID":"pack-gathering-twenty-five","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"testedPlayerCounts":[2,6],"engine":"slidingGrid","board":"5x5","scrambleMoves":100,"turnLimit":220,"completionVectorActions":[100,100],"expectedWinnerSeats":[1,3]}}
+  ]
+}
