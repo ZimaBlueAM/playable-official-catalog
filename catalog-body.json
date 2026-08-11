@@ -212,9 +212,9 @@
       "maximumPlayers": 6,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ember-count-v1.playablepack.json",
-      "byteCount": 1659,
-      "envelopeSHA256": "d6ad66ce1763ff34d372b711cb0051b7d06654bc4bf9d85b85a906bfd4c244fb",
-      "contentSHA256": "369ea2b46910675c1a3e2fc9376ec84acf539cd3f7c67762cde82a450f20fbae",
+      "byteCount": 1681,
+      "envelopeSHA256": "0a46f61b069e5bc514cb65d582df20310c44a6bede377301e457291829ce7eec",
+      "contentSHA256": "470aadab85dee71dfa3d70b0de19e9785cc426cfe34a23bc9ec20fcd3610868a",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -226,12 +226,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Take one to three embers from the hearth; the player taking the final ember wins.",
+          "summary": "Take one, two, or four embers from the hearth; the player taking the final ember wins.",
           "systemImage": "flame.fill",
           "title": "Ember Count"
         },
         "zh-Hans": {
-          "summary": "每回合从炉火取走一至三枚余烬，拿到最后一枚者获胜。",
+          "summary": "每回合从炉火取走一、二或四枚余烬，拿到最后一枚者获胜。",
           "systemImage": "flame.fill",
           "title": "余烬计数"
         }
