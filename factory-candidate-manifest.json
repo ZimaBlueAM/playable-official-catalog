@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "factory-candidate",
+  "taxonomyTransport": "deferred-until-build-107",
+  "entries": [
+    {"gameID":"pack-quickstep-nine","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-meridian-fifteen","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-cascade-twenty","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
+  ]
+}
