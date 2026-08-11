@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 17,
+  "issuedAt": "2026-08-11T02:26:26Z",
+  "expiresAt": "2026-08-18T02:26:26Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,84 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-assembly-twenty",
+      "packID": "assembly-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-assembly-twenty-v1.playablepack.json",
+      "byteCount": 24003,
+      "envelopeSHA256": "d9d47c579579968138394a434194f4348b61569d6297ab498c84d709e94e568b",
+      "contentSHA256": "3dfaafa2ccc88e8303fd93fbeab735a9b3020f56d17127c788dd6a1ff2c13754",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Assemble twenty tiles with a complete chain from two through six seats.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Assembly Twenty"
+        },
+        "zh-Hans": {
+          "summary": "从双人到六席逐一验证，接力组装二十块数字方砖。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格组装会"
+        }
+      }
+    },
+    {
+      "gameID": "pack-circuit-fifteen",
+      "packID": "circuit-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-circuit-fifteen-v1.playablepack.json",
+      "byteCount": 12702,
+      "envelopeSHA256": "5a272ee49cc6a564aef46413a3470b03e355fd0c0401480b863802aa40f6285c",
+      "contentSHA256": "568fbb5b2a0322fae4f8b494c0eb618f1e8237eeb180069a10bd4e63604ea76b",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Complete a wide fifteen-tile circuit with every supported room size.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Circuit Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "用所有支持的房间人数轮流滑动，完成宽阔十五格回路。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格回路"
         }
       }
     }
