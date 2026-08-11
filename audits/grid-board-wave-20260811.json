@@ -1,16 +1,33 @@
 {
-  "schema": 1,
-  "taxonomyVersion": "app-taxonomy-v1",
+  "schema": 2,
+  "taxonomyVersion": "app-taxonomy-v2",
   "generatedAt": "2026-08-11T06:00:00Z",
   "allowed": {
-    "genre": [
+    "carrier": [
       "board",
       "cards",
+      "mahjong",
+      "tiles",
       "dice",
-      "puzzle",
-      "party",
-      "action",
-      "drawing"
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
     ],
     "players": [
       "solo",
@@ -39,9 +56,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -54,6 +68,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -61,7 +83,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -69,9 +98,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -84,6 +110,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -91,7 +125,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -99,9 +140,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -114,6 +152,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -121,7 +167,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -129,9 +182,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -144,6 +194,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -151,7 +209,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -159,9 +224,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -174,6 +236,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -181,7 +251,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -189,9 +266,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -204,6 +278,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -211,7 +293,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -219,9 +308,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -234,6 +320,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -241,7 +335,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -249,9 +350,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -264,6 +362,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -271,7 +377,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -279,9 +392,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -294,6 +404,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -301,7 +419,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -309,9 +434,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -324,6 +446,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -331,7 +461,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -339,9 +476,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -354,6 +488,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -361,7 +503,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -369,9 +518,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -384,6 +530,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -391,7 +545,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -399,9 +560,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -414,6 +572,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -421,7 +587,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -429,9 +602,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -444,6 +614,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -451,7 +629,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -459,9 +644,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -474,6 +656,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -481,7 +671,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -489,9 +686,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -504,6 +698,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -511,7 +713,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -519,9 +728,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -534,6 +740,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -541,7 +755,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -549,9 +770,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -564,6 +782,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -571,7 +797,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -579,9 +812,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -594,6 +824,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -601,7 +839,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -609,9 +854,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -624,6 +866,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -631,7 +881,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -639,9 +896,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -654,6 +908,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -661,7 +923,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     },
     {
@@ -669,9 +938,6 @@
       "minimumPlayers": 2,
       "maximumPlayers": 4,
       "tags": {
-        "genre": [
-          "board"
-        ],
         "players": [
           "two-player",
           "party-3-6"
@@ -684,6 +950,14 @@
         ],
         "input": [
           "one-thumb"
+        ],
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
         ]
       },
       "tagAudit": {
@@ -691,7 +965,14 @@
         "rulesEngine": "gridBoard",
         "declaredPlayerRange": "2-4",
         "rangeMapping": "two-player + party-3-6",
-        "fixedDisplayMapping": "app-taxonomy-v1"
+        "fixedDisplayMapping": "app-taxonomy-v1",
+        "carrierCheck": "board matches gridBoard",
+        "mechanicsCheck": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "completeGameVectorCheck": "passed"
       }
     }
   ],
