@@ -77,3 +77,14 @@ Batch AV taxonomy is sidecar-only in `batch-20260811-av.manifest.json` and
 
 Batch AW taxonomy is sidecar-only in `batch-20260811-aw.manifest.json` and
 `audits/batch-20260811-aw.json`; revision 57 contains no taxonomy fields.
+
+## Batch AX
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Terrace | 5×4, 8 colors | 4 | 31 | exactly 2 | Four shallow rows keep scarce duel terraces inside the lower thumb sweep. |
+| Open Prism Crown | 9×9, 7 colors | 5 | 85 | 2–5 | Short local swaps keep rare shared crowns focused in the lower active rows. |
+| Six Seat Violet Boulevard | 6×10, 6 colors | 3 | 58 | exactly 6 | Six compact columns keep fast six-seat boulevard play inside one-thumb reach. |
+
+Batch AX taxonomy is sidecar-only in `batch-20260811-ax.manifest.json` and
+`audits/batch-20260811-ax.json`; revision 58 contains no taxonomy fields.
