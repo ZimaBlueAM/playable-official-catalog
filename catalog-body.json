@@ -1,7 +1,7 @@
 {
-  "revision": 68,
-  "issuedAt": "2026-08-12T00:00:00Z",
-  "expiresAt": "2026-08-19T00:00:00Z",
+  "revision": 69,
+  "issuedAt": "2026-08-12T00:10:00Z",
+  "expiresAt": "2026-08-19T00:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6494,6 +6494,15 @@
     },
     {
       "gameID":"pack-six-seat-meadow-courtyard","packID":"six-seat-meadow-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":6,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-meadow-courtyard-v1.playablepack.json","byteCount":1630,"envelopeSHA256":"ee7a8d20de01240a273f4a39f5f17efca1139c6d0df7db06a82272328dc2cca4","contentSHA256":"bbbbf115b0307f215862b70057fae686874af69441da9c2160c298e387d271f5","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly six players steer quick triples through a compact six-color meadow courtyard.","systemImage":"square.grid.3x3.fill","title":"Six Seat Meadow Courtyard"},"zh-Hans":{"summary":"严格六位玩家在紧凑六色草甸庭院中引导灵活三连。","systemImage":"square.grid.3x3.fill","title":"六席草甸庭院"}}
+    },
+    {
+      "gameID":"pack-dual-meadow-colonnade","packID":"dual-meadow-colonnade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-colonnade-v1.playablepack.json","byteCount":1611,"envelopeSHA256":"d972064696ee53e58f7910ebd781551f66942e366ade418aa5680179bd292c58","contentSHA256":"c205a4528f9457530c230589e1ebd0453f09ed4ed35547b80c34c7617f62d8a6","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players raise scarce triples across a compact eight-color meadow colonnade.","systemImage":"rectangle.split.3x1.fill","title":"Dual Meadow Colonnade"},"zh-Hans":{"summary":"两位玩家在紧凑八色草甸柱廊中筑起稀有三连。","systemImage":"rectangle.split.3x1.fill","title":"双人草甸柱廊"}}
+    },
+    {
+      "gameID":"pack-open-violet-promenade","packID":"open-violet-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-promenade-v1.playablepack.json","byteCount":1649,"envelopeSHA256":"ccbc7910f6558f44582a20b34055ffa84142cfea2620469f01b7732ab05585db","contentSHA256":"639af5d433fec646a23853bc0010b8d97d6f774c91a96d21434791ce1326c9a5","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to five players trace four-tile promenades across a maximum-size six-color violet field.","systemImage":"figure.walk","title":"Open Violet Promenade"},"zh-Hans":{"summary":"二至五位玩家在最大尺寸六色紫罗兰棋盘中勾勒四连长廊。","systemImage":"figure.walk","title":"开放紫罗兰长廊"}}
+    },
+    {
+      "gameID":"pack-four-seat-clover-gallery","packID":"four-seat-clover-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-clover-gallery-v1.playablepack.json","byteCount":1640,"envelopeSHA256":"f7c34e7deffb2612a3311cc18dbc68aea7b386bcf5b7f99878c8e03c1156b19e","contentSHA256":"dd07123d2165fb2a1372652145ea268de9d62d7d332f8cdae41248156b900948","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players frame rare five-tile galleries across a broad seven-color clover field.","systemImage":"photo.on.rectangle.angled","title":"Four Seat Clover Gallery"},"zh-Hans":{"summary":"严格四位玩家在宽阔七色苜蓿棋盘中构筑稀有五连画廊。","systemImage":"photo.on.rectangle.angled","title":"四席苜蓿画廊"}}
     }
   ]
 }
