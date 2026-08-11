@@ -77,3 +77,14 @@ Batch W taxonomy is sidecar-only in `batch-20260811-w.manifest.json` and
 
 Batch X taxonomy is sidecar-only in `batch-20260811-x.manifest.json` and
 `audits/batch-20260811-x.json`; revision 32 contains no taxonomy fields.
+
+## Batch Y
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Boulevard | 10×5, 6 colors | 4 | 19 | exactly 2 | Five shallow rows keep wide duel boulevards in the lower thumb sweep. |
+| Open Spectrum Tower | 6×10, 8 colors | 3 | 23 | 2–6 | Six narrow columns keep vertical spectrum play inside the one-thumb lane. |
+| Four Seat Amber Crown | 8×6, 4 colors | 5 | 37 | exactly 4 | Short local swaps concentrate four-seat crown building in the lower field. |
+
+Batch Y taxonomy is sidecar-only in `batch-20260811-y.manifest.json` and
+`audits/batch-20260811-y.json`; revision 33 contains no taxonomy fields.

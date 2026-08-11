@@ -1,7 +1,7 @@
 {
-  "revision": 32,
-  "issuedAt": "2026-08-11T18:00:00Z",
-  "expiresAt": "2026-08-18T18:00:00Z",
+  "revision": 33,
+  "issuedAt": "2026-08-11T18:10:00Z",
+  "expiresAt": "2026-08-18T18:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3003,6 +3003,123 @@
           "summary": "三至六位朋友在狭长四色针塔中完成满宽四连琥珀带。",
           "systemImage": "arrow.up.to.line",
           "title": "派对琥珀针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-violet-boulevard",
+      "packID": "dual-violet-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-violet-boulevard-v1.playablepack.json",
+      "byteCount": 1580,
+      "envelopeSHA256": "8a2d395537633fd2dcbe512148d84fbe41c0ed079c7ea265a4205ee961f69fa1",
+      "contentSHA256": "311548a2cc3e5616b89f1393fc358b09ea78b774826a7090b6c9b66ee9c8a354",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape four-tile boulevards across a wide six-color violet field.",
+          "systemImage": "road.lanes",
+          "title": "Dual Violet Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在宽阔六色紫罗兰棋盘塑造四连大道。",
+          "systemImage": "road.lanes",
+          "title": "双人紫罗兰大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spectrum-tower",
+      "packID": "open-spectrum-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-tower-v1.playablepack.json",
+      "byteCount": 1576,
+      "envelopeSHA256": "e35f0d014d836d45f019d7b58ed63c3fedca8793af3bbdb4858f6a0ae3035a6f",
+      "contentSHA256": "47871d5fa2b05b35bb41ad5c09455a4d10a2b5ca683e818174fab0bde4c82ae9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players search a tall eight-color spectrum tower for scarce triples.",
+          "systemImage": "building.2.fill",
+          "title": "Open Spectrum Tower"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在高耸八色光谱塔中寻找稀有三连。",
+          "systemImage": "building.2.fill",
+          "title": "开放光谱塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-amber-crown",
+      "packID": "four-seat-amber-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-amber-crown-v1.playablepack.json",
+      "byteCount": 1583,
+      "envelopeSHA256": "7960e8d3ca25f31c2db7282d101d2df1918a1d754ec168d7ab5a53537993e687",
+      "contentSHA256": "d3512e85e557115ef049df83534b6ea014e2046aeb05d925b27b94673d4b8664",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players build demanding five-tile amber crowns across a compact field.",
+          "systemImage": "crown.fill",
+          "title": "Four Seat Amber Crown"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在紧凑棋盘构筑高要求的五连琥珀冠。",
+          "systemImage": "crown.fill",
+          "title": "四席琥珀冠"
         }
       }
     }
