@@ -93,3 +93,15 @@ Batch I taxonomy is sidecar-only in `batch-20260811-i.manifest.json` and
 `audits/batch-20260811-i.json`. It explicitly audits single-valued player tags:
 strict two-player games omit `party-3-6`, while the 3–6 player game omits
 `two-player`. Revision 17 remains schema-1 compatible.
+
+## Batch J
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Five Crown | 6×10, 3 colors | 5 | 18 | 4–6 | A six-column tower keeps long five-tile party moves inside a narrow one-thumb lane. |
+| Micro Spectrum | 4×5, 8 colors | 3 | 5 | exactly 2 | The tiny lower board is fully reachable while eight colors make each five-turn duel scarce. |
+| Grand Weave | 9×9, 4 colors | 4 | 30 | 2–6 | The active square is operated through short adjacent swaps, with the lower half carrying frequent input. |
+
+Batch J taxonomy is sidecar-only in `batch-20260811-j.manifest.json` and
+`audits/batch-20260811-j.json`; revision 18 remains schema-1 compatible and
+contains no taxonomy fields.

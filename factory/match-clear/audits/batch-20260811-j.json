@@ -1,0 +1,17 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {"gameID":"pack-five-crown","carrier":"tiles","mechanics":["matching","alignment","spatial"],"minPlayers":4,"maxPlayers":6,"players":["party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"6x10 board; adjacent swap; five-tile clears; strict 4-6 players; 18 turns; vector aa1a332db026a3ab"},
+    {"gameID":"pack-micro-spectrum","carrier":"board","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"4x5 board; adjacent swap; eight-color three-tile clears; strict 2-player; 5 turns; vector ebf248a315f84ba6"},
+    {"gameID":"pack-grand-weave","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":6,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"9x9 board; adjacent swap; four-tile clears; 2-6 players; 30 turns; vector b7e2e879847c4982"}
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}

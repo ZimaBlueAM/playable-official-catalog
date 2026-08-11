@@ -1,7 +1,7 @@
 {
-  "revision": 17,
-  "issuedAt": "2026-08-11T10:30:00Z",
-  "expiresAt": "2026-08-18T10:30:00Z",
+  "revision": 18,
+  "issuedAt": "2026-08-11T11:30:00Z",
+  "expiresAt": "2026-08-18T11:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1248,6 +1248,123 @@
           "summary": "两位玩家在七色宽幅棋盘竞逐稀有四连色带。",
           "systemImage": "rectangle.split.3x1",
           "title": "双人色带"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-crown",
+      "packID": "five-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-crown-v1.playablepack.json",
+      "byteCount": 1576,
+      "envelopeSHA256": "b3acf1960fabd23cf744cac0f15c712cec690c5899b4b699fbe2b63d86845f30",
+      "contentSHA256": "d53c2e18a77b12a5013c3ba775dcc7988d2e93d3aea6d69a9d30150aaed47178",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Four to six players compete for rare five-tile crowns in a dense three-color tower.",
+          "systemImage": "crown.fill",
+          "title": "Five Crown"
+        },
+        "zh-Hans": {
+          "summary": "四至六位玩家在密集三色高塔中争夺稀有五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "五连王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-micro-spectrum",
+      "packID": "micro-spectrum-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-micro-spectrum-v1.playablepack.json",
+      "byteCount": 1607,
+      "envelopeSHA256": "fdeb520aec3cfdefcbfbfd125fdc60d1ae285f0ae080d90e7210791ae0d1ff88",
+      "contentSHA256": "041dac6c85d4b6ad6902a2d0144e0b0723f56790c475d0e16ba8887595e26a5e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players hunt scarce triples across an eight-color micro board in only five turns.",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "Micro Spectrum"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在八色微型棋盘寻找稀有三连，仅用五回合决胜。",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "微型光谱"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grand-weave",
+      "packID": "grand-weave-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grand-weave-v1.playablepack.json",
+      "byteCount": 1604,
+      "envelopeSHA256": "c4fc59232c021acf0e3e1c4c98791e31d52e6ae8d39e37680bc36ef9ddbbbac8",
+      "contentSHA256": "99a78ec195e82c011d0106f410efc3b166e82965217ffb3ae8880673c27cbedf",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave long four-tile bands across a large square board during a thirty-turn shared match.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Grand Weave"
+        },
+        "zh-Hans": {
+          "summary": "在大型方阵中编织四连色带，完成三十回合共享长局。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "宏幅编织"
         }
       }
     }
