@@ -1,7 +1,7 @@
 {
-  "revision": 63,
-  "issuedAt": "2026-08-11T23:10:00Z",
-  "expiresAt": "2026-08-18T23:10:00Z",
+  "revision": 64,
+  "issuedAt": "2026-08-11T23:20:00Z",
+  "expiresAt": "2026-08-18T23:20:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6376,6 +6376,66 @@
       "metadata": {
         "en": {"summary": "Exactly five players weave dense four-tile bands through a broad four-color meadow loom.", "systemImage": "rectangle.split.3x1.fill", "title": "Five Seat Meadow Loom"},
         "zh-Hans": {"summary": "严格五位玩家在宽阔四色草甸织机中编织密集四连色带。", "systemImage": "rectangle.split.3x1.fill", "title": "五席草甸织机"}
+      }
+    },
+    {
+      "gameID": "pack-dual-aurora-gallery",
+      "packID": "dual-aurora-gallery-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2, "maximumPlayers": 2, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-gallery-v1.playablepack.json",
+      "byteCount": 1619,
+      "envelopeSHA256": "2b46a2aabb365393dd8dd022224cfb83c8be175743b7bc84e0dd2a2c724c7035",
+      "contentSHA256": "9e9d93f25b6a72c5d844b92a31c03fad0b5431b2c64978ad50f68e010a776c2c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two players frame scarce four-tile galleries across a compact seven-color aurora field.", "systemImage": "photo.on.rectangle.angled", "title": "Dual Aurora Gallery"},
+        "zh-Hans": {"summary": "两位玩家在紧凑七色极光棋盘中构筑稀有四连画廊。", "systemImage": "photo.on.rectangle.angled", "title": "双人极光画廊"}
+      }
+    },
+    {
+      "gameID": "pack-open-meadow-promenade",
+      "packID": "open-meadow-promenade-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2, "maximumPlayers": 6, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-meadow-promenade-v1.playablepack.json",
+      "byteCount": 1619,
+      "envelopeSHA256": "9aed5a0a6e7bb90860641c018200180b76bcfb8446a7b2a38a7cb3ad26401e6f",
+      "contentSHA256": "87fcde1cef1b6b4724052fa4c727476af470eadc79a34cf44d09edcce1d0c77e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players steer dense triples across a broad four-color meadow promenade.", "systemImage": "figure.walk", "title": "Open Meadow Promenade"},
+        "zh-Hans": {"summary": "二至六位玩家在宽阔四色草甸长廊中引导密集三连。", "systemImage": "figure.walk", "title": "开放草甸长廊"}
+      }
+    },
+    {
+      "gameID": "pack-three-seat-violet-crownfield",
+      "packID": "three-seat-violet-crownfield-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 3, "maximumPlayers": 3, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-violet-crownfield-v1.playablepack.json",
+      "byteCount": 1635,
+      "envelopeSHA256": "8b5d1436a958ed4fe223a16ca81610bd6b06eff237ef8c26bd744ecf4b634548",
+      "contentSHA256": "ef19af2b0958222495d886f717f4573bbc43c854f0598a47cf5b56e20ea3daed",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Exactly three players shape rare five-tile crowns across a broad five-color violet field.", "systemImage": "crown.fill", "title": "Three Seat Violet Crownfield"},
+        "zh-Hans": {"summary": "严格三位玩家在宽阔五色紫罗兰棋盘中塑造稀有五连王冠。", "systemImage": "crown.fill", "title": "三席紫罗兰冠原"}
       }
     }
   ]

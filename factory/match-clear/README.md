@@ -143,3 +143,14 @@ Batch BB taxonomy is sidecar-only in `batch-20260811-bb.manifest.json` and
 
 Batch BC taxonomy is sidecar-only in `batch-20260811-bc.manifest.json` and
 `audits/batch-20260811-bc.json`; revision 63 contains no taxonomy fields.
+
+## Batch BD
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Gallery | 6×4, 7 colors | 4 | 37 | exactly 2 | Four shallow rows keep scarce duel galleries inside the lower thumb sweep. |
+| Open Meadow Promenade | 10×8, 4 colors | 3 | 103 | 2–6 | Frequent local clears keep the shared promenade focused in lower active rows. |
+| Three Seat Violet Crownfield | 8×9, 5 colors | 5 | 70 | exactly 3 | Adjacent local swaps keep rare three-seat crowns within one-thumb reach. |
+
+Batch BD taxonomy is sidecar-only in `batch-20260811-bd.manifest.json` and
+`audits/batch-20260811-bd.json`; revision 64 contains no taxonomy fields.
