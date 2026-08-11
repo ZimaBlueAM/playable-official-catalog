@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T02:42:10Z",
+  "sourceBranch": "factory/grid-board/grid-board-wave-20260811",
+  "sourceCommit": "55940644be166f8f5153c82183feae8e8a55c36b",
+  "candidateBatch": 20,
+  "decision": "rejected",
+  "reasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+  "message": "The candidate sidecar tests only player counts 2 and 6. Replaying the longest submitted legal vector at player count 4 leaves every candidate unfinished.",
+  "games": [
+    {"gameID": "pack-mirror-rise-seven", "playerCount": 4, "replayFinished": false, "checksum": "d0c0247281c622b5"},
+    {"gameID": "pack-open-spire-eight", "playerCount": 4, "replayFinished": false, "checksum": "8345d9bec42c766c"},
+    {"gameID": "pack-quick-rack-four", "playerCount": 4, "replayFinished": false, "checksum": "1f4878949840f7cb"}
+  ],
+  "taxonomyAudit": {
+    "status": "passed",
+    "carrierIsScalar": true,
+    "transport": "candidate-and-audit-sidecar-only"
+  },
+  "catalogAction": "none",
+  "retryRequirement": "Provide and verify a deterministic terminal vector for every declared player count from 2 through 6."
+}

@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T02:42:10Z",
+  "sourceBranch": "factory/social-canvas/batch-20260811-hidden-canvas",
+  "sourceCommit": "5d6f28518b1eeb64f0cc8963d946042ec325868b",
+  "decision": "rejected",
+  "reasonCode": "TAXONOMY_CARRIER_NOT_SCALAR",
+  "message": "The candidate manifest and taxonomy audit still encode carrier as a one-element array. The contract requires exactly one scalar carrier.",
+  "affectedGameIDs": ["hidden-powerstation", "canvas-wintermarket"],
+  "catalogAction": "none",
+  "retryRequirement": "Normalize carrier to one allowed scalar value in both the candidate manifest and audit sidecar; keep taxonomy out of schema1 catalog entries and signed pack bodies."
+}

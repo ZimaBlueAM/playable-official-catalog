@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T02:42:10Z",
+  "sourceBranch": "factory/card-turn/wave-20260811-h",
+  "sourceCommit": "7962e07b02764561d84385c2caa2db95f7e1dd24",
+  "decision": "rejected",
+  "reasonCodes": ["TAXONOMY_CARRIER_NOT_SCALAR", "MISSING_COMPLETE_TERMINAL_VECTOR"],
+  "games": [
+    {"gameID": "pack-amber-steps", "vectorActionCount": 3},
+    {"gameID": "pack-clockwork-cache", "vectorActionCount": 3, "replayFinished": false},
+    {"gameID": "pack-mist-keep", "vectorActionCount": 3, "replayFinished": false}
+  ],
+  "taxonomyEvidence": "Candidate and audit sidecars encode carrier as a one-element array instead of the required scalar value.",
+  "catalogAction": "none",
+  "retryRequirement": "Use a scalar carrier and provide deterministic legal vectors that reach a finished state for every declared player count."
+}
