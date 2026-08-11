@@ -155,3 +155,14 @@ Batch CP taxonomy is sidecar-only in `batch-20260812-cp.manifest.json` and
 
 Batch CQ taxonomy is sidecar-only in `batch-20260812-cq.manifest.json` and
 `audits/batch-20260812-cq.json`; revision 103 contains no taxonomy fields.
+
+## Batch CR
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Jade Arcade | 9×4, 8 colors | 4 | 77 | exactly 2 | Four shallow rows keep duel arcade swaps inside the lower thumb sweep. |
+| Open Quartz Mosaic | 7×10, 6 colors | 5 | 192 | 2–5 | Seven compact columns keep rare shared mosaic play focused in lower active rows. |
+| Four Seat Amber Causeway | 8×9, 7 colors | 3 | 150 | exactly 4 | Adjacent local swaps keep quick four-seat causeway play inside one-thumb reach. |
+
+Batch CR taxonomy is sidecar-only in `batch-20260812-cr.manifest.json` and
+`audits/batch-20260812-cr.json`; revision 104 contains no taxonomy fields.
