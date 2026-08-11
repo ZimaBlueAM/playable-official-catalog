@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-citadel-twenty",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 3, "board": "4x5", "scrambleMoves": 128, "turnLimit": 128, "testedPlayerCounts": [2, 3]}
+    },
+    {
+      "gameID": "pack-orbit-twenty-five",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 4, "board": "5x5", "scrambleMoves": 100, "turnLimit": 180, "testedPlayerCounts": [2, 3, 4]}
+    }
+  ]
+}

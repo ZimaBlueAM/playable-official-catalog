@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "catalogRevision": 15,
+  "sourceBranch": "factory/sliding-grid/20260811-110258",
+  "sourceCommit": "a1923fe9a75f6996635820ae92c9daae9f7d590f",
+  "decision": "accepted",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "games": [
+    {
+      "gameID": "pack-citadel-twenty",
+      "declaredPlayers": [2, 3],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "0ab07b35ddb7a3ee"},
+        "3": {"finished": true, "winnerSeat": 1, "checksum": "d595474300c3e344"}
+      }
+    },
+    {
+      "gameID": "pack-orbit-twenty-five",
+      "declaredPlayers": [2, 3, 4],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "306ba22ce532d656"},
+        "3": {"finished": true, "winnerSeat": 0, "checksum": "5096f3422b846ed9"},
+        "4": {"finished": true, "winnerSeat": 3, "checksum": "2de6abd2d8aad0d0"}
+      }
+    }
+  ],
+  "gates": {
+    "productionContentSignature": "PASS",
+    "envelopeSHA256AndByteCount": "PASS",
+    "schema1Compatibility": "PASS",
+    "localizedEnglishAndSimplifiedChinese": "PASS",
+    "license": "PASS: LicenseRef-Playable",
+    "nonExecutablePayload": "PASS",
+    "packBudget": "PASS",
+    "uniqueRuleConfiguration": "PASS",
+    "completeTerminalReplayForDeclaredPlayerRange": "PASS",
+    "thumbReachInteraction": "PASS: existing signed slidingGrid renderer contract",
+    "taxonomy": "PASS: carrier/mechanics/players/pace/context/input sidecar only"
+  }
+}

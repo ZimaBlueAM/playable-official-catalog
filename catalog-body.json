@@ -1,7 +1,7 @@
 {
-  "revision": 14,
-  "issuedAt": "2026-08-11T03:03:30Z",
-  "expiresAt": "2026-08-18T03:03:30Z",
+  "revision": 15,
+  "issuedAt": "2026-08-11T03:07:53Z",
+  "expiresAt": "2026-08-18T03:07:53Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -736,6 +736,84 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "atlas-twenty-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 17362,
+      "contentSHA256": "98d70b24652380bdf535556d97edf2695841e293aa82589c898bc96d018e41bf",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-citadel-twenty-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "29b8106687afb839d440d784f0ef01b6a96999bdaddd3b215d7ad199cf29c866",
+      "gameID": "pack-citadel-twenty",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 3,
+      "metadata": {
+        "en": {
+          "summary": "Restore a tall twenty-tile citadel through one exact maximum-depth relay.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Citadel Twenty"
+        },
+        "zh-Hans": {
+          "summary": "两至三人接力，在无多余步数的最大深度路线中还原纵向二十格。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格城塞"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "citadel-twenty-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 20225,
+      "contentSHA256": "b91d2ce06e58af45c2a79696eaa6c8250857fe72d7843ee1694f58716cd2dfb8",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-twenty-five-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "64743a8dafa45913fed7e57cc92c2b9f85a6078db5b0000d59dca1203739353d",
+      "gameID": "pack-orbit-twenty-five",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 4,
+      "metadata": {
+        "en": {
+          "summary": "Guide a broad twenty-five-tile orbit with enough reserve to correct a broken route.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Orbit Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "两至四人在宽阔二十五格盘面轮流推进，并利用余量修正断开的路线。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格环轨"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "orbit-twenty-five-first-edition",
       "packKeyID": "sliding-grid-content-2026-08",
       "packVersion": 1,
       "rulesVersion": 1,
