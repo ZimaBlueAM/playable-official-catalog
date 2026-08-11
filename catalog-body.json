@@ -1,5 +1,5 @@
 {
-  "revision": 15,
+  "revision": 16,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1053,6 +1053,123 @@
           "summary": "每回合运送一、七或八枚冰标，送走最后一枚者获胜。",
           "systemImage": "snowflake",
           "title": "极地接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mist-keep",
+      "packID": "pack-mist-keep-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mist-keep-v1.playablepack.json",
+      "byteCount": 1683,
+      "envelopeSHA256": "9f8d1364297dbb20878cbebb475bf31f8177a7d3fd0c59f5a05945d773615554",
+      "contentSHA256": "8041aa9afefe27d80e12934f0e488e9e803f95f4e885044e0360f3b59001a253",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, three, or ten mist rings, but the player clearing the final ring loses.",
+          "systemImage": "cloud.fog.fill",
+          "title": "Mist Keep"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、三或十圈薄雾，但清除最后一圈者落败。",
+          "systemImage": "cloud.fog.fill",
+          "title": "雾环留守"
+        }
+      }
+    },
+    {
+      "gameID": "pack-amber-steps",
+      "packID": "pack-amber-steps-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-amber-steps-v1.playablepack.json",
+      "byteCount": 1689,
+      "envelopeSHA256": "c692bd04496d8c2176278dd6dfc5210d1572777afef0784a9b9d8b3d638336c1",
+      "contentSHA256": "0095274ecb02b81f4dc50b84c2311ed8a2a0941c3398459b8bb80eeb97215ec8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, two, seven, or twelve amber steps; the final step wins.",
+          "systemImage": "hexagon.fill",
+          "title": "Amber Steps"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、二、七或十二枚琥珀阶，拿到最后一枚者获胜。",
+          "systemImage": "hexagon.fill",
+          "title": "琥珀阶梯"
+        }
+      }
+    },
+    {
+      "gameID": "pack-clockwork-cache",
+      "packID": "pack-clockwork-cache-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-clockwork-cache-v1.playablepack.json",
+      "byteCount": 1740,
+      "envelopeSHA256": "23abc110015e61db71f3ce6170f54c7354001e1decf0153799da3bdb3fcc78d9",
+      "contentSHA256": "c092b97e5dfd5837c041044ebfb7bcb847344a38bb24c7548e9e434f3d7f9f8f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Wind one, four, seven, ten, or thirteen gears from the cache; the final gear wins.",
+          "systemImage": "gearshape.2.fill",
+          "title": "Clockwork Cache"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、四、七、十或十三枚齿轮，拿到最后一枚者获胜。",
+          "systemImage": "gearshape.2.fill",
+          "title": "发条缓存"
         }
       }
     }
