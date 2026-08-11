@@ -121,3 +121,14 @@ Batch AA taxonomy is sidecar-only in `batch-20260811-aa.manifest.json` and
 
 Batch AB taxonomy is sidecar-only in `batch-20260811-ab.manifest.json` and
 `audits/batch-20260811-ab.json`; revision 36 contains no taxonomy fields.
+
+## Batch AC
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Blink | 6×4, 6 colors | 3 | 7 | exactly 2 | Four shallow rows keep the rapid prism duel wholly in the lower thumb sweep. |
+| Party Violet Plaza | 10×8, 5 colors | 4 | 55 | 3–6 | Frequent plaza input stays in short swaps across the lower active rows. |
+| Six Seat Spectrum Needle | 5×10, 7 colors | 5 | 32 | exactly 6 | Five narrow columns keep full-width six-seat bands inside one-thumb reach. |
+
+Batch AC taxonomy is sidecar-only in `batch-20260811-ac.manifest.json` and
+`audits/batch-20260811-ac.json`; revision 37 contains no taxonomy fields.
