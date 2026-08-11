@@ -1,7 +1,7 @@
 {
-  "revision": 39,
-  "issuedAt": "2026-08-11T19:10:00Z",
-  "expiresAt": "2026-08-18T19:10:00Z",
+  "revision": 40,
+  "issuedAt": "2026-08-11T19:20:00Z",
+  "expiresAt": "2026-08-18T19:20:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3822,6 +3822,123 @@
           "summary": "严格五位玩家在高耸五色紫罗兰塔中追逐三连。",
           "systemImage": "building.2.fill",
           "title": "五席紫罗兰塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-spectrum-pocket",
+      "packID": "dual-spectrum-pocket-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-spectrum-pocket-v1.playablepack.json",
+      "byteCount": 1566,
+      "envelopeSHA256": "555b8b4f2e6ebc6ecb7d7505ec27148a27a92897b3d457f3cf4498c67c8917be",
+      "contentSHA256": "13760e0d2651a93e1c17a3f4e50f13b7e34fad44f1b0d3d7e4fd6f6712eb389d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players complete full-width bands in a six-turn eight-color spectrum pocket.",
+          "systemImage": "square.fill",
+          "title": "Dual Spectrum Pocket"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在六回合八色光谱口袋中完成满宽四连带。",
+          "systemImage": "square.fill",
+          "title": "双人光谱口袋"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grand-violet-tower",
+      "packID": "grand-violet-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grand-violet-tower-v1.playablepack.json",
+      "byteCount": 1580,
+      "envelopeSHA256": "f8607cfd443857bd04334137c763a6d0487c09147c66d939b696eba1b7daed80",
+      "contentSHA256": "e14f6ce3ae82f86fae042e856e270c303052bce425a9bc4951a6cc1872c43ecc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players steer triple cascades through a tall four-color violet tower.",
+          "systemImage": "building.2.fill",
+          "title": "Grand Violet Tower"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在高耸四色紫罗兰塔中引导三连瀑布。",
+          "systemImage": "building.2.fill",
+          "title": "宏伟紫罗兰塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-clover-boulevard",
+      "packID": "three-seat-clover-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-clover-boulevard-v1.playablepack.json",
+      "byteCount": 1606,
+      "envelopeSHA256": "295dc494f53388586f7ebb293fbb72ff1c2413e0852bae82f85f855690d4040c",
+      "contentSHA256": "e84c1c9c59fa07ef8ac9a93e047496a439ab09c17f62040fca1c3d244ffaeb6e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players build dense five-tile clover boulevards across a shallow field.",
+          "systemImage": "road.lanes",
+          "title": "Three Seat Clover Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在浅层棋盘构筑密集五连苜蓿大道。",
+          "systemImage": "road.lanes",
+          "title": "三席苜蓿大道"
         }
       }
     }

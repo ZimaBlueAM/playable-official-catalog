@@ -154,3 +154,14 @@ Batch AD taxonomy is sidecar-only in `batch-20260811-ad.manifest.json` and
 
 Batch AE taxonomy is sidecar-only in `batch-20260811-ae.manifest.json` and
 `audits/batch-20260811-ae.json`; revision 39 contains no taxonomy fields.
+
+## Batch AF
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Pocket | 4×5, 8 colors | 4 | 6 | exactly 2 | The micro board fits wholly in the lower thumb sweep for a rapid duel. |
+| Grand Violet Tower | 8×10, 4 colors | 3 | 52 | 2–6 | Frequent tower input stays in short swaps across the lower active rows. |
+| Three Seat Clover Boulevard | 10×4, 3 colors | 5 | 20 | exactly 3 | Four shallow rows keep dense three-seat boulevards thumb reachable. |
+
+Batch AF taxonomy is sidecar-only in `batch-20260811-af.manifest.json` and
+`audits/batch-20260811-af.json`; revision 40 contains no taxonomy fields.
