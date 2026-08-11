@@ -166,3 +166,14 @@ Batch CQ taxonomy is sidecar-only in `batch-20260812-cq.manifest.json` and
 
 Batch CR taxonomy is sidecar-only in `batch-20260812-cr.manifest.json` and
 `audits/batch-20260812-cr.json`; revision 104 contains no taxonomy fields.
+
+## Batch CS
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Ivory Arcade | 10×4, 4 colors | 5 | 78 | exactly 2 | Four shallow rows keep rare duel arcade swaps inside the lower thumb sweep. |
+| Open Pearl Arcade | 8×10, 8 colors | 4 | 191 | 2–6 | Local adjacent swaps keep shared arcade play focused in lower active rows. |
+| Five Seat Coral Mosaic | 9×9, 6 colors | 3 | 152 | exactly 5 | Adjacent local swaps keep quick five-seat mosaic play inside one-thumb reach. |
+
+Batch CS taxonomy is sidecar-only in `batch-20260812-cs.manifest.json` and
+`audits/batch-20260812-cs.json`; revision 105 contains no taxonomy fields.
