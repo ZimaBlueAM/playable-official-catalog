@@ -44,6 +44,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Ferry Ticket** — read the group and find the hidden passenger.
 - **Greenhouse Sketches** — draw a garden clue for friends to name.
 - **Campsite Doodles** — sketch a camp object and race to identify it.
+- **Museum Label** — compare the stories and vote before closing.
+- **Lighthouse Log** — inspect the crew and find the hidden editor.
+- **Bakery Sketches** — draw a bakery favorite for friends to name.
+- **Festival Sketchbook** — sketch a festival sight and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

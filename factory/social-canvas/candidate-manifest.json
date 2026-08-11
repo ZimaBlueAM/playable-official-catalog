@@ -2292,6 +2292,249 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-museum",
+      "packID": "hidden-museum-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-museum-v1.playablepack",
+      "byteCount": 1952,
+      "envelopeSHA256": "e60639f8b3a4878a1406298f157f76d43758a5e554ffc98c6cf43c24b466929e",
+      "contentSHA256": "f20ce3c430050a00c102a2fb7f60aac5b2fd19fa4e775e39025a92e1c705916d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One curator swapped the label; compare the stories and vote before closing.",
+          "systemImage": "building.columns.fill",
+          "title": "Museum Label"
+        },
+        "zh-Hans": {
+          "summary": "一名策展人调换了标签；比较说法，在闭馆前投票。",
+          "systemImage": "building.columns.fill",
+          "title": "博物馆标签"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-lighthouse",
+      "packID": "hidden-lighthouse-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-lighthouse-v1.playablepack",
+      "byteCount": 2145,
+      "envelopeSHA256": "579abf84d0badde276d462e5802fd34ab5d9cef659b966c891df95ea501d347b",
+      "contentSHA256": "f5d9c87562f6d4ae59b8e8a193361a32254652e782c41812fcb5c5198497a59a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden keeper changed the log; inspect the crew and vote before nightfall.",
+          "systemImage": "light.beacon.max.fill",
+          "title": "Lighthouse Log"
+        },
+        "zh-Hans": {
+          "summary": "隐藏守塔人改动了日志；审视船员，在夜幕前投票。",
+          "systemImage": "light.beacon.max.fill",
+          "title": "灯塔日志"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-bakery",
+      "packID": "canvas-bakery-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-bakery-v1.playablepack",
+      "byteCount": 1865,
+      "envelopeSHA256": "d7f83896bd2f95066ddd3091e912fecada2cb52064482da8060b57663ad7cb26",
+      "contentSHA256": "9a675cd6c3af8d03470d6b1671ccc9109d2622914c052eb7aae273ee40796485",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw a bakery favorite in a few strokes and let friends name it.",
+          "systemImage": "birthday.cake.fill",
+          "title": "Bakery Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出烘焙坊里的热门点心，让朋友说出它。",
+          "systemImage": "birthday.cake.fill",
+          "title": "烘焙坊速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-festival",
+      "packID": "canvas-festival-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-festival-v1.playablepack",
+      "byteCount": 1818,
+      "envelopeSHA256": "6fef0b0d3bf380a4fa86aef48024835c4bf9686e5d76fd87ac059eef163b3cdb",
+      "contentSHA256": "4ace75ebe1236e6dd84349db904f696f09946e2a80ae0a22911b07e5a46d274b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a festival sight and race the table to identify it.",
+          "systemImage": "party.popper.fill",
+          "title": "Festival Sketchbook"
+        },
+        "zh-Hans": {
+          "summary": "画出节庆景象，和大家一起抢答。",
+          "systemImage": "party.popper.fill",
+          "title": "节庆速写本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
