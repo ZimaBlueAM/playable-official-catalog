@@ -56,6 +56,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Backstage Cue** — inspect the cast and find the hidden actor.
 - **Aquarium Sketches** — draw an underwater clue for friends to name.
 - **Schoolyard Sketchbook** — sketch a playground object and race to identify it.
+- **Radio Static** — compare reports and vote before broadcast.
+- **Lobby Register** — inspect the lobby and find the hidden guest.
+- **Trainyard Sketches** — draw a railway clue for friends to name.
+- **Kitchen Sketchbook** — sketch a kitchen object and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
