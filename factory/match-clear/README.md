@@ -143,3 +143,14 @@ Batch AC taxonomy is sidecar-only in `batch-20260811-ac.manifest.json` and
 
 Batch AD taxonomy is sidecar-only in `batch-20260811-ad.manifest.json` and
 `audits/batch-20260811-ad.json`; revision 38 contains no taxonomy fields.
+
+## Batch AE
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Causeway | 8×5, 3 colors | 5 | 18 | exactly 2 | Five shallow rows keep dense duel causeways in the lower thumb sweep. |
+| Open Spectrum Boulevard | 10×6, 8 colors | 4 | 42 | 2–4 | Short local swaps keep long boulevard play in the lower active rows. |
+| Five Seat Violet Tower | 6×9, 5 colors | 3 | 29 | exactly 5 | Six narrow columns keep five-seat tower moves inside the one-thumb lane. |
+
+Batch AE taxonomy is sidecar-only in `batch-20260811-ae.manifest.json` and
+`audits/batch-20260811-ae.json`; revision 39 contains no taxonomy fields.
