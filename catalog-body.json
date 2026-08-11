@@ -1,5 +1,5 @@
 {
-  "revision": 11,
+  "revision": 12,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -585,6 +585,123 @@
           "summary": "每回合取走一、二、五或八束月光，拿到最后一束者获胜。",
           "systemImage": "moon.stars.fill",
           "title": "月光接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-rain-gauge",
+      "packID": "pack-rain-gauge-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rain-gauge-v1.playablepack.json",
+      "byteCount": 1661,
+      "envelopeSHA256": "6bc286ed8173fa4e13185a016001b0cdd39f784fb1c19fd3f63891c8ae40292c",
+      "contentSHA256": "3b32229e44f1650308f37728e0e374f815c003d6a736b145fef680c9d2fdc804",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Drain two or three drops from the gauge, but the player draining the final drop loses.",
+          "systemImage": "drop.fill",
+          "title": "Rain Gauge"
+        },
+        "zh-Hans": {
+          "summary": "每回合排出两或三滴雨水，但排出最后一滴者落败。",
+          "systemImage": "drop.fill",
+          "title": "雨量避底"
+        }
+      }
+    },
+    {
+      "gameID": "pack-echo-ferry",
+      "packID": "pack-echo-ferry-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-echo-ferry-v1.playablepack.json",
+      "byteCount": 1649,
+      "envelopeSHA256": "e53e31610dcb5f8f5db5345e308ef44d1437f315ec5c736496b45d5b275b990b",
+      "contentSHA256": "b011696bc7eed15535016bbd2550e99997951c5675253ad6cc6b5fb3218c76a4",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Ferry one, four, or nine echoes across the river; the final echo wins.",
+          "systemImage": "ferry.fill",
+          "title": "Echo Ferry"
+        },
+        "zh-Hans": {
+          "summary": "每回合渡走一、四或九道回声，送走最后一道者获胜。",
+          "systemImage": "ferry.fill",
+          "title": "回声渡口"
+        }
+      }
+    },
+    {
+      "gameID": "pack-star-harvest",
+      "packID": "pack-star-harvest-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-star-harvest-v1.playablepack.json",
+      "byteCount": 1687,
+      "envelopeSHA256": "0cfd6ebab18b3ad2c45399bad0a8e60cc8e0f23160a677d40bf1c6e39988562c",
+      "contentSHA256": "f5f0755f5b23307538a0f05c88a2536e85d55f0b3d1bde3f1862b2be1e13d841",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Gather two, six, or seven stars from the shared sky; the final star wins.",
+          "systemImage": "star.circle.fill",
+          "title": "Star Harvest"
+        },
+        "zh-Hans": {
+          "summary": "每回合从星空取走二、六或七颗星，拿到最后一颗者获胜。",
+          "systemImage": "star.circle.fill",
+          "title": "星野收获"
         }
       }
     }

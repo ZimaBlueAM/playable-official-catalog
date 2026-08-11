@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "lane": "cardTurn",
+  "batch": "card-turn-wave-20260811-d",
+  "catalogRevision": 12,
+  "status": "candidate",
+  "games": [
+    {"gameID":"pack-rain-gauge","packVersion":1,"minimumPlayers":2,"maximumPlayers":5,"rules":"initialCount=29; takeOptions=[2,3]; lastMoveWins=false","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-echo-ferry","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=37; takeOptions=[1,4,9]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-star-harvest","packVersion":1,"minimumPlayers":2,"maximumPlayers":5,"rules":"initialCount=34; takeOptions=[2,6,7]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
+  ],
+  "verification": {
+    "packBuilder": "scripts/build_declarative_game_pack.sh",
+    "contentSignature": "P-256 local signing passed; key material not included",
+    "catalogSignature": "P-256 local signing passed; key material not included",
+    "source": "Playable Studio original declarative rule data",
+    "license": "LicenseRef-Playable",
+    "runtimePayload": "non-executable declarative JSON only",
+    "tagAudit": "PASS: carrier/mechanics taxonomy is factory-only; release publisher must strip it before Build107 taxonomy transport"
+  }
+}
