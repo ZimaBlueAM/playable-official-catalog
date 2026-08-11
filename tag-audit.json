@@ -1,0 +1,386 @@
+{
+  "schema": 1,
+  "status": "publisher-retry-audit",
+  "gateTier": "playable",
+  "source": "factory-candidate-manifest.json",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": [
+    "genre",
+    "difficulty"
+  ],
+  "entries": [
+    {
+      "gameID": "hidden-lantern",
+      "decision": "accepted-for-retry",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "7135bd812815e5f1"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "7133c427cdf0ff24"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "e8bcdb625741f178"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "f951ac2f3ec7f68c"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 3,
+          "maximumRounds": 4,
+          "minimumPlayers": 3,
+          "maximumPlayers": 6
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-lantern-v1.playablepack.json",
+        "byteCount": 4639,
+        "envelopeSHA256": "5ed934b82d31c98f26e79960f1903f19a9a44a02806e849f5afe6ac28489fcc1",
+        "contentSHA256": "eebf91f397492a495a06e64da8cc20d6c91cae113e7d9560ce2d94ef468a1e63"
+      }
+    },
+    {
+      "gameID": "hidden-ribbon",
+      "decision": "accepted-for-retry",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 1,
+            "checksum": "78dc849d645d6cad"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "5e15dbd360a2bb23"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "53cfe95c2b54d062"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "0bd5783938c01f39"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 3,
+            "checksum": "3e7850afb15253c4"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 2,
+          "maximumRounds": 3,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ribbon-v1.playablepack.json",
+        "byteCount": 4582,
+        "envelopeSHA256": "8aa148d84fbc39c1fd498cb7efccf736bd72a8a4ce91f4023157977c7d1c0415",
+        "contentSHA256": "e220877f22c77d5fa2e62d69b7f9eb89fa598bc2551d4c39d817749e26888d40"
+      }
+    },
+    {
+      "gameID": "canvas-market",
+      "decision": "accepted-for-retry",
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      },
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "09ddae40256f9b05"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "4803a2caa4583499"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "4acb0665e4474858"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "d063971cee25ebcc"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "57676811e5643cbf"
+          }
+        },
+        "actionKinds": [
+          "guess",
+          "pass",
+          "stroke"
+        ],
+        "ruleConfiguration": {
+          "roundCount": 8,
+          "maximumStrokesPerRound": 10,
+          "promptCount": 8,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-market-v1.playablepack.json",
+        "byteCount": 9416,
+        "envelopeSHA256": "1bf230378664f7928b3f47a6c683cdcb3162355aafc18a18c4dac49f992db545",
+        "contentSHA256": "c21b8bab8b0ddc58298d0d865f0e8e00e6f3084476a4dc0e0a585bc162a434ad"
+      }
+    },
+    {
+      "gameID": "canvas-cabin",
+      "decision": "accepted-for-retry",
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      },
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "2": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "96fbe2bf85d0dcd2"
+          },
+          "3": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "5354052ad7cecbe6"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 1,
+            "checksum": "55074e68555f4988"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "2a9ef15bbb83c5eb"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 0,
+            "checksum": "01f1a5215c398145"
+          }
+        },
+        "actionKinds": [
+          "guess",
+          "stroke"
+        ],
+        "ruleConfiguration": {
+          "roundCount": 6,
+          "maximumStrokesPerRound": 8,
+          "promptCount": 8,
+          "minimumPlayers": 2,
+          "maximumPlayers": 6
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-cabin-v1.playablepack.json",
+        "byteCount": 6650,
+        "envelopeSHA256": "6c6593737fafc1ebe8ee454fcc6cab25c474ae8e07fb14424b951393518173f7",
+        "contentSHA256": "974b01a5bb848b6d5fdf3ff26ca8678469d1438c189b07ddee8774522e1f10cb"
+      }
+    },
+    {
+      "gameID": "hidden-airport",
+      "decision": "accepted-for-retry",
+      "tags": {
+        "carrier": "action",
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "testedPlayerCounts": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalReplay": {
+          "3": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "17496da94abcec11"
+          },
+          "4": {
+            "finished": true,
+            "winnerSeat": 2,
+            "checksum": "1f4b365dc633db48"
+          },
+          "5": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "662668a5aac81785"
+          },
+          "6": {
+            "finished": true,
+            "winnerSeat": 4,
+            "checksum": "32d856f0e7a73a88"
+          }
+        },
+        "actionKinds": [
+          "vote"
+        ],
+        "ruleConfiguration": {
+          "teamCount": 2,
+          "maximumRounds": 4,
+          "minimumPlayers": 3,
+          "maximumPlayers": 6
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-airport-v1.playablepack.json",
+        "byteCount": 4727,
+        "envelopeSHA256": "dabb4aa16b97dc3b4a1b8f9b6c816045d45cac15b713abb3efb827ace75ef9e7",
+        "contentSHA256": "c30a67800bab8b7da10e6a0ba15bfc27f5727fc02f251348189651face7eaddb"
+      }
+    }
+  ],
+  "requiredBy": "audits/rejections/fix-social-canvas-f3ac432-20260811.json"
+}

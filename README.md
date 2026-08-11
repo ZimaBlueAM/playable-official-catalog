@@ -110,6 +110,8 @@ The five-game publisher retry uses scalar `carrier`, canonical
 `.playablepack.json` URLs, and terminal replay for every declared player count.
 See `factory/social-canvas/publisher-retry-20260811-01.manifest.json` and
 `audits/social-canvas-publisher-retry-20260811-01.json`.
+The publisher-compatible root aliases are `factory-candidate-manifest.json`
+and `tag-audit.json`.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
