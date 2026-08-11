@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T03:30:00Z",
-  "expiresAt": "2026-08-18T03:30:00Z",
+  "revision": 9,
+  "issuedAt": "2026-08-11T04:00:00Z",
+  "expiresAt": "2026-08-18T04:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -429,6 +429,123 @@
           "summary": "在紧凑棋盘竞逐，三点成线即可打开关门。",
           "systemImage": "square.grid.3x3.fill",
           "title": "双门竞逐"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orbit-ladder",
+      "packID": "orbit-ladder-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-ladder-v1.playablepack",
+      "byteCount": 1916,
+      "envelopeSHA256": "aec8f1834b0eb711b4cb43c39617109169575f4cfb0405a4b26de87f9ce5ab60",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Place across a calm square and climb a diagonal ladder of four.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Orbit Ladder"
+        },
+        "zh-Hans": {
+          "summary": "在方阵中落子，沿对角阶梯连成四子。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "轨道梯线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-beacon-five",
+      "packID": "beacon-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-beacon-five-v1.playablepack",
+      "byteCount": 2045,
+      "envelopeSHA256": "c33a7cb560103bf02405f6da88537fd780a1031e8166b835c50c42194b12be7b",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Fill a tall beacon lane and light five markers before the other side.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Beacon Five"
+        },
+        "zh-Hans": {
+          "summary": "在高耸灯塔列中堆叠，先点亮五个标记者胜。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "灯塔五连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cross-current",
+      "packID": "cross-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cross-current-v1.playablepack",
+      "byteCount": 1811,
+      "envelopeSHA256": "48cefdc27961fe1f643e7eff69fc6772c66a4242f49c9e4ee4193781323ffeb6",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Claim open cells and send a three-mark current through the center.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Cross Current"
+        },
+        "zh-Hans": {
+          "summary": "占据空格，让三枚标记穿过棋盘中心形成水流。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "交汇水流"
         }
       }
     }
