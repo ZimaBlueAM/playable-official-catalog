@@ -1,0 +1,11 @@
+{
+  "schema":1,
+  "gateTier":"playable",
+  "taxonomyVersion":"app-taxonomy-v2",
+  "transport":"candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions":["genre","difficulty"],
+  "entries":[
+    {"gameID":"pack-last-one-loses","tags":{"carrier":"cards","mechanics":["take-away"],"players":["two-player"],"pace":["quick-round"],"context":["independent"],"input":["one-thumb"]},"evidence":{"engine":"cardTurn","minimumPlayers":2,"maximumPlayers":2,"testedPlayerCounts":[2],"terminalReplay":{"2":{"finished":true,"winnerSeat":0,"checksum":"6e154b26066dfd01"}},"downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-last-one-loses-v1.playablepack.json"}},
+    {"gameID":"pack-take-five","tags":{"carrier":"cards","mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["quick-round"],"context":["independent"],"input":["one-thumb"]},"evidence":{"engine":"cardTurn","minimumPlayers":2,"maximumPlayers":4,"testedPlayerCounts":[2,3,4],"terminalReplay":{"2":{"finished":true,"winnerSeat":0,"checksum":"6795ed560a1f1b70"},"3":{"finished":true,"winnerSeat":0,"checksum":"811f0694a7db66aa"},"4":{"finished":true,"winnerSeat":2,"checksum":"6ab555e2ac50cb2"}},"downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json"}}
+  ]
+}
