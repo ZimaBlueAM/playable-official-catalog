@@ -99,3 +99,14 @@ Batch Y taxonomy is sidecar-only in `batch-20260811-y.manifest.json` and
 
 Batch Z taxonomy is sidecar-only in `batch-20260811-z.manifest.json` and
 `audits/batch-20260811-z.json`; revision 34 contains no taxonomy fields.
+
+## Batch AA
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Shaft | 4×6, 5 colors | 5 | 13 | exactly 2 | Four narrow columns keep vertical duel seams entirely thumb reachable. |
+| Grand Spectrum Vault | 10×10, 8 colors | 5 | 70 | 2–6 | Frequent long-game input stays in short swaps across the lower active rows. |
+| Three Seat Clover Loom | 6×8, 3 colors | 4 | 26 | exactly 3 | Six narrow columns keep dense loom turns inside the lower one-thumb lane. |
+
+Batch AA taxonomy is sidecar-only in `batch-20260811-aa.manifest.json` and
+`audits/batch-20260811-aa.json`; revision 35 contains no taxonomy fields.

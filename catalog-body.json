@@ -1,7 +1,7 @@
 {
-  "revision": 34,
-  "issuedAt": "2026-08-11T18:20:00Z",
-  "expiresAt": "2026-08-18T18:20:00Z",
+  "revision": 35,
+  "issuedAt": "2026-08-11T18:30:00Z",
+  "expiresAt": "2026-08-18T18:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3237,6 +3237,123 @@
           "summary": "严格五位玩家在均衡六色棱镜场中塑造四连。",
           "systemImage": "square.grid.3x3.fill",
           "title": "五席棱镜场"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-prism-shaft",
+      "packID": "dual-prism-shaft-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-prism-shaft-v1.playablepack.json",
+      "byteCount": 1575,
+      "envelopeSHA256": "1f986637bdb1f3cd41c3e68d249c55c8f11425fb546b506b86e408e6e3b7910e",
+      "contentSHA256": "0c16a404d42d3fb5d31ed98edb16412848f8ab6ca4f93950cb69d06487079ef2",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players carve vertical five-tile seams through a narrow five-color prism shaft.",
+          "systemImage": "arrow.down.to.line",
+          "title": "Dual Prism Shaft"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在狭长五色棱镜井中开凿纵向五连矿脉。",
+          "systemImage": "arrow.down.to.line",
+          "title": "双人棱镜竖井"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grand-spectrum-vault",
+      "packID": "grand-spectrum-vault-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grand-spectrum-vault-v1.playablepack.json",
+      "byteCount": 1592,
+      "envelopeSHA256": "58ddf64213a43a7e2d2b144505a3401bae9245bfe45b90d9577cc9a2fea54150",
+      "contentSHA256": "cfb81f4e68d97c9a7e1987168c012fed9c2ce376eea19119a0658ff6d5bafed9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players seek rare five-tile vaults across the maximum eight-color spectrum.",
+          "systemImage": "lock.square.fill",
+          "title": "Grand Spectrum Vault"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在最大八色光谱棋盘寻找稀有五连宝库。",
+          "systemImage": "lock.square.fill",
+          "title": "宏伟光谱宝库"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-clover-loom",
+      "packID": "three-seat-clover-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-clover-loom-v1.playablepack.json",
+      "byteCount": 1610,
+      "envelopeSHA256": "482d9d167f87a7cae71b61dd6472a09e5785011a86f42a65fd3afe833a7fc60f",
+      "contentSHA256": "20348552dc73ce9a8577e0611e34b33882e64e374ed1631725fcb23cf1cd6315",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players weave dense four-tile clover bands through a tall compact loom.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Three Seat Clover Loom"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在高耸紧凑织机中编织密集四连苜蓿带。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "三席苜蓿织机"
         }
       }
     }
