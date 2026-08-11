@@ -96,6 +96,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Arcade Sketches** — sketch an arcade clue and race to identify it.
 - **Airfield Dispatch** — compare runway reports and vote before takeoff.
 - **Record Store Sketches** — sketch a record-store clue and race to identify it.
+- **Sawmill Ledger** — compare timber reports and vote before shipment.
+- **Planetarium Sketches** — sketch a planetarium clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

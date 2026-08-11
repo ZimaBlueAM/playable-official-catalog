@@ -5458,6 +5458,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-sawmill",
+      "packID": "hidden-sawmill-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-sawmill-v1.playablepack",
+      "byteCount": 1951,
+      "envelopeSHA256": "aaefd2ddaa24f27df123536e7cf3cb38549792614dc795e72256c47f6d629c62",
+      "contentSHA256": "35a31dcd775bd656bdca89bc1e119c55bd6dc4dea567e85effd572b4c43eca5e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One cutter changed the timber count; compare reports and vote before shipment.",
+          "systemImage": "tree.fill",
+          "title": "Sawmill Ledger"
+        },
+        "zh-Hans": {
+          "summary": "一名锯木工改动了木料数量；比较报告，在装运前投票。",
+          "systemImage": "tree.fill",
+          "title": "锯木厂账本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-planetarium",
+      "packID": "canvas-planetarium-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-planetarium-v1.playablepack",
+      "byteCount": 1843,
+      "envelopeSHA256": "83894f815180a339d3b036c75aceeed5e0e665bea41e51cd783f0ad1a8dadd80",
+      "contentSHA256": "7d22236831cd0dd54dbcb18ee627a0e6b3ca2cff49a0da3031252f6c495ad7e5",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a planetarium clue and race the table to identify it.",
+          "systemImage": "moon.stars.fill",
+          "title": "Planetarium Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出天文馆线索，和大家一起抢答。",
+          "systemImage": "moon.stars.fill",
+          "title": "天文馆速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
