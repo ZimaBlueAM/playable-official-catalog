@@ -1,7 +1,7 @@
 {
-  "revision": 15,
-  "issuedAt": "2026-08-11T03:07:53Z",
-  "expiresAt": "2026-08-18T03:07:53Z",
+  "revision": 16,
+  "issuedAt": "2026-08-11T03:12:52Z",
+  "expiresAt": "2026-08-18T03:12:52Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -814,6 +814,84 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "orbit-twenty-five-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 23867,
+      "contentSHA256": "0dc8b9621d7952a1ece1ac446bbe1d5abe7cf7c75de9216919a9e468a39cf224",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ember-twelve-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "720133f51fd249181a5746bd35ea9f88152a87f38f13e5c8d0c7b86bfc4f45ce",
+      "gameID": "pack-ember-twelve",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 6,
+      "metadata": {
+        "en": {
+          "summary": "Keep a twelve-tile ember alive through an exact relay shared by up to six players.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Ember Twelve"
+        },
+        "zh-Hans": {
+          "summary": "两至六人接力维持十二格余烬，在恰好七十二步内完成还原。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格余烬"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "ember-twelve-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 29263,
+      "contentSHA256": "c2997778aae42fa894b66c394e7f004fdb63c971098909a87a33cb5963cd6487",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-beacon-fifteen-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "c4edf0c8b175bcc7a8d541916de32c44c1cd9e77882df2ba7762630723cd1efc",
+      "gameID": "pack-beacon-fifteen",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 5,
+      "metadata": {
+        "en": {
+          "summary": "Trace a deep fifteen-tile signal across a wide board with a full recovery reserve.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Beacon Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "两至五人在横向十五格盘面追踪深度信号，并以完整余量修正路线。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格信标"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "beacon-fifteen-first-edition",
       "packKeyID": "sliding-grid-content-2026-08",
       "packVersion": 1,
       "rulesVersion": 1,

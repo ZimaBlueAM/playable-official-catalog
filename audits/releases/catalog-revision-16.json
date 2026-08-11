@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "catalogRevision": 16,
+  "sourceBranch": "factory/sliding-grid/20260811-110705",
+  "sourceCommit": "fe88274506027af6cc6eee0aa7270e2dc75a1cac",
+  "decision": "accepted",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "games": [
+    {
+      "gameID": "pack-ember-twelve",
+      "declaredPlayers": [2, 3, 4, 5, 6],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "38aafae41c41b608"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "482e9d1648a4ab26"},
+        "4": {"finished": true, "winnerSeat": 3, "checksum": "de63fdafb1815f5e"},
+        "5": {"finished": true, "winnerSeat": 1, "checksum": "0e938cc840e184ed"},
+        "6": {"finished": true, "winnerSeat": 5, "checksum": "f6ee7b7d554ebf70"}
+      }
+    },
+    {
+      "gameID": "pack-beacon-fifteen",
+      "declaredPlayers": [2, 3, 4, 5],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "5172b4045a1d22fa"},
+        "3": {"finished": true, "winnerSeat": 0, "checksum": "8d7f061feb396907"},
+        "4": {"finished": true, "winnerSeat": 3, "checksum": "64120e4bfb3062a4"},
+        "5": {"finished": true, "winnerSeat": 1, "checksum": "6f0cbe5ada6b248a"}
+      }
+    }
+  ],
+  "gates": {
+    "productionContentSignature": "PASS",
+    "envelopeSHA256AndByteCount": "PASS",
+    "schema1Compatibility": "PASS",
+    "localizedEnglishAndSimplifiedChinese": "PASS",
+    "license": "PASS: LicenseRef-Playable",
+    "nonExecutablePayload": "PASS",
+    "packBudget": "PASS",
+    "uniqueRuleConfiguration": "PASS",
+    "completeTerminalReplayForDeclaredPlayerRange": "PASS",
+    "thumbReachInteraction": "PASS: existing signed slidingGrid renderer contract",
+    "taxonomy": "PASS: carrier/mechanics/players/pace/context/input sidecar only"
+  }
+}
