@@ -166,3 +166,14 @@ Batch BR taxonomy is sidecar-only in `batch-20260812-br.manifest.json` and
 
 Batch BS taxonomy is sidecar-only in `batch-20260812-bs.manifest.json` and
 `audits/batch-20260812-bs.json`; revision 79 contains no taxonomy fields.
+
+## Batch BT
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Promenade | 10×4, 4 colors | 5 | 53 | exactly 2 | Four shallow rows keep dense duel promenade matches inside the lower thumb sweep. |
+| Open Clover Courtyard | 8×10, 7 colors | 4 | 151 | 2–5 | Local adjacent swaps keep the tall shared courtyard focused in lower active rows. |
+| Four Seat Meadow Gallery | 6×8, 5 colors | 3 | 102 | exactly 4 | Six compact columns keep quick four-seat gallery play inside one-thumb reach. |
+
+Batch BT taxonomy is sidecar-only in `batch-20260812-bt.manifest.json` and
+`audits/batch-20260812-bt.json`; revision 80 contains no taxonomy fields.
