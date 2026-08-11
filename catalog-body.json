@@ -1,5 +1,5 @@
 {
-  "revision": 17,
+  "revision": 19,
   "issuedAt": "2026-08-11T03:18:20Z",
   "expiresAt": "2026-08-18T03:18:20Z",
   "entries": [
@@ -56,9 +56,9 @@
       "maximumPlayers": 2,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-last-one-loses-v1.playablepack.json",
-      "byteCount": 2034,
-      "envelopeSHA256": "eea40e8fa32f37eebb11f7fa9f914d63c4170096cbb14373fcccdd57621bf16d",
-      "contentSHA256": "a65988478c23c81676cb1228bf35c64ed110dce68f2e8d217e73687ce6dd7859",
+      "byteCount": 1876,
+      "envelopeSHA256": "0c5007f7f5e234dca42f16523f673fd007d395e94379aef9502a8133e1da3792",
+      "contentSHA256": "0133ac616559aa474e33a6f37b4b3b8e92e195d14fb6e037f13733e95d8da8ba",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -164,7 +164,7 @@
       "packID": "take-five-first-edition",
       "packVersion": 1,
       "rulesVersion": 1,
-      "minimumAppBuild": 44,
+      "minimumAppBuild": 104,
       "engine": {
         "family": "cardTurn",
         "version": 1
@@ -173,10 +173,10 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json",
-      "byteCount": 1527,
-      "envelopeSHA256": "b4cd2882d37e8372c52acc455f14b59299d6b44a0bcb8199802bfff38a2bd785",
-      "contentSHA256": "f32109ebc2540e33d613b6030060b8be80ac8abf5b9765e6bd20e63245b5f205",
-      "packKeyID": "playable-content-2026-01",
+      "byteCount": 2885,
+      "envelopeSHA256": "a68fa829c008a803b6c3f628d0838ee67171d75c38e5f55fa86eba40415f090c",
+      "contentSHA256": "adab18a3188b9d2117344a9de10f5197b65f7b6d7cdbd187ca5953f4da3bbfdf",
+      "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"

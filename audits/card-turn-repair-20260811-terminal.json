@@ -1,0 +1,8 @@
+{
+  "schema":1,"batch":"card-turn-repair-20260811-terminal","transport":"factory-sidecar-only-before-build107","releaseRule":"Publish only known schema catalog entries; keep taxonomy and terminal evidence in sidecar until release ingestion.",
+  "games":[
+    {"gameID":"pack-last-one-loses","carrier":"cards","mechanics":["take-away"],"declaredPlayers":[2],"downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-last-one-loses-v1.playablepack.json","ruleAudit":"PASS: existing main pack repaired; no reachable deadlock","terminalReplay":{"2":{"finished":true,"winnerSeat":0,"checksum":"6e154b26066dfd01"}}},
+    {"gameID":"pack-take-five","carrier":"cards","mechanics":["take-away"],"declaredPlayers":[2,3,4],"downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json","ruleAudit":"PASS: existing main pack repaired; no reachable deadlock","terminalReplay":{"2":{"finished":true,"winnerSeat":0,"checksum":"6795ed560a1f1b70"},"3":{"finished":true,"winnerSeat":0,"checksum":"811f0694a7db66aa"},"4":{"finished":true,"winnerSeat":2,"checksum":"6ab555e2ac50cb2"}}}
+  ],
+  "gates":{"completeTerminalReplayForDeclaredPlayerRange":"PASS","carrierIsScalar":"PASS","downloadURLBinding":"PASS","schemaCompatibility":"PASS","license":"PASS","nonExecutablePayload":"PASS","lowerHalfThumbOperability":"PASS: existing signed cardTurn renderer contract"}
+}
