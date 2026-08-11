@@ -1,7 +1,7 @@
 {
   "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "issuedAt": "2026-08-11T01:57:49Z",
+  "expiresAt": "2026-08-18T01:57:49Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cross-current",
+      "packID": "cross-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cross-current-v1.playablepack.json",
+      "byteCount": 1488,
+      "envelopeSHA256": "5785e7c5fe435e5d43c8f74b6c256ee2523d8a546cd38bfb3ee2ba6817998f93",
+      "contentSHA256": "01a669fa4d325be93c190a178918c9a0d37cff8a1171abce52e0940a3ee1b572",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Keep the current moving through a compact twelve-tile crosswind.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Cross Current"
+        },
+        "zh-Hans": {
+          "summary": "在紧凑的十二格逆流中，让数字持续回到正确位置。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "交错逆流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-summit-sixteen",
+      "packID": "summit-sixteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-summit-sixteen-v1.playablepack.json",
+      "byteCount": 1468,
+      "envelopeSHA256": "d70d865b1d0c6181c1529a4ee369fe48ccaa87379e188d9e3882de20cc9d8ddb",
+      "contentSHA256": "dcc10f0a12ae9d982271d71929ab7704e0ec1f0c687a3d948aa4e77a4cfee51a",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a sixteen-tile summit with deliberate, thumb-sized moves.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Summit Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "用从容的拇指滑动攀登十六格数字峰顶。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六峰顶"
+        }
+      }
+    },
+    {
+      "gameID": "pack-tide-turn",
+      "packID": "tide-turn-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-tide-turn-v1.playablepack.json",
+      "byteCount": 1476,
+      "envelopeSHA256": "399a9f6c25f5204e6757419c712a658b003e7c28d57fda4fb21c602d71ce1cda",
+      "contentSHA256": "5121cead293acc14db338bd73bbdf7b8ac5a8cc164c418ce1f46804681052287",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Trade turns across fifteen tiles and bring the tide back to order.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Tide Turn"
+        },
+        "zh-Hans": {
+          "summary": "轮流整理十五块方块，让潮汐般的数字回到秩序。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "潮汐回转"
         }
       }
     }
