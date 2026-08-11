@@ -1,7 +1,7 @@
 {
-  "revision": 91,
-  "issuedAt": "2026-08-12T06:30:00Z",
-  "expiresAt": "2026-08-19T06:30:00Z",
+  "revision": 92,
+  "issuedAt": "2026-08-12T07:00:00Z",
+  "expiresAt": "2026-08-19T07:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6701,6 +6701,15 @@
     },
     {
       "gameID":"pack-six-seat-saffron-gallery","packID":"six-seat-saffron-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":6,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-saffron-gallery-v1.playablepack.json","byteCount":1665,"envelopeSHA256":"fbeacde5f1d518ba47cf505e8f52c976d0ffeecc44fd4a5157dd328da1db0198","contentSHA256":"6b025f627e18c866461ece83161262ff18e040beef51fc3971600cd28e9b1e5d","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly six players frame rare five-tile galleries across a square eight-color saffron field.","systemImage":"photo.on.rectangle.angled","title":"Six Seat Saffron Gallery"},"zh-Hans":{"summary":"严格六位玩家在方形八色藏红棋盘中构筑稀有五连画廊。","systemImage":"photo.on.rectangle.angled","title":"六席藏红画廊"}}
+    },
+    {
+      "gameID":"pack-dual-saffron-courtyard","packID":"dual-saffron-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-saffron-courtyard-v1.playablepack.json","byteCount":1621,"envelopeSHA256":"ac8fe30f5d426f9369bd2fc63dbce79cac4fa50e7d17300b26a4098cca67343f","contentSHA256":"10079fc7409eb175eb8e79d2b15873f0f5b063c3f6684cb5139fd6cc187f7b9c","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players frame rare five-tile courtyards across a pocket seven-color saffron field.","systemImage":"square.grid.3x3.fill","title":"Dual Saffron Courtyard"},"zh-Hans":{"summary":"两位玩家在袖珍七色藏红棋盘中构筑稀有五连庭院。","systemImage":"square.grid.3x3.fill","title":"双人藏红庭院"}}
+    },
+    {
+      "gameID":"pack-open-mint-courtyard","packID":"open-mint-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-mint-courtyard-v1.playablepack.json","byteCount":1647,"envelopeSHA256":"f658e1723a28924aeb6ae4ca3cf0b036a280735816cfeea9a775abea2fce18fa","contentSHA256":"9b56ed43d3720e41cd170312c9c3a698b0c9747b017252bb88cfd235aab156b7","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players frame four-tile courtyards through a tall five-color mint field.","systemImage":"square.grid.3x3.fill","title":"Open Mint Courtyard"},"zh-Hans":{"summary":"二至六位玩家在高耸五色薄荷棋盘中构筑四连庭院。","systemImage":"square.grid.3x3.fill","title":"开放薄荷庭院"}}
+    },
+    {
+      "gameID":"pack-four-seat-coral-gallery","packID":"four-seat-coral-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-coral-gallery-v1.playablepack.json","byteCount":1644,"envelopeSHA256":"094f259b20e8bf6b3cb856ab8acd116c448d9c195f65861ba77f74d2b3d4ace6","contentSHA256":"8974c6761d5746dbf15ea731d47d4b430b7bd175fce556b79f375216dd33842d","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players steer dense triples across a broad four-color coral gallery.","systemImage":"photo.on.rectangle.angled","title":"Four Seat Coral Gallery"},"zh-Hans":{"summary":"严格四位玩家在宽阔四色珊瑚画廊中引导密集三连。","systemImage":"photo.on.rectangle.angled","title":"四席珊瑚画廊"}}
     }
   ]
 }

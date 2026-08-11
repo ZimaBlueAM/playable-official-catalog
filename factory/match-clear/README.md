@@ -155,3 +155,14 @@ Batch CD taxonomy is sidecar-only in `batch-20260812-cd.manifest.json` and
 
 Batch CE taxonomy is sidecar-only in `batch-20260812-ce.manifest.json` and
 `audits/batch-20260812-ce.json`; revision 91 contains no taxonomy fields.
+
+## Batch CF
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Saffron Courtyard | 6×4, 7 colors | 5 | 65 | exactly 2 | Four shallow rows keep rare duel courtyard swaps inside the lower thumb sweep. |
+| Open Mint Courtyard | 9×10, 5 colors | 4 | 187 | 2–6 | Local adjacent swaps keep shared courtyard play focused in lower active rows. |
+| Four Seat Coral Gallery | 10×8, 4 colors | 3 | 126 | exactly 4 | Adjacent local swaps keep dense four-seat gallery play inside one-thumb reach. |
+
+Batch CF taxonomy is sidecar-only in `batch-20260812-cf.manifest.json` and
+`audits/batch-20260812-cf.json`; revision 92 contains no taxonomy fields.
