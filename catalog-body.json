@@ -1,7 +1,7 @@
 {
-  "revision": 55,
-  "issuedAt": "2026-08-11T21:50:00Z",
-  "expiresAt": "2026-08-18T21:50:00Z",
+  "revision": 56,
+  "issuedAt": "2026-08-11T22:00:00Z",
+  "expiresAt": "2026-08-18T22:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -5694,6 +5694,123 @@
           "summary": "严格六位玩家在紧凑四色苜蓿织机中编织密集四连色带。",
           "systemImage": "rectangle.split.3x1.fill",
           "title": "六席苜蓿织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-aurora-boulevard",
+      "packID": "dual-aurora-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-boulevard-v1.playablepack.json",
+      "byteCount": 1598,
+      "envelopeSHA256": "d9486f6f13f68fdbe6faf654c4a030e3de00d78f08b666da28e5f6511e2c6d7b",
+      "contentSHA256": "99996f63ae35fa01c9102c0be87eaa435182bdaddf90ece28e618eadf5ce9ade",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players build scarce four-tile boulevards across a shallow six-color aurora field.",
+          "systemImage": "road.lanes",
+          "title": "Dual Aurora Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短六色极光棋盘中构筑稀有四连大道。",
+          "systemImage": "road.lanes",
+          "title": "双人极光大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-meadow-citadel",
+      "packID": "open-meadow-citadel-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-meadow-citadel-v1.playablepack.json",
+      "byteCount": 1620,
+      "envelopeSHA256": "18f6a9729ea3ff213c6d8da5072b8c0b0f78cf9008bf573687d28a0a0f214cb6",
+      "contentSHA256": "857f44c3eb5f671d5116d02e6cfd06b944e37d3f5bf829810da64956a8a6c41e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to four players raise quick three-tile walls across a broad five-color meadow citadel.",
+          "systemImage": "building.2.fill",
+          "title": "Open Meadow Citadel"
+        },
+        "zh-Hans": {
+          "summary": "二至四位玩家在宽阔五色草甸城堡中筑起灵活三连城墙。",
+          "systemImage": "building.2.fill",
+          "title": "开放草甸城堡"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-aurora-needle",
+      "packID": "three-seat-aurora-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-aurora-needle-v1.playablepack.json",
+      "byteCount": 1621,
+      "envelopeSHA256": "814ef8b93daaabf4c2972d717f3c8be0a831c3d74953551521bae4a4e7162dcf",
+      "contentSHA256": "3ded63dbd7a2a78accaaa0e43183dc6b66b50919b8562ee4e8bb9216e6bb050a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players grow vertical five-tile lines through a narrow seven-color aurora needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Three Seat Aurora Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在狭长七色极光针塔中培育纵向五连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "三席极光针塔"
         }
       }
     }

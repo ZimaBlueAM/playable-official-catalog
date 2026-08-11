@@ -55,3 +55,14 @@ Batch AT taxonomy is sidecar-only in `batch-20260811-at.manifest.json` and
 
 Batch AU taxonomy is sidecar-only in `batch-20260811-au.manifest.json` and
 `audits/batch-20260811-au.json`; revision 55 contains no taxonomy fields.
+
+## Batch AV
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Boulevard | 9×4, 6 colors | 4 | 29 | exactly 2 | Four shallow rows keep the duel boulevard inside the lower thumb sweep. |
+| Open Meadow Citadel | 10×8, 5 colors | 3 | 79 | 2–4 | Frequent local swaps keep the long shared citadel focused in lower rows. |
+| Three Seat Aurora Needle | 4×10, 7 colors | 5 | 54 | exactly 3 | Four narrow columns emphasize vertical five-lines while remaining thumb reachable. |
+
+Batch AV taxonomy is sidecar-only in `batch-20260811-av.manifest.json` and
+`audits/batch-20260811-av.json`; revision 56 contains no taxonomy fields.
