@@ -1,26 +1,6 @@
 {
-  "taxonomyVersion": 1,
+  "taxonomyVersion": 2,
   "allowedValues": {
-    "players": [
-      "solo",
-      "two-player",
-      "party-3-6"
-    ],
-    "pace": [
-      "instant",
-      "turn-based",
-      "quick-round"
-    ],
-    "context": [
-      "independent",
-      "pass-and-play",
-      "friends-room"
-    ],
-    "input": [
-      "one-thumb",
-      "two-thumb",
-      "canvas"
-    ],
     "carrier": [
       "board",
       "cards",
@@ -46,6 +26,26 @@
       "dexterity",
       "spatial",
       "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
     ]
   },
   "entries": [
@@ -88,7 +88,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "board"
+        ],
+        "mechanics": [
+          "alignment",
+          "connection"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -99,17 +107,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -151,6 +149,12 @@
         }
       },
       "tags": {
+        "carrier": [
+          "cards"
+        ],
+        "mechanics": [
+          "take-away"
+        ],
         "players": [
           "two-player"
         ],
@@ -162,17 +166,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -214,28 +208,25 @@
         }
       },
       "tags": {
+        "carrier": [
+          "tiles"
+        ],
+        "mechanics": [
+          "spatial"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
-          "quick-round"
+          "turn-based"
         ],
         "context": [
           "friends-room"
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -277,28 +268,25 @@
         }
       },
       "tags": {
+        "carrier": [
+          "tiles"
+        ],
+        "mechanics": [
+          "matching"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
-          "quick-round"
+          "turn-based"
         ],
         "context": [
           "friends-room"
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -340,7 +328,14 @@
         }
       },
       "tags": {
+        "carrier": [
+          "cards"
+        ],
+        "mechanics": [
+          "take-away"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -351,17 +346,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -403,7 +388,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -414,17 +407,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -466,6 +449,13 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
           "party-3-6"
         ],
@@ -477,17 +467,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -529,7 +509,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -540,16 +528,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -591,7 +570,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -602,16 +589,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -653,7 +631,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -664,17 +650,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -716,6 +692,13 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
           "party-3-6"
         ],
@@ -727,17 +710,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -779,7 +752,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -790,16 +771,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -841,7 +813,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -852,16 +832,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -903,7 +874,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -914,17 +893,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -966,6 +935,13 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
           "party-3-6"
         ],
@@ -977,17 +953,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1029,7 +995,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1040,16 +1014,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1091,7 +1056,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1102,16 +1075,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1153,7 +1117,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1164,17 +1136,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1216,6 +1178,13 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
           "party-3-6"
         ],
@@ -1227,17 +1196,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1279,7 +1238,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1290,16 +1257,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1341,7 +1299,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1352,16 +1318,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1403,7 +1360,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1414,17 +1379,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1466,6 +1421,13 @@
         }
       },
       "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
         "players": [
           "party-3-6"
         ],
@@ -1477,17 +1439,7 @@
         ],
         "input": [
           "one-thumb"
-        ],
-        "carrier": [
-          "action"
-        ],
-        "mechanics": [
-          "bluff",
-          "deduction"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1529,7 +1481,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1540,16 +1500,7 @@
         ],
         "input": [
           "canvas"
-        ],
-        "carrier": [
-          "canvas"
-        ],
-        "mechanics": [
-          "matching"
         ]
-      },
-      "evidence": {
-        "tags": null
       }
     },
     {
@@ -1591,7 +1542,15 @@
         }
       },
       "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
         "players": [
+          "two-player",
           "party-3-6"
         ],
         "pace": [
@@ -1602,16 +1561,250 @@
         ],
         "input": [
           "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-harbor",
+      "packID": "hidden-harbor-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-harbor-v1.playablepack",
+      "byteCount": 1806,
+      "envelopeSHA256": "0cd2371b5a42e6d880d1c8c757d4b02289c12244481d21c74afcb37ae2fcbe39",
+      "contentSHA256": "eb79798f3c40393e78950d0b167d400865348aa4f373dcb9ff427c549dba9a62",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One beacon sends the wrong route; read the crew and vote before departure.",
+          "systemImage": "sailboat.fill",
+          "title": "Harbor Signal"
+        },
+        "zh-Hans": {
+          "summary": "一座信标发出了错误航线；观察船员，在启航前投票。",
+          "systemImage": "sailboat.fill",
+          "title": "港口信号"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
         ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-kite",
+      "packID": "hidden-kite-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-kite-v1.playablepack",
+      "byteCount": 1777,
+      "envelopeSHA256": "8e05331a566305683cb36ee20c4eda50d2e7cca64459575df03652e40818a03c",
+      "contentSHA256": "d1b5fa838796042bf52cde748f7fedac7870db0b8ef7d67306c5f93c9d96abde",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden flyer tangles the line; compare stories and vote before it snaps.",
+          "systemImage": "wind",
+          "title": "Kite String"
+        },
+        "zh-Hans": {
+          "summary": "隐藏的放飞者缠乱了线；比较说法，在断线前投票。",
+          "systemImage": "wind",
+          "title": "风筝线"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-trail",
+      "packID": "canvas-trail-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-trail-v1.playablepack",
+      "byteCount": 1596,
+      "envelopeSHA256": "48765c28a009110871a918504a8d55c82420f861ad8b3195be5f135cc7e23685",
+      "contentSHA256": "023b5f3d64caf6b5a52ac87ca283ef6c9f76c8cfef1d62bf967ccd3e8ca9b7cc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw a trail-side clue in a few strokes and let friends name it.",
+          "systemImage": "signpost.right.fill",
+          "title": "Trail Signs"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出步道旁的线索，让朋友说出它。",
+          "systemImage": "signpost.right.fill",
+          "title": "步道标记"
+        }
+      },
+      "tags": {
         "carrier": [
           "canvas"
         ],
         "mechanics": [
-          "matching"
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
         ]
+      }
+    },
+    {
+      "gameID": "canvas-workshop",
+      "packID": "canvas-workshop-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
       },
-      "evidence": {
-        "tags": null
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-workshop-v1.playablepack",
+      "byteCount": 1575,
+      "envelopeSHA256": "b1306d277d83fce8d10eac01e057d1e21888102dc0cabbce00baeb586e0fdf7a",
+      "contentSHA256": "15f8cf3b4e70396f9a7867a77d255284920bfec3ccb673ee0ffe862cac89f954",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a handmade object and race the table to identify it.",
+          "systemImage": "paintbrush.fill",
+          "title": "Workshop Scribbles"
+        },
+        "zh-Hans": {
+          "summary": "画出手工作品，和大家一起抢答它是什么。",
+          "systemImage": "paintbrush.fill",
+          "title": "工坊涂鸦"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
       }
     }
   ]

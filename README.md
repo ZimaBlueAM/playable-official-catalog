@@ -32,6 +32,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Bell Tower** — listen to the table and vote for the hidden ringer.
 - **Picnic Pictures** — draw a picnic favorite for friends to guess.
 - **Library Doodles** — sketch a quiet library object and race to recognize it.
+- **Harbor Signal** — read the crew and vote before departure.
+- **Kite String** — compare stories and find the hidden flyer.
+- **Trail Signs** — draw a trail-side clue for friends to name.
+- **Workshop Scribbles** — sketch a handmade object and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

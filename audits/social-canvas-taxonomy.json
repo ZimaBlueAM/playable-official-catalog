@@ -1,13 +1,13 @@
 {
-  "auditVersion": 1,
+  "auditVersion": 2,
   "source": "factory/social-canvas/candidate-manifest.json",
-  "contract": "Every entry has only bounded taxonomy values; players is derived from min/maxPlayers and engine family is the stable runtime mapping.",
+  "contract": "Candidate-only taxonomy; signed catalog schema 1 remains unchanged until Build107 taxonomy transport is sealed.",
   "checks": [
-    "required dimensions present",
-    "players agrees with minimumPlayers/maximumPlayers",
-    "genre/pace/input agree with engine family",
-    "context is friends-room for official social content",
-    "unknown future values must be ignored by older readers"
+    "all six dimensions present",
+    "carrier and mechanics agree with complete engine rules",
+    "players agrees with minimumPlayers and maximumPlayers",
+    "only bounded values are used",
+    "catalog entries and pack bodies contain no taxonomy fields"
   ],
   "entries": [
     {
@@ -18,7 +18,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
+          "carrier": [
+            "board"
+          ],
+          "mechanics": [
+            "alignment",
+            "connection"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -29,17 +37,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "pack-last-one-loses",
@@ -49,6 +49,12 @@
         "minimumPlayers": 2,
         "maximumPlayers": 2,
         "tags": {
+          "carrier": [
+            "cards"
+          ],
+          "mechanics": [
+            "take-away"
+          ],
           "players": [
             "two-player"
           ],
@@ -60,17 +66,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "pack-pocket-slider",
@@ -80,28 +78,27 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
+          "carrier": [
+            "tiles"
+          ],
+          "mechanics": [
+            "spatial"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
-            "quick-round"
+            "turn-based"
           ],
           "context": [
             "friends-room"
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "pack-prism-shift",
@@ -111,28 +108,27 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
+          "carrier": [
+            "tiles"
+          ],
+          "mechanics": [
+            "matching"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
-            "quick-round"
+            "turn-based"
           ],
           "context": [
             "friends-room"
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "pack-take-five",
@@ -142,7 +138,14 @@
         "minimumPlayers": 2,
         "maximumPlayers": 4,
         "tags": {
+          "carrier": [
+            "cards"
+          ],
+          "mechanics": [
+            "take-away"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -153,17 +156,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-signal",
@@ -173,7 +168,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -184,17 +187,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-lantern",
@@ -204,6 +199,13 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
             "party-3-6"
           ],
@@ -215,17 +217,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-postcard",
@@ -235,7 +229,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -246,16 +248,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-shadow",
@@ -265,7 +260,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -276,16 +279,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-ribbon",
@@ -295,7 +291,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -306,17 +310,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-weather",
@@ -326,6 +322,13 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
             "party-3-6"
           ],
@@ -337,17 +340,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-constellation",
@@ -357,7 +352,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -368,16 +371,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-whisper",
@@ -387,7 +383,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -398,16 +402,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-tide",
@@ -417,7 +414,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -428,17 +433,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-garden",
@@ -448,6 +445,13 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
             "party-3-6"
           ],
@@ -459,17 +463,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-toolbox",
@@ -479,7 +475,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -490,16 +494,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-market",
@@ -509,7 +506,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -520,16 +525,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-mosaic",
@@ -539,7 +537,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -550,17 +556,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-orbit",
@@ -570,6 +568,13 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
             "party-3-6"
           ],
@@ -581,17 +586,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-cabin",
@@ -601,7 +598,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -612,16 +617,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-parade",
@@ -631,7 +629,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -642,16 +648,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-clock",
@@ -661,7 +660,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -672,17 +679,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "hidden-bell",
@@ -692,6 +691,13 @@
         "minimumPlayers": 3,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
           "players": [
             "party-3-6"
           ],
@@ -703,17 +709,9 @@
           ],
           "input": [
             "one-thumb"
-          ],
-          "carrier": [
-            "action"
-          ],
-          "mechanics": [
-            "bluff",
-            "deduction"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-picnic",
@@ -723,7 +721,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -734,16 +740,9 @@
           ],
           "input": [
             "canvas"
-          ],
-          "carrier": [
-            "canvas"
-          ],
-          "mechanics": [
-            "matching"
           ]
         }
-      },
-      "tags": null
+      }
     },
     {
       "gameID": "canvas-library",
@@ -753,7 +752,15 @@
         "minimumPlayers": 2,
         "maximumPlayers": 6,
         "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
           "players": [
+            "two-player",
             "party-3-6"
           ],
           "pace": [
@@ -764,44 +771,132 @@
           ],
           "input": [
             "canvas"
+          ]
+        }
+      }
+    },
+    {
+      "gameID": "hidden-harbor",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": [
+            "action"
           ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      }
+    },
+    {
+      "gameID": "hidden-kite",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      }
+    },
+    {
+      "gameID": "canvas-trail",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
           "carrier": [
             "canvas"
           ],
           "mechanics": [
-            "matching"
+            "matching",
+            "word"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
           ]
         }
-      },
-      "tags": null
+      }
+    },
+    {
+      "gameID": "canvas-workshop",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      }
     }
-  ],
-  "allowedValues": {
-    "carrier": [
-      "board",
-      "cards",
-      "mahjong",
-      "tiles",
-      "dice",
-      "canvas",
-      "action"
-    ],
-    "mechanics": [
-      "alignment",
-      "connection",
-      "capture",
-      "shedding",
-      "set-collection",
-      "take-away",
-      "bluff",
-      "deduction",
-      "memory",
-      "matching",
-      "race",
-      "push-your-luck",
-      "dexterity",
-      "spatial",
-      "word"
-    ]
-  }
+  ]
 }
