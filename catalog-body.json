@@ -1,7 +1,7 @@
 {
-  "revision": 76,
-  "issuedAt": "2026-08-12T01:20:00Z",
-  "expiresAt": "2026-08-19T01:20:00Z",
+  "revision": 77,
+  "issuedAt": "2026-08-12T01:30:00Z",
+  "expiresAt": "2026-08-19T01:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6566,6 +6566,15 @@
     },
     {
       "gameID":"pack-four-seat-aurora-gallery","packID":"four-seat-aurora-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-aurora-gallery-v1.playablepack.json","byteCount":1645,"envelopeSHA256":"18c5ff4ce5c6c8a7e94b617231cbdb745101d6072ba8ca5958d59d8e8976af18","contentSHA256":"3d37eb4509fb3e6555661f0d82063dcb18b67fd09f33c09c1b768d73f1e88315","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players frame rare five-tile galleries through a tall six-color aurora field.","systemImage":"photo.on.rectangle.angled","title":"Four Seat Aurora Gallery"},"zh-Hans":{"summary":"严格四位玩家在高耸六色极光棋盘中构筑稀有五连画廊。","systemImage":"photo.on.rectangle.angled","title":"四席极光画廊"}}
+    },
+    {
+      "gameID":"pack-dual-meadow-gallery","packID":"dual-meadow-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-gallery-v1.playablepack.json","byteCount":1605,"envelopeSHA256":"2e6920c91875059813b66e8220b6b5876062b5a6885333502149dc7a99bd3ef7","contentSHA256":"745d90f2ce99679c7b8b515bf3326001d5c69eb048862b7a7588d51b12fdd53b","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players frame rare five-tile galleries across a shallow six-color meadow field.","systemImage":"photo.on.rectangle.angled","title":"Dual Meadow Gallery"},"zh-Hans":{"summary":"两位玩家在浅层六色草甸棋盘中构筑稀有五连画廊。","systemImage":"photo.on.rectangle.angled","title":"双人草甸画廊"}}
+    },
+    {
+      "gameID":"pack-open-aurora-promenade","packID":"open-aurora-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-aurora-promenade-v1.playablepack.json","byteCount":1630,"envelopeSHA256":"a4798b6f80b723dc3530be91dc4cfafaa8c727501b4504ac07268a14753cd56a","contentSHA256":"ca6455199f07157743800688272f670d5ad1b7a81a4dd4f5445ee40e17dd90ab","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players trace four-tile promenades through a narrow five-color aurora field.","systemImage":"figure.walk","title":"Open Aurora Promenade"},"zh-Hans":{"summary":"二至六位玩家在狭长五色极光棋盘中勾勒四连长廊。","systemImage":"figure.walk","title":"开放极光长廊"}}
+    },
+    {
+      "gameID":"pack-five-seat-violet-courtyard","packID":"five-seat-violet-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-violet-courtyard-v1.playablepack.json","byteCount":1641,"envelopeSHA256":"753ebdbcd1ee8328204ed3d536d11199a928889cbfe557f80ed6169efbbbf520","contentSHA256":"25145ee290294fa77e1d7349867f90699699a0165b6eb51191e6ad2dcd3d41b5","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players steer quick triples across a broad seven-color violet courtyard.","systemImage":"square.grid.3x3.fill","title":"Five Seat Violet Courtyard"},"zh-Hans":{"summary":"严格五位玩家在宽阔七色紫罗兰庭院中引导快速三连。","systemImage":"square.grid.3x3.fill","title":"五席紫罗兰庭院"}}
     }
   ]
 }

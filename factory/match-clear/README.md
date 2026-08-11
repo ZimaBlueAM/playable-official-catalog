@@ -133,3 +133,14 @@ Batch BO taxonomy is sidecar-only in `batch-20260812-bo.manifest.json` and
 
 Batch BP taxonomy is sidecar-only in `batch-20260812-bp.manifest.json` and
 `audits/batch-20260812-bp.json`; revision 76 contains no taxonomy fields.
+
+## Batch BQ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Gallery | 7×4, 6 colors | 5 | 50 | exactly 2 | Four shallow rows keep rare duel gallery swaps inside the lower thumb sweep. |
+| Open Aurora Promenade | 5×10, 5 colors | 4 | 142 | 2–6 | Five narrow columns keep the shared promenade focused in lower active rows. |
+| Five Seat Violet Courtyard | 9×8, 7 colors | 3 | 96 | exactly 5 | Adjacent local swaps keep quick five-seat courtyard play inside one-thumb reach. |
+
+Batch BQ taxonomy is sidecar-only in `batch-20260812-bq.manifest.json` and
+`audits/batch-20260812-bq.json`; revision 77 contains no taxonomy fields.
