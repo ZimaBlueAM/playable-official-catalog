@@ -20,6 +20,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Weather Front** — spot the calm-weather team before the vote storm.
 - **Constellation Notes** — sketch a starry clue and name the pattern.
 - **Whisper Sketch** — turn a quiet everyday sound into a tiny drawing.
+- **Tide Mark** — watch the table and vote before the current turns.
+- **Garden Keeper** — find the keeper hiding among the gardeners.
+- **Tiny Toolbox** — draw an everyday tool for the table to identify.
+- **Market Doodles** — sketch a market find and race to name it.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and

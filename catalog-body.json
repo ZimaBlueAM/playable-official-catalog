@@ -1,7 +1,7 @@
 {
-  "revision": 10,
-  "issuedAt": "2026-08-11T02:00:00Z",
-  "expiresAt": "2026-08-18T02:00:00Z",
+  "revision": 11,
+  "issuedAt": "2026-08-11T03:00:00Z",
+  "expiresAt": "2026-08-18T03:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -507,6 +507,162 @@
           "summary": "把日常细小声音画成线索，在猜测消散前抢答。",
           "systemImage": "waveform",
           "title": "耳语速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-tide",
+      "packID": "hidden-tide-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-tide-v1.playablepack",
+      "byteCount": 1811,
+      "envelopeSHA256": "9ab7896cddf990cde9bb1eee3bffdf6b429ee20f51c7b6baee037b4a4a106e77",
+      "contentSHA256": "af201dfe657272655ca26016ba8b3e2cf23a6de38cd6abdded13713f46166845",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One tide marker bends the current; watch the table and vote before the water turns.",
+          "systemImage": "water.waves",
+          "title": "Tide Mark"
+        },
+        "zh-Hans": {
+          "summary": "一名潮汐标记者正在改变水流；观察桌面，在潮向改变前投票。",
+          "systemImage": "water.waves",
+          "title": "潮汐标记"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-garden",
+      "packID": "hidden-garden-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-garden-v1.playablepack",
+      "byteCount": 1801,
+      "envelopeSHA256": "34af1acd2cdfe80b8eb87e418659cd5e01ea3b07a7f8037d8a28b40c22bdebe1",
+      "contentSHA256": "02cfe399251ad8a7ff354907953ae8819246944d01c2998a3fcf344b832fe2c3",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Find the keeper hiding among the gardeners before the quiet garden closes.",
+          "systemImage": "leaf.fill",
+          "title": "Garden Keeper"
+        },
+        "zh-Hans": {
+          "summary": "在安静花园关闭前，找出藏在园丁中的守望者。",
+          "systemImage": "leaf.fill",
+          "title": "花园守望者"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-toolbox",
+      "packID": "canvas-toolbox-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-toolbox-v1.playablepack",
+      "byteCount": 1598,
+      "envelopeSHA256": "01b08613f463ddbe6690a56d64be8c4e5f8562cdb79470b86c18af1dc6290137",
+      "contentSHA256": "1a42200a53aa3f6f0c3abffccaafafe1f0c791e17c64939bfb669323c4edd62e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw an everyday tool in a few strokes and let the table identify it.",
+          "systemImage": "wrench.and.screwdriver.fill",
+          "title": "Tiny Toolbox"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出日常工具，让大家猜出它是什么。",
+          "systemImage": "wrench.and.screwdriver.fill",
+          "title": "迷你工具箱"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-market",
+      "packID": "canvas-market-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-market-v1.playablepack",
+      "byteCount": 1581,
+      "envelopeSHA256": "f0ab361c07a30245d9cce2e6272057ec4ad066260cb0779a09d01aed32b11fb8",
+      "contentSHA256": "a1a7ffe03570775eacd218a83e049203fed74b406d3be6ef19b57d165def2ec5",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a market find, then race the table to name the little treasure.",
+          "systemImage": "basket.fill",
+          "title": "Market Doodles"
+        },
+        "zh-Hans": {
+          "summary": "画出集市上的小发现，和大家一起抢答它的名字。",
+          "systemImage": "basket.fill",
+          "title": "集市涂鸦"
         }
       }
     }
