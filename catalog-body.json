@@ -1,5 +1,5 @@
 {
-  "revision": 12,
+  "revision": 13,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -702,6 +702,123 @@
           "summary": "每回合从星空取走二、六或七颗星，拿到最后一颗者获胜。",
           "systemImage": "star.circle.fill",
           "title": "星野收获"
+        }
+      }
+    },
+    {
+      "gameID": "pack-candle-keep",
+      "packID": "pack-candle-keep-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-candle-keep-v1.playablepack.json",
+      "byteCount": 1665,
+      "envelopeSHA256": "fe4ffb2d2d8d39cacbf72fdc2a428f7bfe74acc71005dd817cee30cfe7f6c16c",
+      "contentSHA256": "bee93139a35bb351b9ef382e915dd2412620da93992c30998d7fb8b0b2ac46f0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Snuff one or four candles, but the player extinguishing the final flame loses.",
+          "systemImage": "candle.fill",
+          "title": "Candle Keep"
+        },
+        "zh-Hans": {
+          "summary": "每回合熄灭一或四支蜡烛，但熄灭最后一支者落败。",
+          "systemImage": "candle.fill",
+          "title": "烛火留存"
+        }
+      }
+    },
+    {
+      "gameID": "pack-river-knots",
+      "packID": "pack-river-knots-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-river-knots-v1.playablepack.json",
+      "byteCount": 1682,
+      "envelopeSHA256": "fd6a9a558947a81a0cd6f59d6a6bf9aa23c623d50d73e1f0bfefe76a234ea8d8",
+      "contentSHA256": "0312ad4dc4cadec5b9c3932e84ba78e582767e8f1b7fec95626549edd6d5ac0a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Untie three, five, or eight knots from the shared rope; the final knot wins.",
+          "systemImage": "water.waves",
+          "title": "River Knots"
+        },
+        "zh-Hans": {
+          "summary": "每回合从共用绳索解开三、五或八个结，解开最后一个者获胜。",
+          "systemImage": "water.waves",
+          "title": "河绳解结"
+        }
+      }
+    },
+    {
+      "gameID": "pack-comet-lift",
+      "packID": "pack-comet-lift-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-comet-lift-v1.playablepack.json",
+      "byteCount": 1653,
+      "envelopeSHA256": "d59e8390ebe8ea05b78085dafde21274f07aed0faa04b0a8e707c9e991af1021",
+      "contentSHA256": "736aa9e8dee9a666b3057fbdbea66ad0cff062fbf80176c73d07a3f8beb7c7e6",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Lift one, six, or ten comet stones from orbit; the final stone wins.",
+          "systemImage": "sparkle",
+          "title": "Comet Lift"
+        },
+        "zh-Hans": {
+          "summary": "每回合从轨道取走一、六或十枚彗石，拿到最后一枚者获胜。",
+          "systemImage": "sparkle",
+          "title": "彗石升轨"
         }
       }
     }
