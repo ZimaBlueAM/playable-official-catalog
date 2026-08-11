@@ -1,0 +1,206 @@
+{
+  "schema": 2,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "generatedAt": "2026-08-11T08:30:00Z",
+  "allowed": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
+    ]
+  },
+  "candidates": [
+    {
+      "gameID": "pack-monument-eight",
+      "packID": "monument-eight-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 12,
+        "connectionLength": 8,
+        "rows": 12,
+        "usesGravity": true
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "5e0128dfa7588cd8",
+          "9b586b7adf3bb2ef"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    },
+    {
+      "gameID": "pack-civic-diagonal-five",
+      "packID": "civic-diagonal-five-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 11,
+        "connectionLength": 5,
+        "rows": 11,
+        "usesGravity": false
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "e305192e07a5bf05",
+          "746bb37a9a8347a5"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    },
+    {
+      "gameID": "pack-seven-depth",
+      "packID": "seven-depth-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 7,
+        "connectionLength": 7,
+        "rows": 12,
+        "usesGravity": true
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "15812f868ae54434",
+          "491408c245d46e80"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    }
+  ],
+  "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+}

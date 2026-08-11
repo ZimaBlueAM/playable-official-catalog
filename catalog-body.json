@@ -1,7 +1,7 @@
 {
-  "revision": 17,
-  "issuedAt": "2026-08-11T08:00:00Z",
-  "expiresAt": "2026-08-18T08:00:00Z",
+  "revision": 18,
+  "issuedAt": "2026-08-11T08:30:00Z",
+  "expiresAt": "2026-08-18T08:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1482,6 +1482,123 @@
           "summary": "两至六人在深井重力棋盘中堆叠，率先垂直连成八枚标记。",
           "systemImage": "square.grid.3x3.fill",
           "title": "深井八层"
+        }
+      }
+    },
+    {
+      "gameID": "pack-monument-eight",
+      "packID": "monument-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-monument-eight-v1.playablepack",
+      "byteCount": 5183,
+      "envelopeSHA256": "9ad682ebbaedd9f54dfaff2a6b673ce282fb84a657342243a0c07c97d4eec0a2",
+      "contentSHA256": "98578b26d5fa262a4b4954434ff6741fed553ca5bd864b254073c32c28482a84",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build across a monumental gravity board and connect eight.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Monument Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在大型重力棋盘中构筑长线，争先连成八枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "丰碑八连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-civic-diagonal-five",
+      "packID": "civic-diagonal-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-civic-diagonal-five-v1.playablepack",
+      "byteCount": 3748,
+      "envelopeSHA256": "0cd0f413296f21e0a0bace6c5830180e2213ca4e1143f030960b49243a4ee707",
+      "contentSHA256": "e752d17504e0653c9dea737d738c3388a7559967158bff1f42165bb296f8472f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players share an open civic square and complete a five-mark diagonal.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Civic Diagonal Five"
+        },
+        "zh-Hans": {
+          "summary": "两至六人共享开放广场棋盘，争先完成五子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "广场斜五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-seven-depth",
+      "packID": "seven-depth-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-depth-v1.playablepack",
+      "byteCount": 4658,
+      "envelopeSHA256": "1118b1fdf3fc7026a6af000078140075c5f0f8ef5f76c041638161ca686c06a0",
+      "contentSHA256": "b72604ed54005ac0c00eae1c4a59d579ffd7d11dad9b8a08c8f5d1882fc61c4d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players descend into a seven-lane gravity well and stack seven vertically.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Seven Depth"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在七道重力深井中落子，率先垂直叠成七枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "七层深井"
         }
       }
     }
