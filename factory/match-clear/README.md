@@ -66,3 +66,14 @@ Batch V taxonomy is sidecar-only in `batch-20260811-v.manifest.json` and
 
 Batch W taxonomy is sidecar-only in `batch-20260811-w.manifest.json` and
 `audits/batch-20260811-w.json`; revision 31 contains no taxonomy fields.
+
+## Batch X
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Causeway | 9×4, 6 colors | 5 | 11 | exactly 2 | Four shallow rows keep long duel causeways visible in the lower thumb sweep. |
+| Open Spectrum Canal | 7×9, 8 colors | 3 | 27 | 2–5 | Seven narrow columns keep scarce canal swaps inside the lower one-thumb lane. |
+| Party Amber Needle | 4×10, 4 colors | 4 | 30 | 3–6 | Four columns keep full-width party bands entirely thumb reachable. |
+
+Batch X taxonomy is sidecar-only in `batch-20260811-x.manifest.json` and
+`audits/batch-20260811-x.json`; revision 32 contains no taxonomy fields.

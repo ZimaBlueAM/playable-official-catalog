@@ -1,7 +1,7 @@
 {
-  "revision": 31,
-  "issuedAt": "2026-08-11T17:50:00Z",
-  "expiresAt": "2026-08-18T17:50:00Z",
+  "revision": 32,
+  "issuedAt": "2026-08-11T18:00:00Z",
+  "expiresAt": "2026-08-18T18:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2886,6 +2886,123 @@
           "summary": "四至六位朋友在高耸四色琥珀塔中追逐快速三连。",
           "systemImage": "building.2.fill",
           "title": "派对琥珀塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-prism-causeway",
+      "packID": "dual-prism-causeway-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-prism-causeway-v1.playablepack.json",
+      "byteCount": 1657,
+      "envelopeSHA256": "3d7cd48c1e98b5e3976d9ec1c0b40d72aa0feabbb7624a471fa5e52566f825c2",
+      "contentSHA256": "e46df8ab34dac6195765db5b5d68038babf4415b2af24cc7d1a0bccd446c7474",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players bridge scarce five-tile causeways across a shallow six-color prism.",
+          "systemImage": "point.topleft.down.to.point.bottomright.curvepath.fill",
+          "title": "Dual Prism Causeway"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅层六色棱镜上架设稀有五连堤道。",
+          "systemImage": "point.topleft.down.to.point.bottomright.curvepath.fill",
+          "title": "双人棱镜堤道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spectrum-canal",
+      "packID": "open-spectrum-canal-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-canal-v1.playablepack.json",
+      "byteCount": 1579,
+      "envelopeSHA256": "1bdced02ebabddfb63a431b70c33b7e0a467f5c05fd958c9f0f1d7fc21062f62",
+      "contentSHA256": "06a5a8419e080f37809f272db90c3ec2732d76a7f909e9c216535766f8d73d46",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players find scarce triples along a tall eight-color spectrum canal.",
+          "systemImage": "water.waves",
+          "title": "Open Spectrum Canal"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在高耸八色光谱运河中寻找稀有三连。",
+          "systemImage": "water.waves",
+          "title": "开放光谱运河"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-amber-needle",
+      "packID": "party-amber-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-amber-needle-v1.playablepack.json",
+      "byteCount": 1587,
+      "envelopeSHA256": "781977d52b4498cc35fb251653741cbab08f5af87e5629bbb36731da75a24737",
+      "contentSHA256": "24ac56ce21099e8d3b86c218712ac46d985f2e99957016857faf546e76e0b854",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends complete full-width amber bands in a narrow four-color needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Party Amber Needle"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在狭长四色针塔中完成满宽四连琥珀带。",
+          "systemImage": "arrow.up.to.line",
+          "title": "派对琥珀针塔"
         }
       }
     }
