@@ -1,7 +1,7 @@
 {
-  "revision": 23,
-  "issuedAt": "2026-08-11T11:00:00Z",
-  "expiresAt": "2026-08-18T11:00:00Z",
+  "revision": 24,
+  "issuedAt": "2026-08-11T11:30:00Z",
+  "expiresAt": "2026-08-18T11:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2184,6 +2184,123 @@
           "summary": "两至六人在高长开放棋盘中自由落子，争先筑成竖向七连。",
           "systemImage": "square.grid.3x3.fill",
           "title": "开放七塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mirror-quick-three",
+      "packID": "mirror-quick-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mirror-quick-three-v1.playablepack",
+      "byteCount": 2884,
+      "envelopeSHA256": "56db520fa2b91c8c22a66e260ee3c1b2df4ab717fc44ea89a892c1c12f7a5520",
+      "contentSHA256": "d2c69d64a858953b0629ffda2902b9c389e07727eeab123f843860cfd93639c8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a mirrored three-step diagonal on a compact gravity board.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Mirror Quick Three"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在紧凑重力棋盘中反向搭建，快速完成镜像三子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "镜像快三"
+        }
+      }
+    },
+    {
+      "gameID": "pack-counter-seven",
+      "packID": "counter-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-counter-seven-v1.playablepack",
+      "byteCount": 4732,
+      "envelopeSHA256": "a5e2324feec4e7654627caf95c69a72f509d422d1de439633eaba9a76afcd2dc",
+      "contentSHA256": "19c99d2b89b0f7aca0f0572fbc1073d381f7f4c4801f738d0e156fe4d079a309",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players traverse an open square along a reverse diagonal of seven.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Counter Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在开放方阵中布局，争先完成反向七子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "逆斜七连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-eight-lane-tower-five",
+      "packID": "eight-lane-tower-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-eight-lane-tower-five-v1.playablepack",
+      "byteCount": 3708,
+      "envelopeSHA256": "087e70508f8aaca261ba478db36316a285525d20b5757f0cfc13c8c3d037f16f",
+      "contentSHA256": "d3f2433f84793267aa9bc3125fe718ebd205a4c9c0524d4e96a9eda1c336a36c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players stack through eight gravity lanes and raise a vertical tower of five.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Eight-Lane Tower Five"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在八条重力通道中堆叠，争先筑成竖向五连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "八道五塔"
         }
       }
     }
