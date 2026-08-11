@@ -1,5 +1,5 @@
 {
-  "revision": 27,
+  "revision": 28,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -2457,6 +2457,201 @@
           "summary": "每回合熄灭一、十、十九、二十六或三十枚太阳标记并交棒，熄灭最后一枚者落败。",
           "systemImage": "sun.max.fill",
           "title": "至日接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-lantern-count",
+      "packID": "pack-lantern-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-lantern-count-v1.playablepack.json",
+      "byteCount": 1783,
+      "envelopeSHA256": "d37864ce586c260a08cd3d58ccfa21f76ac171e4627b4b2f9ef671807da2df0a",
+      "contentSHA256": "43d0a04976addb1bd43bcdcd0afa51ff8a2d86138fd08626e51bbc32a0d2ae85",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, thirteen, twenty-two, or thirty-one lantern tiles; the player collecting the final tile wins.",
+          "systemImage": "lamp.table.fill",
+          "title": "Lantern Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、十三、二十二或三十一枚灯笼牌，收取最后一枚者获胜。",
+          "systemImage": "lamp.table.fill",
+          "title": "灯笼计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-meadow-reserve",
+      "packID": "pack-meadow-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-meadow-reserve-v1.playablepack.json",
+      "byteCount": 1820,
+      "envelopeSHA256": "b831eed0b2cedd3fd843d9a0fa5472afa026dd857c344a06f992bb57ea2f23b2",
+      "contentSHA256": "f203a1ec269128712cf4e8bab5438e6a36cfe8020f0ab0e1d7f9edea345e899c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Remove one, nine, eighteen, twenty-seven, or thirty-two meadow markers, but whoever removes the final marker loses.",
+          "systemImage": "leaf.circle.fill",
+          "title": "Meadow Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合移除一、九、十八、二十七或三十二枚草甸标记，但移除最后一枚者落败。",
+          "systemImage": "leaf.circle.fill",
+          "title": "草甸留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pollen-relay",
+      "packID": "pack-pollen-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pollen-relay-v1.playablepack.json",
+      "byteCount": 1780,
+      "envelopeSHA256": "b473b4adeaae5c41cb8a7bd1040927343f0d0607908eff14aceaa1990e633124",
+      "contentSHA256": "ed92b21339dfc97d74df6135c1ce1245666e79bfaf767d84c18e0755b6f37723",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the turn after gathering one, seven, nineteen, twenty-eight, or thirty-two pollen beads; the final gatherer wins.",
+          "systemImage": "wind",
+          "title": "Pollen Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合收集一、七、十九、二十八或三十二枚花粉珠并交棒，收集最后一枚者获胜。",
+          "systemImage": "wind",
+          "title": "花粉接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cedar-reserve",
+      "packID": "pack-cedar-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cedar-reserve-v1.playablepack.json",
+      "byteCount": 1769,
+      "envelopeSHA256": "f0ec86551b5215a73917646e9d4f4fb3f0097c424629d806611005becce15e5b",
+      "contentSHA256": "364a966ee3be298fc9f12c8553690cdf09718dd6aef02042820a306239b1a2c8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Remove one, fourteen, twenty-three, or thirty-one cedar markers, but whoever removes the final marker loses.",
+          "systemImage": "tree.fill",
+          "title": "Cedar Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合移除一、十四、二十三或三十一枚雪松标记，但移除最后一枚者落败。",
+          "systemImage": "tree.fill",
+          "title": "雪松留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-opal-count",
+      "packID": "pack-opal-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-opal-count-v1.playablepack.json",
+      "byteCount": 1796,
+      "envelopeSHA256": "d2691f5f113d0a14086d747fb34022b86a0150db8e3045b96272539a66f8e69e",
+      "contentSHA256": "7e6fddaad2ce556b289227b6aeccb4d2682eabe4c0261543d4b593d67f267ddd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, eight, twenty, twenty-nine, or thirty-two opal pieces; the player collecting the final piece wins.",
+          "systemImage": "diamond.circle.fill",
+          "title": "Opal Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、八、二十、二十九或三十二枚欧泊，收取最后一枚者获胜。",
+          "systemImage": "diamond.circle.fill",
+          "title": "欧泊计数"
         }
       }
     }
