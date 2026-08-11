@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playable Studio · Official Content Provenance</title>
+  <style>
+    :root { color-scheme: light dark; font: 16px/1.55 system-ui, sans-serif; }
+    body { max-width:  fiftyrem; margin: 0 auto; padding: 1.25rem; }
+    main { max-width: 50rem; }
+    h1 { line-height: 1.15; }
+    code, a { overflow-wrap: anywhere; }
+    li { margin: .35rem 0; }
+    .notice { border-left: .25rem solid #6574cd; padding: .65rem 1rem; background: color-mix(in srgb, CanvasText 7%, Canvas); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Playable Studio · Official Content Provenance</h1>
+  <p>This page is the public provenance notice for the signed Playable Official Catalog.</p>
+  <section class="notice"><strong>Publisher:</strong> Playable Studio<br>
+    <strong>Catalog:</strong> <a href="catalog.json">revision 19</a><br>
+    <strong>License:</strong> <code>LicenseRef-Playable</code>, first-party Playable Studio distribution license as recorded in each signed pack.</section>
+  <h2>Content and implementation boundary</h2>
+  <p>The 25 listed packs and their rules are internal original, clean-room, declarative implementations by Playable Studio. They contain no executable downloads, scripts, WebViews, WASM, native code, or third-party code. Each pack declares <code>resources: []</code>; no third-party artwork, fonts, music, trademarks, or other external assets are included.</p>
+  <p>Playable Studio does not claim ownership of third-party names or marks. Any incidental descriptive wording is used only to identify the rule experience; no third-party endorsement or authorization is implied. Third-party code, assets, and trademarked branding are outside this distribution boundary.</p>
+  <h2>Published pack set</h2>
+  <p>The signed catalog is the authoritative 25-item manifest and pack binding:</p>
+  <ul>
+    <li><a href="catalog.json">Signed catalog manifest (revision 19)</a></li>
+    <li><a href="audits/releases/catalog-revision-18-build106-trust-repair.json">Build106 trust repair audit</a></li>
+    <li><a href="audits/fixes/sliding-grid-terminal-repair-20260811.json">Sliding-grid terminal repair audit</a></li>
+    <li><a href="audits/compliance-catalog-revision-19.json">Revision 19 compliance audit</a></li>
+  </ul>
+  <p>Every pack URL, signature, content hash, envelope hash, byte count, license field, and bilingual metadata is checked by the catalog verifier before activation. The catalog is the complete list; no additional content is implied by this notice.</p>
+  <h2>Compliance and withdrawal</h2>
+  <p>For provenance questions, licensing concerns, trademark concerns, or a withdrawal request, contact Playable Studio through the publisher’s official compliance channel associated with this public repository, or open a public issue in <a href="https://github.com/ZimaBlueAM/playable-official-catalog/issues">this repository’s issue tracker</a>. Do not submit private keys or private source code in an issue.</p>
+</main>
+</body>
+</html>
