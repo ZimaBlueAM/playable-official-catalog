@@ -1,7 +1,7 @@
 {
-  "revision": 46,
-  "issuedAt": "2026-08-11T20:20:00Z",
-  "expiresAt": "2026-08-18T20:20:00Z",
+  "revision": 47,
+  "issuedAt": "2026-08-11T20:30:00Z",
+  "expiresAt": "2026-08-18T20:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4641,6 +4641,123 @@
           "summary": "严格五位玩家在狭长七色光谱织机中编织稀有三连。",
           "systemImage": "rectangle.split.3x1.fill",
           "title": "五席光谱织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-meadow-terrace",
+      "packID": "dual-meadow-terrace-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-terrace-v1.playablepack.json",
+      "byteCount": 1567,
+      "envelopeSHA256": "29d823f688f446c7b6c9a2c16d7abb0cf40d019dccc161fc01176215e47cbdf9",
+      "contentSHA256": "1f55d9d9f3635a52c21b9ba4f2c75a2a2772b447e22f4a385f417b8959faf9e0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape four-tile terraces across a compact five-color meadow.",
+          "systemImage": "square.3.layers.3d",
+          "title": "Dual Meadow Terrace"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在紧凑五色草甸中塑造四连露台。",
+          "systemImage": "square.3.layers.3d",
+          "title": "双人草甸露台"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-prism-crownline",
+      "packID": "open-prism-crownline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-prism-crownline-v1.playablepack.json",
+      "byteCount": 1615,
+      "envelopeSHA256": "ae1adc4bc8384e0fa7ce8b4b59862ea2560a5969f639cf4b4597c57dd8223fa2",
+      "contentSHA256": "28600ad7cd926d14d5ead9a35cf9dedeced1fbbca5e2444afcf41afa53ec42ec",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players trace rare five-tile crownlines across a broad seven-color prism field.",
+          "systemImage": "crown.fill",
+          "title": "Open Prism Crownline"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在宽阔七色棱镜场中勾勒稀有五连冠线。",
+          "systemImage": "crown.fill",
+          "title": "开放棱镜冠线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-clover-current",
+      "packID": "six-seat-clover-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-clover-current-v1.playablepack.json",
+      "byteCount": 1595,
+      "envelopeSHA256": "628c5048363720a6233d88f75ffc4ad802940dbf638e8d23992462f256a00bf4",
+      "contentSHA256": "4ed59d1d04d86823f671d180390a9f152bd30c6cfc8cb736448b5eb6cea7ba56",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly six players steer dense triples through a tall three-color clover current.",
+          "systemImage": "water.waves",
+          "title": "Six Seat Clover Current"
+        },
+        "zh-Hans": {
+          "summary": "严格六位玩家在高耸三色苜蓿潮流中引导密集三连。",
+          "systemImage": "water.waves",
+          "title": "六席苜蓿潮流"
         }
       }
     }

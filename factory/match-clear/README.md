@@ -143,3 +143,14 @@ Batch AK taxonomy is sidecar-only in `batch-20260811-ak.manifest.json` and
 
 Batch AL taxonomy is sidecar-only in `batch-20260811-al.manifest.json` and
 `audits/batch-20260811-al.json`; revision 46 contains no taxonomy fields.
+
+## Batch AM
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Terrace | 6×4, 5 colors | 4 | 20 | exactly 2 | Four shallow rows keep every duel terrace swap inside the lower thumb sweep. |
+| Open Prism Crownline | 10×8, 7 colors | 5 | 52 | 2–5 | Short adjacent swaps keep rare crownline work across the lower active rows. |
+| Six Seat Clover Current | 6×10, 3 colors | 3 | 37 | exactly 6 | Six narrow columns keep dense six-seat current play inside the one-thumb lane. |
+
+Batch AM taxonomy is sidecar-only in `batch-20260811-am.manifest.json` and
+`audits/batch-20260811-am.json`; revision 47 contains no taxonomy fields.
