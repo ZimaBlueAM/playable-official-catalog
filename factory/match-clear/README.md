@@ -69,3 +69,14 @@ schema-1 catalog contains no taxonomy fields.
 Batch G taxonomy is recorded only in `batch-20260811-g.manifest.json` and
 `audits/batch-20260811-g.json`; revision 15 remains a Build106-compatible
 schema-1 catalog with taxonomy stripped.
+
+## Batch H
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Triple Canal | 5×9, 7 colors | 3 | 21 | 2–6 | Five narrow columns keep long vertical play inside a one-thumb lower-screen lane. |
+| Fivefold Pocket | 5×10, 4 colors | 5 | 15 | 2–4 | Full-width five-tile bands use precise adjacent swaps in a narrow thumb-reachable tower. |
+| Square Sprint | 4×4, 3 colors | 3 | 6 | 2–3 | The entire compact board fits the lower thumb sweep for six rapid turns. |
+
+Batch H taxonomy is sidecar-only in `batch-20260811-h.manifest.json` and
+`audits/batch-20260811-h.json`; revision 16 contains no taxonomy fields.

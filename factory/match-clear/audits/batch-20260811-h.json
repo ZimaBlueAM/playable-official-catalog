@@ -1,0 +1,17 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {"gameID":"pack-triple-canal","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":6,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"5x9 board; adjacent swap; three-tile clears; 21 turns; vector 6ed62a795cbf5245"},
+    {"gameID":"pack-fivefold-pocket","carrier":"tiles","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":4,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"5x10 board; adjacent swap; full-width five-tile clears; 15 turns; vector 89050f54222ec0d9"},
+    {"gameID":"pack-square-sprint","carrier":"board","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":3,"players":["two-player","party-3-6"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"4x4 board; adjacent swap; three-tile clears; 6 turns; vector 79cc0f7e61b868cc"}
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}

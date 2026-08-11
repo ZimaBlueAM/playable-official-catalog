@@ -1,7 +1,7 @@
 {
-  "revision": 15,
-  "issuedAt": "2026-08-11T08:30:00Z",
-  "expiresAt": "2026-08-18T08:30:00Z",
+  "revision": 16,
+  "issuedAt": "2026-08-11T09:30:00Z",
+  "expiresAt": "2026-08-18T09:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1014,6 +1014,123 @@
           "summary": "在八色马赛克中寻找稀有三连，用七个快速交替回合争夺得分。",
           "systemImage": "bolt.square.fill",
           "title": "闪光马赛克"
+        }
+      }
+    },
+    {
+      "gameID": "pack-triple-canal",
+      "packID": "triple-canal-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-triple-canal-v1.playablepack.json",
+      "byteCount": 1564,
+      "envelopeSHA256": "7dd1688be4fb3898b16ea2374d4e7c2ac458beb559eb333d3752e65312683b56",
+      "contentSHA256": "7b56b10525736f32452ebd362d8c93e18c8288b265baab965b3db4ee1262184a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Guide scarce three-tile currents through a tall seven-color canal over a long shared match.",
+          "systemImage": "water.waves",
+          "title": "Triple Canal"
+        },
+        "zh-Hans": {
+          "summary": "在七色高渠中引导稀疏三连潮流，完成一场较长的共享对局。",
+          "systemImage": "water.waves",
+          "title": "三连水渠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-fivefold-pocket",
+      "packID": "fivefold-pocket-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-fivefold-pocket-v1.playablepack.json",
+      "byteCount": 1649,
+      "envelopeSHA256": "07616707e3429344bfe6e54cb31845c04039ac6df3dafea952951ce557975c49",
+      "contentSHA256": "fd91c6182c207f65c1b4354ff46d43640896b785d6f500aeee23110506387618",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Stack full-width five-tile bands in a narrow pocket tower and protect each prepared column.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Fivefold Pocket"
+        },
+        "zh-Hans": {
+          "summary": "在窄幅掌上高塔堆叠横贯五列的色带，守住每条已布局的列。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "掌上五连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-square-sprint",
+      "packID": "square-sprint-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-square-sprint-v1.playablepack.json",
+      "byteCount": 1606,
+      "envelopeSHA256": "51765c9bfbfdc7077b2fc910b7e66105240e53de1f2a0eb9f1bc5bbddf165b78",
+      "contentSHA256": "211dff4a51f78f93dddc8af236bbc4b6bf323c5f4374ed5205f37ce0ba08d8de",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Spot compact triples on a four-by-four board during six rapid turns for two or three friends.",
+          "systemImage": "square.grid.2x2.fill",
+          "title": "Square Sprint"
+        },
+        "zh-Hans": {
+          "summary": "在四乘四棋盘寻找紧凑三连，由两至三位朋友完成六个极速回合。",
+          "systemImage": "square.grid.2x2.fill",
+          "title": "方格冲刺"
         }
       }
     }
