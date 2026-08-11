@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/match-clear/batch-20260811-af",
+  "gateTier": "playable",
+  "fix": "add factory-candidate-manifest.json and tag-audit.json before resubmission",
+  "fields": ["factory-candidate-manifest.json", "tag-audit.json"]
+}
