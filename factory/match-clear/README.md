@@ -127,3 +127,14 @@ Batch K taxonomy is sidecar-only in `batch-20260811-k.manifest.json` and
 
 Batch L taxonomy is sidecar-only in `batch-20260811-l.manifest.json` and
 `audits/batch-20260811-l.json`; revision 20 contains no taxonomy fields.
+
+## Batch M
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Three Seat Crown | 9×5, 5 colors | 5 | 15 | exactly 3 | Five shallow rows keep long crown lines visible and adjacent swaps thumb reachable. |
+| Dual Flood | 10×8, 3 colors | 3 | 50 | exactly 2 | Dense cascades use short swaps; frequent input remains concentrated in the lower active rows. |
+| Four Seat Spectrum | 6×7, 8 colors | 4 | 16 | exactly 4 | Six narrow columns keep scarce four-line moves in a compact one-thumb lane. |
+
+Batch M taxonomy is sidecar-only in `batch-20260811-m.manifest.json` and
+`audits/batch-20260811-m.json`; revision 21 contains no taxonomy fields.

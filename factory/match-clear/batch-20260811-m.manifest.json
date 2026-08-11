@@ -1,0 +1,39 @@
+{
+  "contract": "playable-taxonomy-candidate-v1",
+  "catalogPublication": "schema1-tags-stripped",
+  "entries": [
+    {
+      "gameID": "pack-three-seat-crown",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "spatial"],
+        "players": ["party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-dual-flood",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "spatial"],
+        "players": ["two-player"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-four-seat-spectrum",
+      "labels": {
+        "carrier": "tiles",
+        "mechanics": ["matching", "alignment", "race"],
+        "players": ["party-3-6"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}
