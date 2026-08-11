@@ -1,7 +1,7 @@
 {
-  "revision": 5,
-  "issuedAt": "2026-08-11T00:17:03Z",
-  "expiresAt": "2026-09-10T00:17:03Z",
+  "revision": 6,
+  "issuedAt": "2026-08-11T00:28:51Z",
+  "expiresAt": "2026-09-10T00:28:51Z",
   "entries": [
     {
       "gameID": "pack-pocket-slider",
@@ -17,9 +17,9 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-slider-v1.playablepack.json",
-      "byteCount": 1141,
-      "envelopeSHA256": "98cd906f2b16100513e4e727fc11c8137fdd50fce10c8f105dd9f91ed27a23c8",
-      "contentSHA256": "c5f7876d1525252447172496f5b780c384a3c51b267c19cc7b3bd0a25ce08f7d",
+      "byteCount": 1435,
+      "envelopeSHA256": "bb0bdc694e902d001d2fd10ee72d6ce9eb96cb778fdc6e6c279e02a70afdc85a",
+      "contentSHA256": "9175896d044335d448d210155bee14d0c0ea1b0779a1ac47c3f4186062233733",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
