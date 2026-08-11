@@ -80,3 +80,16 @@ schema-1 catalog with taxonomy stripped.
 
 Batch H taxonomy is sidecar-only in `batch-20260811-h.manifest.json` and
 `audits/batch-20260811-h.json`; revision 16 contains no taxonomy fields.
+
+## Batch I
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Beam | 6×6, 5 colors | 5 | 10 | exactly 2 | Short adjacent swaps on the lower square board create rare five-tile duel lines. |
+| Party Cascade | 8×6, 3 colors | 3 | 24 | 3–6 | Dense cascades use a shallow six-row board and one-thumb turns shared by a party. |
+| Twin Stripe | 10×6, 7 colors | 4 | 12 | exactly 2 | A low wide field keeps scarce four-tile stripes visible and reachable in a quick duel. |
+
+Batch I taxonomy is sidecar-only in `batch-20260811-i.manifest.json` and
+`audits/batch-20260811-i.json`. It explicitly audits single-valued player tags:
+strict two-player games omit `party-3-6`, while the 3–6 player game omits
+`two-player`. Revision 17 remains schema-1 compatible.

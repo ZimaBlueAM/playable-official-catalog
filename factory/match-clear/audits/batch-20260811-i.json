@@ -1,0 +1,17 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {"gameID":"pack-dual-beam","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"6x6 board; adjacent swap; five-tile clears; strict 2-player; 10 turns; vector 87fa6cc56fe08915"},
+    {"gameID":"pack-party-cascade","carrier":"board","mechanics":["matching","alignment","race"],"minPlayers":3,"maxPlayers":6,"players":["party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"8x6 board; adjacent swap; dense three-color clears; strict 3-6 players; 24 turns; vector 75ae9b2aee07c936"},
+    {"gameID":"pack-twin-stripe","carrier":"tiles","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"10x6 board; adjacent swap; four-tile clears; strict 2-player; 12 turns; vector 999057b3b1f72400"}
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}

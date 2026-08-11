@@ -1,0 +1,39 @@
+{
+  "contract": "playable-taxonomy-candidate-v1",
+  "catalogPublication": "schema1-tags-stripped",
+  "entries": [
+    {
+      "gameID": "pack-dual-beam",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "spatial"],
+        "players": ["two-player"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-party-cascade",
+      "labels": {
+        "carrier": "board",
+        "mechanics": ["matching", "alignment", "race"],
+        "players": ["party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-twin-stripe",
+      "labels": {
+        "carrier": "tiles",
+        "mechanics": ["matching", "alignment", "race"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}

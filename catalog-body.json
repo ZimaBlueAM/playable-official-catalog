@@ -1,7 +1,7 @@
 {
-  "revision": 16,
-  "issuedAt": "2026-08-11T09:30:00Z",
-  "expiresAt": "2026-08-18T09:30:00Z",
+  "revision": 17,
+  "issuedAt": "2026-08-11T10:30:00Z",
+  "expiresAt": "2026-08-18T10:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1131,6 +1131,123 @@
           "summary": "在四乘四棋盘寻找紧凑三连，由两至三位朋友完成六个极速回合。",
           "systemImage": "square.grid.2x2.fill",
           "title": "方格冲刺"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-beam",
+      "packID": "dual-beam-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-beam-v1.playablepack.json",
+      "byteCount": 1533,
+      "envelopeSHA256": "a346f968bbc5abb0223810c018e4b71079c4c75ca1af2ba93055c66cfd51b69a",
+      "contentSHA256": "5dd915a09722c6eacf62c8571571f3ad7739f86c54660ee2091a31a24ae7d0fe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players alternate building rare five-tile beams on a balanced square board.",
+          "systemImage": "laser.burst",
+          "title": "Dual Beam"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家轮流在平衡方阵中构筑稀有五连光束。",
+          "systemImage": "laser.burst",
+          "title": "双人光束"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-cascade",
+      "packID": "party-cascade-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-cascade-v1.playablepack.json",
+      "byteCount": 1589,
+      "envelopeSHA256": "7483b610ace1128c5a1fb8dfab22c578bb155bcb98df101865095edd90d4d722",
+      "contentSHA256": "70664072e6338f461ea2794d94b13542f760a94d49e53ece26d2914d48a44a1b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends trade dense three-color cascades across twenty-four shared turns.",
+          "systemImage": "person.3.fill",
+          "title": "Party Cascade"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在二十四个共享回合中轮流触发密集三色连锁。",
+          "systemImage": "person.3.fill",
+          "title": "派对连锁"
+        }
+      }
+    },
+    {
+      "gameID": "pack-twin-stripe",
+      "packID": "twin-stripe-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-twin-stripe-v1.playablepack.json",
+      "byteCount": 1585,
+      "envelopeSHA256": "59ad8292943c60ad5cbeff9109bd74dea6aee9bdebb4520233296115f8818199",
+      "contentSHA256": "ab4e623608ee5ec92b4413d27061725964616cab617ad19e9f2c4db6371c79c9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A two-player race to form scarce four-tile stripes across a wide seven-color field.",
+          "systemImage": "rectangle.split.3x1",
+          "title": "Twin Stripe"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在七色宽幅棋盘竞逐稀有四连色带。",
+          "systemImage": "rectangle.split.3x1",
+          "title": "双人色带"
         }
       }
     }
