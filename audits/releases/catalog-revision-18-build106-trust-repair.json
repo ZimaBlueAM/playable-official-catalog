@@ -18,7 +18,7 @@
     "catalogSignatureVerified": true,
     "urlBindingsVerified": 25,
     "legacyEntriesPreserved": 5,
-    "build106EndpointPolicy": "pending-fresh-pages-check"
+    "build106EndpointPolicy": "fresh-pages-verified"
   },
   "privateMaterial": "not included"
 }
