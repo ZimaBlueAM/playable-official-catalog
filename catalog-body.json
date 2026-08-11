@@ -1,7 +1,7 @@
 {
-  "revision": 53,
-  "issuedAt": "2026-08-11T21:30:00Z",
-  "expiresAt": "2026-08-18T21:30:00Z",
+  "revision": 54,
+  "issuedAt": "2026-08-11T21:40:00Z",
+  "expiresAt": "2026-08-18T21:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -5460,6 +5460,123 @@
           "summary": "严格四位玩家在狭长六色极光织机中编织稀有三连。",
           "systemImage": "rectangle.split.3x1.fill",
           "title": "四席极光织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-aurora-crownline",
+      "packID": "dual-aurora-crownline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-crownline-v1.playablepack.json",
+      "byteCount": 1601,
+      "envelopeSHA256": "091e915035122ecd48b2c53d8c42435991cd32299f861a438121ebad6508b739",
+      "contentSHA256": "2a13790d30be3f8c69049632c7fb1e046fe69adc2c3361ab9786146581211e75",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players trace rare five-tile crownlines across a shallow eight-color aurora field.",
+          "systemImage": "crown.fill",
+          "title": "Dual Aurora Crownline"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短八色极光棋盘中勾勒稀有五连冠线。",
+          "systemImage": "crown.fill",
+          "title": "双人极光冠线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-clover-citadel",
+      "packID": "open-clover-citadel-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-clover-citadel-v1.playablepack.json",
+      "byteCount": 1633,
+      "envelopeSHA256": "ab3d694a886d900c4725a031e0683029dc076b34991640f4db296a0668fc30b2",
+      "contentSHA256": "8a312723a18ac6effc56fdbba93a7799c93f8ca97c35a6e73fad7bebfa955c15",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players raise dense four-tile walls across a maximum-size three-color clover citadel.",
+          "systemImage": "building.2.fill",
+          "title": "Open Clover Citadel"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在最大尺寸三色苜蓿城堡中筑起密集四连城墙。",
+          "systemImage": "building.2.fill",
+          "title": "开放苜蓿城堡"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-seat-violet-current",
+      "packID": "five-seat-violet-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-violet-current-v1.playablepack.json",
+      "byteCount": 1601,
+      "envelopeSHA256": "64ffe0596d7ddbcec921e0896c0486cd5c6f9d9773871b6b003e8bdc630bc10b",
+      "contentSHA256": "e64dab14ff9793174c2d43ea4e80b88718f03f5f2f07868ac694acc3dea6fb24",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly five players steer scarce triples through a narrow seven-color violet current.",
+          "systemImage": "water.waves",
+          "title": "Five Seat Violet Current"
+        },
+        "zh-Hans": {
+          "summary": "严格五位玩家在狭长七色紫罗兰潮流中引导稀有三连。",
+          "systemImage": "water.waves",
+          "title": "五席紫罗兰潮流"
         }
       }
     }

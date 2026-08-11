@@ -33,3 +33,14 @@ Batch AR taxonomy is sidecar-only in `batch-20260811-ar.manifest.json` and
 
 Batch AS taxonomy is sidecar-only in `batch-20260811-as.manifest.json` and
 `audits/batch-20260811-as.json`; revision 53 contains no taxonomy fields.
+
+## Batch AT
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Crownline | 7×4, 8 colors | 5 | 27 | exactly 2 | Four shallow rows keep rare duel crownlines inside the lower thumb sweep. |
+| Open Clover Citadel | 10×10, 3 colors | 4 | 73 | 2–6 | Frequent local swaps keep the maximum shared citadel focused in lower rows. |
+| Five Seat Violet Current | 5×8, 7 colors | 3 | 50 | exactly 5 | Five narrow columns keep scarce five-seat current play inside one-thumb reach. |
+
+Batch AT taxonomy is sidecar-only in `batch-20260811-at.manifest.json` and
+`audits/batch-20260811-at.json`; revision 54 contains no taxonomy fields.
