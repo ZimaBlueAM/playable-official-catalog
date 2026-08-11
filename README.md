@@ -64,6 +64,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Corner Café** — inspect the table and find the hidden server.
 - **Zoo Sketches** — draw an animal clue for friends to name.
 - **Rooftop Sketchbook** — sketch a rooftop sight and race to identify it.
+- **Bookshop Ledger** — compare accounts and vote before closing.
+- **Greenroom List** — inspect the group and find the hidden performer.
+- **Metro Sketches** — draw a subway clue for friends to name.
+- **Farmstand Sketchbook** — sketch a produce clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
