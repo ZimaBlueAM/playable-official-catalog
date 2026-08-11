@@ -1,7 +1,7 @@
 {
-  "revision": 32,
-  "issuedAt": "2026-08-11T18:00:00Z",
-  "expiresAt": "2026-08-18T18:00:00Z",
+  "revision": 33,
+  "issuedAt": "2026-08-11T19:00:00Z",
+  "expiresAt": "2026-08-18T19:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2983,6 +2983,72 @@
       "metadata": {
         "en": {"summary": "Two to six players place freely and race to descend across an open board with a reverse diagonal of seven.", "systemImage": "square.grid.3x3.fill", "title": "Reverse Ridge Seven"},
         "zh-Hans": {"summary": "两至六人在开放棋盘中自由落子，争先铺成七子下降反斜线。", "systemImage": "square.grid.3x3.fill", "title": "反斜七脊"}
+      }
+    },
+    {
+      "gameID": "pack-gravity-stair-four",
+      "packID": "gravity-stair-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gravity-stair-four-v1.playablepack",
+      "byteCount": 3611,
+      "envelopeSHA256": "b56260f0064dc159becc65ded4d78d742bcc8f862356e281ac50362174dc2804",
+      "contentSHA256": "c8d925d70bf21b8258503f4d0a149bfb766dd6b0be2060cc6a7cc1ae9913e57d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players build supports in six gravity lanes and race to complete a four-step rising stair.", "systemImage": "square.grid.3x3.fill", "title": "Gravity Stair Four"},
+        "zh-Hans": {"summary": "两至六人在六条重力通道中搭建支撑，争先完成四步上升斜阶。", "systemImage": "square.grid.3x3.fill", "title": "重力阶四"}
+      }
+    },
+    {
+      "gameID": "pack-open-tower-seven",
+      "packID": "open-tower-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-tower-seven-v1.playablepack",
+      "byteCount": 4758,
+      "envelopeSHA256": "8de56caf1bb37f796ec6a79e80f418de41dd3e66dde351a9bbb97d53d1d90145",
+      "contentSHA256": "c932929f1f152880ac6a42536ff8b44ea8414209cf269dbaace5ec952574020d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players place freely on a tall open board and race to claim a seven-stone vertical tower.", "systemImage": "square.grid.3x3.fill", "title": "Open Tower Seven"},
+        "zh-Hans": {"summary": "两至六人在高挑开放棋盘中自由落子，争先占成纵向七连高塔。", "systemImage": "square.grid.3x3.fill", "title": "开放纵塔七"}
+      }
+    },
+    {
+      "gameID": "pack-low-horizon-eight",
+      "packID": "low-horizon-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-low-horizon-eight-v1.playablepack",
+      "byteCount": 5240,
+      "envelopeSHA256": "08151a31ac356ea2a6a740be67f4de4c3dae578d7dc3d0af16b3a731c6a85a8a",
+      "contentSHA256": "1cf3e4d025307e694dffc799ef6f0e6dbb3871ade6e73982b205be3c848b1b3c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players drop through twelve lanes and race to span eight stones across a low gravity horizon.", "systemImage": "square.grid.3x3.fill", "title": "Low Horizon Eight"},
+        "zh-Hans": {"summary": "两至六人在十二条重力通道中落子，争先沿低层横贯八子长线。", "systemImage": "square.grid.3x3.fill", "title": "低空横八"}
       }
     }
   ]

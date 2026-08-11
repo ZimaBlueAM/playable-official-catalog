@@ -1,0 +1,20 @@
+[
+  {
+    "gameID":"pack-gravity-stair-four","packID":"gravity-stair-four-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":6,"rows":7,"connectionLength":4,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["2b1ad900ae266f45","7faac90dfe719ba6"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-open-tower-seven","packID":"open-tower-seven-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":8,"rows":12,"connectionLength":7,"usesGravity":false},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["52fa74b0b04ad245","ba7780c374a5a355"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-low-horizon-eight","packID":"low-horizon-eight-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":12,"rows":10,"connectionLength":8,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["c6ab651714c462a7","b083675aa3b17f70"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  }
+]
