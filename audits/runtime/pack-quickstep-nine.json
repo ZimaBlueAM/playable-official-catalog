@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "gameID": "pack-quickstep-nine",
+  "auditedAt": "2026-08-11",
+  "evidenceClass": "software-simulator-live-ui",
+  "source": {"catalogURL":"https://zimablueam.github.io/playable-official-catalog/catalog.json","catalogRevision":10,"packURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-quickstep-nine-v1.playablepack.json","license":"LicenseRef-Playable"},
+  "declared": {"title":{"en":"Quickstep Nine","zh-Hans":"九格快步"},"summary":{"en":"Trade quick thumb slides across nine tiles and finish before the rhythm breaks.","zh-Hans":"轮流快速滑动九块方砖，在节奏中断前完成还原。"},"players":{"minimum":2,"maximum":3},"deterministicVectorDeclared":true,"tags":{"carrier":["tiles"],"mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]}},
+  "steps": {"discover":"FAIL","add":"BLOCKED BY DISCOVERY","offlineReadyLabel":"OPEN","offlineCachedPlay":"OPEN","setup":"OPEN","completeGame":"OPEN","result":"OPEN","rematch":"OPEN"},
+  "ux": {"addAndPlayControlsInLowerThumbReach":null,"touchTargetMeasured":false,"touchTargetMinimumPt":null,"localization":"OPEN: signed bilingual metadata was not surfaced by the App","deadlockObserved":false,"wrongPlayerCountObserved":false},
+  "deviceEvidence": {"iphoneSimulator":"FAIL: Build 106 fresh launch displayed refresh failure and retained the five-entry revision 8 catalog; this revision 10 candidate never surfaced for Add","physicalDevice":"OPEN","human":"OPEN"},
+  "taxonomyVerification": {"status":"OPEN / NO RUNTIME MATCH","candidateCarrier":"tiles","candidateMechanics":["alignment","spatial"],"evidence":"Bounded candidate sidecar exists, but carrier/mechanics cannot pass the runtime gate until a complete App match is playable."},
+  "issues": [{"severity":"blocker","area":"catalog-ingestion","status":"OPEN","evidence":"GitHub Pages revision 10 was reachable from the same simulator, while Playable reported refresh failure and its verified cache remained revision 8 with five entries."}],
+  "notes": "The live entry requires Build 106 and references public pack key ID sliding-grid-content-2026-08. No Add, launch, partial turn, Result, or rematch claim is made from static pack vectors."
+}

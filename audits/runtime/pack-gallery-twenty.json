@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "gameID": "pack-gallery-twenty",
+  "auditedAt": "2026-08-11",
+  "evidenceClass": "software-simulator-live-ui",
+  "source": {"catalogURL":"https://zimablueam.github.io/playable-official-catalog/catalog.json","catalogRevision":11,"packURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-gallery-twenty-v1.playablepack.json","license":"LicenseRef-Playable"},
+  "declared": {"title":{"en":"Gallery Twenty","zh-Hans":"二十格画廊"},"summary":{"en":"Restore a tall gallery of twenty numbered panels with room to reconsider.","zh-Hans":"在纵向二十格数字画廊中轮流滑动，并保留重新调整的空间。"},"players":{"minimum":2,"maximum":4},"deterministicVectorDeclared":true,"tags":{"carrier":["tiles"],"mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+  "steps": {"discover":"FAIL","add":"BLOCKED BY DISCOVERY","offlineReadyLabel":"OPEN","offlineCachedPlay":"OPEN","setup":"OPEN","completeGame":"OPEN","result":"OPEN","rematch":"OPEN"},
+  "ux": {"addAndPlayControlsInLowerThumbReach":null,"touchTargetMeasured":false,"touchTargetMinimumPt":null,"localization":"OPEN: signed bilingual metadata was not surfaced by the App","deadlockObserved":false,"wrongPlayerCountObserved":false},
+  "deviceEvidence": {"iphoneSimulator":"FAIL: Build 106 visibly entered Checking for new games, then refresh failure, while retaining the five-entry revision 8 catalog; this revision 11 candidate never surfaced for Add","physicalDevice":"OPEN","human":"OPEN"},
+  "taxonomyVerification": {"status":"OPEN / NO RUNTIME MATCH","candidateCarrier":"tiles","candidateMechanics":["alignment","spatial"],"evidence":"Bounded candidate sidecar exists, but carrier/mechanics cannot pass the runtime gate until a complete App match is playable."},
+  "issues": [{"severity":"blocker","area":"catalog-ingestion","status":"OPEN","evidence":"GitHub Pages revision 11 was reachable, but Build 106 transitioned from checking to refresh failure and its verified cache remained revision 8."}],
+  "notes": "The live entry requires Build 106 and references public pack key ID sliding-grid-content-2026-08. No Add, launch, partial turn, Result, or rematch claim is made from static pack vectors."
+}
