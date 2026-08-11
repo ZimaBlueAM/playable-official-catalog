@@ -33,3 +33,14 @@ Batch S taxonomy is sidecar-only in `batch-20260811-s.manifest.json` and
 
 Batch T taxonomy is sidecar-only in `batch-20260811-t.manifest.json` and
 `audits/batch-20260811-t.json`; revision 28 contains no taxonomy fields.
+
+## Batch U
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Shelf | 8×4, 3 colors | 4 | 14 | exactly 2 | Four shallow rows keep dense duel shelves inside the lower one-thumb sweep. |
+| Open Prism Spire | 6×9, 7 colors | 5 | 25 | 2–4 | Six narrow columns keep vertical spire building in the thumb wiper arc. |
+| Six Seat Amber Run | 9×5, 4 colors | 3 | 31 | exactly 6 | Five shallow rows concentrate fast six-seat swaps across the lower active field. |
+
+Batch U taxonomy is sidecar-only in `batch-20260811-u.manifest.json` and
+`audits/batch-20260811-u.json`; revision 29 contains no taxonomy fields.

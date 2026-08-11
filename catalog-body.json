@@ -1,7 +1,7 @@
 {
-  "revision": 28,
-  "issuedAt": "2026-08-11T17:20:00Z",
-  "expiresAt": "2026-08-18T17:20:00Z",
+  "revision": 29,
+  "issuedAt": "2026-08-11T17:30:00Z",
+  "expiresAt": "2026-08-18T17:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2535,6 +2535,123 @@
           "summary": "严格三位玩家在狭长三色塔中完成满宽四连苜蓿带。",
           "systemImage": "building.2.fill",
           "title": "三席苜蓿塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-shelf",
+      "packID": "dual-clover-shelf-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-shelf-v1.playablepack.json",
+      "byteCount": 1576,
+      "envelopeSHA256": "2f0cfa10fde43158a54e5ce2991e29c5b60ae28e90eb57c3700ad00b15957a6f",
+      "contentSHA256": "9aaefab2a8cc539b5f6bd89cf213424bbc59b0d2c283b148546c9462fc7e042e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players build dense four-tile clover shelves across a shallow three-color field.",
+          "systemImage": "books.vertical.fill",
+          "title": "Dual Clover Shelf"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅层三色棋盘搭建密集四连苜蓿架。",
+          "systemImage": "books.vertical.fill",
+          "title": "双人苜蓿架"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-prism-spire",
+      "packID": "open-prism-spire-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-prism-spire-v1.playablepack.json",
+      "byteCount": 1589,
+      "envelopeSHA256": "f08e3844daf2fe7d6f72dbe05e194e9fea5adf30f16577d5f73f23d8f7d1a52b",
+      "contentSHA256": "3b00addd80d169dc1a3a4776cfd8dad1ea2bf0e37c9fe64094b30e96b012f451",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to four players raise rare five-tile spires through a tall seven-color prism.",
+          "systemImage": "building.columns.fill",
+          "title": "Open Prism Spire"
+        },
+        "zh-Hans": {
+          "summary": "二至四位玩家在高耸七色棱镜中筑起稀有五连尖塔。",
+          "systemImage": "building.columns.fill",
+          "title": "开放棱镜尖塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-amber-run",
+      "packID": "six-seat-amber-run-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-amber-run-v1.playablepack.json",
+      "byteCount": 1586,
+      "envelopeSHA256": "ad98d46e199a55980f419b765d5bfc26b41e869d1f1f863c3df4c2c68cee0a9e",
+      "contentSHA256": "bb44fff636d8f465eccf07f8edef35ff26fc0c832814a30c9b21f7253cb91482",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly six players race for quick triples across a wide four-color amber field.",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "Six Seat Amber Run"
+        },
+        "zh-Hans": {
+          "summary": "严格六位玩家在宽阔四色琥珀棋盘竞逐快速三连。",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "六席琥珀竞速"
         }
       }
     }
