@@ -1806,6 +1806,249 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-station",
+      "packID": "hidden-station-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-station-v1.playablepack",
+      "byteCount": 1801,
+      "envelopeSHA256": "cde49242c947d4e4de906088538240a1acbc54e0a9c078d4e79da5a8626eeed6",
+      "contentSHA256": "7759bf2ac88f39ae5562d9c5888de6e9b371bffcb64648ea3a393f8400416f70",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One guide names the wrong platform; compare the clues and vote before departure.",
+          "systemImage": "tram.fill",
+          "title": "Last Platform"
+        },
+        "zh-Hans": {
+          "summary": "一名向导说错了站台；比较线索，在发车前投票。",
+          "systemImage": "tram.fill",
+          "title": "末班站台"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-teahouse",
+      "packID": "hidden-teahouse-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-teahouse-v1.playablepack",
+      "byteCount": 1803,
+      "envelopeSHA256": "c7b3cbd8b761cae68a7b441d2a952ebc91cda8bfda35610e8b225451b8f74edb",
+      "contentSHA256": "5871e3655e3ba98c8793f247294e879553d7b9c9818333369ad40025f75f3b0a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden guest swaps the order; read the table and vote before the cups cool.",
+          "systemImage": "cup.and.saucer.fill",
+          "title": "Teahouse Whisper"
+        },
+        "zh-Hans": {
+          "summary": "隐藏的客人调换了顺序；观察桌面，在茶凉前投票。",
+          "systemImage": "cup.and.saucer.fill",
+          "title": "茶馆耳语"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-seaside",
+      "packID": "canvas-seaside-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-seaside-v1.playablepack",
+      "byteCount": 1584,
+      "envelopeSHA256": "2fcb0fbb238e0112ef14c08d9fa357af882bc3364d9fd5bc77d3878c22210af1",
+      "contentSHA256": "2b3732da68311e3764542c3b302a334adc10b088e3fd71d4ed8f05d469eec41e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw a beach-side clue in a few strokes and let friends name it.",
+          "systemImage": "beach.umbrella.fill",
+          "title": "Seaside Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出海边线索，让朋友说出它。",
+          "systemImage": "beach.umbrella.fill",
+          "title": "海边速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-garage",
+      "packID": "canvas-garage-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-garage-v1.playablepack",
+      "byteCount": 1555,
+      "envelopeSHA256": "81e1b5d94efbd3a141c9f787fd008cd5522929c362cbc59faf5bbb74b4770efd",
+      "contentSHA256": "c7fe5f8c3d93713b083d546a609d6e867e0733aa4ab7a17ac4ab72861d8b534d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a garage find and race the table to identify it.",
+          "systemImage": "car.fill",
+          "title": "Garage Doodles"
+        },
+        "zh-Hans": {
+          "summary": "画出车库里的物件，和大家一起抢答。",
+          "systemImage": "car.fill",
+          "title": "车库涂鸦"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }

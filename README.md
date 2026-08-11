@@ -36,6 +36,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Kite String** — compare stories and find the hidden flyer.
 - **Trail Signs** — draw a trail-side clue for friends to name.
 - **Workshop Scribbles** — sketch a handmade object and race to identify it.
+- **Last Platform** — compare the clues and vote before departure.
+- **Teahouse Whisper** — read the table before the cups cool.
+- **Seaside Sketches** — draw a beach-side clue for friends to name.
+- **Garage Doodles** — sketch a garage find and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
