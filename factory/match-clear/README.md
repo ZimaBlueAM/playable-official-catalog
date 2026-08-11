@@ -138,3 +138,14 @@ Batch L taxonomy is sidecar-only in `batch-20260811-l.manifest.json` and
 
 Batch M taxonomy is sidecar-only in `batch-20260811-m.manifest.json` and
 `audits/batch-20260811-m.json`; revision 21 contains no taxonomy fields.
+
+## Batch N
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Five Seat Wave | 8×4, 5 colors | 3 | 10 | exactly 5 | Four shallow rows keep every five-player wave move inside the lower thumb sweep. |
+| Dual Crownline | 10×4, 4 colors | 5 | 9 | exactly 2 | A low wide board exposes long crown lines for a one-thumb duel. |
+| Party Gridline | 7×10, 7 colors | 4 | 28 | 3–6 | Seven narrow columns keep deliberate party line-building in short adjacent swaps. |
+
+Batch N taxonomy is sidecar-only in `batch-20260811-n.manifest.json` and
+`audits/batch-20260811-n.json`; revision 22 contains no taxonomy fields.
