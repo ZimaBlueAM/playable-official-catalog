@@ -1,7 +1,7 @@
 {
-  "revision": 11,
-  "issuedAt": "2026-08-11T05:00:00Z",
-  "expiresAt": "2026-08-18T05:00:00Z",
+  "revision": 12,
+  "issuedAt": "2026-08-11T05:30:00Z",
+  "expiresAt": "2026-08-18T05:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -780,6 +780,123 @@
           "summary": "在一列中安静筑塔，完成五枚叠起的标记。",
           "systemImage": "square.grid.3x3.fill",
           "title": "垂直五层"
+        }
+      }
+    },
+    {
+      "gameID": "pack-octave-grid",
+      "packID": "octave-grid-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-octave-grid-v1.playablepack",
+      "byteCount": 2416,
+      "envelopeSHA256": "8861742bbc09a1f8032ae78818b708a94331cb012fee8390858287f6e08805c9",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Spread across an open square and complete an eight-mark octave.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Octave Grid"
+        },
+        "zh-Hans": {
+          "summary": "在开放方阵中铺开布局，完成八枚标记的长线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "八音方阵"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ladder-five",
+      "packID": "ladder-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ladder-five-v1.playablepack",
+      "byteCount": 2054,
+      "envelopeSHA256": "8fc8462c20d2cd7e22db15e751c3d66f395a78a5bbb9eec5fb04e7be9cb99e1b",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a tall gravity board and complete five rungs across the landing rows.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Ladder Five"
+        },
+        "zh-Hans": {
+          "summary": "在高耸重力棋盘中攀升，先完成五个梯级标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "梯级五连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-trio-field",
+      "packID": "trio-field-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-trio-field-v1.playablepack",
+      "byteCount": 1804,
+      "envelopeSHA256": "6dd18a194ba22a78d662207d25a81ae9d1de461a5818996ced9f6d0066bede45",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A broad low field where three aligned marks can change the whole turn.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Trio Field"
+        },
+        "zh-Hans": {
+          "summary": "在宽阔低矮的棋面上落子，三点成线即可改变局势。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "三点平野"
         }
       }
     }
