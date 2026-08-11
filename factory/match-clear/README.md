@@ -155,3 +155,14 @@ Batch BX taxonomy is sidecar-only in `batch-20260812-bx.manifest.json` and
 
 Batch BY taxonomy is sidecar-only in `batch-20260812-by.manifest.json` and
 `audits/batch-20260812-by.json`; revision 85 contains no taxonomy fields.
+
+## Batch BZ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Indigo Promenade | 10×4, 7 colors | 4 | 59 | exactly 2 | Four shallow rows keep duel promenade swaps inside the lower thumb sweep. |
+| Open Coral Courtyard | 8×10, 4 colors | 3 | 169 | 2–6 | Local adjacent swaps keep dense shared courtyard play focused in lower active rows. |
+| Five Seat Aurora Gallery | 9×8, 6 colors | 5 | 114 | exactly 5 | Adjacent local swaps keep rare five-seat gallery play inside one-thumb reach. |
+
+Batch BZ taxonomy is sidecar-only in `batch-20260812-bz.manifest.json` and
+`audits/batch-20260812-bz.json`; revision 86 contains no taxonomy fields.
