@@ -3,10 +3,52 @@
   "gameID": "pack-prism-shift",
   "auditedAt": "2026-08-11",
   "evidenceClass": "software-simulator-live-ui",
-  "source": {"catalogURL":"https://zimablueam.github.io/playable-official-catalog/catalog.json","catalogRevision":8,"packURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-prism-shift-v1.playablepack.json","license":"LicenseRef-Playable"},
-  "declared": {"title":{"en":"Prism Shift","zh-Hans":"棱镜交换"},"summary":{"en":"Swap neighboring prisms, clear matching lines, and outscore your friends.","zh-Hans":"交换相邻棱镜，连成同色消除，在十六回合内赢得最高分。"},"players":{"minimum":2,"maximum":4},"presetObserved":"standard","deterministicVectorObserved":true,"tags":{"carrier":["tiles"],"mechanics":["alignment","matching","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
-  "steps":{"discover":"PASS","add":"PASS","offlineReadyLabel":"PASS","setup":"PASS","completeGame":"OPEN","result":"OPEN","rematch":"OPEN"},
-  "ux":{"addAndPlayControlsInLowerThumbReach":true,"touchTargetMeasured":false,"touchTargetMinimumPt":null,"localization":"PASS","deadlockObserved":false,"wrongPlayerCountObserved":false},
-  "deviceEvidence":{"iphoneSimulator":"PARTIAL: Games→Add→offline-ready→Play→setup observed; one simulator had no second real seat, so no complete match was claimed","physicalDevice":"OPEN","human":"OPEN"},
-  "notes":"The app visibly showed 2–4 players and a recommended standard preset described as a thumb-friendly 5×5 board with sixteen turns. A single simulator cannot prove a two-player result or rematch."
+  "source": {
+    "catalogURL": "https://zimablueam.github.io/playable-official-catalog/catalog.json",
+    "catalogRevision": 8,
+    "packURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-prism-shift-v1.playablepack.json",
+    "license": "LicenseRef-Playable"
+  },
+  "declared": {
+    "title": {"en": "Prism Shift", "zh-Hans": "棱镜交换"},
+    "summary": {"en": "Swap neighboring prisms, clear matching lines, and outscore your friends.", "zh-Hans": "交换相邻棱镜，连成同色消除，在十六回合内赢得最高分。"},
+    "players": {"minimum": 2, "maximum": 4},
+    "presetObserved": "standard",
+    "deterministicVectorObserved": true,
+    "tags": {"carrier":["tiles"],"mechanics":["alignment","matching","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}
+  },
+  "steps": {
+    "discover": "PASS",
+    "add": "PASS",
+    "offlineReadyLabel": "PASS",
+    "offlineCachedPlay": "PASS",
+    "setup": "PASS",
+    "completeGame": "PASS",
+    "result": "PASS",
+    "rematch": "FAIL"
+  },
+  "ux": {
+    "addAndPlayControlsInLowerThumbReach": true,
+    "touchTargetMeasured": false,
+    "touchTargetMinimumPt": null,
+    "localization": "FAIL: the completed-game surface displayed 第 17 / 16 回合",
+    "deadlockObserved": false,
+    "wrongPlayerCountObserved": false
+  },
+  "deviceEvidence": {
+    "iphoneSimulator": "PARTIAL FAIL: Build 106 host and Build 104 guest completed normal Games→cached pack→Nearby room discovery/join→16-turn full match→Result; rematch request expired without an actionable guest acceptance control",
+    "physicalDevice": "OPEN",
+    "human": "OPEN"
+  },
+  "taxonomyVerification": {
+    "status": "PASS / SOFTWARE SIMULATOR",
+    "carrier": "tiles",
+    "mechanics": ["alignment", "matching", "spatial"],
+    "evidence": "Both seats completed sixteen alternating adjacent tile swaps. Every accepted swap formed a visible same-color line and advanced exactly one turn; scoring and the final 49–35 ranking synchronized on both seats."
+  },
+  "issues": [
+    {"severity":"major","area":"rematch","status":"OPEN","evidence":"Host selected Play Again; guest exposed only a non-actionable 正在准备再来一局… state; host then reported 再来一局请求已过期。"},
+    {"severity":"minor","area":"result-counter","status":"OPEN","evidence":"After the configured sixteen turns, both completed-game surfaces displayed 第 17 / 16 回合."}
+  ],
+  "notes": "Two booted iPhone simulators used the normal visible App journey without launch arguments or injected state. The guest catalog showed refresh failure with its previously added pack still playable. Sixteen alternating legal swaps advanced the game from turn 1 through Result. Result synchronized player 1 as winner with 49 and player 2 as loser with 35. Rematch did not complete and is explicitly failed, not inferred from reaching Result."
 }
