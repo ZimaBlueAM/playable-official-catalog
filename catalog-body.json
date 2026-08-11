@@ -1,5 +1,5 @@
 {
-  "revision": 13,
+  "revision": 14,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -819,6 +819,123 @@
           "summary": "每回合从轨道取走一、六或十枚彗石，拿到最后一枚者获胜。",
           "systemImage": "sparkle",
           "title": "彗石升轨"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pebble-orbit",
+      "packID": "pack-pebble-orbit-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pebble-orbit-v1.playablepack.json",
+      "byteCount": 1712,
+      "envelopeSHA256": "7fed0cc80f9e215096fb15953c73a7a38f11d7904d5711f0d7c101752501ba0b",
+      "contentSHA256": "510db067dafab390cf5dd97a27449484734c94df74d95938b06f8f900b66c43b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Move one, two, four, or seven pebbles out of orbit, but taking the final pebble loses.",
+          "systemImage": "circle.dotted",
+          "title": "Pebble Orbit"
+        },
+        "zh-Hans": {
+          "summary": "每回合移出一、二、四或七枚卵石，但拿到最后一枚者落败。",
+          "systemImage": "circle.dotted",
+          "title": "卵石离轨"
+        }
+      }
+    },
+    {
+      "gameID": "pack-bamboo-count",
+      "packID": "pack-bamboo-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-bamboo-count-v1.playablepack.json",
+      "byteCount": 1744,
+      "envelopeSHA256": "b10c4cf5e6e8a3457af3994a33e9d9044265f26264e9d4c00f15f80b9463d3f7",
+      "contentSHA256": "4a86a62c60638c1d95df790f2e2baae7c601afcdf7c8509c2b00355ebac3c319",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Cut one, three, eight, or nine bamboo marks; the player cutting the final mark wins.",
+          "systemImage": "lines.measurement.horizontal",
+          "title": "Bamboo Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、三、八或九根竹筹，拿到最后一根者获胜。",
+          "systemImage": "lines.measurement.horizontal",
+          "title": "竹筹计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-signal-cache",
+      "packID": "pack-signal-cache-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-signal-cache-v1.playablepack.json",
+      "byteCount": 1753,
+      "envelopeSHA256": "c6af7d1c90a87a3ffe9516795fa48379e82c137b128a0343c758b7423aeca19a",
+      "contentSHA256": "b0ec968a0c9e3d58c991aa6e9189b67c3ed5eae8f7666a4c007b1547f1281dbf",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, five, or six signal tokens from the cache; the final token wins.",
+          "systemImage": "antenna.radiowaves.left.and.right",
+          "title": "Signal Cache"
+        },
+        "zh-Hans": {
+          "summary": "每回合从缓存取走一、五或六枚信号标记，拿到最后一枚者获胜。",
+          "systemImage": "antenna.radiowaves.left.and.right",
+          "title": "信号缓存"
         }
       }
     }
