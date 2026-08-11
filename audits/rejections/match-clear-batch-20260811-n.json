@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T02:57:10Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-n",
+  "sourceCommit": "6b3e7ec2dfae5d8867edd1065a9521f58c82fd26",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "Each submitted one-action vector reproduces its checksum but remains unfinished in the production declarative runtime.",
+  "games": [
+    {"gameID": "pack-five-seat-wave", "playerCount": 5, "vectorActionCount": 1, "replayFinished": false, "checksum": "3acad0546544b410"},
+    {"gameID": "pack-dual-crownline", "playerCount": 2, "vectorActionCount": 1, "replayFinished": false, "checksum": "5af8ad57a5231b9e"},
+    {"gameID": "pack-party-gridline", "playerCount": 3, "vectorActionCount": 1, "replayFinished": false, "checksum": "d4b2545d007faab0"}
+  ],
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}
