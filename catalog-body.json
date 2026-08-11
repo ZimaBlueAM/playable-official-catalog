@@ -1,7 +1,7 @@
 {
-  "revision": 17,
-  "issuedAt": "2026-08-11T03:18:20Z",
-  "expiresAt": "2026-08-18T03:18:20Z",
+  "revision": 32,
+  "issuedAt": "2026-08-11T03:20:32Z",
+  "expiresAt": "2026-08-18T03:20:32Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -976,6 +976,84 @@
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "gameID": "pack-cairn-fifteen",
+      "packID": "cairn-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cairn-fifteen-v1.playablepack.json",
+      "byteCount": 9072,
+      "envelopeSHA256": "6f7993c122a0f65850c35bda7cb2a10009ab7681a90468aabe8b543fd6015577",
+      "contentSHA256": "4835f8df5d2502a0c799761c88cda8ef318305ea08cdc5e5543cffe9eb9d7508",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Stack a tall fifteen-tile cairn through one exact forty-move shared route.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Cairn Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "两至四人轮流堆叠纵向十五格石标，在恰好四十步内完成还原。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格石标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-tide-twenty",
+      "packID": "tide-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-tide-twenty-v1.playablepack.json",
+      "byteCount": 33803,
+      "envelopeSHA256": "208c5db679e6c2c02203db3db9765d04eb2bce8e139283a20592eba2a6e05845",
+      "contentSHA256": "8f43ec039103dc3e79c24cdd8caff29261adb4b9e90409e3eecd6e2d05752743",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Turn a broad twenty-tile tide with a measured reserve for correcting the current.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Tide Twenty"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在横向二十格潮汐中轮流转向，并以有限余量修正水流。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十格潮汐"
+        }
       }
     }
   ]
