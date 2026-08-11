@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 9,
+  "issuedAt": "2026-08-11T00:00:00Z",
+  "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,162 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ember-count",
+      "packID": "pack-ember-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ember-count-v1.playablepack.json",
+      "byteCount": 1659,
+      "envelopeSHA256": "d6ad66ce1763ff34d372b711cb0051b7d06654bc4bf9d85b85a906bfd4c244fb",
+      "contentSHA256": "369ea2b46910675c1a3e2fc9376ec84acf539cd3f7c67762cde82a450f20fbae",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one to three embers from the hearth; the player taking the final ember wins.",
+          "systemImage": "flame.fill",
+          "title": "Ember Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合从炉火取走一至三枚余烬，拿到最后一枚者获胜。",
+          "systemImage": "flame.fill",
+          "title": "余烬计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-lantern-lose",
+      "packID": "pack-lantern-lose-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-lantern-lose-v1.playablepack.json",
+      "byteCount": 1667,
+      "envelopeSHA256": "435f6b7867db8b2470e45cd1fb797e0f01030f9af3fa10641b8b389816d46a05",
+      "contentSHA256": "788c2ff34dcf60df4295beea1f5d8fadffdb65df40a9e283ca5fd93831ea7c74",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one or two sparks, but the player taking the final spark loses.",
+          "systemImage": "lightbulb.fill",
+          "title": "Lantern Lose"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一或两点火花，但取到最后一点火花者落败。",
+          "systemImage": "lightbulb.fill",
+          "title": "灯火失手"
+        }
+      }
+    },
+    {
+      "gameID": "pack-moss-last",
+      "packID": "pack-moss-last-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-moss-last-v1.playablepack.json",
+      "byteCount": 1658,
+      "envelopeSHA256": "706d40ec0e81d3e7611dea6da51030100673c3eb422788e98570a45dc54d2660",
+      "contentSHA256": "b2d2948f45fd74da92baf5d389b98eb04f7f1e1c59bc52d755612fe3851234ea",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pluck one, three, or five moss stones; the player who clears the stone bed wins.",
+          "systemImage": "leaf.fill",
+          "title": "Moss Last"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、三或五枚苔石，清空石堆者获胜。",
+          "systemImage": "leaf.fill",
+          "title": "苔石收官"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quiet-tide",
+      "packID": "pack-quiet-tide-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quiet-tide-v1.playablepack.json",
+      "byteCount": 1680,
+      "envelopeSHA256": "3687213b08fe1d8c45670081f0e45e4edc8e53cd4d265337666f39ea90483d1f",
+      "contentSHA256": "7c67d57330a39bc1882eed8e18da072b9701b3f237dc4687d6ad34e489b57dfd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Scoop two or four shells from the tide pool; the player taking the last shell wins.",
+          "systemImage": "water.waves",
+          "title": "Quiet Tide"
+        },
+        "zh-Hans": {
+          "summary": "每回合从潮池取走两枚或四枚贝壳，取到最后一枚者获胜。",
+          "systemImage": "water.waves",
+          "title": "静潮拾贝"
         }
       }
     }
