@@ -182,3 +182,14 @@ Batch P taxonomy is sidecar-only in `batch-20260811-p.manifest.json` and
 
 Batch Q taxonomy is sidecar-only in `batch-20260811-q.manifest.json` and
 `audits/batch-20260811-q.json`; revision 25 contains no taxonomy fields.
+
+## Batch R
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Pocket | 5×6, 3 colors | 4 | 9 | exactly 2 | Compact adjacent swaps stay inside the lower one-thumb duel field. |
+| Open Prism Column | 8×9, 8 colors | 5 | 29 | 2–5 | Eight narrow columns keep rare-line setup in the lower thumb wiper arc. |
+| Six Seat Broadwave | 10×6, 4 colors | 3 | 36 | exactly 6 | Frequent six-seat input uses short swaps concentrated across the lower active rows. |
+
+Batch R taxonomy is sidecar-only in `batch-20260811-r.manifest.json` and
+`audits/batch-20260811-r.json`; revision 26 contains no taxonomy fields.

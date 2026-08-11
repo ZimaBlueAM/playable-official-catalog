@@ -1,7 +1,7 @@
 {
-  "revision": 25,
-  "issuedAt": "2026-08-11T16:50:00Z",
-  "expiresAt": "2026-08-18T16:50:00Z",
+  "revision": 26,
+  "issuedAt": "2026-08-11T17:00:00Z",
+  "expiresAt": "2026-08-18T17:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2184,6 +2184,123 @@
           "summary": "严格五位玩家在宽阔三色棋盘筑起四连余烬墙。",
           "systemImage": "flame.fill",
           "title": "五席余烬墙"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-pocket",
+      "packID": "dual-clover-pocket-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-pocket-v1.playablepack.json",
+      "byteCount": 1539,
+      "envelopeSHA256": "15316e08b4db342a2477f64c77b8b7dd9b51c179224c8aa9c8f78a4b1f531648",
+      "contentSHA256": "322a5d231715cd21c25582deb496df292281221c72d0b8f4657250e46bfe3c59",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players form dense four-tile clovers on a compact three-color board.",
+          "systemImage": "leaf.fill",
+          "title": "Dual Clover Pocket"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在紧凑三色棋盘组成密集四连苜蓿。",
+          "systemImage": "leaf.fill",
+          "title": "双人苜蓿口袋"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-prism-column",
+      "packID": "open-prism-column-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-prism-column-v1.playablepack.json",
+      "byteCount": 1566,
+      "envelopeSHA256": "b7da6620dad6d4bd0927113a6caec709b37b45df98f1984278ad9add67e2c611",
+      "contentSHA256": "25aeb68d3c47510f399d766a70c81c447b7eccfd247d80d54e183f2ad5c90b47",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players search a tall eight-color prism for rare five-tile lines.",
+          "systemImage": "diamond.fill",
+          "title": "Open Prism Column"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在高耸八色棱镜中寻找稀有五连。",
+          "systemImage": "diamond.fill",
+          "title": "开放棱镜柱"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-broadwave",
+      "packID": "six-seat-broadwave-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-broadwave-v1.playablepack.json",
+      "byteCount": 1564,
+      "envelopeSHA256": "89fd6d17afafdeeb9c88bf74cab3a8704e151831c052e470dc2d2eda3d32877d",
+      "contentSHA256": "271cd2de4b5e71bd1f0fbee8e2f132e6f6fa5616e5b8039d59bedb3a0c4d0486",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly six players sweep quick triples across a broad four-color wave field.",
+          "systemImage": "water.waves",
+          "title": "Six Seat Broadwave"
+        },
+        "zh-Hans": {
+          "summary": "严格六位玩家在宽阔四色浪场扫出快速三连。",
+          "systemImage": "water.waves",
+          "title": "六席宽浪"
         }
       }
     }

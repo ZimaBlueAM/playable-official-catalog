@@ -1,0 +1,10 @@
+{
+  "contract":"playable-taxonomy-audit-v1",
+  "allowed":{"carrier":["board","cards","mahjong","tiles","dice","canvas","action"],"mechanics":["alignment","connection","capture","shedding","set-collection","take-away","bluff","deduction","memory","matching","race","push-your-luck","dexterity","spatial","word"],"players":["solo","two-player","party-3-6"],"pace":["instant","turn-based","quick-round"],"context":["independent","pass-and-play","friends-room"],"input":["one-thumb","two-thumb","canvas"]},
+  "checks":[
+    {"gameID":"pack-dual-clover-pocket","carrier":"tiles","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"5x6 board; adjacent swap; dense three-color four-tile clears; strict 2-player; 9 turns; vector dab78e0b2593e377"},
+    {"gameID":"pack-open-prism-column","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":5,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"8x9 board; adjacent swap; eight-color five-tile clears; 2-5 players; 29 turns; vector 9aa6d5dc925d18fc"},
+    {"gameID":"pack-six-seat-broadwave","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":6,"maxPlayers":6,"players":["party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"10x6 board; adjacent swap; four-color three-tile clears; strict 6-player; 36 turns; vector 947520408ba2bfbe"}
+  ],
+  "catalogCompatibility":"Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}
