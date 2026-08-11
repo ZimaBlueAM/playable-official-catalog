@@ -60,6 +60,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Lobby Register** — inspect the lobby and find the hidden guest.
 - **Trainyard Sketches** — draw a railway clue for friends to name.
 - **Kitchen Sketchbook** — sketch a kitchen object and race to identify it.
+- **Projection Booth** — compare the clues and vote before showtime.
+- **Corner Café** — inspect the table and find the hidden server.
+- **Zoo Sketches** — draw an animal clue for friends to name.
+- **Rooftop Sketchbook** — sketch a rooftop sight and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

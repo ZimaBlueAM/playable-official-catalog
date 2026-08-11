@@ -1,7 +1,7 @@
 {
-  "revision": 20,
-  "issuedAt": "2026-08-11T12:00:00Z",
-  "expiresAt": "2026-08-18T12:00:00Z",
+  "revision": 21,
+  "issuedAt": "2026-08-11T13:00:00Z",
+  "expiresAt": "2026-08-18T13:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2067,6 +2067,162 @@
           "summary": "画出厨房里的物件，和大家一起抢答。",
           "systemImage": "fork.knife.circle.fill",
           "title": "厨房速写本"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-cinema",
+      "packID": "hidden-cinema-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-cinema-v1.playablepack",
+      "byteCount": 1976,
+      "envelopeSHA256": "e64714fcae24bdd057608d97441da15b6d8d9f669b3fa416ba4931c3e4517686",
+      "contentSHA256": "9a246e51cf998495214430d1a1ea27e4f6cdacdf40f1dea405f3267267090da8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One operator swapped the reel; compare the clues and vote before showtime.",
+          "systemImage": "film.fill",
+          "title": "Projection Booth"
+        },
+        "zh-Hans": {
+          "summary": "一名操作员调换了胶片；比较线索，在开场前投票。",
+          "systemImage": "film.fill",
+          "title": "放映室"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-cafe",
+      "packID": "hidden-cafe-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-cafe-v1.playablepack",
+      "byteCount": 2113,
+      "envelopeSHA256": "259d5343cb2f76142f37852ef5c3c455ec781b2a655116e6ff34691b75674043",
+      "contentSHA256": "667e33116b78a7f008dfc5e94f6ab10cbcb7fc18385e3f92d5ee20dae41c316b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden server changed the order; inspect the table and vote before closing.",
+          "systemImage": "mug.fill",
+          "title": "Corner Café"
+        },
+        "zh-Hans": {
+          "summary": "隐藏服务员改动了订单；观察桌面，在打烊前投票。",
+          "systemImage": "mug.fill",
+          "title": "街角咖啡馆"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-zoo",
+      "packID": "canvas-zoo-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-zoo-v1.playablepack",
+      "byteCount": 1785,
+      "envelopeSHA256": "c8f122f881d0718d69536bff0622c5def70eb4dfa31fb57ff7cd51a6566c97ec",
+      "contentSHA256": "e5fde218c07a7393fe334a196b75969730872a129487b228254ff10dcc3db0b5",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw an animal clue in a few strokes and let friends name it.",
+          "systemImage": "pawprint.fill",
+          "title": "Zoo Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出动物线索，让朋友说出它。",
+          "systemImage": "pawprint.fill",
+          "title": "动物园速写"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-rooftop",
+      "packID": "canvas-rooftop-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-rooftop-v1.playablepack",
+      "byteCount": 1814,
+      "envelopeSHA256": "1053a18ff5185d10cdf100c12f457c26a018ed1cbf343df05bf0e44302ea9627",
+      "contentSHA256": "22f69a86544506a37fc6c451ec36678fa47b12c208297c6c78159b0e15bb0be5",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a rooftop sight and race the table to identify it.",
+          "systemImage": "building.fill",
+          "title": "Rooftop Sketchbook"
+        },
+        "zh-Hans": {
+          "summary": "画出屋顶上的景象，和大家一起抢答。",
+          "systemImage": "building.fill",
+          "title": "屋顶速写本"
         }
       }
     }
