@@ -133,3 +133,14 @@ Batch CN taxonomy is sidecar-only in `batch-20260812-cn.manifest.json` and
 
 Batch CO taxonomy is sidecar-only in `batch-20260812-co.manifest.json` and
 `audits/batch-20260812-co.json`; revision 101 contains no taxonomy fields.
+
+## Batch CP
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Mosaic | 7×4, 6 colors | 5 | 75 | exactly 2 | Four shallow rows keep rare duel mosaic swaps inside the lower thumb sweep. |
+| Open Ivory Causeway | 9×10, 8 colors | 3 | 196 | 2–6 | Local adjacent swaps keep quick shared causeway play focused in lower active rows. |
+| Three Seat Jade Gallery | 10×9, 5 colors | 4 | 146 | exactly 3 | Adjacent local swaps keep three-seat gallery play inside one-thumb reach. |
+
+Batch CP taxonomy is sidecar-only in `batch-20260812-cp.manifest.json` and
+`audits/batch-20260812-cp.json`; revision 102 contains no taxonomy fields.
