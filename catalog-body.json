@@ -1,5 +1,5 @@
 {
-  "revision": 24,
+  "revision": 25,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -2106,6 +2106,123 @@
           "summary": "每回合收取一、六、十三、十九或二十三枚轨道标记并交棒，收取最后一枚者获胜。",
           "systemImage": "circle.hexagongrid.fill",
           "title": "轨道接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-harbor-reserve",
+      "packID": "pack-harbor-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-harbor-reserve-v1.playablepack.json",
+      "byteCount": 1754,
+      "envelopeSHA256": "efdceed53562759efaa283c5cf62270ffc35d6ed1e802e48615ef038a966c6cd",
+      "contentSHA256": "1894890c182d80502750bf55d0376acffbcc1041a30ec6171b90ab9647f3bd22",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Remove one, ten, sixteen, or twenty-three harbor buoys, but whoever removes the final buoy loses.",
+          "systemImage": "ferry.fill",
+          "title": "Harbor Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合移除一、十、十六或二十三枚港湾浮标，但移除最后一枚者落败。",
+          "systemImage": "ferry.fill",
+          "title": "港湾留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-garnet-count",
+      "packID": "pack-garnet-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-garnet-count-v1.playablepack.json",
+      "byteCount": 1784,
+      "envelopeSHA256": "6a82ba1f52acfb73a79bbaa64e1da4443ec5f8e3187414a63afc5edcfa12192b",
+      "contentSHA256": "cd5a838860c94e5d0b7554898f6215c71b5164c10d0527497894ed8750384ef6",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, seven, fourteen, twenty, or twenty-four garnets; the player collecting the final stone wins.",
+          "systemImage": "diamond.fill",
+          "title": "Garnet Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、七、十四、二十或二十四枚石榴石，收取最后一枚者获胜。",
+          "systemImage": "diamond.fill",
+          "title": "石榴石计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-aurora-relay",
+      "packID": "pack-aurora-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-aurora-relay-v1.playablepack.json",
+      "byteCount": 1796,
+      "envelopeSHA256": "9c77f0915f7195dc6ad1816205cd96606fb90a6a924f5d11623120d5ba6de50b",
+      "contentSHA256": "60694c127974f3f482734094c6116b8e4165f2494f371d056129dae54b39714a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the turn after dimming one, eight, fourteen, twenty-one, or twenty-five aurora lights; dimming the final light loses.",
+          "systemImage": "sparkles",
+          "title": "Aurora Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合熄灭一、八、十四、二十一或二十五束极光并交棒，熄灭最后一束者落败。",
+          "systemImage": "sparkles",
+          "title": "极光接力"
         }
       }
     }
