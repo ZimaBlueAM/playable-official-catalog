@@ -1,7 +1,7 @@
 {
-  "revision": 56,
-  "issuedAt": "2026-08-11T22:00:00Z",
-  "expiresAt": "2026-08-18T22:00:00Z",
+  "revision": 57,
+  "issuedAt": "2026-08-11T22:10:00Z",
+  "expiresAt": "2026-08-18T22:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -5811,6 +5811,123 @@
           "summary": "严格三位玩家在狭长七色极光针塔中培育纵向五连。",
           "systemImage": "arrow.up.to.line",
           "title": "三席极光针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-crownline",
+      "packID": "dual-clover-crownline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-crownline-v1.playablepack.json",
+      "byteCount": 1596,
+      "envelopeSHA256": "2ddc1b880f47d7b2819b0e3f47cf672e21fc3a64f27b7ef513bceedc5670e471",
+      "contentSHA256": "1d2ad4c0c7b4e5009e241cdbee0f8fc12e10a9314ca2fb0f4be61dbb16b2d09b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players trace rare five-tile crownlines across a long, shallow seven-color clover field.",
+          "systemImage": "crown.fill",
+          "title": "Dual Clover Crownline"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在狭长七色苜蓿棋盘中勾勒稀有五连冠线。",
+          "systemImage": "crown.fill",
+          "title": "双人苜蓿冠线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-violet-boulevard",
+      "packID": "open-violet-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-boulevard-v1.playablepack.json",
+      "byteCount": 1615,
+      "envelopeSHA256": "adab4e9978f6a4c00c67470ae5ad264a2251b764af79d01e54d0f0bf59ea0f13",
+      "contentSHA256": "e01483f71462382889a778feba96799422c84228685ee52a19e22aaa645a7205",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build four-tile boulevards through a tall six-color violet field.",
+          "systemImage": "road.lanes",
+          "title": "Open Violet Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在高耸六色紫罗兰棋盘中构筑四连大道。",
+          "systemImage": "road.lanes",
+          "title": "开放紫罗兰大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-meadow-current",
+      "packID": "four-seat-meadow-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-meadow-current-v1.playablepack.json",
+      "byteCount": 1599,
+      "envelopeSHA256": "92ed2a86f96b3c11077a65cbaf9fb82f5efb551e5ee23c6eaccfee62992cefa8",
+      "contentSHA256": "a1af316cb1e27f7f76316dd72712b07fc5eb179dbd777e6f91843f3f9714d5aa",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players steer quick triples through a narrow five-color meadow current.",
+          "systemImage": "water.waves",
+          "title": "Four Seat Meadow Current"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在狭长五色草甸潮流中引导灵活三连。",
+          "systemImage": "water.waves",
+          "title": "四席草甸潮流"
         }
       }
     }

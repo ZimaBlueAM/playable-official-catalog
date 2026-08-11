@@ -66,3 +66,14 @@ Batch AU taxonomy is sidecar-only in `batch-20260811-au.manifest.json` and
 
 Batch AV taxonomy is sidecar-only in `batch-20260811-av.manifest.json` and
 `audits/batch-20260811-av.json`; revision 56 contains no taxonomy fields.
+
+## Batch AW
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Crownline | 10×4, 7 colors | 5 | 30 | exactly 2 | Four shallow rows keep rare duel crownlines inside the lower thumb sweep. |
+| Open Violet Boulevard | 8×10, 6 colors | 4 | 82 | 2–6 | Short local swaps keep the long shared boulevard focused in lower rows. |
+| Four Seat Meadow Current | 5×9, 5 colors | 3 | 56 | exactly 4 | Five narrow columns keep quick four-seat current play inside one-thumb reach. |
+
+Batch AW taxonomy is sidecar-only in `batch-20260811-aw.manifest.json` and
+`audits/batch-20260811-aw.json`; revision 57 contains no taxonomy fields.
