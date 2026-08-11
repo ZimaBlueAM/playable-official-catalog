@@ -1,0 +1,152 @@
+[
+  {
+    "gameID": "pack-rising-diagonal-seven",
+    "packID": "rising-diagonal-seven-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 10,
+      "connectionLength": 7,
+      "rows": 10,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "b7e27f1c1b49b45b",
+        "02ec150e908f9a76"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-open-causeway-eight",
+    "packID": "open-causeway-eight-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 12,
+      "connectionLength": 8,
+      "rows": 7,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "3bc46762557715a3",
+        "be25299178119cf3"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-nine-lane-tower-six",
+    "packID": "nine-lane-tower-six-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 9,
+      "connectionLength": 6,
+      "rows": 12,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "0189a1d126f21805",
+        "3b97b17422a17421"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]

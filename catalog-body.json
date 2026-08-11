@@ -1,7 +1,7 @@
 {
-  "revision": 24,
-  "issuedAt": "2026-08-11T11:30:00Z",
-  "expiresAt": "2026-08-18T11:30:00Z",
+  "revision": 25,
+  "issuedAt": "2026-08-11T12:00:00Z",
+  "expiresAt": "2026-08-18T12:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2301,6 +2301,123 @@
           "summary": "两至六人在八条重力通道中堆叠，争先筑成竖向五连。",
           "systemImage": "square.grid.3x3.fill",
           "title": "八道五塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-rising-diagonal-seven",
+      "packID": "rising-diagonal-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rising-diagonal-seven-v1.playablepack",
+      "byteCount": 5808,
+      "envelopeSHA256": "57fc00b77dc6c9b65024a2bf897f4e6d5dfcb7d077d13e83072db19cb8e8384e",
+      "contentSHA256": "280e33eed0e69714876b85fe929528aa1bea25eb374e87b70a0aaaff2344ece2",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a seven-step diagonal through a deep gravity square.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Rising Diagonal Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在深层重力方阵中搭建支撑，争先完成七子阶梯对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "升阶斜七"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-causeway-eight",
+      "packID": "open-causeway-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-causeway-eight-v1.playablepack",
+      "byteCount": 5225,
+      "envelopeSHA256": "14161086dd6be5d415285ab0123e27a0a1a90da05981e4a5409d90deff276f8e",
+      "contentSHA256": "163f2e55f04a170a052ec9085f1779044429f26e57f70abc2278fbe85b230f34",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players span a broad open board with a horizontal causeway of eight.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Causeway Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在宽阔开放棋面中布局，争先铺成横向八连桥。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放八桥"
+        }
+      }
+    },
+    {
+      "gameID": "pack-nine-lane-tower-six",
+      "packID": "nine-lane-tower-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-nine-lane-tower-six-v1.playablepack",
+      "byteCount": 4187,
+      "envelopeSHA256": "97aa721ea066204d51b245d83330d87eb75cf4b2ba5533c86bbf622f6a65d4e7",
+      "contentSHA256": "6dd0b288861c2be675edad66084e3eebcc31e3e3ba3a81fa21b2e61fafc6fa2b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players stack through nine gravity lanes and raise a vertical tower of six.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Nine-Lane Tower Six"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在九条重力通道中堆叠，争先筑成竖向六连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九道六塔"
         }
       }
     }
