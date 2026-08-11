@@ -133,3 +133,14 @@ Batch BH taxonomy is sidecar-only in `batch-20260811-bh.manifest.json` and
 
 Batch BI taxonomy is sidecar-only in `batch-20260812-bi.manifest.json` and
 `audits/batch-20260812-bi.json`; revision 69 contains no taxonomy fields.
+
+## Batch BJ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Gallery | 6×4, 4 colors | 4 | 43 | exactly 2 | Four shallow rows keep dense duel galleries inside the lower thumb sweep. |
+| Open Amber Courtyard | 9×10, 7 colors | 3 | 121 | 2–6 | Short local swaps keep the tall shared courtyard focused in lower active rows. |
+| Five Seat Violet Colonnade | 8×8, 8 colors | 5 | 82 | exactly 5 | Adjacent local swaps keep rare five-seat colonnades inside one-thumb reach. |
+
+Batch BJ taxonomy is sidecar-only in `batch-20260812-bj.manifest.json` and
+`audits/batch-20260812-bj.json`; revision 70 contains no taxonomy fields.
