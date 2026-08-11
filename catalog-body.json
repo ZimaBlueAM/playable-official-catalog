@@ -1,7 +1,7 @@
 {
-  "revision": 11,
-  "issuedAt": "2026-08-11T03:00:00Z",
-  "expiresAt": "2026-08-18T03:00:00Z",
+  "revision": 12,
+  "issuedAt": "2026-08-11T04:00:00Z",
+  "expiresAt": "2026-08-18T04:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -663,6 +663,162 @@
           "summary": "画出集市上的小发现，和大家一起抢答它的名字。",
           "systemImage": "basket.fill",
           "title": "集市涂鸦"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-mosaic",
+      "packID": "hidden-mosaic-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-mosaic-v1.playablepack",
+      "byteCount": 1850,
+      "envelopeSHA256": "f7832ca1ec3cb9ecbc3ece2dcfaea699536ebee57d1c99c9898c1357acadcd35",
+      "contentSHA256": "19d2856937db91a58330a612e24bcd94757f20977ceb33288bbc1e9ee027e504",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One tile hides the pattern; compare the room and vote before the picture breaks.",
+          "systemImage": "square.grid.2x2.fill",
+          "title": "Mosaic Secret"
+        },
+        "zh-Hans": {
+          "summary": "一块色片藏着图案；观察全桌，在图案破碎前投票。",
+          "systemImage": "square.grid.2x2.fill",
+          "title": "马赛克秘密"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-orbit",
+      "packID": "hidden-orbit-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-orbit-v1.playablepack",
+      "byteCount": 1855,
+      "envelopeSHA256": "f6015eefaaeb36ff82d6c988449de98c27d219140040579565ecc238f2a2b262",
+      "contentSHA256": "ac6cb9cccfd342c927a49c7885d0d13dceec40d495a7c720a5997bf9904d18c2",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A quiet satellite steers the orbit; notice the odd movement and vote.",
+          "systemImage": "circle.dotted",
+          "title": "Orbit Signal"
+        },
+        "zh-Hans": {
+          "summary": "一颗安静卫星正在引导轨道；留意异常动作并投票。",
+          "systemImage": "circle.dotted",
+          "title": "轨道信号"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-cabin",
+      "packID": "canvas-cabin-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-cabin-v1.playablepack",
+      "byteCount": 1595,
+      "envelopeSHA256": "7eadb3faf6f9436f3bb1fbfd0dad48f74b196523bab3b5180731d6b8a7c96d69",
+      "contentSHA256": "4d4cec2fe26013eddaa524228c208d671c4c43d260a0ae233a03e393545f6332",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw a cozy cabin detail and let the table guess the little scene.",
+          "systemImage": "house.fill",
+          "title": "Cabin Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出温馨小屋的一处细节，让大家猜出这幅小场景。",
+          "systemImage": "house.fill",
+          "title": "小屋速写"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-parade",
+      "packID": "canvas-parade-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-parade-v1.playablepack",
+      "byteCount": 1551,
+      "envelopeSHA256": "105dc01aa0913636ff63cc25e10aa27c5ee9817aacaa3cbd6bc15f863174e4d2",
+      "contentSHA256": "9a7fe0f4f84ed660784e20a462050e917aa870b548abc781ba109dddf5961a7a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a parade favorite, then race the table to call it out.",
+          "systemImage": "flag.fill",
+          "title": "Parade Doodles"
+        },
+        "zh-Hans": {
+          "summary": "画出游行中的热门物件，和大家一起抢答。",
+          "systemImage": "flag.fill",
+          "title": "游行涂鸦"
         }
       }
     }

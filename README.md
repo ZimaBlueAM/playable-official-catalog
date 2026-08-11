@@ -24,6 +24,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Garden Keeper** — find the keeper hiding among the gardeners.
 - **Tiny Toolbox** — draw an everyday tool for the table to identify.
 - **Market Doodles** — sketch a market find and race to name it.
+- **Mosaic Secret** — compare the room and vote before the picture breaks.
+- **Orbit Signal** — notice the odd movement and vote for the quiet satellite.
+- **Cabin Sketches** — draw a cozy cabin detail for the table to guess.
+- **Parade Doodles** — sketch a parade favorite and race to call it out.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
