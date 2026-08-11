@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/sliding-grid/20260811-111632",
+  "commit": "4e02b801239e029add99c5c824d08b8b43f949ca",
+  "gateTier": "playable",
+  "fix": "set tags.players to values matching declared minPlayers/maxPlayers; for 2-3 use two-player only",
+  "fields": ["factory-candidate-manifest.entries[0].tags.players", "tag-audit.entries[0].tags.players"]
+}
