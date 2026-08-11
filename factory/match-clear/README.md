@@ -166,3 +166,14 @@ Batch BY taxonomy is sidecar-only in `batch-20260812-by.manifest.json` and
 
 Batch BZ taxonomy is sidecar-only in `batch-20260812-bz.manifest.json` and
 `audits/batch-20260812-bz.json`; revision 86 contains no taxonomy fields.
+
+## Batch CA
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Saffron Gallery | 6×4, 5 colors | 5 | 60 | exactly 2 | Four shallow rows keep rare duel gallery swaps inside the lower thumb sweep. |
+| Open Teal Courtyard | 9×10, 7 colors | 4 | 172 | 2–4 | Local adjacent swaps keep shared courtyard play focused in lower active rows. |
+| Six Seat Coral Gallery | 10×9, 8 colors | 3 | 116 | exactly 6 | Adjacent local swaps keep quick six-seat gallery play inside one-thumb reach. |
+
+Batch CA taxonomy is sidecar-only in `batch-20260812-ca.manifest.json` and
+`audits/batch-20260812-ca.json`; revision 87 contains no taxonomy fields.
