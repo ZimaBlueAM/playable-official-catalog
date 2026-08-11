@@ -99,3 +99,14 @@ Batch AX taxonomy is sidecar-only in `batch-20260811-ax.manifest.json` and
 
 Batch AY taxonomy is sidecar-only in `batch-20260811-ay.manifest.json` and
 `audits/batch-20260811-ay.json`; revision 59 contains no taxonomy fields.
+
+## Batch AZ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Crownwalk | 8×4, 8 colors | 5 | 33 | exactly 2 | Four shallow rows keep rare duel crownwalks inside the lower thumb sweep. |
+| Open Clover Bastion | 9×8, 3 colors | 4 | 91 | 2–4 | Dense local clears keep the shared bastion focused in lower active rows. |
+| Three Seat Amber Current | 5×10, 7 colors | 3 | 61 | exactly 3 | Five narrow columns keep three-seat current play inside one-thumb reach. |
+
+Batch AZ taxonomy is sidecar-only in `batch-20260811-az.manifest.json` and
+`audits/batch-20260811-az.json`; revision 60 contains no taxonomy fields.
