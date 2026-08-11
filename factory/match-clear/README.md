@@ -110,3 +110,14 @@ Batch AY taxonomy is sidecar-only in `batch-20260811-ay.manifest.json` and
 
 Batch AZ taxonomy is sidecar-only in `batch-20260811-az.manifest.json` and
 `audits/batch-20260811-az.json`; revision 60 contains no taxonomy fields.
+
+## Batch BA
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Rampart | 9×4, 4 colors | 4 | 34 | exactly 2 | Four shallow rows keep dense duel ramparts inside the lower thumb sweep. |
+| Open Violet Crownfield | 10×10, 7 colors | 5 | 94 | 2–5 | Adjacent local swaps keep the maximum shared crownfield focused in lower rows. |
+| Four Seat Amber Arcade | 6×8, 8 colors | 3 | 63 | exactly 4 | Six compact columns keep four-seat arcade play inside one-thumb reach. |
+
+Batch BA taxonomy is sidecar-only in `batch-20260811-ba.manifest.json` and
+`audits/batch-20260811-ba.json`; revision 61 contains no taxonomy fields.

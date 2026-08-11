@@ -1,7 +1,7 @@
 {
-  "revision": 60,
-  "issuedAt": "2026-08-11T22:40:00Z",
-  "expiresAt": "2026-08-18T22:40:00Z",
+  "revision": 61,
+  "issuedAt": "2026-08-11T22:50:00Z",
+  "expiresAt": "2026-08-18T22:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6178,6 +6178,72 @@
       "metadata": {
         "en": {"summary": "Exactly three players steer scarce triples through a tall seven-color amber current.", "systemImage": "water.waves", "title": "Three Seat Amber Current"},
         "zh-Hans": {"summary": "严格三位玩家在高耸七色琥珀潮流中引导稀有三连。", "systemImage": "water.waves", "title": "三席琥珀潮流"}
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-rampart",
+      "packID": "dual-clover-rampart-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-rampart-v1.playablepack.json",
+      "byteCount": 1609,
+      "envelopeSHA256": "c970c67eebbd93e4e9ded6bd5d5a3a60387af35c175ca860f7eb50525160f39c",
+      "contentSHA256": "3e926e5858ebb622087148843bd134008157007e9a17161bd8ec07c8c0da147c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two players raise dense four-tile ramparts across a shallow four-color clover field.", "systemImage": "shield.lefthalf.filled", "title": "Dual Clover Rampart"},
+        "zh-Hans": {"summary": "两位玩家在浅短四色苜蓿棋盘中筑起密集四连壁垒。", "systemImage": "shield.lefthalf.filled", "title": "双人苜蓿壁垒"}
+      }
+    },
+    {
+      "gameID": "pack-open-violet-crownfield",
+      "packID": "open-violet-crownfield-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-crownfield-v1.playablepack.json",
+      "byteCount": 1645,
+      "envelopeSHA256": "4dfc3d4bd493f4346cb3012201833a32b82fd8e2f93ae60fac7ce2668bd60cd1",
+      "contentSHA256": "4f92df129c9a23d04ea59c793f97ce0f05208644e107885544951b9de014e355",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to five players shape rare five-tile crowns across a maximum-size seven-color violet field.", "systemImage": "crown.fill", "title": "Open Violet Crownfield"},
+        "zh-Hans": {"summary": "二至五位玩家在最大尺寸七色紫罗兰棋盘中塑造稀有五连王冠。", "systemImage": "crown.fill", "title": "开放紫罗兰冠原"}
+      }
+    },
+    {
+      "gameID": "pack-four-seat-amber-arcade",
+      "packID": "four-seat-amber-arcade-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-amber-arcade-v1.playablepack.json",
+      "byteCount": 1621,
+      "envelopeSHA256": "5155beed19d8f399f0a83daa37b4587b70bfcf310eab19d7d2791bc4f40bee90",
+      "contentSHA256": "c390d232229523dbd7574d24bd9484f30945d2097a83ab5e6f3dbfdce471db18",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Exactly four players race through scarce triples across a compact eight-color amber arcade.", "systemImage": "rectangle.3.group.fill", "title": "Four Seat Amber Arcade"},
+        "zh-Hans": {"summary": "严格四位玩家在紧凑八色琥珀拱廊中竞逐稀有三连。", "systemImage": "rectangle.3.group.fill", "title": "四席琥珀拱廊"}
       }
     }
   ]
