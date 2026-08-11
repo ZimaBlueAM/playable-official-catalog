@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "status": "published-candidate",
+  "sourceBranch": "factory/sliding-grid/20260811-023055",
+  "sourceCommit": "2c127a0fa96b3d7558249a99b9ca4198fa66b620",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "entries": [
+    {
+      "gameID": "pack-horizon-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}

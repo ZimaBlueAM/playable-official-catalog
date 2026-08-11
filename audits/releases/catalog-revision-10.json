@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "catalogRevision": 10,
+  "sourceBranch": "factory/sliding-grid/20260811-023055",
+  "sourceCommit": "2c127a0fa96b3d7558249a99b9ca4198fa66b620",
+  "decision": "accepted",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "games": [
+    {
+      "gameID": "pack-horizon-twenty",
+      "declaredPlayers": [2, 3, 4, 5, 6],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "2e5ee6897e049eb0"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "fd111a9ad099ac7a"},
+        "4": {"finished": true, "winnerSeat": 3, "checksum": "41be9b5a0f727aac"},
+        "5": {"finished": true, "winnerSeat": 3, "checksum": "83eaa9b12aa16ff9"},
+        "6": {"finished": true, "winnerSeat": 5, "checksum": "e0394c8b6874090e"}
+      }
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "declaredPlayers": [2, 3, 4, 5],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 0, "checksum": "1cf70668eb07ff7c"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "ce351c7e0da7d403"},
+        "4": {"finished": true, "winnerSeat": 0, "checksum": "9719189aa93f0ae6"},
+        "5": {"finished": true, "winnerSeat": 4, "checksum": "265854a3ede873da"}
+      }
+    }
+  ],
+  "gates": {
+    "productionContentSignature": "PASS",
+    "envelopeSHA256AndByteCount": "PASS",
+    "schema1Compatibility": "PASS",
+    "localizedEnglishAndSimplifiedChinese": "PASS",
+    "license": "PASS: LicenseRef-Playable",
+    "nonExecutablePayload": "PASS",
+    "packBudget": "PASS",
+    "uniqueRuleConfiguration": "PASS",
+    "completeTerminalReplayForDeclaredPlayerRange": "PASS",
+    "thumbReachInteraction": "PASS: existing signed slidingGrid renderer contract",
+    "taxonomy": "PASS: carrier/mechanics/players/pace/context/input sidecar only"
+  }
+}
