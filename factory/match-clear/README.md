@@ -132,3 +132,14 @@ Batch AB taxonomy is sidecar-only in `batch-20260811-ab.manifest.json` and
 
 Batch AC taxonomy is sidecar-only in `batch-20260811-ac.manifest.json` and
 `audits/batch-20260811-ac.json`; revision 37 contains no taxonomy fields.
+
+## Batch AD
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Terrace | 7×5, 8 colors | 4 | 9 | exactly 2 | Five shallow rows keep scarce duel terraces in the lower thumb sweep. |
+| Open Violet Court | 9×9, 6 colors | 5 | 48 | 2–5 | Frequent court input stays in short swaps across the lower active square. |
+| Four Seat Clover Needle | 4×7, 3 colors | 3 | 24 | exactly 4 | Four narrow columns keep dense four-seat triples entirely thumb reachable. |
+
+Batch AD taxonomy is sidecar-only in `batch-20260811-ad.manifest.json` and
+`audits/batch-20260811-ad.json`; revision 38 contains no taxonomy fields.

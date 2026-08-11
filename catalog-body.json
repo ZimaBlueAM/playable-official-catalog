@@ -1,7 +1,7 @@
 {
-  "revision": 37,
-  "issuedAt": "2026-08-11T18:50:00Z",
-  "expiresAt": "2026-08-18T18:50:00Z",
+  "revision": 38,
+  "issuedAt": "2026-08-11T19:00:00Z",
+  "expiresAt": "2026-08-18T19:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3588,6 +3588,123 @@
           "summary": "严格六位玩家在高耸七色光谱针塔中完成满宽五连带。",
           "systemImage": "arrow.up.to.line",
           "title": "六席光谱针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-spectrum-terrace",
+      "packID": "dual-spectrum-terrace-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-spectrum-terrace-v1.playablepack.json",
+      "byteCount": 1599,
+      "envelopeSHA256": "7b8d7e701c1f808bf34414ceb0a8dbef3e970ecbe637eece93d203c2533f272e",
+      "contentSHA256": "b548924ba5cd8824b2a4e9e6f6691db466c3c5719edb28bb647ef505e5ee4f52",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape scarce four-tile terraces in a nine-turn eight-color spectrum.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Dual Spectrum Terrace"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在九回合八色光谱中塑造稀有四连台地。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "双人光谱台地"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-violet-court",
+      "packID": "open-violet-court-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-court-v1.playablepack.json",
+      "byteCount": 1603,
+      "envelopeSHA256": "a385a16dca7d012daf3d5da870398deba4970f00d342e0bb305ec707e7679547",
+      "contentSHA256": "d73ddc1690975e44b683c43c6eac323273bd0cc9d9c6262451da932ce6e76a94",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players build demanding five-tile lines across a large six-color violet court.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Violet Court"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在大型六色紫罗兰场中构筑高要求五连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放紫罗兰场"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-clover-needle",
+      "packID": "four-seat-clover-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-clover-needle-v1.playablepack.json",
+      "byteCount": 1606,
+      "envelopeSHA256": "764ab7fabf542f673c6119cf7e8ef444ef48fb1ceee20807fb61e4521ef0e222",
+      "contentSHA256": "b6c1bd8160f19c4d7d998946818e9372de00b243ac724479c73eb86e93b5c52d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players steer dense triples through a narrow three-color clover needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Four Seat Clover Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在狭长三色苜蓿针塔中引导密集三连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "四席苜蓿针塔"
         }
       }
     }
