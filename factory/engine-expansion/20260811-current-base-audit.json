@@ -13,7 +13,9 @@
     "pagesLastModified": "2026-08-11T15:26:15Z",
     "pagesBodySHA256": "72cb26b793cf8b9b1cc284963f050e7f300f0c3071159110e156b4776c2974ed",
     "pagesCatalogKeyID": "playable-catalog-2026-02",
-    "pagesExpiresAt": "2026-08-18T05:00:00Z"
+    "pagesExpiresAt": "2026-08-18T05:00:00Z",
+    "pagesSignatureHashVerified": true,
+    "pagesVerifiedPackCount": 25
   },
   "currentMainByEngine": {
     "cardTurn": {
