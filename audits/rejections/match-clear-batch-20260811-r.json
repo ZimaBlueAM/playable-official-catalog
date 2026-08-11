@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:05:20Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-r",
+  "sourceCommit": "61488bbc06f8326c3c32e308cc8b77a28c621cc0",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "Each submitted one-action vector reproduces its checksum but remains unfinished in the production declarative runtime.",
+  "games": [
+    {"gameID": "pack-dual-clover-pocket", "playerCount": 2, "vectorActionCount": 1, "replayFinished": false, "checksum": "dab78e0b2593e377"},
+    {"gameID": "pack-open-prism-column", "playerCount": 5, "vectorActionCount": 1, "replayFinished": false, "checksum": "9aa6d5dc925d18fc"},
+    {"gameID": "pack-six-seat-broadwave", "playerCount": 6, "vectorActionCount": 1, "replayFinished": false, "checksum": "947520408ba2bfbe"}
+  ],
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}

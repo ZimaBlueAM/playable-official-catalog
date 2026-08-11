@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:05:20Z",
+  "sourceBranch": "factory/grid-board/grid-board-wave-20260811",
+  "sourceCommit": "c80734794324a4ff54353741f6816c767d1d1721",
+  "candidateBatch": 21,
+  "decision": "rejected",
+  "reasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+  "message": "All three candidates submit only 2- and 6-player vectors for a declared 2-6 range; the 3-, 4-, and 5-player terminal evidence is absent.",
+  "affectedGameIDs": ["pack-mirror-rise-four", "pack-open-span-six", "pack-ten-lane-tower-seven"],
+  "taxonomyAudit": {"status": "passed", "carrierIsScalar": true, "transport": "candidate-and-audit-sidecar-only"},
+  "catalogAction": "none",
+  "retryRequirement": "Provide and verify deterministic terminal vectors for every declared player count from 2 through 6."
+}

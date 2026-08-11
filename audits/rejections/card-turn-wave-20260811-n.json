@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:05:20Z",
+  "sourceBranch": "factory/card-turn/wave-20260811-n",
+  "sourceCommit": "e9a886600bd50c9f0a94f5c0593fee64eeaba42a",
+  "decision": "rejected",
+  "reasonCodes": ["TAXONOMY_CARRIER_NOT_SCALAR", "MISSING_COMPLETE_TERMINAL_VECTOR"],
+  "games": [
+    {"gameID": "pack-canyon-reserve", "vectorPlayerCount": 2, "vectorActionCount": 3},
+    {"gameID": "pack-willow-count", "vectorPlayerCount": 3, "vectorActionCount": 3},
+    {"gameID": "pack-zenith-loom", "vectorPlayerCount": 2, "vectorActionCount": 3}
+  ],
+  "taxonomyEvidence": "The candidate sidecar encodes carrier as [cards], not the required scalar cards.",
+  "catalogAction": "none",
+  "retryRequirement": "Use a scalar carrier and provide deterministic legal vectors that reach finished states for all declared player counts."
+}
