@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "lane": "cardTurn",
+  "batch": "card-turn-wave-20260811-c",
+  "catalogRevision": 11,
+  "status": "candidate",
+  "games": [
+    {"gameID":"pack-copper-avoid","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=23; takeOptions=[1,3,4]; lastMoveWins=false","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-glacier-steps","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=45; takeOptions=[3,7]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-moon-relay","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=39; takeOptions=[1,2,5,8]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
+  ],
+  "verification": {
+    "packBuilder": "scripts/build_declarative_game_pack.sh",
+    "contentSignature": "P-256 local signing passed; key material not included",
+    "catalogSignature": "P-256 local signing passed; key material not included",
+    "source": "Playable Studio original declarative rule data",
+    "license": "LicenseRef-Playable",
+    "runtimePayload": "non-executable declarative JSON only",
+    "tagAudit": "PASS: carrier/mechanics taxonomy is factory-only; release publisher must strip it before Build107 taxonomy transport"
+  }
+}

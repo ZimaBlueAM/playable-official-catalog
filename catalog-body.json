@@ -1,5 +1,5 @@
 {
-  "revision": 10,
+  "revision": 11,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -468,6 +468,123 @@
           "summary": "每回合从果园取走一、四或六枚苹果，拿到最后一枚者获胜。",
           "systemImage": "leaf.circle.fill",
           "title": "果园梯影"
+        }
+      }
+    },
+    {
+      "gameID": "pack-copper-avoid",
+      "packID": "pack-copper-avoid-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-copper-avoid-v1.playablepack.json",
+      "byteCount": 1709,
+      "envelopeSHA256": "77e6a3e9bd94163add888c77264fcb83f4e7c3298729566ab0320cebfe16a748",
+      "contentSHA256": "ae6b74571a9993e58b171a6562c0a3d961596248fa992fbd34d7e3203ffc8e39",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one, three, or four copper discs, but avoid taking the final disc.",
+          "systemImage": "circle.grid.2x2.fill",
+          "title": "Copper Avoid"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、三或四枚铜片，但取到最后一枚者落败。",
+          "systemImage": "circle.grid.2x2.fill",
+          "title": "铜片避终"
+        }
+      }
+    },
+    {
+      "gameID": "pack-glacier-steps",
+      "packID": "pack-glacier-steps-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-glacier-steps-v1.playablepack.json",
+      "byteCount": 1676,
+      "envelopeSHA256": "4a39dc3909596a7e9dce220f09b0d64cdd5d3015553967e003d40e2d5ae57e26",
+      "contentSHA256": "339e581086c6d39c6c241831dbf4f15636defd7f26819f5b7dcbc089634926eb",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Cross the ice by removing exactly three or seven markers; the final marker wins.",
+          "systemImage": "snowflake",
+          "title": "Glacier Steps"
+        },
+        "zh-Hans": {
+          "summary": "每回合只能取走三或七枚冰标，拿到最后一枚者获胜。",
+          "systemImage": "snowflake",
+          "title": "冰川步幅"
+        }
+      }
+    },
+    {
+      "gameID": "pack-moon-relay",
+      "packID": "pack-moon-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-moon-relay-v1.playablepack.json",
+      "byteCount": 1694,
+      "envelopeSHA256": "db3837fefefb12a0b60c947b39febe8f0a86c30cbf431f486d4ea15a2d531b3c",
+      "contentSHA256": "6e3d157a2c47d63a0a627a795035fc386be1ff0225571986c5ea7ad8a86bf7e0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the moonlight by taking one, two, five, or eight beams; the final beam wins.",
+          "systemImage": "moon.stars.fill",
+          "title": "Moon Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、二、五或八束月光，拿到最后一束者获胜。",
+          "systemImage": "moon.stars.fill",
+          "title": "月光接力"
         }
       }
     }
