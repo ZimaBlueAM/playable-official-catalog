@@ -3,7 +3,7 @@
   "status":"published-candidate",
   "gateTier":"playable",
   "sourceBranch":"factory/card-turn/repair-20260811-terminal-main",
-  "sourceCommit":"c2d2309b57a8b6cfa2453524b9f5cd0446bff2c8",
+  "sourceCommit":"1d77232bb0918847d6861a3fdb518f66b51ea3de",
   "taxonomyVersion":"app-taxonomy-v2",
   "taxonomyTransport":"sidecar-only-before-build-107",
   "entries":[
