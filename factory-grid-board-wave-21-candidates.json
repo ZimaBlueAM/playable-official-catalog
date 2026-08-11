@@ -1,0 +1,152 @@
+[
+  {
+    "gameID": "pack-mirror-rise-four",
+    "packID": "mirror-rise-four-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 8,
+      "connectionLength": 4,
+      "rows": 7,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "1cc22aa89de4bc28",
+        "a932456918a4ed3e"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-open-span-six",
+    "packID": "open-span-six-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 10,
+      "connectionLength": 6,
+      "rows": 8,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "8c11d4062620f5a0",
+        "4c015d5a17280934"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-ten-lane-tower-seven",
+    "packID": "ten-lane-tower-seven-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 10,
+      "connectionLength": 7,
+      "rows": 12,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "e778012e61e19820",
+        "c732ebd5e7709ca6"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]

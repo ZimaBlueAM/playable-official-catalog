@@ -1,7 +1,7 @@
 {
-  "revision": 26,
-  "issuedAt": "2026-08-11T12:30:00Z",
-  "expiresAt": "2026-08-18T12:30:00Z",
+  "revision": 27,
+  "issuedAt": "2026-08-11T13:00:00Z",
+  "expiresAt": "2026-08-18T13:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2535,6 +2535,123 @@
           "summary": "两至六人在低矮十列棋架中落子，快速完成四子连线。",
           "systemImage": "square.grid.3x3.fill",
           "title": "十列快四"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mirror-rise-four",
+      "packID": "mirror-rise-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mirror-rise-four-v1.playablepack",
+      "byteCount": 3471,
+      "envelopeSHA256": "d2011987d44e5d537282e2d04de8d8a6b9cd4043e35ccc2734c504857a18f053",
+      "contentSHA256": "9bbd00827df4b85741fa5621879752052dc378874591657d495a81594404e33b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a mirrored four-step diagonal in a gravity rack.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Mirror Rise Four"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在重力棋架中反向搭建，争先完成镜像四子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "镜升斜四"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-span-six",
+      "packID": "open-span-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-span-six-v1.playablepack",
+      "byteCount": 4208,
+      "envelopeSHA256": "91a7ac7551014fa64b040eab2ad4f3afda56ff3c6798894e0fbdc06f7fe2dedb",
+      "contentSHA256": "76afc5b655edad3da03af2616df6b976f7c3555145c57e7351db0a8a6fb78b44",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players stretch a horizontal line of six across a broad open board.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Span Six"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在宽阔开放棋盘中布局，争先延展成横向六连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放横六"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ten-lane-tower-seven",
+      "packID": "ten-lane-tower-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ten-lane-tower-seven-v1.playablepack",
+      "byteCount": 4685,
+      "envelopeSHA256": "ee93bfaf32415604ec24f6cd8ca86a295dd2360571527207b031902d15d11f6e",
+      "contentSHA256": "012538f2c3ac82185c6385c67990b723bf125c1f2d68b2e636872702de51a891",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players stack through ten gravity lanes and raise a vertical tower of seven.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Ten-Lane Tower Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在十条重力通道中堆叠，争先筑成竖向七连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "十道七塔"
         }
       }
     }
