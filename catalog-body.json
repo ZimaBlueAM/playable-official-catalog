@@ -1,7 +1,7 @@
 {
-  "revision": 28,
-  "issuedAt": "2026-08-11T14:00:00Z",
-  "expiresAt": "2026-08-18T14:00:00Z",
+  "revision": 29,
+  "issuedAt": "2026-08-11T15:00:00Z",
+  "expiresAt": "2026-08-18T15:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2719,6 +2719,72 @@
       "metadata": {
         "en": {"summary": "Two to six players bridge a broad open board by completing a rising diagonal of six.", "systemImage": "square.grid.3x3.fill", "title": "Diagonal Causeway Six"},
         "zh-Hans": {"summary": "两至六人在宽阔开放棋盘中铺设斜桥，争先完成上升斜向六连。", "systemImage": "square.grid.3x3.fill", "title": "斜桥六连"}
+      }
+    },
+    {
+      "gameID": "pack-tall-cross-four",
+      "packID": "tall-cross-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-tall-cross-four-v1.playablepack",
+      "byteCount": 3250,
+      "envelopeSHA256": "dfacc93a63b26cc7e41cc0d9439f39124674bede5a1dde3ebcd14f35b2c95ef0",
+      "contentSHA256": "53a89c9b6de6522c0a6f863aaff100c6c0cddc93806a2879d355a4713592d86f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players place freely on a tall compact board and race to complete a four-step diagonal.", "systemImage": "square.grid.3x3.fill", "title": "Tall Cross Four"},
+        "zh-Hans": {"summary": "两至六人在高挑紧凑棋盘中自由落子，争先完成四步斜线。", "systemImage": "square.grid.3x3.fill", "title": "高格斜四"}
+      }
+    },
+    {
+      "gameID": "pack-seven-lane-ascent-six",
+      "packID": "seven-lane-ascent-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-lane-ascent-six-v1.playablepack",
+      "byteCount": 4219,
+      "envelopeSHA256": "d12a3a8b688f0bd057a249a2120c56f8e7b664e25f5e8a22cb04f904c5b46d83",
+      "contentSHA256": "44a2429f72f7352343e8ce3fd6fc81b5915d7dc25f0b2bcabec0c17356c82e68",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players stack through seven gravity lanes and race to raise a vertical line of six.", "systemImage": "square.grid.3x3.fill", "title": "Seven-Lane Ascent Six"},
+        "zh-Hans": {"summary": "两至六人在七条重力通道中堆叠，争先向上筑成纵向六连。", "systemImage": "square.grid.3x3.fill", "title": "七道升六"}
+      }
+    },
+    {
+      "gameID": "pack-horizon-span-eight",
+      "packID": "horizon-span-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-horizon-span-eight-v1.playablepack",
+      "byteCount": 5268,
+      "envelopeSHA256": "0a4312d0790e0eb5050553139ee074f688b99e4d39cbf4378dcd263ff1bd877f",
+      "contentSHA256": "d82e87e86a80b6d3bd07f4d127b8060ab9b8b97294c03aed111e63bf64cf5032",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players traverse an ultra-wide open board and race to span eight stones in one horizontal line.", "systemImage": "square.grid.3x3.fill", "title": "Horizon Span Eight"},
+        "zh-Hans": {"summary": "两至六人在超宽开放棋盘中横向延展，争先贯通八子长线。", "systemImage": "square.grid.3x3.fill", "title": "地平横八"}
       }
     }
   ]

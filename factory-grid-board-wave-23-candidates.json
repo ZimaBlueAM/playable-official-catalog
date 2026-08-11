@@ -1,0 +1,20 @@
+[
+  {
+    "gameID":"pack-tall-cross-four","packID":"tall-cross-four-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":5,"rows":8,"connectionLength":4,"usesGravity":false},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["5809aa00aaa9e354","73a415bd1eda7b5f"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-seven-lane-ascent-six","packID":"seven-lane-ascent-six-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":7,"rows":9,"connectionLength":6,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["2b3fe08abf75c72f","78d87d67fcf022db"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-horizon-span-eight","packID":"horizon-span-eight-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":12,"rows":9,"connectionLength":8,"usesGravity":false},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["72eaad965f5c5f04","8fa0a2ef1ffd152d"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  }
+]
