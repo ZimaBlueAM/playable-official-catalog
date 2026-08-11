@@ -1,0 +1,153 @@
+[
+  {
+    "gameID": "pack-rising-diagonal-six",
+    "packID": "rising-diagonal-six-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 9,
+      "connectionLength": 6,
+      "rows": 9,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "6252dcfabbb96ffc",
+        "ca5945ec6e979143"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-counter-diagonal-six",
+    "packID": "counter-diagonal-six-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 8,
+      "connectionLength": 6,
+      "rows": 8,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "f729b30d4140f0b1",
+        "977c20230bc9de25"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-nine-lane-three",
+    "packID": "nine-lane-three-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 9,
+      "connectionLength": 3,
+      "rows": 5,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based",
+        "quick-round"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "3ec8771512915276",
+        "dbacf223bf3dd132"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]
