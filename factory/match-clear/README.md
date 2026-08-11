@@ -132,3 +132,14 @@ Batch AJ taxonomy is sidecar-only in `batch-20260811-aj.manifest.json` and
 
 Batch AK taxonomy is sidecar-only in `batch-20260811-ak.manifest.json` and
 `audits/batch-20260811-ak.json`; revision 45 contains no taxonomy fields.
+
+## Batch AL
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Crownline | 10×4, 8 colors | 5 | 19 | exactly 2 | Four shallow rows keep the long duel crownline inside the lower thumb sweep. |
+| Party Meadow Citadel | 9×9, 4 colors | 4 | 49 | 3–6 | Frequent local swaps keep the shared citadel focused in the lower active rows. |
+| Five Seat Spectrum Loom | 5×10, 7 colors | 3 | 35 | exactly 5 | Five narrow columns keep repeated five-seat loom input inside the one-thumb lane. |
+
+Batch AL taxonomy is sidecar-only in `batch-20260811-al.manifest.json` and
+`audits/batch-20260811-al.json`; revision 46 contains no taxonomy fields.

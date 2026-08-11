@@ -1,7 +1,7 @@
 {
-  "revision": 45,
-  "issuedAt": "2026-08-11T20:10:00Z",
-  "expiresAt": "2026-08-18T20:10:00Z",
+  "revision": 46,
+  "issuedAt": "2026-08-11T20:20:00Z",
+  "expiresAt": "2026-08-18T20:20:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4524,6 +4524,123 @@
           "summary": "严格四位玩家在狭长五色草甸针塔中收获三连。",
           "systemImage": "arrow.up.to.line",
           "title": "四席草甸针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-amber-crownline",
+      "packID": "dual-amber-crownline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-amber-crownline-v1.playablepack.json",
+      "byteCount": 1589,
+      "envelopeSHA256": "d1d4981e2f85f1445dd79ee934ebcf7d1056f423c1c438e167a199937603eb09",
+      "contentSHA256": "2ba4d964bcc0a515f8c430470d97d2aa2fae708c64adda7906ea4fb39ea13fbc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players trace rare five-tile crownlines across a shallow eight-color amber field.",
+          "systemImage": "crown.fill",
+          "title": "Dual Amber Crownline"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短八色琥珀棋盘中勾勒稀有五连冠线。",
+          "systemImage": "crown.fill",
+          "title": "双人琥珀冠线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-meadow-citadel",
+      "packID": "party-meadow-citadel-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-meadow-citadel-v1.playablepack.json",
+      "byteCount": 1610,
+      "envelopeSHA256": "60b9a93a5f686bf990e3bf73777445a1bdd25d1319d24426e1ed1990b53d3a88",
+      "contentSHA256": "838979261a816e15537d61b358ef67b22f7d44540582e3d501f10b3b3ce03cd0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends raise dense four-tile walls across a broad four-color meadow citadel.",
+          "systemImage": "building.2.fill",
+          "title": "Party Meadow Citadel"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在宽阔四色草甸城堡中筑起密集四连城墙。",
+          "systemImage": "building.2.fill",
+          "title": "派对草甸城堡"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-seat-spectrum-loom",
+      "packID": "five-seat-spectrum-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-spectrum-loom-v1.playablepack.json",
+      "byteCount": 1616,
+      "envelopeSHA256": "a71249582c1c939bd6c489889f776d995d824782a348cb52375d41488438ed2e",
+      "contentSHA256": "0e193b5f9aebedd81039ad821d8ef7bfefe043b4f2d31566aacd1a540c593def",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly five players weave scarce triples through a narrow seven-color spectrum loom.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Five Seat Spectrum Loom"
+        },
+        "zh-Hans": {
+          "summary": "严格五位玩家在狭长七色光谱织机中编织稀有三连。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "五席光谱织机"
         }
       }
     }
