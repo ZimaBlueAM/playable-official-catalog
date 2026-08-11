@@ -1,7 +1,7 @@
 {
-  "revision": 44,
-  "issuedAt": "2026-08-11T20:00:00Z",
-  "expiresAt": "2026-08-18T20:00:00Z",
+  "revision": 45,
+  "issuedAt": "2026-08-11T20:10:00Z",
+  "expiresAt": "2026-08-18T20:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4407,6 +4407,123 @@
           "summary": "严格三位玩家在高耸八色光谱针塔中寻找稀有三连。",
           "systemImage": "arrow.up.to.line",
           "title": "三席光谱针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-prism-boulevard",
+      "packID": "dual-prism-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-prism-boulevard-v1.playablepack.json",
+      "byteCount": 1587,
+      "envelopeSHA256": "64763df62d92b74c33fbf33825a8129f2b65bdc7a7bc6c7da3e1471472dc1e00",
+      "contentSHA256": "2b62d0c30f2f16909eaf0439edd97da4a116cde12078977b61c8cf1e5610a096",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players build scarce four-tile boulevards across a shallow seven-color prism field.",
+          "systemImage": "road.lanes",
+          "title": "Dual Prism Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短七色棱镜场中构筑稀有四连大道。",
+          "systemImage": "road.lanes",
+          "title": "双人棱镜大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-violet-crown",
+      "packID": "open-violet-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-crown-v1.playablepack.json",
+      "byteCount": 1600,
+      "envelopeSHA256": "b617db8354c984be0442523f14202ffcd216ba92231ae61bb1f3aab14f7c7298",
+      "contentSHA256": "3795670b868acbfd47c8259097f556cc85e284d69f41201b70b6a516def749b9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to four players shape rare five-tile crowns through a tall six-color violet field.",
+          "systemImage": "crown.fill",
+          "title": "Open Violet Crown"
+        },
+        "zh-Hans": {
+          "summary": "二至四位玩家在高耸六色紫罗兰棋盘中塑造稀有五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "开放紫罗兰王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-meadow-needle",
+      "packID": "four-seat-meadow-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-meadow-needle-v1.playablepack.json",
+      "byteCount": 1595,
+      "envelopeSHA256": "09c5fd6844f362298e2d508cfee5fadf949ea748f4818ef5221370bf25d15cc5",
+      "contentSHA256": "876d18afc30930f30c1b2f2b37aeba89731ac2ca3d593c893f4cd8706b77f010",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players harvest triples through a narrow five-color meadow needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Four Seat Meadow Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在狭长五色草甸针塔中收获三连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "四席草甸针塔"
         }
       }
     }

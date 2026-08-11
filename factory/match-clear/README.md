@@ -121,3 +121,14 @@ Batch AI taxonomy is sidecar-only in `batch-20260811-ai.manifest.json` and
 
 Batch AJ taxonomy is sidecar-only in `batch-20260811-aj.manifest.json` and
 `audits/batch-20260811-aj.json`; revision 44 contains no taxonomy fields.
+
+## Batch AK
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Boulevard | 9×4, 7 colors | 4 | 18 | exactly 2 | Four shallow rows keep the complete duel boulevard inside the lower thumb sweep. |
+| Open Violet Crown | 7×8, 6 colors | 5 | 46 | 2–4 | Seven compact columns keep rare crown setup in the lower one-thumb wiper arc. |
+| Four Seat Meadow Needle | 4×10, 5 colors | 3 | 34 | exactly 4 | Four narrow columns keep repeated four-seat needle swaps entirely thumb reachable. |
+
+Batch AK taxonomy is sidecar-only in `batch-20260811-ak.manifest.json` and
+`audits/batch-20260811-ak.json`; revision 45 contains no taxonomy fields.
