@@ -94,6 +94,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Boardwalk Sketches** — sketch a boardwalk clue and race to identify it.
 - **Waterworks Report** — compare pressure reports and vote before release.
 - **Arcade Sketches** — sketch an arcade clue and race to identify it.
+- **Airfield Dispatch** — compare runway reports and vote before takeoff.
+- **Record Store Sketches** — sketch a record-store clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
