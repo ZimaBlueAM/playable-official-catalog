@@ -4482,6 +4482,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-farmhouse",
+      "packID": "hidden-farmhouse-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-farmhouse-v1.playablepack",
+      "byteCount": 1940,
+      "envelopeSHA256": "2f00536cb40a52fa3923c4418474b1f6230df3254ceca7974a34040df41b7831",
+      "contentSHA256": "f0cfd6e00d33eb2d8e8008c58b5598d2c70cc4c83e4536a378d68bdabad1d912",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One helper changed the harvest ledger; compare reports and vote before market.",
+          "systemImage": "house.lodge.fill",
+          "title": "Farmhouse Ledger"
+        },
+        "zh-Hans": {
+          "summary": "一名帮手改动了收成账本；比较报告，在赶集前投票。",
+          "systemImage": "house.lodge.fill",
+          "title": "农舍账本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-citypark",
+      "packID": "canvas-citypark-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-citypark-v1.playablepack",
+      "byteCount": 1804,
+      "envelopeSHA256": "928751289d70bdf1bb409bb0b3c43d88fd6aa286ea41df309c7aae952c879a84",
+      "contentSHA256": "8b0339d2a03813d57f79729012be15d279dc12f4d047557847bec96a3a801e6e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a city-park clue and race the table to identify it.",
+          "systemImage": "tree.fill",
+          "title": "City Park Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出城市公园线索，和大家一起抢答。",
+          "systemImage": "tree.fill",
+          "title": "城市公园速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }

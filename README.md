@@ -80,6 +80,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Lakeside Sketches** — sketch a lakeside clue and race to identify it.
 - **Warehouse Manifest** — compare reports and vote before shipment.
 - **Stargarden Sketches** — sketch a night-garden clue and race to identify it.
+- **Farmhouse Ledger** — compare reports and vote before market.
+- **City Park Sketches** — sketch a city-park clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
