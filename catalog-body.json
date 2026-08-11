@@ -1,7 +1,7 @@
 {
-  "revision": 99,
-  "issuedAt": "2026-08-12T10:30:00Z",
-  "expiresAt": "2026-08-19T10:30:00Z",
+  "revision": 100,
+  "issuedAt": "2026-08-12T11:00:00Z",
+  "expiresAt": "2026-08-19T11:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6773,6 +6773,15 @@
     },
     {
       "gameID":"pack-three-seat-pearl-gallery","packID":"three-seat-pearl-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":3,"maximumPlayers":3,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-pearl-gallery-v1.playablepack.json","byteCount":1657,"envelopeSHA256":"f1505d366f57ac2987e4132cc5fbd670a5f54a1b126a54b029e1805e52cd330c","contentSHA256":"ba16d65b9dc1c371587b106403de0f251b1f3f2212b04f393f776fefe46227ce","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly three players frame rare five-tile galleries across a broad five-color pearl field.","systemImage":"photo.on.rectangle.angled","title":"Three Seat Pearl Gallery"},"zh-Hans":{"summary":"严格三位玩家在宽阔五色珍珠棋盘中构筑稀有五连画廊。","systemImage":"photo.on.rectangle.angled","title":"三席珍珠画廊"}}
+    },
+    {
+      "gameID":"pack-dual-onyx-courtyard","packID":"dual-onyx-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-onyx-courtyard-v1.playablepack.json","byteCount":1619,"envelopeSHA256":"96431eb023919c77b6a6ad8c33ece1f3cda108993f7530419ddb7192b285b7cb","contentSHA256":"57b70a0f68bc6cfe6912c15832506a09fd1587f4a541a92af3262e6ad354a544","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players frame rare five-tile courtyards across a shallow seven-color onyx field.","systemImage":"square.grid.3x3.fill","title":"Dual Onyx Courtyard"},"zh-Hans":{"summary":"两位玩家在浅层七色缟玛瑙棋盘中构筑稀有五连庭院。","systemImage":"square.grid.3x3.fill","title":"双人缟玛瑙庭院"}}
+    },
+    {
+      "gameID":"pack-open-opal-gallery","packID":"open-opal-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-opal-gallery-v1.playablepack.json","byteCount":1652,"envelopeSHA256":"11ab5ecbec2e18efd73dbb7844d55e4bdf8fd7a655ffbf9e66f916766eb435cc","contentSHA256":"bc560a78e700dd81e60c166c07a6e8e640892aa3613c6ce02660373a327fb2db","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players frame four-tile galleries through a tall eight-color opal field.","systemImage":"photo.on.rectangle.angled","title":"Open Opal Gallery"},"zh-Hans":{"summary":"二至六位玩家在高耸八色蛋白石棋盘中构筑四连画廊。","systemImage":"photo.on.rectangle.angled","title":"开放蛋白石画廊"}}
+    },
+    {
+      "gameID":"pack-four-seat-pearl-gallery","packID":"four-seat-pearl-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-pearl-gallery-v1.playablepack.json","byteCount":1642,"envelopeSHA256":"94aabeee0a42db73c247698a355a55617518e581909561790588fc3739eef54a","contentSHA256":"ac907c2bfa7576c789b6122c4e3d903eccb631bfcd909fc869bef2e20f177668","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players steer dense triples across a broad six-color pearl gallery.","systemImage":"photo.on.rectangle.angled","title":"Four Seat Pearl Gallery"},"zh-Hans":{"summary":"严格四位玩家在宽阔六色珍珠画廊中引导密集三连。","systemImage":"photo.on.rectangle.angled","title":"四席珍珠画廊"}}
     }
   ]
 }
