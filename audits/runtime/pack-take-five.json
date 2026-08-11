@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "gameID": "pack-take-five",
+  "auditedAt": "2026-08-11",
+  "evidenceClass": "software-simulator-live-ui",
+  "source": {
+    "catalogURL": "https://zimablueam.github.io/playable-official-catalog/catalog.json",
+    "catalogRevision": 8,
+    "packURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-take-five-v1.playablepack.json",
+    "license": "LicenseRef-Playable"
+  },
+  "declared": {
+    "title": {"en": "Take Five", "zh-Hans": "拿五"},
+    "summary": {"en": "Take one, two, or three tokens. The last move wins.", "zh-Hans": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。"},
+    "players": {"minimum": 2, "maximum": 4},
+    "presetObserved": "standard",
+    "deterministicVectorObserved": true
+  },
+  "steps": {
+    "discover": "PASS",
+    "add": "PASS",
+    "offlineReadyLabel": "PASS",
+    "setup": "PASS",
+    "completeGame": "OPEN",
+    "result": "OPEN",
+    "rematch": "OPEN"
+  },
+  "ux": {
+    "addAndPlayControlsInLowerThumbReach": true,
+    "touchTargetMeasured": false,
+    "touchTargetMinimumPt": null,
+    "localization": "PASS",
+    "deadlockObserved": false,
+    "wrongPlayerCountObserved": false
+  },
+  "deviceEvidence": {
+    "iphoneSimulator": "PARTIAL: Games→Add→offline-ready→Play→setup observed; one simulator had no second real seat, so no complete match was claimed",
+    "physicalDevice": "OPEN",
+    "human": "OPEN"
+  },
+  "notes": "The app visibly showed 2–4 players, the recommended standard preset with twenty-one tokens, and a lower-screen Create Room action. A single simulator cannot prove a two-player result or rematch."
+}
