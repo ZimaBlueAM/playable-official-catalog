@@ -116,3 +116,14 @@ contains no taxonomy fields.
 
 Batch K taxonomy is sidecar-only in `batch-20260811-k.manifest.json` and
 `audits/batch-20260811-k.json`; revision 19 contains no taxonomy fields.
+
+## Batch L
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Six Seat Spark | 7×4, 3 colors | 4 | 12 | exactly 6 | Four shallow rows keep all strict-six-player moves inside the lower thumb sweep. |
+| Dual Lattice | 7×8, 8 colors | 5 | 14 | exactly 2 | Seven narrow columns support deliberate one-thumb five-line setup in a duel. |
+| Party Pebbles | 4×6, 6 colors | 3 | 8 | 3–4 | The compact board is fully thumb reachable for a short party round. |
+
+Batch L taxonomy is sidecar-only in `batch-20260811-l.manifest.json` and
+`audits/batch-20260811-l.json`; revision 20 contains no taxonomy fields.

@@ -1,0 +1,17 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {"gameID":"pack-six-seat-spark","carrier":"board","mechanics":["matching","alignment","race"],"minPlayers":6,"maxPlayers":6,"players":["party-3-6"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"7x4 board; adjacent swap; four-tile clears; strict 6-player; 12 turns; vector 38a1f186326efe00"},
+    {"gameID":"pack-dual-lattice","carrier":"tiles","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"7x8 board; adjacent swap; eight-color five-tile clears; strict 2-player; 14 turns; vector cd611af64988964d"},
+    {"gameID":"pack-party-pebbles","carrier":"tiles","mechanics":["matching","alignment","race"],"minPlayers":3,"maxPlayers":4,"players":["party-3-6"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"4x6 board; adjacent swap; six-color three-tile clears; strict 3-4 players; 8 turns; vector 4b6d2d4f61514fd9"}
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}
