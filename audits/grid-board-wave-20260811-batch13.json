@@ -1,0 +1,207 @@
+{
+  "schema": 2,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "generatedAt": "2026-08-11T09:00:00Z",
+  "allowed": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
+    ]
+  },
+  "candidates": [
+    {
+      "gameID": "pack-rising-diagonal-four",
+      "packID": "rising-diagonal-four-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 7,
+        "connectionLength": 4,
+        "rows": 7,
+        "usesGravity": true
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "2b2cb63b96994ec3",
+          "c7e6cd11bdbc9005"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    },
+    {
+      "gameID": "pack-open-column-eight",
+      "packID": "open-column-eight-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 5,
+        "connectionLength": 8,
+        "rows": 11,
+        "usesGravity": false
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "d1eda0762c8e17e1",
+          "da82b315a96fa1b7"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    },
+    {
+      "gameID": "pack-quick-terrace-three",
+      "packID": "quick-terrace-three-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "rules": {
+        "columns": 12,
+        "connectionLength": 3,
+        "rows": 4,
+        "usesGravity": true
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based",
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          6
+        ],
+        "expectedChecksums": [
+          "d59d3d0d1712ef6b",
+          "ce10b5bbd871f354"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      }
+    }
+  ],
+  "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+}

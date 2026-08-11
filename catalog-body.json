@@ -1,7 +1,7 @@
 {
-  "revision": 18,
-  "issuedAt": "2026-08-11T08:30:00Z",
-  "expiresAt": "2026-08-18T08:30:00Z",
+  "revision": 19,
+  "issuedAt": "2026-08-11T09:00:00Z",
+  "expiresAt": "2026-08-18T09:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1599,6 +1599,123 @@
           "summary": "两至六人在七道重力深井中落子，率先垂直叠成七枚标记。",
           "systemImage": "square.grid.3x3.fill",
           "title": "七层深井"
+        }
+      }
+    },
+    {
+      "gameID": "pack-rising-diagonal-four",
+      "packID": "rising-diagonal-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rising-diagonal-four-v1.playablepack",
+      "byteCount": 3469,
+      "envelopeSHA256": "3b9e60b682a8fd2d1ae313b7e68c67647b7f8dff4d2f31f40868d117d7af565d",
+      "contentSHA256": "90d1efc2837b80c49b920009fccf0d9868dcedea81ba1244d7c66ab02def87fd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build supports in a gravity rack to raise a diagonal of four.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Rising Diagonal Four"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在重力棋架中搭建支撑，争先升起四子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "升阶斜四"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-column-eight",
+      "packID": "open-column-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-column-eight-v1.playablepack",
+      "byteCount": 5237,
+      "envelopeSHA256": "5b64f0c87eabae3366d825939570a31c7e20514e2ab93814eb789aa46fcc0a40",
+      "contentSHA256": "d5603c2ae6e77244e03228f05a5250aba85c768dc4b45c5ae355d9d320ef4007",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players place freely on a tall open board and claim a vertical line of eight.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Column Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在高长开放棋盘中自由落子，争先完成竖向八连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放竖八"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quick-terrace-three",
+      "packID": "quick-terrace-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quick-terrace-three-v1.playablepack",
+      "byteCount": 2729,
+      "envelopeSHA256": "e3188b754de5d0d57e651f68d9e8904407b9ab06b5e1925919597a396f937665",
+      "contentSHA256": "a89a2fb636f8ba2ba1ffe845e50b6911536ec2895cb7e5d4d6559c41ef6e99f9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players drop across a low terrace; the first short line of three wins.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Quick Terrace Three"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在低矮露台棋架中落子，率先三子成线获胜。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "露台快三"
         }
       }
     }
