@@ -5,7 +5,7 @@
   "catalogRevision": 9,
   "status": "candidate",
   "games": [
-    {"gameID":"pack-ember-count","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=21; takeOptions=[1,2,3]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-ember-count","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=26; takeOptions=[1,2,4]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
     {"gameID":"pack-quiet-tide","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=28; takeOptions=[2,4]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
     {"gameID":"pack-moss-last","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=35; takeOptions=[1,3,5]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
     {"gameID":"pack-lantern-lose","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=17; takeOptions=[1,2]; lastMoveWins=false","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
@@ -16,7 +16,6 @@
     "catalogSignature": "P-256 local signing passed; key material not included",
     "source": "Playable Studio original declarative rule data",
     "license": "LicenseRef-Playable",
-    "runtimePayload": "non-executable declarative JSON only",
-    "tagAudit": "PASS: bounded tags are factory-only; release publisher must strip them before Build107 taxonomy transport"
+    "runtimePayload": "non-executable declarative JSON only"
   }
 }
