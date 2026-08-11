@@ -177,3 +177,14 @@ Batch BZ taxonomy is sidecar-only in `batch-20260812-bz.manifest.json` and
 
 Batch CA taxonomy is sidecar-only in `batch-20260812-ca.manifest.json` and
 `audits/batch-20260812-ca.json`; revision 87 contains no taxonomy fields.
+
+## Batch CB
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Teal Courtyard | 7×4, 8 colors | 3 | 61 | exactly 2 | Four shallow rows keep quick duel courtyard swaps inside the lower thumb sweep. |
+| Open Saffron Gallery | 10×10, 5 colors | 4 | 175 | 2–5 | Local adjacent swaps keep shared gallery play focused in lower active rows. |
+| Four Seat Indigo Gallery | 6×9, 7 colors | 5 | 118 | exactly 4 | Six narrow columns keep rare four-seat gallery play inside one-thumb reach. |
+
+Batch CB taxonomy is sidecar-only in `batch-20260812-cb.manifest.json` and
+`audits/batch-20260812-cb.json`; revision 88 contains no taxonomy fields.
