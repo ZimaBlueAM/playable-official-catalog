@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-flash-nine",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based", "quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 6, "board": "3x3", "scrambleMoves": 12, "turnLimit": 12, "testedPlayerCounts": [2, 3, 4, 5, 6]}
+    },
+    {
+      "gameID": "pack-mosaic-sixteen",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 5, "board": "4x4", "scrambleMoves": 78, "turnLimit": 180, "testedPlayerCounts": [2, 3, 4, 5]}
+    }
+  ]
+}

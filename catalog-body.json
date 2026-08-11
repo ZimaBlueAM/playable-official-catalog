@@ -1,7 +1,7 @@
 {
-  "revision": 12,
-  "issuedAt": "2026-08-11T02:48:34Z",
-  "expiresAt": "2026-08-18T02:48:34Z",
+  "revision": 13,
+  "issuedAt": "2026-08-11T02:53:28Z",
+  "expiresAt": "2026-08-18T02:53:28Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -580,6 +580,84 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "vault-twenty-five-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 5477,
+      "contentSHA256": "e9853111aa28acc054cccea0160370658db9ce5ba309c6be0de3be96f5bcf256",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-flash-nine-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "fe32d6df06f97fd12412eef9e24795d94c325d1c3cb4c6d2efc772f5e62260cc",
+      "gameID": "pack-flash-nine",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 6,
+      "metadata": {
+        "en": {
+          "summary": "Solve nine tiles in twelve exact moves with any room size from two to six.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Flash Nine"
+        },
+        "zh-Hans": {
+          "summary": "从双人到六席，用恰好十二次拇指滑动完成九格闪局。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格闪局"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "flash-nine-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 20913,
+      "contentSHA256": "e7d3f9e256472261f4d1b13d2f5873de91867d97295bf12ef29ad49d1044b4b1",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mosaic-sixteen-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "893ce7b99c45209fd8067ce3122e6560076028b499e6a676a0703b05038db238",
+      "gameID": "pack-mosaic-sixteen",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 5,
+      "metadata": {
+        "en": {
+          "summary": "Reassemble a sixteen-tile mosaic with every room size from two to five.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Mosaic Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "从双人到五席逐一轮转，重新拼合十六格数字马赛克。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六格拼花"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "mosaic-sixteen-first-edition",
       "packKeyID": "sliding-grid-content-2026-08",
       "packVersion": 1,
       "rulesVersion": 1,
