@@ -133,3 +133,14 @@ Batch CT taxonomy is sidecar-only in `batch-20260812-ct.manifest.json` and
 
 Batch CU taxonomy is sidecar-only in `batch-20260812-cu.manifest.json` and
 `audits/batch-20260812-cu.json`; revision 107 contains no taxonomy fields.
+
+## Batch CV
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Onyx Causeway | 8×4, 6 colors | 5 | 81 | exactly 2 | Four shallow rows keep rare duel causeway swaps inside the lower thumb sweep. |
+| Open Mint Mosaic | 6×10, 7 colors | 4 | 188 | 2–6 | Six narrow columns keep shared mosaic play focused in lower active rows. |
+| Four Seat Jade Arcade | 9×8, 5 colors | 3 | 158 | exactly 4 | Adjacent local swaps keep quick four-seat arcade play inside one-thumb reach. |
+
+Batch CV taxonomy is sidecar-only in `batch-20260812-cv.manifest.json` and
+`audits/batch-20260812-cv.json`; revision 108 contains no taxonomy fields.

@@ -1,7 +1,7 @@
 {
-  "revision": 107,
-  "issuedAt": "2026-08-12T18:00:00Z",
-  "expiresAt": "2026-08-19T18:00:00Z",
+  "revision": 108,
+  "issuedAt": "2026-08-12T19:00:00Z",
+  "expiresAt": "2026-08-19T19:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6845,6 +6845,15 @@
     },
     {
       "gameID":"pack-six-seat-ivory-causeway","packID":"six-seat-ivory-causeway-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":6,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-ivory-causeway-v1.playablepack.json","byteCount":1649,"envelopeSHA256":"a1b9cc38e67010347d68c21516c8b03e301c6727deb8c53899c4e51b824e46cf","contentSHA256":"e38be01777da8bc584ad588df1c6c44cca10ecc4d95c9eddeafde4f03b64ac5b","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly six players seek rare five-tile lanes through a narrow eight-color ivory causeway.","systemImage":"square.grid.3x3.fill","title":"Six Seat Ivory Causeway"},"zh-Hans":{"summary":"严格六位玩家在狭长八色象牙堤道中寻找稀有五连通道。","systemImage":"square.grid.3x3.fill","title":"六席象牙堤道"}}
+    },
+    {
+      "gameID":"pack-dual-onyx-causeway","packID":"dual-onyx-causeway-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-onyx-causeway-v1.playablepack.json","byteCount":1606,"envelopeSHA256":"dc4e87d0fa107992f116462201687c78d0b56553492a8d4b95f8b90ea7d9b96c","contentSHA256":"2d42ccb71fa1fd583d2a337b3fc3c06444ef550a832f772c5af2ee3c8426519b","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players seek rare five-tile lanes across a shallow six-color onyx causeway.","systemImage":"square.grid.3x3.fill","title":"Dual Onyx Causeway"},"zh-Hans":{"summary":"两位玩家在浅层六色缟玛瑙堤道中寻找稀有五连通道。","systemImage":"square.grid.3x3.fill","title":"双人缟玛瑙堤道"}}
+    },
+    {
+      "gameID":"pack-open-mint-mosaic","packID":"open-mint-mosaic-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-mint-mosaic-v1.playablepack.json","byteCount":1629,"envelopeSHA256":"b0f9feb539ae0a5e8b1f5b3c000eb5975337346da66381f2096287b205467722","contentSHA256":"0b3dda1c411cdec325477f3d0ef1ba95a1991738b87775ceb34ae48a26595e5c","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players shape four-tile patterns through a narrow seven-color mint mosaic.","systemImage":"square.grid.3x3.topleft.filled","title":"Open Mint Mosaic"},"zh-Hans":{"summary":"二至六位玩家在狭长七色薄荷拼图中构筑四连图案。","systemImage":"square.grid.3x3.topleft.filled","title":"开放薄荷拼图"}}
+    },
+    {
+      "gameID":"pack-four-seat-jade-arcade","packID":"four-seat-jade-arcade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-jade-arcade-v1.playablepack.json","byteCount":1626,"envelopeSHA256":"00ba115592d4b7f53f22354fa1299afb059c64cced0a3a07623b51b20f0f6eb9","contentSHA256":"b318fbf35314e68bba6f8523c4f3514555765db0dbc259a2e778faf0a483b9eb","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players trigger quick triples across a broad five-color jade arcade.","systemImage":"square.grid.3x3.fill","title":"Four Seat Jade Arcade"},"zh-Hans":{"summary":"严格四位玩家在宽阔五色翡翠游廊中触发快速三连。","systemImage":"square.grid.3x3.fill","title":"四席翡翠游廊"}}
     }
   ]
 }
