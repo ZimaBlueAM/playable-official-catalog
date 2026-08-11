@@ -45,3 +45,15 @@ Batch E stores bounded taxonomy only in `batch-20260811-e.manifest.json` and
 these fields until Build107 taxonomy transport is sealed; this preserves Build106
 catalog verification and old-client availability. Carrier is the homepage class;
 mechanics are the secondary filters. No difficulty label is used.
+
+## Batch F
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Crosswind | 7×7, 5 colors | 3 | 18 | 2–6 | The square lower board supports short adjacent cross-current swaps within one-thumb reach. |
+| Fourbeat | 6×5, 4 colors | 4 | 12 | 2–4 | The compact grid keeps deliberate four-run setup in the lower thumb sweep. |
+| Longlight | 10×4, 5 colors | 3 | 9 | 2–5 | Four shallow rows make wide horizontal triples visible and reachable for quick rounds. |
+
+Batch F taxonomy follows the same sidecar-only contract in
+`batch-20260811-f.manifest.json` and `audits/batch-20260811-f.json`. The signed
+schema-1 catalog contains no taxonomy fields.

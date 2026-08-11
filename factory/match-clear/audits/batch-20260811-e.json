@@ -10,7 +10,7 @@
   },
   "checks": [
     {"gameID":"pack-triad-current","carrier":"board","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":6,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"6x8 board; adjacent swap; three-tile clears; 19 turns; vector 746f0bcd2a21e3db"},
-    {"gameID":"pack-prism-ladder","carrier":"tiles","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":4,"players":["two-player"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"5x5 board; adjacent swap; four-tile clears; 13 turns; vector d1cb0bf089c9b16c"},
+    {"gameID":"pack-prism-ladder","carrier":"tiles","mechanics":["matching","alignment","spatial"],"minPlayers":2,"maxPlayers":4,"players":["two-player","party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"5x5 board; adjacent swap; four-tile clears; 13 turns; vector d1cb0bf089c9b16c"},
     {"gameID":"pack-pocket-comet","carrier":"tiles","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":5,"players":["two-player","party-3-6"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"9x6 board; adjacent swap; three-tile clears; 15 turns; vector c51020078282959f"}
   ],
   "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verifier re-encoding remains compatible."

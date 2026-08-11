@@ -3,7 +3,7 @@
   "catalogPublication": "schema1-tags-stripped",
   "entries": [
     {
-      "gameID": "pack-triad-current",
+      "gameID": "pack-crosswind",
       "labels": {
         "carrier": "board",
         "mechanics": ["matching", "alignment", "race"],
@@ -14,7 +14,7 @@
       }
     },
     {
-      "gameID": "pack-prism-ladder",
+      "gameID": "pack-fourbeat",
       "labels": {
         "carrier": "tiles",
         "mechanics": ["matching", "alignment", "spatial"],
@@ -25,7 +25,7 @@
       }
     },
     {
-      "gameID": "pack-pocket-comet",
+      "gameID": "pack-longlight",
       "labels": {
         "carrier": "tiles",
         "mechanics": ["matching", "alignment", "race"],

@@ -1,7 +1,7 @@
 {
-  "revision": 13,
-  "issuedAt": "2026-08-11T06:30:00Z",
-  "expiresAt": "2026-08-18T06:30:00Z",
+  "revision": 14,
+  "issuedAt": "2026-08-11T07:30:00Z",
+  "expiresAt": "2026-08-18T07:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -780,6 +780,123 @@
           "summary": "在宽幅掌上棋盘追逐快速三连彗星，在回合耗尽前完成得分。",
           "systemImage": "comet.fill",
           "title": "掌上彗星"
+        }
+      }
+    },
+    {
+      "gameID": "pack-crosswind",
+      "packID": "crosswind-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-crosswind-v1.playablepack.json",
+      "byteCount": 1541,
+      "envelopeSHA256": "61ad63b8871e190265d8eea8c99948dee6ae6f3a7ae5f7a1f15c6575d84e1f8f",
+      "contentSHA256": "ea0295834ee20bff18cfc4f31c8f4ec935c1b16a4da2ecb1eb7c08fb396ecb01",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Cross two color currents on a square board and race to turn each opening into a scoring line.",
+          "systemImage": "wind",
+          "title": "Crosswind"
+        },
+        "zh-Hans": {
+          "summary": "在方形棋盘交汇两股色流，抢先把每个缺口变成得分连线。",
+          "systemImage": "wind",
+          "title": "交叉风"
+        }
+      }
+    },
+    {
+      "gameID": "pack-fourbeat",
+      "packID": "fourbeat-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-fourbeat-v1.playablepack.json",
+      "byteCount": 1544,
+      "envelopeSHA256": "a9bd8a6fc98557a1583fb9a8f338cbd1f834ec9533959a27cea43171af5420b3",
+      "contentSHA256": "1d462c082e8ae72762a815cffe631e72516188432c36637d924e3f2e41cd753a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Set a four-tile beat on a compact board where each deliberate swap changes the rhythm.",
+          "systemImage": "metronome.fill",
+          "title": "Fourbeat"
+        },
+        "zh-Hans": {
+          "summary": "在紧凑棋盘打出四连节拍，每次谨慎交换都会改变节奏。",
+          "systemImage": "metronome.fill",
+          "title": "四拍"
+        }
+      }
+    },
+    {
+      "gameID": "pack-longlight",
+      "packID": "longlight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-longlight-v1.playablepack.json",
+      "byteCount": 1552,
+      "envelopeSHA256": "bd284eb0ac6581e3da36c3d623795ff45c2c53081aa4fc1702b7878a8ac35564",
+      "contentSHA256": "d22c25631325e74c2ba46e63c38264e17daccf6644e5d0f2ffb53e77c92eb123",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sweep bright triples along a long low board in nine quick scoring turns.",
+          "systemImage": "sun.horizon.fill",
+          "title": "Longlight"
+        },
+        "zh-Hans": {
+          "summary": "在狭长低棋盘横扫明亮三连，用九个快速回合争夺高分。",
+          "systemImage": "sun.horizon.fill",
+          "title": "长光"
         }
       }
     }
