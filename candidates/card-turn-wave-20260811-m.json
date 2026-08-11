@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "lane": "cardTurn",
+  "batch": "card-turn-wave-20260811-m",
+  "catalogRevision": 21,
+  "status": "candidate",
+  "games": [
+    {"gameID":"pack-delta-reserve","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=68; takeOptions=[1,9,16]; lastMoveWins=false","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-juniper-count","packVersion":1,"minimumPlayers":2,"maximumPlayers":5,"rules":"initialCount=69; takeOptions=[1,7,12,18]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-halo-loom","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=70; takeOptions=[1,4,10,15,19]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
+  ],
+  "verification": {
+    "packBuilder": "scripts/build_declarative_game_pack.sh",
+    "contentSignature": "P-256 local signing passed; key material not included",
+    "catalogSignature": "P-256 local signing passed; key material not included",
+    "source": "Playable Studio original declarative rule data",
+    "license": "LicenseRef-Playable",
+    "runtimePayload": "non-executable declarative JSON only",
+    "reachableStateAudit": "PASS: every reachable positive remaining count has at least one legal action",
+    "strategyAudit": "PASS: each new two-player losing-state prefix differs from all prior cardTurn candidates",
+    "tagAudit": "PASS: carrier/mechanics taxonomy is factory-only; release publisher must strip it before Build107 taxonomy transport"
+  }
+}

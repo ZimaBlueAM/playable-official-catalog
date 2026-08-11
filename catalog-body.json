@@ -1,5 +1,5 @@
 {
-  "revision": 20,
+  "revision": 21,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1638,6 +1638,123 @@
           "summary": "每回合织走一、三、九、十四或十八缕云线，拿到最后一缕者获胜。",
           "systemImage": "cloud.fill",
           "title": "云幕织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-delta-reserve",
+      "packID": "pack-delta-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-delta-reserve-v1.playablepack.json",
+      "byteCount": 1720,
+      "envelopeSHA256": "6369724aa7221389ecad45825685a7a4c4568052af7bc797c12cce7000d44d0e",
+      "contentSHA256": "de147f378f9febb2a5821a3daa358389f1385509d4e2dd8950e696e8c819263b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, nine, or sixteen delta markers, but the player clearing the final marker loses.",
+          "systemImage": "water.waves",
+          "title": "Delta Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、九或十六枚三角洲标记，但清除最后一枚者落败。",
+          "systemImage": "water.waves",
+          "title": "三角洲留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-juniper-count",
+      "packID": "pack-juniper-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-juniper-count-v1.playablepack.json",
+      "byteCount": 1710,
+      "envelopeSHA256": "d3cb1d2d2017b5cef45e35fde9d48f8d7ba08b3a17c5c5c6e2f6cd0c63831701",
+      "contentSHA256": "e8b65b085f0385817152404f96ee82c7cc558347d9703048f488552ebcdd5757",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Gather one, seven, twelve, or eighteen juniper tokens; the final token wins.",
+          "systemImage": "leaf.fill",
+          "title": "Juniper Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、七、十二或十八枚杜松标记，拿到最后一枚者获胜。",
+          "systemImage": "leaf.fill",
+          "title": "杜松计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-halo-loom",
+      "packID": "pack-halo-loom-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-halo-loom-v1.playablepack.json",
+      "byteCount": 1731,
+      "envelopeSHA256": "f97564e02cd93b935d6ae00b81d79493a9859892d18ac5745ca5110037f8b143",
+      "contentSHA256": "ceb017f9c8cc8581fdd8fe700c8714a58f1159729828dc268ec79e613c445dfd",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave one, four, ten, fifteen, or nineteen halo threads; the final thread wins.",
+          "systemImage": "circle.dotted",
+          "title": "Halo Loom"
+        },
+        "zh-Hans": {
+          "summary": "每回合织走一、四、十、十五或十九缕光环线，拿到最后一缕者获胜。",
+          "systemImage": "circle.dotted",
+          "title": "光环织机"
         }
       }
     }
