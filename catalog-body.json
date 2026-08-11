@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T02:25:39Z",
-  "expiresAt": "2026-08-18T02:25:39Z",
+  "revision": 19,
+  "issuedAt": "2026-08-11T02:32:10Z",
+  "expiresAt": "2026-08-18T02:32:10Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -312,6 +312,84 @@
           "summary": "轮流快速滑动九块方砖，在节奏中断前完成还原。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九格快步"
+        }
+      }
+    },
+    {
+      "gameID": "pack-horizon-twenty",
+      "packID": "horizon-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-horizon-twenty-v1.playablepack.json",
+      "byteCount": 27667,
+      "envelopeSHA256": "4d4ffa86c80d231f6e6a774932e160d1cc7ca6122a6d104eb6a209c08423e490",
+      "contentSHA256": "1e3be5c7e9024592b0f1fac111b16c2ec4cc6c2ee8c559b50954eb8ff76beaa8",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sweep twenty tiles across a broad horizon with two through six players.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Horizon Twenty"
+        },
+        "zh-Hans": {
+          "summary": "两至六人沿宽阔地平线轮流滑动，共同还原二十格。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格地平线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "packID": "ladder-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ladder-twelve-v1.playablepack.json",
+      "byteCount": 12757,
+      "envelopeSHA256": "3a2f72420af13b8294ab44530309c479bc55e31ed14ba7d761ae1688ddf5635d",
+      "contentSHA256": "b6489cf669d4a6b3df6e90eb101686a7b8a8a6556cccd0b0a59f3a9bec438fb3",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a narrow twelve-tile ladder with every room size from two to five.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Ladder Twelve"
+        },
+        "zh-Hans": {
+          "summary": "从双人到五席逐级轮转，攀登狭长十二格数字梯阵。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格梯阵"
         }
       }
     }

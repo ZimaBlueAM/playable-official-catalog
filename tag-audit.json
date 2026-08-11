@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-ladder-twelve","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":5,"testedPlayerCounts":[2,3,4,5],"engine":"slidingGrid","board":"3x4","scrambleMoves":45,"turnLimit":100,"completionVectorActions":[45,45,45,45],"expectedWinnerSeats":[0,2,0,4]}},
+    {"gameID":"pack-horizon-twenty","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"testedPlayerCounts":[2,3,4,5,6],"engine":"slidingGrid","board":"5x4","scrambleMoves":84,"turnLimit":200,"completionVectorActions":[84,84,84,84,84],"expectedWinnerSeats":[1,2,3,3,5]}}
+  ]
+}
