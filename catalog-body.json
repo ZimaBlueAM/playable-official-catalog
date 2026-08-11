@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 7,
+  "issuedAt": "2026-08-11T01:55:19Z",
+  "expiresAt": "2026-08-18T01:55:19Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-corner-chase",
+      "packID": "corner-chase-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-corner-chase-v1.playablepack.json",
+      "byteCount": 1433,
+      "envelopeSHA256": "905e6dad3de5a1dc13a9855e4bc5a80b09af9e48151f7896a2d5956291088cae",
+      "contentSHA256": "42e23d09937eebd92312f8ed1ceb7303e7f4ce23c11eee5369345454641a894e",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Slide the numbered tiles home before the short clock runs out.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Corner Chase"
+        },
+        "zh-Hans": {
+          "summary": "在短回合结束前，把数字方块滑回正确位置。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "角落追踪"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-by-four-focus",
+      "packID": "four-by-four-focus-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-by-four-focus-v1.playablepack.json",
+      "byteCount": 1459,
+      "envelopeSHA256": "eb3325a3ea4104baf3941eaef81f8ff1f87efd926b68402f502a81e5c1f14863",
+      "contentSHA256": "1a43fcd9f67dc3d8803d2126a6d2f2f26702e863c84c14215f11eb90567c9650",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A deeper sixteen-tile restore built for calm, focused play.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Four by Four Focus"
+        },
+        "zh-Hans": {
+          "summary": "还原十六块数字方阵，适合安静专注地游玩。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "四乘四专注"
+        }
+      }
+    },
+    {
+      "gameID": "pack-lane-lift",
+      "packID": "lane-lift-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-lane-lift-v1.playablepack.json",
+      "byteCount": 1439,
+      "envelopeSHA256": "3492e445b21463236c2413ccd347e62b911f05600e00918a24ecef9f795aa5fe",
+      "contentSHA256": "f6ddd19e50b9d65d26f93f9e36276227825619529f6e73db360e7626ec7d939a",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Trade quick thumb moves across a wide twelve-tile lane.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Lane Lift"
+        },
+        "zh-Hans": {
+          "summary": "在宽阔的十二格滑道上轮流用拇指交换位置。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "横道升格"
         }
       }
     }
