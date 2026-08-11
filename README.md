@@ -40,6 +40,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Teahouse Whisper** — read the table before the cups cool.
 - **Seaside Sketches** — draw a beach-side clue for friends to name.
 - **Garage Doodles** — sketch a garage find and race to identify it.
+- **Observatory Shift** — compare the reports and vote before dawn.
+- **Ferry Ticket** — read the group and find the hidden passenger.
+- **Greenhouse Sketches** — draw a garden clue for friends to name.
+- **Campsite Doodles** — sketch a camp object and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

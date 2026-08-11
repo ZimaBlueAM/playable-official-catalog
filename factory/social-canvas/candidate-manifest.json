@@ -2049,6 +2049,249 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-observatory",
+      "packID": "hidden-observatory-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-observatory-v1.playablepack",
+      "byteCount": 1857,
+      "envelopeSHA256": "4315625ffb277e9798105e2bbb4bcb5ff535a474ce81d4fca3992afbc5b89939",
+      "contentSHA256": "ad28bffb2070b835c1616eef6f68c4c02af2bda6b06a24b8560e02020f79be9c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One watcher tracks the wrong star; compare the reports and vote before dawn.",
+          "systemImage": "telescope.fill",
+          "title": "Observatory Shift"
+        },
+        "zh-Hans": {
+          "summary": "一名观测员追踪了错误星体；比较报告，在天亮前投票。",
+          "systemImage": "telescope.fill",
+          "title": "观星台换班"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-ferry",
+      "packID": "hidden-ferry-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-ferry-v1.playablepack",
+      "byteCount": 1843,
+      "envelopeSHA256": "82f4a231bd3f46071c2644d11cc987033d9c6461ce72f1514dac5ae6e8d77163",
+      "contentSHA256": "8d31b4934a4ec10f73d2bf5158fa58c99b96381ab4da34ec047b173afd40127d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden passenger holds the wrong ticket; read the group and vote before docking.",
+          "systemImage": "ferry.fill",
+          "title": "Ferry Ticket"
+        },
+        "zh-Hans": {
+          "summary": "隐藏乘客拿着错误船票；观察大家，在靠岸前投票。",
+          "systemImage": "ferry.fill",
+          "title": "渡轮船票"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-greenhouse",
+      "packID": "canvas-greenhouse-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-greenhouse-v1.playablepack",
+      "byteCount": 1590,
+      "envelopeSHA256": "1d1325d89d913749bb4a0125c6988edb2d845696eeb7b1e225383aca26bdaac8",
+      "contentSHA256": "284f568d140d9093faae9a4a0036f3b6b23d1c64beaaac802eb3403d6d336700",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw a garden clue in a few strokes and let friends name it.",
+          "systemImage": "camera.macro",
+          "title": "Greenhouse Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出花园线索，让朋友说出它。",
+          "systemImage": "camera.macro",
+          "title": "温室速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-campsite",
+      "packID": "canvas-campsite-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-campsite-v1.playablepack",
+      "byteCount": 1549,
+      "envelopeSHA256": "1ac01903a7bd3275e9df8b61186f5d73a635a322969bd1c12592c8f8a6078314",
+      "contentSHA256": "ad0637ac65affce03a9d1aaa9dcaecc82538d6bb719d4c696aeb53de00a243eb",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a camp object and race the table to identify it.",
+          "systemImage": "tent.fill",
+          "title": "Campsite Doodles"
+        },
+        "zh-Hans": {
+          "summary": "画出露营物件，和大家一起抢答。",
+          "systemImage": "tent.fill",
+          "title": "营地涂鸦"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
