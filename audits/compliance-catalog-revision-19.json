@@ -1,0 +1,599 @@
+{
+  "schema": 1,
+  "type": "catalog-compliance-sidecar",
+  "catalogRevision": 19,
+  "decision": "reject-source-provenance",
+  "catalogRevisionUnchanged": true,
+  "checks": {
+    "licenseIdentifier": "LicenseRef-Playable",
+    "attributionRequired": true,
+    "provenanceRequired": true,
+    "thirdPartyAssetsPolicy": "resources must be empty or individually licensed",
+    "suggestedAgePolicy": "recommendation only; not a catalog schema field"
+  },
+  "entries": [
+    {
+      "gameID": "pack-stack-four",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-last-one-loses",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-pocket-slider",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-prism-shift",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-take-five",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-cascade-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-meridian-fifteen",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-quickstep-nine",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-horizon-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-gallery-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-switchback-fifteen",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-pulse-nine",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-flash-nine",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-mosaic-sixteen",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-keystone-fifteen",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-atlas-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-citadel-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-orbit-twenty-five",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-ember-twelve",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-beacon-fifteen",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-facet-nine",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    },
+    {
+      "gameID": "pack-canopy-twenty",
+      "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+      "sourceHTTPStatus": 404,
+      "sourceReachable": false,
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "provenance": {
+        "sourceName": "Playable Studio",
+        "sourceURL": "https://zimablueam.github.io/playable-official-catalog/source",
+        "attribution": "Playable Studio"
+      },
+      "assetBoundary": {
+        "resources": 0,
+        "thirdPartyAssets": false,
+        "decision": "no embedded assets declared"
+      },
+      "suggestedAgeGroup": "4+",
+      "ageRationale": "abstract non-violent tabletop/puzzle rules; recommendation only",
+      "decision": "reject-source-url"
+    }
+  ],
+  "repair": {
+    "required": "publish a reachable public provenance/source page or correct each source URL; do not infer or fabricate authorization",
+    "fields": [
+      "source.url",
+      "source.name",
+      "license.attribution"
+    ]
+  }
+}
