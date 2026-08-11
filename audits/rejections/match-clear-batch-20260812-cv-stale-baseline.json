@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/match-clear/batch-20260812-cv",
+  "commit": "a6e46b56551b99ee2fccccd2741f389c1531eeae",
+  "gateTier": "playable",
+  "reasons": [
+    "candidate_parent_is_not_current_main",
+    "candidate_catalog_is_not_bounded_delta",
+    "candidate_revision_does_not_follow_current_main",
+    "current_entries_not_preserved"
+  ],
+  "observed": {
+    "candidateParent": "2ec5f8a9d4f975dcf461105dfe1cfebdef3e79ff",
+    "currentMain": "531cdd04c2de96a6fbb34ac896cf3c954f0ba052",
+    "candidateRevision": 108,
+    "currentRevision": 19,
+    "candidateEntries": 305,
+    "currentEntries": 25,
+    "candidateBatchEntries": 3
+  },
+  "fix": "rebase a bounded candidate on current main, preserve all current entries, and submit only the intended new entries"
+}
