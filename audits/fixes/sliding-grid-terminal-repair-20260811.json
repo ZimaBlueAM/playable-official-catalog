@@ -1,0 +1,827 @@
+{
+  "schema": 1,
+  "decision": "accepted-for-terminal-repair",
+  "gateTier": "playable",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": [
+    "genre",
+    "difficulty"
+  ],
+  "repairChecks": {
+    "trustedPackKeyID": "playable-content-2026-02",
+    "allDeclaredPlayerCountsCovered": true,
+    "deterministicReverseScrambleVectors": true,
+    "allVectorsTerminal": true,
+    "existingRulesPreserved": true,
+    "canonicalURLsPreserved": true,
+    "nonExecutableJSONOnly": true
+  },
+  "entries": [
+    {
+      "gameID": "pack-atlas-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "5x4",
+        "scrambleMoves": 128,
+        "turnLimit": 256,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-beacon-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "5x3",
+        "scrambleMoves": 112,
+        "turnLimit": 224,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-canopy-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "4x5",
+        "scrambleMoves": 64,
+        "turnLimit": 160,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-cascade-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "4x5",
+        "scrambleMoves": 117,
+        "turnLimit": 250,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-citadel-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 3,
+        "board": "4x5",
+        "scrambleMoves": 128,
+        "turnLimit": 128,
+        "testedPlayerCounts": [
+          2,
+          3
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-ember-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "3x4",
+        "scrambleMoves": 72,
+        "turnLimit": 72,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-facet-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "3x3",
+        "scrambleMoves": 32,
+        "turnLimit": 32,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-flash-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "3x3",
+        "scrambleMoves": 12,
+        "turnLimit": 12,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-gallery-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "4x5",
+        "scrambleMoves": 90,
+        "turnLimit": 220,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-horizon-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "5x4",
+        "scrambleMoves": 84,
+        "turnLimit": 200,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-keystone-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "3x5",
+        "scrambleMoves": 96,
+        "turnLimit": 144,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "3x4",
+        "scrambleMoves": 45,
+        "turnLimit": 100,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-meridian-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "5x3",
+        "scrambleMoves": 89,
+        "turnLimit": 180,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-mosaic-sixteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "4x4",
+        "scrambleMoves": 78,
+        "turnLimit": 180,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-orbit-twenty-five",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "5x5",
+        "scrambleMoves": 100,
+        "turnLimit": 180,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-pocket-slider",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "3x3",
+        "scrambleMoves": 24,
+        "turnLimit": 80,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-pulse-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "3x3",
+        "scrambleMoves": 20,
+        "turnLimit": 40,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-quickstep-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 3,
+        "board": "3x3",
+        "scrambleMoves": 15,
+        "turnLimit": 48,
+        "testedPlayerCounts": [
+          2,
+          3
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 5,
+        "board": "3x4",
+        "scrambleMoves": 54,
+        "turnLimit": 120,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-switchback-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "5x3",
+        "scrambleMoves": 48,
+        "turnLimit": 48,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "5x5",
+        "scrambleMoves": 126,
+        "turnLimit": 256,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "terminalVectors": true
+      }
+    }
+  ]
+}
