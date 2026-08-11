@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/sliding-grid/20260811-signature-repair",
+  "commit": "8177515a1429d85b9e6e8ff8fa310bcd87aea868",
+  "gateTier": "playable",
+  "reasons": [
+    "candidate_catalog_revision_is_lower_than_current_main",
+    "candidate_parent_is_not_current_main",
+    "candidate_deletes_required_provenance_pages",
+    "repair_already_superseded_by_revision_19"
+  ],
+  "observed": {
+    "candidateParent": "a8c94140b05cdc6e679ab4f7a9d85906ce668d5a",
+    "currentMain": "531cdd04c2de96a6fbb34ac896cf3c954f0ba052",
+    "candidateRevision": 18,
+    "currentRevision": 19,
+    "requiredFilesDeletedByCandidate": ["index.html", "source/index.html"]
+  },
+  "fix": "do not replay obsolete trust repair; submit future changes from current main and retain provenance pages"
+}

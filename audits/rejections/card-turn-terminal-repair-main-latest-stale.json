@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/card-turn/repair-20260811-terminal-main-latest",
+  "commit": "6f53b8ab702d729c0090d70593b1c8070ed3f6bc",
+  "gateTier": "playable",
+  "reasons": [
+    "candidate_parent_is_not_current_main",
+    "candidate_deletes_required_provenance_pages",
+    "candidate_contains_existing_games_only",
+    "not_a_bounded_new_game_batch"
+  ],
+  "observed": {
+    "currentMain": "531cdd04c2de96a6fbb34ac896cf3c954f0ba052",
+    "candidateCatalogRevision": 19,
+    "candidateEntries": 25,
+    "repairEntries": 2,
+    "requiredFilesDeletedByCandidate": ["index.html", "source/index.html"]
+  },
+  "fix": "rebase on current main, retain root/source provenance pages, and submit only a bounded repair or new-game delta with current bindings"
+}

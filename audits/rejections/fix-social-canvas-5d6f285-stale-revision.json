@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "fix/social-canvas-5d6f285-20260811",
+  "commit": "f08dce91eeaf7242c92ce43229a6e6404f65f907",
+  "gateTier": "playable",
+  "reasons": [
+    "candidate_parent_is_not_current_main",
+    "candidate_catalog_revision_is_lower_than_current_main",
+    "candidate_entry_count_is_not_preserved",
+    "missing_factory_candidate_manifest"
+  ],
+  "observed": {
+    "candidateParent": "7128fa0c6dec405eb381b62802ede1242acffbc2",
+    "currentMain": "531cdd04c2de96a6fbb34ac896cf3c954f0ba052",
+    "candidateRevision": 18,
+    "currentRevision": 19,
+    "candidateEntries": 27,
+    "currentEntries": 25
+  },
+  "fix": "rebase on current main, submit a factory-candidate-manifest.json, and preserve the current catalog before any re-audit"
+}
