@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T04:00:00Z",
-  "expiresAt": "2026-08-18T04:00:00Z",
+  "revision": 10,
+  "issuedAt": "2026-08-11T04:30:00Z",
+  "expiresAt": "2026-08-18T04:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -546,6 +546,123 @@
           "summary": "占据空格，让三枚标记穿过棋盘中心形成水流。",
           "systemImage": "square.grid.3x3.fill",
           "title": "交汇水流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quadra-bloom",
+      "packID": "quadra-bloom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quadra-bloom-v1.playablepack",
+      "byteCount": 1928,
+      "envelopeSHA256": "f16bd66613c1471bdc92f8e5d3bc1df55f76bb01ba2ae012df67d9a053f3ed08",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Grow a four-mark bloom from a gravity rack before the board fills.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Quadra Bloom"
+        },
+        "zh-Hans": {
+          "summary": "在重力棋架中培育四点花瓣，棋盘填满前完成连线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "四瓣绽放"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ring-of-six",
+      "packID": "ring-of-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ring-of-six-v1.playablepack",
+      "byteCount": 2151,
+      "envelopeSHA256": "2a631ba11c1453deb0b2a87f343180e0c3af69d7510ef6bd82aad750b870a6e5",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Claim open cells and close a six-mark ring across the square.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Ring of Six"
+        },
+        "zh-Hans": {
+          "summary": "占据开放格，在方阵中闭合六点环线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "六环成线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-narrow-three",
+      "packID": "narrow-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-narrow-three-v1.playablepack",
+      "byteCount": 1820,
+      "envelopeSHA256": "797f33f6ac361d0a51a8a79ee27721cbbf5cbd1b554805d578cee2b4cb30aad2",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Thread three marks through a slim vertical board in a quick tactical duel.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Narrow Three"
+        },
+        "zh-Hans": {
+          "summary": "在狭长竖向棋盘中穿出三点连线，快速完成战术对决。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "窄道三连"
         }
       }
     }
