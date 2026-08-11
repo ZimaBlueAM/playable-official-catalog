@@ -21,10 +21,11 @@
     "discover": "PASS",
     "add": "PASS",
     "offlineReadyLabel": "PASS",
+    "offlineCachedPlay": "PASS",
     "setup": "PASS",
-    "completeGame": "OPEN",
-    "result": "OPEN",
-    "rematch": "OPEN"
+    "completeGame": "PASS",
+    "result": "PASS",
+    "rematch": "PASS"
   },
   "ux": {
     "addAndPlayControlsInLowerThumbReach": true,
@@ -35,9 +36,10 @@
     "wrongPlayerCountObserved": false
   },
   "deviceEvidence": {
-    "iphoneSimulator": "PARTIAL: Games→Add→offline-ready→Play→setup observed; one simulator had no second real seat, so no complete match was claimed",
+    "iphoneSimulator": "PASS: Build 106 host and Build 104 guest completed normal Games→cached pack→Nearby room discovery/join→21-to-0 full match→Result→two-party rematch acceptance→new 21-token game",
     "physicalDevice": "OPEN",
     "human": "OPEN"
   },
-  "notes": "The app visibly showed 2–4 players, the recommended standard preset with twenty-one tokens, and a lower-screen Create Room action. A single simulator cannot prove a two-player result or rematch."
+  "taxonomyVerification": {"status":"PASS / SOFTWARE SIMULATOR","carrier":"tiles","mechanics":["take-away"],"evidence":"Both seats repeatedly selected Take 3 until the visible count reached zero; Result ranked player 1 over player 2 and both accepted a rematch."},
+  "notes": "Two booted iPhone simulators used the normal visible App journey without launch arguments or injected state. The guest catalog showed refresh failure with the previously added pack still playable. Seven alternating legal Take 3 actions reduced 21→18→15→12→9→6→3→0. Result showed player 1 win/player 2 loss; host requested and guest accepted rematch; both returned to a fresh 21-token game."
 }
