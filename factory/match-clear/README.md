@@ -110,3 +110,14 @@ Batch Z taxonomy is sidecar-only in `batch-20260811-z.manifest.json` and
 
 Batch AA taxonomy is sidecar-only in `batch-20260811-aa.manifest.json` and
 `audits/batch-20260811-aa.json`; revision 35 contains no taxonomy fields.
+
+## Batch AB
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Stack | 5×8, 6 colors | 4 | 20 | exactly 2 | Five narrow columns keep stacked duel bands in the lower one-thumb lane. |
+| Grand Clover Current | 9×7, 3 colors | 3 | 45 | 2–6 | Dense long-game input remains short swaps across the lower active current. |
+| Four Seat Spectrum Bridge | 8×4, 7 colors | 5 | 12 | exactly 4 | Four shallow rows keep rare four-seat bridges visible in the thumb sweep. |
+
+Batch AB taxonomy is sidecar-only in `batch-20260811-ab.manifest.json` and
+`audits/batch-20260811-ab.json`; revision 36 contains no taxonomy fields.

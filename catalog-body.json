@@ -1,7 +1,7 @@
 {
-  "revision": 35,
-  "issuedAt": "2026-08-11T18:30:00Z",
-  "expiresAt": "2026-08-18T18:30:00Z",
+  "revision": 36,
+  "issuedAt": "2026-08-11T18:40:00Z",
+  "expiresAt": "2026-08-18T18:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3354,6 +3354,123 @@
           "summary": "严格三位玩家在高耸紧凑织机中编织密集四连苜蓿带。",
           "systemImage": "square.grid.3x3.fill",
           "title": "三席苜蓿织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-violet-stack",
+      "packID": "dual-violet-stack-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-violet-stack-v1.playablepack.json",
+      "byteCount": 1589,
+      "envelopeSHA256": "683b3d4fbea59ab1d3b1815612040bd979d725f59d5656bc41fa3aa6e159d1ee",
+      "contentSHA256": "8d3526f8432a0fc65d552438f12c2d7028a28d272183b1ac4fb2f93fafceec42",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players stack scarce four-tile violet bands through a narrow six-color tower.",
+          "systemImage": "square.stack.3d.up.fill",
+          "title": "Dual Violet Stack"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在狭长六色塔中堆叠稀有四连紫罗兰带。",
+          "systemImage": "square.stack.3d.up.fill",
+          "title": "双人紫罗兰叠层"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grand-clover-current",
+      "packID": "grand-clover-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grand-clover-current-v1.playablepack.json",
+      "byteCount": 1600,
+      "envelopeSHA256": "0217927b99f2e1225604e21c48639d4e0c0e0e9728a081afa7d7c6d0b98d60f2",
+      "contentSHA256": "4f97e91d5260621cf8c54377241cf5969bcdbabb101fcdef2b8b68913eff210f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players steer dense triple cascades through a broad three-color clover current.",
+          "systemImage": "water.waves",
+          "title": "Grand Clover Current"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在宽阔三色苜蓿潮流中引导密集三连瀑布。",
+          "systemImage": "water.waves",
+          "title": "宏伟苜蓿潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-spectrum-bridge",
+      "packID": "four-seat-spectrum-bridge-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-spectrum-bridge-v1.playablepack.json",
+      "byteCount": 1681,
+      "envelopeSHA256": "ebe065885b79fe455bc0dbd97703ff026ad22054fc80da1e0a39313f2489c59c",
+      "contentSHA256": "a3e6eb64dfae166e42e109974ccee135641d2b2b0403af743a396f8ed313b125",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players bridge rare five-tile bands across a shallow seven-color spectrum.",
+          "systemImage": "point.topleft.down.to.point.bottomright.curvepath.fill",
+          "title": "Four Seat Spectrum Bridge"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在浅层七色光谱中架起稀有五连桥带。",
+          "systemImage": "point.topleft.down.to.point.bottomright.curvepath.fill",
+          "title": "四席光谱桥"
         }
       }
     }
