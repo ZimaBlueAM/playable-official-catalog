@@ -1,7 +1,7 @@
 {
-  "revision": 19,
-  "issuedAt": "2026-08-11T09:00:00Z",
-  "expiresAt": "2026-08-18T09:00:00Z",
+  "revision": 20,
+  "issuedAt": "2026-08-11T09:30:00Z",
+  "expiresAt": "2026-08-18T09:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1716,6 +1716,123 @@
           "summary": "两至六人在低矮露台棋架中落子，率先三子成线获胜。",
           "systemImage": "square.grid.3x3.fill",
           "title": "露台快三"
+        }
+      }
+    },
+    {
+      "gameID": "pack-rising-diagonal-five",
+      "packID": "rising-diagonal-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rising-diagonal-five-v1.playablepack",
+      "byteCount": 4195,
+      "envelopeSHA256": "63fd018f678faa55163aade0d4f01d818e82cb3808f4b0436926ec838f74e48f",
+      "contentSHA256": "0e447b95dd79d935ac07a89b3dcc9e678a76cbd048a28c8826d96ef86c9ba8ea",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a five-step diagonal inside a gravity rack.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Rising Diagonal Five"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在重力棋架中逐层搭建，争先完成五子阶梯对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "升阶斜五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-row-seven",
+      "packID": "open-row-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-row-seven-v1.playablepack",
+      "byteCount": 4703,
+      "envelopeSHA256": "cea7734120caf08b70a25d46b398cef6a18720e0872441d375de869e1542d512",
+      "contentSHA256": "e99cd4389b7f94cc81d2a2fdbea52e61256d3eaa10146ef9cf93c1d88cb5fced",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players claim an open field and complete a horizontal line of seven.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Row Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在开放棋面中自由落子，争先完成横向七连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放横七"
+        }
+      }
+    },
+    {
+      "gameID": "pack-compact-vertical-four",
+      "packID": "compact-vertical-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-compact-vertical-four-v1.playablepack",
+      "byteCount": 3244,
+      "envelopeSHA256": "c8be3c942853a1304d94df839ca0b333149bd8f1c8107aac986a036d27bdbd01",
+      "contentSHA256": "56f149bae5e4036ff037239c9c974ba6153521b830b1280682b7b03df9f9d6d1",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players place freely on a narrow board and finish a vertical four.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Compact Vertical Four"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在狭窄棋盘中自由落子，快速完成竖向四连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "紧凑竖四"
         }
       }
     }
