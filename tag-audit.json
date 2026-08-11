@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "allowedValues": {
-    "genre": ["board", "cards", "dice", "puzzle", "party", "action", "drawing"],
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
     "players": ["solo", "two-player", "party-3-6"],
     "pace": ["instant", "turn-based", "quick-round"],
     "context": ["independent", "pass-and-play", "friends-room"],
-    "input": ["one-thumb", "two-thumb", "canvas"],
-    "difficulty": ["relaxed", "strategy", "advanced"]
+    "input": ["one-thumb", "two-thumb", "canvas"]
   },
   "entries": [
-    {"gameID":"pack-moonlit-fifteen","tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"engine":"slidingGrid","board":"5x3","turnLimit":112}},
-    {"gameID":"pack-pocket-canyon","tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"engine":"slidingGrid","board":"3x4","turnLimit":120}},
-    {"gameID":"pack-starlight-twenty-five","tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["advanced"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"engine":"slidingGrid","board":"5x5","turnLimit":256}}
+    {"gameID":"pack-moonlit-fifteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"engine":"slidingGrid","board":"5x3","turnLimit":112}},
+    {"gameID":"pack-pocket-canyon","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"engine":"slidingGrid","board":"3x4","turnLimit":120}},
+    {"gameID":"pack-starlight-twenty-five","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"engine":"slidingGrid","board":"5x5","turnLimit":256}}
   ]
 }
