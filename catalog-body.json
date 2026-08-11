@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 10,
+  "issuedAt": "2026-08-11T02:03:03Z",
+  "expiresAt": "2026-08-18T02:03:03Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-moonlit-fifteen",
+      "packID": "moonlit-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-moonlit-fifteen-v1.playablepack.json",
+      "byteCount": 1475,
+      "envelopeSHA256": "4d338e611cf3af203f8b659c956ffbeaa698881625f4303cb2ea86063e0a4aa6",
+      "contentSHA256": "8203d188c2ea267d2a243f249f432040cde6cd412e7b39ca4561fa00e69fe341",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Set fifteen tiles beneath a moonlit, measured rhythm of turns.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Moonlit Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "在月光般从容的节奏中，整理十五块数字方砖。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "月下十五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pocket-canyon",
+      "packID": "pocket-canyon-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-canyon-v1.playablepack.json",
+      "byteCount": 1474,
+      "envelopeSHA256": "23978b44d3f633e285c0e54a2d72bf1f975626b4875932be68a105f75c48145a",
+      "contentSHA256": "5026da63c291990af5ff0defde2ce7673c72dd3509812056d7ce12052aa580d4",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Guide the empty space through a narrow twelve-tile canyon.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Pocket Canyon"
+        },
+        "zh-Hans": {
+          "summary": "引导空格穿过狭长的十二格数字峡谷。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "掌上峡谷"
+        }
+      }
+    },
+    {
+      "gameID": "pack-starlight-twenty-five",
+      "packID": "starlight-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-starlight-twenty-five-v1.playablepack.json",
+      "byteCount": 1528,
+      "envelopeSHA256": "fd4cbc7d3b8155eda5806e7cfa5845fd38e934d0cc55367b069691d1a2936cef",
+      "contentSHA256": "8d26b9bfa3097aae9096d03f81ad0ef185901b144c1b7ee0293249a19aa82879",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Restore a starfield of twenty-five numbered tiles, one thumb move at a time.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Starlight Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "一次滑动一块，逐步还原二十五格星光数字方阵。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "星光二十五"
         }
       }
     }

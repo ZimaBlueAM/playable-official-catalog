@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "factory-candidate",
+  "taxonomyTransport": "deferred-until-build-107",
+  "entries": [
+    {"gameID":"pack-moonlit-fifteen","packVersion":1,"tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
+    {"gameID":"pack-pocket-canyon","packVersion":1,"tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
+    {"gameID":"pack-starlight-twenty-five","packVersion":1,"tags":{"genre":["puzzle"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["advanced"]}}
+  ]
+}
