@@ -1,5 +1,5 @@
 {
-  "revision": 26,
+  "revision": 27,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -2340,6 +2340,123 @@
           "summary": "每回合收集一、七、十六、二十三或二十七枚彗星火花并交棒，收集最后一枚者获胜。",
           "systemImage": "moon.stars.fill",
           "title": "彗星接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orchard-reserve",
+      "packID": "pack-orchard-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orchard-reserve-v1.playablepack.json",
+      "byteCount": 1765,
+      "envelopeSHA256": "f7ef2735199d236e59dc8edcc9dfa0a7d3526543730bd888a6aa6b1ef13dd3bf",
+      "contentSHA256": "491f66c919fcaab4cbcd72e6320674f41db5d0055f57a57b85140ddbc622ebe6",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pick one, twelve, twenty, or twenty-eight orchard tokens, but whoever picks the final token loses.",
+          "systemImage": "leaf.fill",
+          "title": "Orchard Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合摘取一、十二、二十或二十八枚果园标记，但摘取最后一枚者落败。",
+          "systemImage": "leaf.fill",
+          "title": "果园留果"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quartz-count",
+      "packID": "pack-quartz-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quartz-count-v1.playablepack.json",
+      "byteCount": 1775,
+      "envelopeSHA256": "837924d51a122e21e26732801124633cd72dd54476f9b1ff5924d4de36192aa5",
+      "contentSHA256": "7d4ce7c95096c3fd35230152665e46bd42ce0e100e4111efe2c2ebfa9d40c037",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, eight, seventeen, twenty-four, or twenty-nine quartz pieces; the final collector wins.",
+          "systemImage": "hexagon.fill",
+          "title": "Quartz Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、八、十七、二十四或二十九枚石英，收取最后一枚者获胜。",
+          "systemImage": "hexagon.fill",
+          "title": "石英计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-solstice-relay",
+      "packID": "pack-solstice-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-solstice-relay-v1.playablepack.json",
+      "byteCount": 1815,
+      "envelopeSHA256": "dfd4071c28abed868d1da7597514a47d02050cc33a41621e99d45f0efd7da65f",
+      "contentSHA256": "da6990915aa5fc7413960e21982972020e960f526adfec9c52542e9dc5ea3f0f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the turn after dimming one, ten, nineteen, twenty-six, or thirty sun markers; dimming the final marker loses.",
+          "systemImage": "sun.max.fill",
+          "title": "Solstice Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合熄灭一、十、十九、二十六或三十枚太阳标记并交棒，熄灭最后一枚者落败。",
+          "systemImage": "sun.max.fill",
+          "title": "至日接力"
         }
       }
     }

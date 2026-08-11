@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "batch": "card-turn-wave-20260811-s",
+  "transport": "factory-sidecar-only-before-build107",
+  "releaseRule": "Do not add tags to signed catalog entries, pack bodies, or catalog metadata; publish with known schema only.",
+  "games": [
+    {"gameID":"pack-orchard-reserve","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 86; [1,12,20,28]; lastMoveWins=false; min=2 max=6; no reachable deadlock","twoPlayerLosingStatesPrefix":[1,3,5,7,9,11,14,16,18,20,22,24,41,43,45,47]},
+    {"gameID":"pack-quartz-count","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 87; [1,8,17,24,29]; lastMoveWins=true; min=2 max=5; no reachable deadlock","twoPlayerLosingStatesPrefix":[0,2,4,6,9,11,13,15,18,20,22,25,27,34,36,41]},
+    {"gameID":"pack-solstice-relay","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: 88; [1,10,19,26,30]; lastMoveWins=false; min=2 max=6; no reachable deadlock","twoPlayerLosingStatesPrefix":[1,3,5,7,9,12,14,16,18,21,23,25,30,32,34,36]}
+  ]
+}
