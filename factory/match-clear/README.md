@@ -88,3 +88,14 @@ Batch X taxonomy is sidecar-only in `batch-20260811-x.manifest.json` and
 
 Batch Y taxonomy is sidecar-only in `batch-20260811-y.manifest.json` and
 `audits/batch-20260811-y.json`; revision 33 contains no taxonomy fields.
+
+## Batch Z
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Spark | 5×4, 7 colors | 3 | 4 | exactly 2 | The tiny board fits wholly inside the lower thumb sweep for a four-turn duel. |
+| Party Clover Citadel | 9×10, 3 colors | 5 | 60 | 3–6 | Frequent long-game input remains short swaps in the lower active citadel rows. |
+| Five Seat Prism Court | 7×7, 6 colors | 4 | 22 | exactly 5 | Local swaps keep five-seat court play concentrated in the lower square. |
+
+Batch Z taxonomy is sidecar-only in `batch-20260811-z.manifest.json` and
+`audits/batch-20260811-z.json`; revision 34 contains no taxonomy fields.
