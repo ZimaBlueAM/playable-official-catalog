@@ -1,7 +1,7 @@
 {
-  "revision": 30,
-  "issuedAt": "2026-08-11T22:00:00Z",
-  "expiresAt": "2026-08-18T22:00:00Z",
+  "revision": 31,
+  "issuedAt": "2026-08-11T23:00:00Z",
+  "expiresAt": "2026-08-18T23:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3003,6 +3003,84 @@
           "summary": "画出河畔步道线索，和大家一起抢答。",
           "systemImage": "water.waves",
           "title": "河畔步道速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-dockyard",
+      "packID": "hidden-dockyard-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-dockyard-v1.playablepack",
+      "byteCount": 1937,
+      "envelopeSHA256": "0a5251278ffec1d956d4c7530eb9af56ea0b871bd224b64b6bc59c7d0c59273c",
+      "contentSHA256": "b3b345c4a8ca1f594dc4484178c1f4503655988743c069a7cf6e8db203bb2c5b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One worker changed the roster; compare reports and vote before loading.",
+          "systemImage": "ferry.fill",
+          "title": "Dockyard Roster"
+        },
+        "zh-Hans": {
+          "summary": "一名工人改动了排班表；比较报告，在装货前投票。",
+          "systemImage": "ferry.fill",
+          "title": "船坞排班表"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-oldtown",
+      "packID": "canvas-oldtown-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-oldtown-v1.playablepack",
+      "byteCount": 1826,
+      "envelopeSHA256": "ae79839cb78ffa1589d33cafb60841c64447acb3a5da91752f32574927cb3192",
+      "contentSHA256": "1486934436e2b349e8111544f0087c2b2f11ac5b38d552a96a77bed79a8747af",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch an old-town clue and race the table to identify it.",
+          "systemImage": "building.columns.fill",
+          "title": "Old Town Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出老城线索，和大家一起抢答。",
+          "systemImage": "building.columns.fill",
+          "title": "老城速写"
         }
       }
     }

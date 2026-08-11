@@ -84,6 +84,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **City Park Sketches** — sketch a city-park clue and race to identify it.
 - **Laundry Tag** — compare reports and vote before collection.
 - **Riverwalk Sketches** — sketch a riverside clue and race to identify it.
+- **Dockyard Roster** — compare reports and vote before loading.
+- **Old Town Sketches** — sketch an old-town clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
