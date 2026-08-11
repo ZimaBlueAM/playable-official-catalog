@@ -1,5 +1,5 @@
 {
-  "revision": 25,
+  "revision": 26,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -2223,6 +2223,123 @@
           "summary": "每回合熄灭一、八、十四、二十一或二十五束极光并交棒，熄灭最后一束者落败。",
           "systemImage": "sparkles",
           "title": "极光接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-beacon-count",
+      "packID": "pack-beacon-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-beacon-count-v1.playablepack.json",
+      "byteCount": 1766,
+      "envelopeSHA256": "c09bd7fe3198c870576d233caae7140ea3a7b47b52125abc31658de4705c8b11",
+      "contentSHA256": "ecbb4fed045fcacfc0018bd800cb36e44581eaa460eeda41210f710f75c84699",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, eleven, eighteen, or twenty-six beacon chips; the player collecting the final chip wins.",
+          "systemImage": "lightbulb.fill",
+          "title": "Beacon Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、十一、十八或二十六枚灯塔标记，收取最后一枚者获胜。",
+          "systemImage": "lightbulb.fill",
+          "title": "灯塔计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-glacier-reserve",
+      "packID": "pack-glacier-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-glacier-reserve-v1.playablepack.json",
+      "byteCount": 1769,
+      "envelopeSHA256": "4c1789e0914a214e12644a044857e84040441ed3ad3bd8f39e8508ce8ea541e0",
+      "contentSHA256": "21d261931f835e575514f6fc7d78ebcdc69b5f52ef81d7bdb83f81957e609cc8",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Remove one, thirteen, nineteen, or twenty-six ice markers, but whoever removes the final marker loses.",
+          "systemImage": "snowflake",
+          "title": "Glacier Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合移除一、十三、十九或二十六枚冰川标记，但移除最后一枚者落败。",
+          "systemImage": "snowflake",
+          "title": "冰川留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-comet-relay",
+      "packID": "pack-comet-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-comet-relay-v1.playablepack.json",
+      "byteCount": 1812,
+      "envelopeSHA256": "88a25b5b0ee38e2943d2c35c2519542382855c4cde7f9c3a8cb2bf8766dc9cfa",
+      "contentSHA256": "52338e582f7b6a25825fb5c0963711c89be15a3708a9d6f1ee40fc31a9c8524d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the turn after gathering one, seven, sixteen, twenty-three, or twenty-seven comet sparks; the final gatherer wins.",
+          "systemImage": "moon.stars.fill",
+          "title": "Comet Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合收集一、七、十六、二十三或二十七枚彗星火花并交棒，收集最后一枚者获胜。",
+          "systemImage": "moon.stars.fill",
+          "title": "彗星接力"
         }
       }
     }
