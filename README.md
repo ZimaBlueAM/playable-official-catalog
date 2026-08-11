@@ -16,3 +16,6 @@ Never add signing keys, source code, or arbitrary executable content here.
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
 never downloads executable code from this repository.
+
+Revision 19 completes deterministic terminal vectors for every declared
+sliding-grid player range without adding parameter-only games.

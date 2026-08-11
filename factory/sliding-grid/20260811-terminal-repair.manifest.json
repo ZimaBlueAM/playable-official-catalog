@@ -1,0 +1,503 @@
+{
+  "schema": 1,
+  "status": "publisher-repair-candidate",
+  "gateTier": "playable",
+  "sourceBranch": "factory/sliding-grid/20260811-terminal-repair",
+  "sourceCommit": "origin/main",
+  "repair": "Replace incomplete single-player-count snapshots with deterministic reverse-scramble terminal vectors for every declared player count; preserve the fixed Build106-trusted key.",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "entries": [
+    {
+      "gameID": "pack-atlas-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-beacon-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-canopy-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-cascade-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-citadel-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-ember-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-facet-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-flash-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-gallery-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-horizon-twenty",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-keystone-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-ladder-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-meridian-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-mosaic-sixteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-orbit-twenty-five",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-pocket-slider",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-pulse-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-quickstep-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-switchback-fifteen",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "alignment",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    }
+  ]
+}
