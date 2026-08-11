@@ -1,7 +1,7 @@
 {
-  "revision": 25,
-  "issuedAt": "2026-08-11T12:00:00Z",
-  "expiresAt": "2026-08-18T12:00:00Z",
+  "revision": 26,
+  "issuedAt": "2026-08-11T12:30:00Z",
+  "expiresAt": "2026-08-18T12:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2418,6 +2418,123 @@
           "summary": "两至六人在九条重力通道中堆叠，争先筑成竖向六连。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九道六塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-mirror-rise-seven",
+      "packID": "mirror-rise-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mirror-rise-seven-v1.playablepack",
+      "byteCount": 5821,
+      "envelopeSHA256": "7f6edecd562b35c4afacd03cd4fbb500cab11c364bcf7c3bb9b0f30c190f771b",
+      "contentSHA256": "3d693f80a90916feb87d1b91c7ade2aa834e2e6bb497ade812cc0732d12713fe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players build a mirrored seven-step diagonal through a deep gravity board.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Mirror Rise Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在深层重力棋盘中反向搭建，争先完成镜像七子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "镜升斜七"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spire-eight",
+      "packID": "open-spire-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spire-eight-v1.playablepack",
+      "byteCount": 5232,
+      "envelopeSHA256": "ee0b11d2c4c2217a124ff427c10da09137420a3d53b0b097608336cdd939a54c",
+      "contentSHA256": "47782056eb541b38e6348045103a6ba974ce15baf652cfdd4cb88814be4eed2d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players place freely on a tall open board and raise a vertical line of eight.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Open Spire Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在高长开放棋盘中自由落子，争先筑成竖向八连。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "开放八塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-quick-rack-four",
+      "packID": "quick-rack-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quick-rack-four-v1.playablepack",
+      "byteCount": 3185,
+      "envelopeSHA256": "e1a6d93376a7b592169ba20286e38e022e06fcd79440ed78f11f18cc0d6543c4",
+      "contentSHA256": "6486e8574d4d9bd4979da56e5fb8d5288919ac51885edcc591095e4e69a4f283",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players drop across a low ten-column rack and connect four.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Quick Rack Four"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在低矮十列棋架中落子，快速完成四子连线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "十列快四"
         }
       }
     }

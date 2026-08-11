@@ -1,0 +1,153 @@
+[
+  {
+    "gameID": "pack-mirror-rise-seven",
+    "packID": "mirror-rise-seven-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 11,
+      "connectionLength": 7,
+      "rows": 10,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "debc4d8834220416",
+        "7ee8b8b4f6af0b04"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-open-spire-eight",
+    "packID": "open-spire-eight-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 9,
+      "connectionLength": 8,
+      "rows": 11,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "85287fd9f0cfda02",
+        "8d681c3f2ed9f9fb"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-quick-rack-four",
+    "packID": "quick-rack-four-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 10,
+      "connectionLength": 4,
+      "rows": 5,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based",
+        "quick-round"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "95a3bfbd5f6fb17c",
+        "2177b957b3e0aafe"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]
