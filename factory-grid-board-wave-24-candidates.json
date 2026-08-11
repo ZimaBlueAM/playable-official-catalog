@@ -1,0 +1,20 @@
+[
+  {
+    "gameID":"pack-three-lane-lift-three","packID":"three-lane-lift-three-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":3,"rows":8,"connectionLength":3,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["ddb7a85298c894a9","145628cfcc02d7ce"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-open-ridge-seven","packID":"open-ridge-seven-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":8,"rows":9,"connectionLength":7,"usesGravity":false},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["7f8a350d0a44e279","cf0eb5f23f4a1055"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  },
+  {
+    "gameID":"pack-eleven-lane-summit-eight","packID":"eleven-lane-summit-eight-first-edition","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,
+    "rules":{"columns":11,"rows":12,"connectionLength":8,"usesGravity":true},
+    "tags":{"carrier":"board","mechanics":["alignment","connection","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},
+    "tagAudit":{"status":"passed","carrierMatchesRules":true,"mechanicsMatchCompleteGame":true,"playerRangeMatches":true,"completeGameVectorCheck":true,"testedPlayerCounts":[2,6],"expectedChecksums":["24d967b6ed2ba834","02e1752f994b1c91"],"fixedDisplayMapping":"app-taxonomy-v2"}
+  }
+]
