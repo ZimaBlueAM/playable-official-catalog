@@ -1,5 +1,5 @@
 {
-  "revision": 19,
+  "revision": 20,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1521,6 +1521,123 @@
           "summary": "每回合取走一、四、七、十三或十七枚石英阶，拿到最后一枚者获胜。",
           "systemImage": "diamond.fill",
           "title": "石英阶梯"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dune-reserve",
+      "packID": "pack-dune-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dune-reserve-v1.playablepack.json",
+      "byteCount": 1714,
+      "envelopeSHA256": "7b1ed75192e08ab70a97946b28216869fea2a88150f53310c59dd4d9127fd7f5",
+      "contentSHA256": "eb63df6a14a0ad2ea3bc1b024c0389a4e1b0c54231a7a2c27207f1a578ae1def",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, eight, or fifteen dune markers, but the player clearing the final marker loses.",
+          "systemImage": "triangle.fill",
+          "title": "Dune Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、八或十五枚沙丘标记，但清除最后一枚者落败。",
+          "systemImage": "triangle.fill",
+          "title": "沙丘留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-cedar-count",
+      "packID": "pack-cedar-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cedar-count-v1.playablepack.json",
+      "byteCount": 1695,
+      "envelopeSHA256": "171d3f772e18c802e255df986ae210c94f38bd7a8a6d156f7ea3a5664bbc4ab6",
+      "contentSHA256": "0b6969ae01438a7d6dd79273074a0027b5ddb64e1a91f724cdcf72269d55598e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Gather one, six, eleven, or seventeen cedar tokens; the final token wins.",
+          "systemImage": "tree.fill",
+          "title": "Cedar Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、六、十一或十七枚雪松标记，拿到最后一枚者获胜。",
+          "systemImage": "tree.fill",
+          "title": "雪松计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-nimbus-loom",
+      "packID": "pack-nimbus-loom-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-nimbus-loom-v1.playablepack.json",
+      "byteCount": 1729,
+      "envelopeSHA256": "7bc2f5b17ed88827bb5f90c71f47079fc57719c7a590c4dbdf4814ee38f837cc",
+      "contentSHA256": "291c3cacd86a3609fe35433ddaf081cdded663090ab62023754b53662da70e6f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave one, three, nine, fourteen, or eighteen cloud threads; the final thread wins.",
+          "systemImage": "cloud.fill",
+          "title": "Nimbus Loom"
+        },
+        "zh-Hans": {
+          "summary": "每回合织走一、三、九、十四或十八缕云线，拿到最后一缕者获胜。",
+          "systemImage": "cloud.fill",
+          "title": "云幕织机"
         }
       }
     }
