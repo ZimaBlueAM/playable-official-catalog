@@ -3750,6 +3750,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-newsroom",
+      "packID": "hidden-newsroom-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-newsroom-v1.playablepack",
+      "byteCount": 1944,
+      "envelopeSHA256": "888876b131e75c387d93536deea64bacd71ab04c085de5164644f75c5a865d13",
+      "contentSHA256": "831c3359a589e1b7377294da5cc5d43ce6c4e2e0175059781c5d646c03b9bfb0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One editor changed the headline; compare notes and vote before print.",
+          "systemImage": "newspaper.fill",
+          "title": "Newsroom Draft"
+        },
+        "zh-Hans": {
+          "summary": "一名编辑改动了标题；比较笔记，在印刷前投票。",
+          "systemImage": "newspaper.fill",
+          "title": "新闻室草稿"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-botanical",
+      "packID": "canvas-botanical-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-botanical-v1.playablepack",
+      "byteCount": 1781,
+      "envelopeSHA256": "9f0d5fdac8834708fa282697663d8013b76654507d6c7b6dc73c0e37f7a54116",
+      "contentSHA256": "579cd1c6bf195ab8352ea2b49cf5a3ede313eeba395a963acea5016ddc1197f1",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a botanical clue and race the table to identify it.",
+          "systemImage": "leaf.fill",
+          "title": "Botanical Sketchbook"
+        },
+        "zh-Hans": {
+          "summary": "画出植物线索，和大家一起抢答。",
+          "systemImage": "leaf.fill",
+          "title": "植物园速写本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }

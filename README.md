@@ -68,6 +68,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Greenroom List** — inspect the group and find the hidden performer.
 - **Metro Sketches** — draw a subway clue for friends to name.
 - **Farmstand Sketchbook** — sketch a produce clue and race to identify it.
+- **Newsroom Draft** — compare notes and vote before print.
+- **Botanical Sketchbook** — sketch a plant clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1
