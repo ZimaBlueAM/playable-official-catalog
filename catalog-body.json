@@ -1,7 +1,7 @@
 {
-  "revision": 11,
-  "issuedAt": "2026-08-11T02:44:31Z",
-  "expiresAt": "2026-08-18T02:44:31Z",
+  "revision": 12,
+  "issuedAt": "2026-08-11T02:48:34Z",
+  "expiresAt": "2026-08-18T02:48:34Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -463,6 +463,123 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "switchback-fifteen-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 5291,
+      "contentSHA256": "82e9cc01d3972c205ace66106fc37040d2fc9fd5bb2d3cc30ed42634e46f165d",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pulse-nine-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "279765d35604292c84eaa0e6cf82dd8be01797026c4750b2f5c7e93689ea21ad",
+      "gameID": "pack-pulse-nine",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 4,
+      "metadata": {
+        "en": {
+          "summary": "Keep a compact nine-tile pulse moving through two to four seats.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Pulse Nine"
+        },
+        "zh-Hans": {
+          "summary": "两至四席轮流保持节奏，让紧凑九格数字脉冲归位。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格脉冲"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "pulse-nine-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 14945,
+      "contentSHA256": "b8fd1167ed801505c0534aac88a1d9313e60bc7d56596a555561dcf4ec07bd24",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ribbon-twelve-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "a064e060e53b2e9cc4388479466ce155780c04a9ef0f9f22646b654d90bdc9c7",
+      "gameID": "pack-ribbon-twelve",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 5,
+      "metadata": {
+        "en": {
+          "summary": "Untwist a vertical ribbon of twelve tiles with two through five players.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Ribbon Twelve"
+        },
+        "zh-Hans": {
+          "summary": "两至五人轮流滑动，解开纵向十二格数字缎带。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格缎带"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "ribbon-twelve-first-edition",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "byteCount": 40663,
+      "contentSHA256": "a9da068edc4c9f0eb1af1e162e56ba234446ac09b6af31995000fb500191852d",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vault-twenty-five-v1.playablepack.json",
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "envelopeSHA256": "b626549a6adbbb5f390edd531228f8008631b087d74b2fd1867752dd4fe00cac",
+      "gameID": "pack-vault-twenty-five",
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "lifecycle": "available",
+      "maximumPlayers": 6,
+      "metadata": {
+        "en": {
+          "summary": "Unlock a deep vault of twenty-five tiles with every room size through six.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Vault Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "从双人到六席逐一轮转，解开深度二十五格数字宝库。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五格宝库"
+        }
+      },
+      "minimumAppBuild": 106,
+      "minimumPlayers": 2,
+      "packID": "vault-twenty-five-first-edition",
       "packKeyID": "sliding-grid-content-2026-08",
       "packVersion": 1,
       "rulesVersion": 1,

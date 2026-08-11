@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "catalogRevision": 12,
+  "sourceBranch": "factory/sliding-grid/20260811-024147",
+  "sourceCommit": "b75f6696c9a34442ab54ebe625123a32f7c632bb",
+  "decision": "accepted",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "games": [
+    {
+      "gameID": "pack-pulse-nine",
+      "declaredPlayers": [2, 3, 4],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "84befa9171f6887e"},
+        "3": {"finished": true, "winnerSeat": 1, "checksum": "8930a6ae0b46ecce"},
+        "4": {"finished": true, "winnerSeat": 3, "checksum": "3f9260c75bbfa264"}
+      }
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "declaredPlayers": [2, 3, 4, 5],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "d03d9a60d329b51b"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "beaa043b14d74c8c"},
+        "4": {"finished": true, "winnerSeat": 1, "checksum": "2998fb070aee3f4b"},
+        "5": {"finished": true, "winnerSeat": 3, "checksum": "c48d424c0ef8f0aa"}
+      }
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "declaredPlayers": [2, 3, 4, 5, 6],
+      "terminalReplay": {
+        "2": {"finished": true, "winnerSeat": 1, "checksum": "40792c99c19ee7ec"},
+        "3": {"finished": true, "winnerSeat": 2, "checksum": "ec5486126e1f3c76"},
+        "4": {"finished": true, "winnerSeat": 1, "checksum": "f27e52535c8b0110"},
+        "5": {"finished": true, "winnerSeat": 0, "checksum": "ebf1ec36dbb43a3c"},
+        "6": {"finished": true, "winnerSeat": 5, "checksum": "83481f2b4f6c9ba4"}
+      }
+    }
+  ],
+  "gates": {
+    "productionContentSignature": "PASS",
+    "envelopeSHA256AndByteCount": "PASS",
+    "schema1Compatibility": "PASS",
+    "localizedEnglishAndSimplifiedChinese": "PASS",
+    "license": "PASS: LicenseRef-Playable",
+    "nonExecutablePayload": "PASS",
+    "packBudget": "PASS",
+    "uniqueRuleConfiguration": "PASS",
+    "completeTerminalReplayForDeclaredPlayerRange": "PASS",
+    "thumbReachInteraction": "PASS: existing signed slidingGrid renderer contract",
+    "taxonomy": "PASS: carrier/mechanics/players/pace/context/input sidecar only"
+  }
+}

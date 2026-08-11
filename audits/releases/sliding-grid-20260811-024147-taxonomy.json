@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-pulse-nine",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 4, "board": "3x3", "scrambleMoves": 20, "turnLimit": 40, "testedPlayerCounts": [2, 3, 4]}
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 5, "board": "3x4", "scrambleMoves": 54, "turnLimit": 120, "testedPlayerCounts": [2, 3, 4, 5]}
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {"engine": "slidingGrid", "minimumPlayers": 2, "maximumPlayers": 6, "board": "5x5", "scrambleMoves": 126, "turnLimit": 256, "testedPlayerCounts": [2, 3, 4, 5, 6]}
+    }
+  ]
+}

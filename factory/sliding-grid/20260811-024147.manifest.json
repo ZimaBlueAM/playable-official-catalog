@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "status": "published-candidate",
+  "sourceBranch": "factory/sliding-grid/20260811-024147",
+  "sourceCommit": "b75f6696c9a34442ab54ebe625123a32f7c632bb",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "sidecar-only-before-build-107",
+  "entries": [
+    {
+      "gameID": "pack-pulse-nine",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-ribbon-twelve",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    },
+    {
+      "gameID": "pack-vault-twenty-five",
+      "packVersion": 1,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      }
+    }
+  ]
+}
