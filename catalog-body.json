@@ -1,7 +1,7 @@
 {
-  "revision": 26,
-  "issuedAt": "2026-08-11T17:00:00Z",
-  "expiresAt": "2026-08-18T17:00:00Z",
+  "revision": 27,
+  "issuedAt": "2026-08-11T17:10:00Z",
+  "expiresAt": "2026-08-18T17:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2301,6 +2301,123 @@
           "summary": "严格六位玩家在宽阔四色浪场扫出快速三连。",
           "systemImage": "water.waves",
           "title": "六席宽浪"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-spectrum-flicker",
+      "packID": "dual-spectrum-flicker-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-spectrum-flicker-v1.playablepack.json",
+      "byteCount": 1560,
+      "envelopeSHA256": "6f02d757907a8fc328d1a98b289b4c6b15437ac4982a75b1ed93302646021549",
+      "contentSHA256": "eabb4b2d1305193d7b31edaf23d2d99dd2d3c6fdb5c55583759cf937f8c04163",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players chase scarce triples through a six-turn eight-color flicker.",
+          "systemImage": "lightbulb.fill",
+          "title": "Dual Spectrum Flicker"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在六回合八色闪光中追逐稀有三连。",
+          "systemImage": "lightbulb.fill",
+          "title": "双人光谱闪烁"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-stone-loom",
+      "packID": "party-stone-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-stone-loom-v1.playablepack.json",
+      "byteCount": 1576,
+      "envelopeSHA256": "4782bacf76a5a70928b8a65d4c862bb25464f6cb759f1e8b1ef5ed2d4709d4c4",
+      "contentSHA256": "343781936224a4b321947a29e27871068e492bc1421afee142dc6d8c2b897bfe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to five friends weave four-tile stone bands across a broad five-color loom.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Party Stone Loom"
+        },
+        "zh-Hans": {
+          "summary": "三至五位朋友在宽阔五色织机编织四连石带。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "派对石织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-clover-crown",
+      "packID": "four-seat-clover-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-clover-crown-v1.playablepack.json",
+      "byteCount": 1587,
+      "envelopeSHA256": "13b596bf81f7c5b0ba16b44573c0b37b76f093953a8e99662a3bd7b2f8b59659",
+      "contentSHA256": "dd1f3f0efaa546810dfcecd6bd1a7c41677252f4b440db46c53e55e9810d2d0d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players complete full-width clover crowns on a narrow three-color board.",
+          "systemImage": "crown.fill",
+          "title": "Four Seat Clover Crown"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在狭长三色棋盘完成满宽五连苜蓿冠。",
+          "systemImage": "crown.fill",
+          "title": "四席苜蓿冠"
         }
       }
     }
