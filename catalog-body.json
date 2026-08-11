@@ -1,7 +1,7 @@
 {
-  "revision": 17,
-  "issuedAt": "2026-08-11T03:18:20Z",
-  "expiresAt": "2026-08-18T03:18:20Z",
+  "revision": 18,
+  "issuedAt": "2026-08-11T04:20:00Z",
+  "expiresAt": "2026-08-18T04:20:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -95,9 +95,9 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-slider-v1.playablepack.json",
-      "byteCount": 1435,
-      "envelopeSHA256": "bb0bdc694e902d001d2fd10ee72d6ce9eb96cb778fdc6e6c279e02a70afdc85a",
-      "contentSHA256": "9175896d044335d448d210155bee14d0c0ea1b0779a1ac47c3f4186062233733",
+      "byteCount": 5994,
+      "envelopeSHA256": "00651ac2692087f0f3748762c2b359882c1931da0ee22d22dceb9c6a88d8751c",
+      "contentSHA256": "7eb3e9fe02abd4d11d0bc7d42c9064ad18ee9ad6250df97e53e953d48e764b8e",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -212,10 +212,10 @@
       "maximumPlayers": 6,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cascade-twenty-v1.playablepack.json",
-      "byteCount": 8692,
-      "envelopeSHA256": "6ccc74f5e064511e07c4350a042c272605c4544b29928741cca6393a43857c0b",
-      "contentSHA256": "32f39ad09cbea944486bf3af4282de60b338c21cbfc423d121f505766e2c6579",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "byteCount": 37825,
+      "envelopeSHA256": "436abc1dca38eec02e993172aa9b57acaf6c58fe8ac9699c49433e61d4bd3b34",
+      "contentSHA256": "f6a8cab32618be28e6a644c04fcd71ed62bebe59c4e08c7e097ea796dba970e9",
+      "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
@@ -251,10 +251,10 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-meridian-fifteen-v1.playablepack.json",
-      "byteCount": 6989,
-      "envelopeSHA256": "c54baecae4f8a328c132b917b6f37f60a213176ab6e170658817721c9b3ba801",
-      "contentSHA256": "d68655a1c8d6b26f81ed581c3763d4481c1cc3e283cc02a15f08c07feb780a36",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "byteCount": 18044,
+      "envelopeSHA256": "2ac69ec750f325880b415b33ad6ff0b1979aca0a4127067162fb7e2ce6e6a0f9",
+      "contentSHA256": "c06fc807aa384e6da60c75fdafcebf7fe7b2518c2c43de4a942f1fe2d5f6412b",
+      "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
@@ -290,10 +290,10 @@
       "maximumPlayers": 3,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-quickstep-nine-v1.playablepack.json",
-      "byteCount": 2416,
-      "envelopeSHA256": "de3c87b859b4ddcc272add5e15070f31c0221d552d61dc88f263415e8c8cef83",
-      "contentSHA256": "df822ad3abbf894cd7443b147d645fca99a0bc34ed54bafdeaf17b63a5a69b23",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "byteCount": 3407,
+      "envelopeSHA256": "dd69d338432c04d54bbe79aedf1b7280aa11c7e65ba77da92e9fc4fdeed91535",
+      "contentSHA256": "1894bc102dbed3662b173dd175f57b0364c4453da170f41f05ae0d21ff2f1ef1",
+      "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
@@ -316,14 +316,14 @@
       }
     },
     {
-      "byteCount": 27667,
-      "contentSHA256": "1e3be5c7e9024592b0f1fac111b16c2ec4cc6c2ee8c559b50954eb8ff76beaa8",
+      "byteCount": 27665,
+      "contentSHA256": "38496a310dd2d7b3db236f8bf0c286e6dafa741b48eea406ac26e9f7dcb3ff57",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-horizon-twenty-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "4d4ffa86c80d231f6e6a774932e160d1cc7ca6122a6d104eb6a209c08423e490",
+      "envelopeSHA256": "0d1e91e9a6c05345b7034fd8633bdaae958206ccb973e92e6c868511c67cdabe",
       "gameID": "pack-horizon-twenty",
       "license": {
         "attribution": "Playable Studio",
@@ -346,7 +346,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "horizon-twenty-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -355,14 +355,14 @@
       }
     },
     {
-      "byteCount": 12757,
-      "contentSHA256": "b6489cf669d4a6b3df6e90eb101686a7b8a8a6556cccd0b0a59f3a9bec438fb3",
+      "byteCount": 12746,
+      "contentSHA256": "c836a30fc57a2c6980946f6808d96881cd7ab567457c52a6a6871d9790e3c996",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ladder-twelve-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "3a2f72420af13b8294ab44530309c479bc55e31ed14ba7d761ae1688ddf5635d",
+      "envelopeSHA256": "86f849c2cc333769eaf4148cb14e54771fc4519591816abf2ca7067f470bb4f2",
       "gameID": "pack-ladder-twelve",
       "license": {
         "attribution": "Playable Studio",
@@ -385,7 +385,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "ladder-twelve-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -394,14 +394,14 @@
       }
     },
     {
-      "byteCount": 18271,
-      "contentSHA256": "d804f40d9053e9e7fbddbec8655654a6a932b44ff403de9717668378e4a3de51",
+      "byteCount": 18292,
+      "contentSHA256": "d131b3861c238ddcb6efc7a844d49ac386a847d0ce499a2154d290b003ce7280",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-gallery-twenty-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "4dfa2439f40f95b2d457b4dbdb88d42c893583bd5709e7dedb4aabc8739283b8",
+      "envelopeSHA256": "10dfaead3a92372889235d67f54089c381ef3e59928f24b87fd8e84003ebecc0",
       "gameID": "pack-gallery-twenty",
       "license": {
         "attribution": "Playable Studio",
@@ -424,7 +424,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "gallery-twenty-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -433,14 +433,14 @@
       }
     },
     {
-      "byteCount": 16569,
-      "contentSHA256": "7d0babf7f3d9e1a07982156c09fd64e17a55e72a32192c084573c47f11243259",
+      "byteCount": 16568,
+      "contentSHA256": "d9a4f1a83aa02dab2c462ed52878e08743898876e1a98b4ba9ac74133622f83f",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-switchback-fifteen-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "146691a21a2ce47bae8452628ceb6c723ab296288d51164489734eb8ff0f5063",
+      "envelopeSHA256": "591cce4f59655df656d20ee5e56557e866b6ab01b4a4a4248669d5013478d1cc",
       "gameID": "pack-switchback-fifteen",
       "license": {
         "attribution": "Playable Studio",
@@ -463,7 +463,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "switchback-fifteen-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -472,14 +472,14 @@
       }
     },
     {
-      "byteCount": 5291,
-      "contentSHA256": "82e9cc01d3972c205ace66106fc37040d2fc9fd5bb2d3cc30ed42634e46f165d",
+      "byteCount": 5287,
+      "contentSHA256": "12b7c64b1a85cfaca148ef25a35e3e061f29546ce5ce16f4b54c399fd9847433",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pulse-nine-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "279765d35604292c84eaa0e6cf82dd8be01797026c4750b2f5c7e93689ea21ad",
+      "envelopeSHA256": "a28a175e1f34869f48c616ff9200a8d38310362f46d0e182037238e24723d7ee",
       "gameID": "pack-pulse-nine",
       "license": {
         "attribution": "Playable Studio",
@@ -502,7 +502,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "pulse-nine-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -511,14 +511,14 @@
       }
     },
     {
-      "byteCount": 14945,
-      "contentSHA256": "b8fd1167ed801505c0534aac88a1d9313e60bc7d56596a555561dcf4ec07bd24",
+      "byteCount": 14946,
+      "contentSHA256": "f04b94bfb9a7633030eeedd08a5dd2cc75b47639fe72b393e7bcc2225412532b",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ribbon-twelve-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "a064e060e53b2e9cc4388479466ce155780c04a9ef0f9f22646b654d90bdc9c7",
+      "envelopeSHA256": "8a7305d9c5ee6b3c5717026c6d686b0d6fc144ee4262a6ab230fdec3dccdfd22",
       "gameID": "pack-ribbon-twelve",
       "license": {
         "attribution": "Playable Studio",
@@ -541,7 +541,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "ribbon-twelve-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -550,14 +550,14 @@
       }
     },
     {
-      "byteCount": 40663,
-      "contentSHA256": "a9da068edc4c9f0eb1af1e162e56ba234446ac09b6af31995000fb500191852d",
+      "byteCount": 40669,
+      "contentSHA256": "62a160cd3cbaa4ece0cb07f9055c5d791769b148d0b3ef7d28bf78137efb1a78",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vault-twenty-five-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "b626549a6adbbb5f390edd531228f8008631b087d74b2fd1867752dd4fe00cac",
+      "envelopeSHA256": "2fdb50c21040caf2d94ed654b2c6e930a8936ebad10727594d4378f753f8ca14",
       "gameID": "pack-vault-twenty-five",
       "license": {
         "attribution": "Playable Studio",
@@ -580,7 +580,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "vault-twenty-five-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -589,14 +589,14 @@
       }
     },
     {
-      "byteCount": 5477,
-      "contentSHA256": "e9853111aa28acc054cccea0160370658db9ce5ba309c6be0de3be96f5bcf256",
+      "byteCount": 5473,
+      "contentSHA256": "76dcb424dbbac849a7fd41c966838ee930612e0d9e93fa2f448adbc649828106",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-flash-nine-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "fe32d6df06f97fd12412eef9e24795d94c325d1c3cb4c6d2efc772f5e62260cc",
+      "envelopeSHA256": "53bf574a55739246763c5aaafce86da8c76f9857dfe294e7b86d0133e156a013",
       "gameID": "pack-flash-nine",
       "license": {
         "attribution": "Playable Studio",
@@ -619,7 +619,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "flash-nine-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -628,14 +628,14 @@
       }
     },
     {
-      "byteCount": 20913,
-      "contentSHA256": "e7d3f9e256472261f4d1b13d2f5873de91867d97295bf12ef29ad49d1044b4b1",
+      "byteCount": 20869,
+      "contentSHA256": "63788301e5cfb5bb50faa636d1754e2778de677e4953a2d19a00095e20ce09e9",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-mosaic-sixteen-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "893ce7b99c45209fd8067ce3122e6560076028b499e6a676a0703b05038db238",
+      "envelopeSHA256": "3082aacc0a78661cb072e03a48b202251d9b07467eed264f40e71f09e392825f",
       "gameID": "pack-mosaic-sixteen",
       "license": {
         "attribution": "Playable Studio",
@@ -658,7 +658,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "mosaic-sixteen-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -667,14 +667,14 @@
       }
     },
     {
-      "byteCount": 31358,
-      "contentSHA256": "139537c1658e42e40fc22a3976874fadb25958b19a8f4b461a1a05eea5e3a55c",
+      "byteCount": 31371,
+      "contentSHA256": "feb8c8779841eb1566464744840a0403e7e99db700efc0c23b0ced2b6ffbb933",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-keystone-fifteen-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "db8791dffe6e45130ba5de2f469e9e25e547e4ec66bb16f6ea464edd877f69ff",
+      "envelopeSHA256": "38d8c4ef6a7dcec50ba41430ef5a600abb7649c256ef23550c25ae72d20be304",
       "gameID": "pack-keystone-fifteen",
       "license": {
         "attribution": "Playable Studio",
@@ -697,7 +697,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "keystone-fifteen-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -706,14 +706,14 @@
       }
     },
     {
-      "byteCount": 33242,
-      "contentSHA256": "c6b7f592d434f4a03701ab1f1cc48b76a381e56aa7dfc04999b27b4286f1fb03",
+      "byteCount": 33268,
+      "contentSHA256": "bb0eb9760e30a6e8116f865a4333038fb78177f87437ac14fe7d6b027809236f",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-atlas-twenty-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "cf7dfa2270b8faa36c61dc697d615affb23b47f30fac2eae17adb2826b606010",
+      "envelopeSHA256": "c33139ff7b33c94aec47219d5acc79d43bc6332d6cc5220227b3ece17d35e8e2",
       "gameID": "pack-atlas-twenty",
       "license": {
         "attribution": "Playable Studio",
@@ -736,7 +736,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "atlas-twenty-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -745,14 +745,14 @@
       }
     },
     {
-      "byteCount": 17362,
-      "contentSHA256": "98d70b24652380bdf535556d97edf2695841e293aa82589c898bc96d018e41bf",
+      "byteCount": 17353,
+      "contentSHA256": "d45e067b3491062003d806692f59cd97cda532dd7bab7c1a6271fb64c179c02f",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-citadel-twenty-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "29b8106687afb839d440d784f0ef01b6a96999bdaddd3b215d7ad199cf29c866",
+      "envelopeSHA256": "6a6fb27eca3888088dec0f843bf3fe081e77f21781c51e9399f8bdd5d2564a49",
       "gameID": "pack-citadel-twenty",
       "license": {
         "attribution": "Playable Studio",
@@ -775,7 +775,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "citadel-twenty-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -784,14 +784,14 @@
       }
     },
     {
-      "byteCount": 20225,
-      "contentSHA256": "b91d2ce06e58af45c2a79696eaa6c8250857fe72d7843ee1694f58716cd2dfb8",
+      "byteCount": 20199,
+      "contentSHA256": "cd186395e73637b9dc7af097631a5fd745da1638db3a05ad305e88e3624360f0",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-twenty-five-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "64743a8dafa45913fed7e57cc92c2b9f85a6078db5b0000d59dca1203739353d",
+      "envelopeSHA256": "d6715164c3e6046525943157a1cba785c05678da8392d4bf8422000fdb90878d",
       "gameID": "pack-orbit-twenty-five",
       "license": {
         "attribution": "Playable Studio",
@@ -814,7 +814,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "orbit-twenty-five-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -823,14 +823,14 @@
       }
     },
     {
-      "byteCount": 23867,
-      "contentSHA256": "0dc8b9621d7952a1ece1ac446bbe1d5abe7cf7c75de9216919a9e468a39cf224",
+      "byteCount": 23854,
+      "contentSHA256": "e4f3a444f9e7ad75402ff2735360556ef7dc95a26a06738fbcb484d5d2f2b9eb",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ember-twelve-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "720133f51fd249181a5746bd35ea9f88152a87f38f13e5c8d0c7b86bfc4f45ce",
+      "envelopeSHA256": "ac0d835af96bbc3ed51196cbc823cf043f787779ef9341430bd9873619261475",
       "gameID": "pack-ember-twelve",
       "license": {
         "attribution": "Playable Studio",
@@ -853,7 +853,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "ember-twelve-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -862,14 +862,14 @@
       }
     },
     {
-      "byteCount": 29263,
-      "contentSHA256": "c2997778aae42fa894b66c394e7f004fdb63c971098909a87a33cb5963cd6487",
+      "byteCount": 29260,
+      "contentSHA256": "6fbe3e2178abfa03302d7828a85edf52d372367b7d936cbf0cdf49e3bde0b9cf",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-beacon-fifteen-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "c4edf0c8b175bcc7a8d541916de32c44c1cd9e77882df2ba7762630723cd1efc",
+      "envelopeSHA256": "1987896a5703ffca25c635dea20e80621d28c8d7d762db49f85d304e0e30d0c3",
       "gameID": "pack-beacon-fifteen",
       "license": {
         "attribution": "Playable Studio",
@@ -892,7 +892,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "beacon-fifteen-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -902,13 +902,13 @@
     },
     {
       "byteCount": 9577,
-      "contentSHA256": "2410b1cd7038a9991dde430c82a0b2093a17274cfe8f2280b42c61de5765a147",
+      "contentSHA256": "22924b5084986907a49e11365092268df1ae4d31d2a729d3d8aa7b656390e0e6",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-facet-nine-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "9c2c3901e035a803880b81d4380c3f7e4fe51ce4fc3a38610e100b29f9ffeedc",
+      "envelopeSHA256": "186d0a157b432e29ce74631eeb26c7c6af6ff0166dc9b3fe02890236169c9db8",
       "gameID": "pack-facet-nine",
       "license": {
         "attribution": "Playable Studio",
@@ -931,7 +931,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "facet-nine-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {
@@ -940,14 +940,14 @@
       }
     },
     {
-      "byteCount": 21550,
-      "contentSHA256": "83331d3fafa6eb11de20e4c02ef2515e14e5a6bbc9f623c0357bf471681281e7",
+      "byteCount": 21580,
+      "contentSHA256": "e034c2bc43994880394f0a7ea49774c9ba56f17f3db41d1a2aef69fd09e56a68",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-canopy-twenty-v1.playablepack.json",
       "engine": {
         "family": "slidingGrid",
         "version": 1
       },
-      "envelopeSHA256": "80d31ed0622d88885d16d6c1ea194ba496f8ca3e5a2f60d8675f0d6f39cefbd7",
+      "envelopeSHA256": "b09fd386c26b4178b1320d39b7e49ffcf3571c722dfa1f81af6385c6b90e593a",
       "gameID": "pack-canopy-twenty",
       "license": {
         "attribution": "Playable Studio",
@@ -970,7 +970,7 @@
       "minimumAppBuild": 106,
       "minimumPlayers": 2,
       "packID": "canopy-twenty-first-edition",
-      "packKeyID": "sliding-grid-content-2026-08",
+      "packKeyID": "playable-content-2026-02",
       "packVersion": 1,
       "rulesVersion": 1,
       "source": {

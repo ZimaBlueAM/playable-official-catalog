@@ -16,3 +16,6 @@ Never add signing keys, source code, or arbitrary executable content here.
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
 never downloads executable code from this repository.
+
+Revision 18's sliding-grid repair rebinds existing declarative packs to the
+Build 106 trusted content-signing key; it does not add parameter-only games.
