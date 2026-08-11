@@ -1,7 +1,7 @@
 {
-  "revision": 102,
-  "issuedAt": "2026-08-12T13:00:00Z",
-  "expiresAt": "2026-08-19T13:00:00Z",
+  "revision": 103,
+  "issuedAt": "2026-08-12T14:00:00Z",
+  "expiresAt": "2026-08-19T14:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6800,6 +6800,15 @@
     },
     {
       "gameID":"pack-three-seat-jade-gallery","packID":"three-seat-jade-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":3,"maximumPlayers":3,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-jade-gallery-v1.playablepack.json","byteCount":1651,"envelopeSHA256":"b3212d578c4f75134762e346de3a035664674214706c9456e8d45c675438d274","contentSHA256":"0cf18ee812897faf26aa177a2e410c655d99ebf1ab304322daa96bace4fe849a","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly three players compose four-tile exhibits across a broad five-color jade gallery.","systemImage":"photo.on.rectangle.angled","title":"Three Seat Jade Gallery"},"zh-Hans":{"summary":"严格三位玩家在宽阔五色翡翠画廊中构筑四连展品。","systemImage":"photo.on.rectangle.angled","title":"三席翡翠画廊"}}
+    },
+    {
+      "gameID":"pack-dual-coral-arcade","packID":"dual-coral-arcade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-coral-arcade-v1.playablepack.json","byteCount":1581,"envelopeSHA256":"c9039c79023bfdbe4a7286d92838914d4fe799da5f00ff6c5482d85b71096cb0","contentSHA256":"5022d0c52409f051515561d16a834c6edade1063fcc12be9ac97541b5ef1907b","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players trigger quick triples across a shallow five-color coral arcade.","systemImage":"square.grid.3x3.fill","title":"Dual Coral Arcade"},"zh-Hans":{"summary":"两位玩家在浅层五色珊瑚游廊中触发快速三连。","systemImage":"square.grid.3x3.fill","title":"双人珊瑚游廊"}}
+    },
+    {
+      "gameID":"pack-open-onyx-mosaic","packID":"open-onyx-mosaic-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-onyx-mosaic-v1.playablepack.json","byteCount":1643,"envelopeSHA256":"6a1908c4691a3c9ab9d198b396b3b0096943af1a3458d854c7d998d420643555","contentSHA256":"2dc5649860d472336f7715fe4735404717de6326804cfb89c12c02c235ba628a","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to four players hunt rare five-tile patterns across a vast seven-color onyx mosaic.","systemImage":"square.grid.3x3.topleft.filled","title":"Open Onyx Mosaic"},"zh-Hans":{"summary":"二至四位玩家在辽阔七色缟玛瑙拼图中寻找稀有五连图案。","systemImage":"square.grid.3x3.topleft.filled","title":"开放缟玛瑙拼图"}}
+    },
+    {
+      "gameID":"pack-six-seat-quartz-gallery","packID":"six-seat-quartz-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":6,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-quartz-gallery-v1.playablepack.json","byteCount":1652,"envelopeSHA256":"1095177505dc163ff1cf7ac9180ee37063fcc81259f386b1a6891adec9fc9596","contentSHA256":"ad411392f7c195b854d24d5bdb4e14efcc538333b9afa03b10c29eed2ebae945","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly six players compose four-tile exhibits through a narrow eight-color quartz gallery.","systemImage":"photo.on.rectangle.angled","title":"Six Seat Quartz Gallery"},"zh-Hans":{"summary":"严格六位玩家在狭长八色石英画廊中构筑四连展品。","systemImage":"photo.on.rectangle.angled","title":"六席石英画廊"}}
     }
   ]
 }

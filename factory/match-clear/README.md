@@ -144,3 +144,14 @@ Batch CO taxonomy is sidecar-only in `batch-20260812-co.manifest.json` and
 
 Batch CP taxonomy is sidecar-only in `batch-20260812-cp.manifest.json` and
 `audits/batch-20260812-cp.json`; revision 102 contains no taxonomy fields.
+
+## Batch CQ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Coral Arcade | 8×4, 5 colors | 3 | 76 | exactly 2 | Four shallow rows keep quick duel arcade swaps inside the lower thumb sweep. |
+| Open Onyx Mosaic | 10×10, 7 colors | 5 | 199 | 2–4 | Local adjacent swaps keep rare shared mosaic play focused in lower active rows. |
+| Six Seat Quartz Gallery | 6×9, 8 colors | 4 | 148 | exactly 6 | Six narrow columns keep six-seat gallery play inside one-thumb reach. |
+
+Batch CQ taxonomy is sidecar-only in `batch-20260812-cq.manifest.json` and
+`audits/batch-20260812-cq.json`; revision 103 contains no taxonomy fields.
