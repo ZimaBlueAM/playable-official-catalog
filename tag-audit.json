@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-flash-nine","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"testedPlayerCounts":[2,3,4,5,6],"engine":"slidingGrid","board":"3x3","scrambleMoves":12,"turnLimit":12,"completionVectorActions":[12,12,12,12,12],"expectedWinnerSeats":[1,2,3,1,5]}},
+    {"gameID":"pack-mosaic-sixteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":5,"testedPlayerCounts":[2,3,4,5],"engine":"slidingGrid","board":"4x4","scrambleMoves":78,"turnLimit":180,"completionVectorActions":[78,78,78,78],"expectedWinnerSeats":[1,2,1,2]}}
+  ]
+}
