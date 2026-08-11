@@ -132,3 +132,14 @@ Batch BA taxonomy is sidecar-only in `batch-20260811-ba.manifest.json` and
 
 Batch BB taxonomy is sidecar-only in `batch-20260811-bb.manifest.json` and
 `audits/batch-20260811-bb.json`; revision 62 contains no taxonomy fields.
+
+## Batch BC
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Courtyard | 5×4, 3 colors | 3 | 36 | exactly 2 | Four shallow rows keep dense duel courtyard swaps inside the lower thumb sweep. |
+| Open Amber Colonnade | 9×10, 6 colors | 5 | 100 | 2–3 | Adjacent local swaps keep rare shared colonnades focused in lower active rows. |
+| Five Seat Meadow Loom | 7×9, 4 colors | 4 | 68 | exactly 5 | Seven compact columns keep five-seat loom work inside one-thumb reach. |
+
+Batch BC taxonomy is sidecar-only in `batch-20260811-bc.manifest.json` and
+`audits/batch-20260811-bc.json`; revision 63 contains no taxonomy fields.

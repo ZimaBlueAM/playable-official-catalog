@@ -1,7 +1,7 @@
 {
-  "revision": 62,
-  "issuedAt": "2026-08-11T23:00:00Z",
-  "expiresAt": "2026-08-18T23:00:00Z",
+  "revision": 63,
+  "issuedAt": "2026-08-11T23:10:00Z",
+  "expiresAt": "2026-08-18T23:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6310,6 +6310,72 @@
       "metadata": {
         "en": {"summary": "Exactly six players grow rare vertical five-tile needles through a narrow six-color violet field.", "systemImage": "arrow.up.to.line", "title": "Six Seat Violet Needle"},
         "zh-Hans": {"summary": "严格六位玩家在狭长六色紫罗兰棋盘中培育稀有纵向五连针塔。", "systemImage": "arrow.up.to.line", "title": "六席紫罗兰针塔"}
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-courtyard",
+      "packID": "dual-clover-courtyard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-courtyard-v1.playablepack.json",
+      "byteCount": 1602,
+      "envelopeSHA256": "0b20bcc7ad2427131245166b1baac53924c9c3d2c572dde6e0bf9bea659b75da",
+      "contentSHA256": "887b03a5b49d71522f521e174202c840265980c4b33fc95ea950247e6c9a9e9b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two players shape dense triples across a compact three-color clover courtyard.", "systemImage": "square.grid.3x3.fill", "title": "Dual Clover Courtyard"},
+        "zh-Hans": {"summary": "两位玩家在紧凑三色苜蓿庭院中塑造密集三连。", "systemImage": "square.grid.3x3.fill", "title": "双人苜蓿庭院"}
+      }
+    },
+    {
+      "gameID": "pack-open-amber-colonnade",
+      "packID": "open-amber-colonnade-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-amber-colonnade-v1.playablepack.json",
+      "byteCount": 1646,
+      "envelopeSHA256": "31e87aa734134fe6b65dcf1862ade5337f82e5b7d40188cff15638508cf6adf6",
+      "contentSHA256": "b159a84fd8175674222abc32c79128ececf648f498bfe4377be0ed54fe1a5be9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two or three players raise rare five-tile colonnades through a tall six-color amber field.", "systemImage": "rectangle.split.3x1.fill", "title": "Open Amber Colonnade"},
+        "zh-Hans": {"summary": "两至三位玩家在高耸六色琥珀棋盘中筑起稀有五连柱廊。", "systemImage": "rectangle.split.3x1.fill", "title": "开放琥珀柱廊"}
+      }
+    },
+    {
+      "gameID": "pack-five-seat-meadow-loom",
+      "packID": "five-seat-meadow-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "matchClear", "version": 1},
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-meadow-loom-v1.playablepack.json",
+      "byteCount": 1622,
+      "envelopeSHA256": "dda328e8f1eb4cda63c6d3aaf566e51b110d46915f41e80def7737885c369a01",
+      "contentSHA256": "f8588d6f1bb845be6ce39a81de02027cae39a3c560718d1f0b63eb6cf0f54255",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Exactly five players weave dense four-tile bands through a broad four-color meadow loom.", "systemImage": "rectangle.split.3x1.fill", "title": "Five Seat Meadow Loom"},
+        "zh-Hans": {"summary": "严格五位玩家在宽阔四色草甸织机中编织密集四连色带。", "systemImage": "rectangle.split.3x1.fill", "title": "五席草甸织机"}
       }
     }
   ]
