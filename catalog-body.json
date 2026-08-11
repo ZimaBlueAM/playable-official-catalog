@@ -1,7 +1,7 @@
 {
-  "revision": 80,
-  "issuedAt": "2026-08-12T02:00:00Z",
-  "expiresAt": "2026-08-19T02:00:00Z",
+  "revision": 81,
+  "issuedAt": "2026-08-12T02:10:00Z",
+  "expiresAt": "2026-08-19T02:10:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6602,6 +6602,15 @@
     },
     {
       "gameID":"pack-four-seat-meadow-gallery","packID":"four-seat-meadow-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":4,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-meadow-gallery-v1.playablepack.json","byteCount":1639,"envelopeSHA256":"572a397ad53b0099a58f992a970f187c702a54921393720cb064fdcf056c9281","contentSHA256":"ed6495d13a38c2356adf35bb21c3ba613b125ba4fd68a8731ce20d0ae5bfba81","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly four players steer quick triples through a compact five-color meadow gallery.","systemImage":"photo.on.rectangle.angled","title":"Four Seat Meadow Gallery"},"zh-Hans":{"summary":"严格四位玩家在紧凑五色草甸画廊中引导快速三连。","systemImage":"photo.on.rectangle.angled","title":"四席草甸画廊"}}
+    },
+    {
+      "gameID":"pack-dual-violet-promenade","packID":"dual-violet-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-violet-promenade-v1.playablepack.json","byteCount":1595,"envelopeSHA256":"31af33674bcb5a73f975f62e64250cfc6f30eaeaa9d5ac3b6615c9ae44defe8d","contentSHA256":"1acabd5581ec3a5710c5284b90e7098f51bdeb49491bb3deccb3c07f5a3e0190","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players trace dense triples across a pocket-sized five-color violet promenade.","systemImage":"figure.walk","title":"Dual Violet Promenade"},"zh-Hans":{"summary":"两位玩家在袖珍五色紫罗兰长廊中勾勒密集三连。","systemImage":"figure.walk","title":"双人紫罗兰长廊"}}
+    },
+    {
+      "gameID":"pack-open-prism-courtyard","packID":"open-prism-courtyard-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-prism-courtyard-v1.playablepack.json","byteCount":1656,"envelopeSHA256":"9cddc5e1e378e1a6732128a4721d78dc44456f10e8316c3959ee9d373efea699","contentSHA256":"314fa3bff06458f53db46d4313bf08bc3bfe4018d93af05c7b8ba2f398b17477","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players frame rare five-tile courtyards across a tall eight-color prism field.","systemImage":"square.grid.3x3.fill","title":"Open Prism Courtyard"},"zh-Hans":{"summary":"二至六位玩家在高耸八色棱镜棋盘中构筑稀有五连庭院。","systemImage":"square.grid.3x3.fill","title":"开放棱镜庭院"}}
+    },
+    {
+      "gameID":"pack-five-seat-spectrum-gallery","packID":"five-seat-spectrum-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-spectrum-gallery-v1.playablepack.json","byteCount":1651,"envelopeSHA256":"48586e66d735a2f450bdfe34eefe48f0eb67d4c68ba379eeaf84e925d11d9827","contentSHA256":"315a86f0a43563485b6684e0aa5b35cf4367fe2b6770ef114304a784a1bab8bf","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players frame four-tile galleries through a tall six-color spectrum field.","systemImage":"photo.on.rectangle.angled","title":"Five Seat Spectrum Gallery"},"zh-Hans":{"summary":"严格五位玩家在高耸六色光谱棋盘中构筑四连画廊。","systemImage":"photo.on.rectangle.angled","title":"五席光谱画廊"}}
     }
   ]
 }

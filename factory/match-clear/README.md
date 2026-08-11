@@ -177,3 +177,14 @@ Batch BS taxonomy is sidecar-only in `batch-20260812-bs.manifest.json` and
 
 Batch BT taxonomy is sidecar-only in `batch-20260812-bt.manifest.json` and
 `audits/batch-20260812-bt.json`; revision 80 contains no taxonomy fields.
+
+## Batch BU
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Promenade | 5×4, 5 colors | 3 | 54 | exactly 2 | A pocket board keeps the quick duel promenade entirely inside the lower thumb sweep. |
+| Open Prism Courtyard | 9×10, 8 colors | 5 | 154 | 2–6 | Local adjacent swaps keep the tall shared courtyard focused in lower active rows. |
+| Five Seat Spectrum Gallery | 8×9, 6 colors | 4 | 104 | exactly 5 | Adjacent local swaps keep five-seat gallery play inside one-thumb reach. |
+
+Batch BU taxonomy is sidecar-only in `batch-20260812-bu.manifest.json` and
+`audits/batch-20260812-bu.json`; revision 81 contains no taxonomy fields.
