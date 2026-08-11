@@ -1,5 +1,5 @@
 {
-  "revision": 17,
+  "revision": 18,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1287,6 +1287,123 @@
           "summary": "每回合织走一、五、九、十四或十五缕日光，拿到最后一缕者获胜。",
           "systemImage": "sun.max.fill",
           "title": "日光织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-drift-reserve",
+      "packID": "pack-drift-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-drift-reserve-v1.playablepack.json",
+      "byteCount": 1688,
+      "envelopeSHA256": "ff2ac3af5a412cc697eff34faf31271ec86f8d316a5ad70d72141500514196fa",
+      "contentSHA256": "c3ac5e45d612f7a8ce04ac4c4a24aee08d5b5107fc4b701fdc36f288e5b2d908",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, six, or thirteen drift markers, but the player taking the final marker loses.",
+          "systemImage": "wind",
+          "title": "Drift Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、六或十三枚漂流标记，但拿到最后一枚者落败。",
+          "systemImage": "wind",
+          "title": "漂流留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-aurora-markers",
+      "packID": "pack-aurora-markers-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-aurora-markers-v1.playablepack.json",
+      "byteCount": 1697,
+      "envelopeSHA256": "50c4aea64e77517c1d98adce797c159b50db023937c27c9afe1a721188cf9f13",
+      "contentSHA256": "c918dd1d87ca9fd07f7063aaa35d766926d76492049cca298fb352da79862454",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Collect one, four, nine, or fifteen aurora markers; the final marker wins.",
+          "systemImage": "sparkles",
+          "title": "Aurora Markers"
+        },
+        "zh-Hans": {
+          "summary": "每回合取走一、四、九或十五枚极光标记，拿到最后一枚者获胜。",
+          "systemImage": "sparkles",
+          "title": "极光标记"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orbit-weave",
+      "packID": "pack-orbit-weave-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-weave-v1.playablepack.json",
+      "byteCount": 1768,
+      "envelopeSHA256": "9ed7cd838ef26b442d3f35c28acfc89a986c8bfa5884cd72b8bd7c5e720a9c44",
+      "contentSHA256": "9aebb486e8b788020e936f8da6cfb3dd2030776fd6798d5253872b3176de5d18",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Weave one, three, six, eleven, or sixteen orbit threads; the final thread wins.",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "Orbit Weave"
+        },
+        "zh-Hans": {
+          "summary": "每回合织走一、三、六、十一或十六缕轨道线，拿到最后一缕者获胜。",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "轨道织线"
         }
       }
     }
