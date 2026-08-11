@@ -4,7 +4,7 @@
   "auditedAt": "2026-08-11",
   "evidenceClass": "software-simulator-live-ui",
   "source": {"catalogURL":"https://zimablueam.github.io/playable-official-catalog/catalog.json","catalogRevision":8,"packURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-prism-shift-v1.playablepack.json","license":"LicenseRef-Playable"},
-  "declared": {"title":{"en":"Prism Shift","zh-Hans":"棱镜交换"},"summary":{"en":"Swap neighboring prisms, clear matching lines, and outscore your friends.","zh-Hans":"交换相邻棱镜，连成同色消除，在十六回合内赢得最高分。"},"players":{"minimum":2,"maximum":4},"presetObserved":"standard","deterministicVectorObserved":true},
+  "declared": {"title":{"en":"Prism Shift","zh-Hans":"棱镜交换"},"summary":{"en":"Swap neighboring prisms, clear matching lines, and outscore your friends.","zh-Hans":"交换相邻棱镜，连成同色消除，在十六回合内赢得最高分。"},"players":{"minimum":2,"maximum":4},"presetObserved":"standard","deterministicVectorObserved":true,"tags":{"carrier":["tiles"],"mechanics":["alignment","matching","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
   "steps":{"discover":"PASS","add":"PASS","offlineReadyLabel":"PASS","setup":"PASS","completeGame":"OPEN","result":"OPEN","rematch":"OPEN"},
   "ux":{"addAndPlayControlsInLowerThumbReach":true,"touchTargetMeasured":false,"touchTargetMinimumPt":null,"localization":"PASS","deadlockObserved":false,"wrongPlayerCountObserved":false},
   "deviceEvidence":{"iphoneSimulator":"PARTIAL: Games→Add→offline-ready→Play→setup observed; one simulator had no second real seat, so no complete match was claimed","physicalDevice":"OPEN","human":"OPEN"},

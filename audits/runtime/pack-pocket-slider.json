@@ -4,7 +4,7 @@
   "auditedAt": "2026-08-11",
   "evidenceClass": "software-simulator-live-ui",
   "source": {"catalogURL":"https://zimablueam.github.io/playable-official-catalog/catalog.json","catalogRevision":8,"packURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-slider-v1.playablepack.json","license":"LicenseRef-Playable"},
-  "declared": {"title":{"en":"Pocket Slider","zh-Hans":"掌上华容格"},"summary":{"en":"Take turns sliding numbered tiles into the empty space and restore the grid.","zh-Hans":"轮流将数字滑入空格，在步数用尽前还原方阵。"},"players":{"minimum":2,"maximum":4},"presetObserved":"standard","deterministicVectorObserved":true},
+  "declared": {"title":{"en":"Pocket Slider","zh-Hans":"掌上华容格"},"summary":{"en":"Take turns sliding numbered tiles into the empty space and restore the grid.","zh-Hans":"轮流将数字滑入空格，在步数用尽前还原方阵。"},"players":{"minimum":2,"maximum":4},"presetObserved":"standard","deterministicVectorObserved":true,"tags":{"carrier":["tiles"],"mechanics":["spatial","race"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
   "steps":{"discover":"PASS","add":"PASS","offlineReadyLabel":"PASS","setup":"PASS","completeGame":"OPEN","result":"OPEN","rematch":"OPEN"},
   "ux":{"addAndPlayControlsInLowerThumbReach":true,"touchTargetMeasured":false,"touchTargetMinimumPt":null,"localization":"PASS","deadlockObserved":false,"wrongPlayerCountObserved":false},
   "deviceEvidence":{"iphoneSimulator":"PARTIAL: Games→Add→offline-ready→Play→setup observed; a prior Build 106 simulator run also observed one legal tile move, but no complete match was claimed","physicalDevice":"OPEN","human":"OPEN"},

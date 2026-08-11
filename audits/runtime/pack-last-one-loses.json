@@ -14,7 +14,8 @@
     "summary": {"en": "Take one, two, or three stones. Whoever takes the final stone loses.", "zh-Hans": "每回合拿走一、二或三颗石子，拿走最后一颗的人输。"},
     "players": {"minimum": 2, "maximum": 2},
     "presetObserved": "quick-17",
-    "deterministicVectorObserved": true
+    "deterministicVectorObserved": true,
+    "tags": {"carrier":["tiles"],"mechanics":["take-away"],"players":["two-player"],"pace":["quick-round"],"context":["friends-room"],"input":["one-thumb"]}
   },
   "steps": {
     "discover": "PASS",

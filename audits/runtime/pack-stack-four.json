@@ -14,7 +14,8 @@
     "summary": {"en": "Drop discs into columns and connect four before your friends do.", "zh-Hans": "把棋子落入列中，先连成四子即可获胜。"},
     "players": {"minimum": 2, "maximum": 4},
     "presetObserved": "classic-7x6",
-    "deterministicVectorObserved": true
+    "deterministicVectorObserved": true,
+    "tags": {"carrier":["board"],"mechanics":["connection","alignment"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}
   },
   "steps": {
     "discover": "PASS",

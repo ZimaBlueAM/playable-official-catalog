@@ -14,7 +14,8 @@
     "summary": {"en": "Take one, two, or three tokens. The last move wins.", "zh-Hans": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。"},
     "players": {"minimum": 2, "maximum": 4},
     "presetObserved": "standard",
-    "deterministicVectorObserved": true
+    "deterministicVectorObserved": true,
+    "tags": {"carrier":["tiles"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["quick-round"],"context":["friends-room"],"input":["one-thumb"]}
   },
   "steps": {
     "discover": "PASS",
