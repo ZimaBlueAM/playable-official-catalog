@@ -155,3 +155,14 @@ Batch BJ taxonomy is sidecar-only in `batch-20260812-bj.manifest.json` and
 
 Batch BK taxonomy is sidecar-only in `batch-20260812-bk.manifest.json` and
 `audits/batch-20260812-bk.json`; revision 71 contains no taxonomy fields.
+
+## Batch BL
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Courtyard | 8×4, 6 colors | 3 | 45 | exactly 2 | Four shallow rows keep the quick duel courtyard inside the lower thumb sweep. |
+| Open Meadow Gallery | 6×10, 5 colors | 5 | 127 | 2–5 | Six compact columns keep rare shared gallery matches focused in lower active rows. |
+| Four Seat Amber Promenade | 9×7, 7 colors | 4 | 86 | exactly 4 | Adjacent local swaps keep the broad four-seat promenade inside one-thumb reach. |
+
+Batch BL taxonomy is sidecar-only in `batch-20260812-bl.manifest.json` and
+`audits/batch-20260812-bl.json`; revision 72 contains no taxonomy fields.
