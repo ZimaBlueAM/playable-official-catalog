@@ -1,7 +1,7 @@
 {
-  "revision": 32,
-  "issuedAt": "2026-08-12T00:00:00Z",
-  "expiresAt": "2026-08-19T00:00:00Z",
+  "revision": 33,
+  "issuedAt": "2026-08-12T01:00:00Z",
+  "expiresAt": "2026-08-19T01:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -3159,6 +3159,84 @@
           "summary": "画出村庄广场线索，和大家一起抢答。",
           "systemImage": "building.2.fill",
           "title": "村庄广场速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-foundry",
+      "packID": "hidden-foundry-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-foundry-v1.playablepack",
+      "byteCount": 1992,
+      "envelopeSHA256": "da7f915ea947f19557f35672d6142af214d1a9b195d68f8ea5865ae9d6fbaa36",
+      "contentSHA256": "27ce5437b7d3649bf2c828d81c38d1ce27410f6b4b5b53f1f340c05d4b095577",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One operator changed the furnace log; compare reports and vote before the pour.",
+          "systemImage": "flame.fill",
+          "title": "Foundry Shift"
+        },
+        "zh-Hans": {
+          "summary": "一名操作员改动了熔炉记录；比较报告，在浇铸前投票。",
+          "systemImage": "flame.fill",
+          "title": "铸造车间交班"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-courtyard",
+      "packID": "canvas-courtyard-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-courtyard-v1.playablepack",
+      "byteCount": 1802,
+      "envelopeSHA256": "e5b94a403cabd6d4e863d2d23dfd032c338a2558a9955612d66fe4e18baa4c6b",
+      "contentSHA256": "59500240fc9f00261f481a0cd13391fdc0a433a9851299db17d5db7d0d5f77cb",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a courtyard clue and race the table to identify it.",
+          "systemImage": "tree.fill",
+          "title": "Courtyard Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出庭院线索，和大家一起抢答。",
+          "systemImage": "tree.fill",
+          "title": "庭院速写"
         }
       }
     }
