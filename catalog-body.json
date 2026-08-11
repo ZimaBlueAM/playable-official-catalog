@@ -1,7 +1,7 @@
 {
-  "revision": 27,
-  "issuedAt": "2026-08-11T13:00:00Z",
-  "expiresAt": "2026-08-18T13:00:00Z",
+  "revision": 28,
+  "issuedAt": "2026-08-11T14:00:00Z",
+  "expiresAt": "2026-08-18T14:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2653,6 +2653,72 @@
           "systemImage": "square.grid.3x3.fill",
           "title": "十道七塔"
         }
+      }
+    },
+    {
+      "gameID": "pack-seven-well-five",
+      "packID": "seven-well-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-well-five-v1.playablepack",
+      "byteCount": 3708,
+      "envelopeSHA256": "61bd53974030f7742ea82d86ce9c3ae3f272eac89dbbdb0835fe4c3ec50586f0",
+      "contentSHA256": "103d93cc4877ec7c8d4b1a221d25c344c39d9cded43e693a77dad356ccbbe781",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players drop stones into seven deep lanes and race to build a vertical line of five.", "systemImage": "square.grid.3x3.fill", "title": "Seven-Well Five"},
+        "zh-Hans": {"summary": "两至六人在七道深井中落子，争先向上筑成纵向五连。", "systemImage": "square.grid.3x3.fill", "title": "七井纵五"}
+      }
+    },
+    {
+      "gameID": "pack-open-column-five",
+      "packID": "open-column-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-column-five-v1.playablepack",
+      "byteCount": 3741,
+      "envelopeSHA256": "131ea72d9094e23982b6da45de924e6eb6c6e3e83ea6c5168afb5180995103d3",
+      "contentSHA256": "d220a4f6663da37be67a2ab057e4e9f875b07d444136c4700864671f00ff3ebe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players place freely on a tall open grid and race to claim a vertical column of five.", "systemImage": "square.grid.3x3.fill", "title": "Open Column Five"},
+        "zh-Hans": {"summary": "两至六人在高挑开放棋盘中自由落子，争先占成纵向五连。", "systemImage": "square.grid.3x3.fill", "title": "开放纵五"}
+      }
+    },
+    {
+      "gameID": "pack-diagonal-causeway-six",
+      "packID": "diagonal-causeway-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {"family": "gridBoard", "version": 1},
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-diagonal-causeway-six-v1.playablepack",
+      "byteCount": 4267,
+      "envelopeSHA256": "f7f64a1b2af035ff2d6998cd9f80a97bd637e7d08e24d30c6bc41a2296b47a7d",
+      "contentSHA256": "e842f0803b39501d250d8f7d5ba0c72428e40a302784c1034a1c60be00af6cea",
+      "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"},
+      "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
+      "metadata": {
+        "en": {"summary": "Two to six players bridge a broad open board by completing a rising diagonal of six.", "systemImage": "square.grid.3x3.fill", "title": "Diagonal Causeway Six"},
+        "zh-Hans": {"summary": "两至六人在宽阔开放棋盘中铺设斜桥，争先完成上升斜向六连。", "systemImage": "square.grid.3x3.fill", "title": "斜桥六连"}
       }
     }
   ]
