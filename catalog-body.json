@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 11,
+  "issuedAt": "2026-08-11T02:09:07Z",
+  "expiresAt": "2026-08-18T02:09:07Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-harbor-twenty",
+      "packID": "harbor-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-harbor-twenty-v1.playablepack.json",
+      "byteCount": 7973,
+      "envelopeSHA256": "b953c52d5b56b9615a124c3aa33fea12161fdb1f2f093b07ca0a8a893f640335",
+      "contentSHA256": "b2cfd4eea790289e85710a488c50b2eb88c10f1a33148a631c648cd330d82283",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Bring twenty numbered tiles into harbor together before the move limit.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Harbor Twenty"
+        },
+        "zh-Hans": {
+          "summary": "在步数耗尽前，一起把二十块数字方砖送回港湾。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格归港"
+        }
+      }
+    },
+    {
+      "gameID": "pack-lantern-sixteen",
+      "packID": "lantern-sixteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-lantern-sixteen-v1.playablepack.json",
+      "byteCount": 4021,
+      "envelopeSHA256": "b26a66b13c524c27005e5203680a2bb544663e7cde66dcbfda0679992aeb5a7b",
+      "contentSHA256": "d0d074a4d90b89f4b7fab955592bf97b7e18a3819bbe29d04cbd7bb0f548ada0",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the empty space around sixteen lantern tiles and restore their order.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Lantern Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "让空格穿行于十六盏方灯之间，轮流恢复正确次序。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六方灯"
+        }
+      }
+    },
+    {
+      "gameID": "pack-vertical-voyage",
+      "packID": "vertical-voyage-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vertical-voyage-v1.playablepack.json",
+      "byteCount": 5762,
+      "envelopeSHA256": "26e5c68eff1cd31673049af9dbe5e44ce1f2368740889d4ef52ac9565ccb1c13",
+      "contentSHA256": "feef58892137cf727adc27981820899ecc15fca67a7e8f79ab736f6ab054ca87",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Navigate a tall fifteen-tile route with one-thumb slides.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Vertical Voyage"
+        },
+        "zh-Hans": {
+          "summary": "用单拇指滑动，穿越狭长的十五格数字航线。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "纵向远航"
         }
       }
     }

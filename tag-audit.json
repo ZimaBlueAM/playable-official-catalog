@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-lantern-sixteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"engine":"slidingGrid","board":"4x4","scrambleMoves":41,"turnLimit":128,"completionVectorActions":41,"expectedWinnerSeat":0}},
+    {"gameID":"pack-vertical-voyage","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":2,"engine":"slidingGrid","board":"3x5","scrambleMoves":70,"turnLimit":168,"completionVectorActions":70,"expectedWinnerSeat":1}},
+    {"gameID":"pack-harbor-twenty","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"engine":"slidingGrid","board":"5x4","scrambleMoves":105,"turnLimit":240,"completionVectorActions":105,"expectedWinnerSeat":0}}
+  ]
+}
