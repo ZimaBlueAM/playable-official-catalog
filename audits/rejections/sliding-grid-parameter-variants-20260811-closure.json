@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:45:00Z",
+  "decision": "rejected-closed",
+  "catalogAction": "none",
+  "sourceBatches": [
+    {
+      "branch": "factory/sliding-grid/20260811-015255",
+      "commit": "60cc817",
+      "gameIDs": [
+        "pack-corner-chase",
+        "pack-four-by-four-focus",
+        "pack-lane-lift"
+      ]
+    },
+    {
+      "branch": "factory/sliding-grid/20260811-015655",
+      "commit": "a098efc",
+      "gameIDs": [
+        "pack-cross-current",
+        "pack-summit-sixteen",
+        "pack-tide-turn"
+      ]
+    },
+    {
+      "branch": "factory/sliding-grid/20260811-015923",
+      "commit": "bc42e8d",
+      "gameIDs": [
+        "pack-garden-twenty-five",
+        "pack-orbit-nine",
+        "pack-river-twelve"
+      ]
+    }
+  ],
+  "reasonCodes": [
+    "PARAMETER_ONLY_RULE_DUPLICATION",
+    "MISSING_COMPLETE_TERMINAL_VECTOR",
+    "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+    "RULE_DESCRIPTION_MISMATCH",
+    "MISSING_TAXONOMY_SIDECAR"
+  ],
+  "evidence": {
+    "candidateCount": 9,
+    "testedPlayerCounts": [
+      2
+    ],
+    "terminalActionCounts": [
+      0
+    ],
+    "independentRuleFamiliesAdded": 0
+  },
+  "closure": {
+    "retryAllowed": false,
+    "doNotPromote": true,
+    "doNotRepeatAudit": true,
+    "reopenCondition": "A genuinely new engine family or independently different mechanic, not a size, scramble, turn-limit, title, or theme change."
+  }
+}

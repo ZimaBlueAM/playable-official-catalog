@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:45:00Z",
+  "sourceRejection": "audits/rejections/social-canvas-batch-20260811-5d6f285.json",
+  "decision": "publisher-ready",
+  "fixes": [
+    "TAXONOMY_CARRIER_NOT_SCALAR",
+    "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+    "SCHEMA1_TAXONOMY_CONTAMINATION",
+    "URL_PACK_SUFFIX_BINDING"
+  ],
+  "uniqueness": {
+    "decision": "accepted",
+    "basis": "One representative per engine family; public main revision 17 contains neither hiddenRole nor canvasGuess.",
+    "rejectedReskinsFromSourceBatch": [
+      "all other hiddenRole themes",
+      "all other canvasGuess themes"
+    ]
+  },
+  "candidates": [
+    {
+      "gameID": "hidden-powerstation",
+      "packID": "hidden-powerstation-v1",
+      "engine": "hiddenRole",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-powerstation-v1.playablepack.json",
+      "byteCount": 4633,
+      "envelopeSHA256": "2a5715143df74963e31786fadce9c6310b01d036b56b74847f1dc564bbd210a0",
+      "contentSHA256": "3b436abdbb5c88e077460efb6813c588ca6dd02476abd404c299a9ccfa56788b",
+      "packKeyID": "playable-content-2026-02",
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "playerRange": [
+        2,
+        6
+      ],
+      "terminalVectors": [
+        {
+          "playerCount": 2,
+          "actionCount": 2,
+          "expectedChecksum": "bb2fb1bfac2520e4",
+          "terminal": true
+        },
+        {
+          "playerCount": 3,
+          "actionCount": 5,
+          "expectedChecksum": "ca89594f18b37578",
+          "terminal": true
+        },
+        {
+          "playerCount": 4,
+          "actionCount": 7,
+          "expectedChecksum": "2987b73c93affcb7",
+          "terminal": true
+        },
+        {
+          "playerCount": 5,
+          "actionCount": 12,
+          "expectedChecksum": "f0cd1c2f9568524c",
+          "terminal": true
+        },
+        {
+          "playerCount": 6,
+          "actionCount": 15,
+          "expectedChecksum": "770688d6e0dabb52",
+          "terminal": true
+        }
+      ]
+    },
+    {
+      "gameID": "canvas-wintermarket",
+      "packID": "canvas-wintermarket-v1",
+      "engine": "canvasGuess",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-wintermarket-v1.playablepack.json",
+      "byteCount": 5073,
+      "envelopeSHA256": "bbd885223362811f7f0e9a8cd3d37eabb7b930e96628deb6d2948b59173da161",
+      "contentSHA256": "2510f8e8b28c156b4857e818c1f6c19b783bec2c4ae4f234ce87412eb38c8da2",
+      "packKeyID": "playable-content-2026-02",
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "playerRange": [
+        2,
+        6
+      ],
+      "terminalVectors": [
+        {
+          "playerCount": 2,
+          "actionCount": 8,
+          "expectedChecksum": "0841fd28ed59dfdc",
+          "terminal": true
+        },
+        {
+          "playerCount": 3,
+          "actionCount": 8,
+          "expectedChecksum": "961b751e51a06216",
+          "terminal": true
+        },
+        {
+          "playerCount": 4,
+          "actionCount": 8,
+          "expectedChecksum": "869f2d129eed9c14",
+          "terminal": true
+        },
+        {
+          "playerCount": 5,
+          "actionCount": 8,
+          "expectedChecksum": "65b92b88590746a6",
+          "terminal": true
+        },
+        {
+          "playerCount": 6,
+          "actionCount": 8,
+          "expectedChecksum": "c3c40d4bb0b8b2f1",
+          "terminal": true
+        }
+      ]
+    }
+  ],
+  "interactionEvidence": {
+    "hidden-powerstation": {
+      "primaryControl": "two-column active-player vote grid",
+      "minimumTargetPoints": 44,
+      "lowerHalfPlacement": true,
+      "oneThumb": true
+    },
+    "canvas-wintermarket": {
+      "primaryControl": "direct drawing canvas with lower choice grid",
+      "terminalVectorStrokeYRange": [
+        720,
+        860
+      ],
+      "normalizedCoordinateMaximum": 1000,
+      "lowerWiperArcDemonstrated": true,
+      "canvasInput": true
+    }
+  },
+  "gates": {
+    "nonExecutableDeclarativePack": true,
+    "signatureAndHashBinding": true,
+    "completeTerminalForEveryDeclaredPlayerCount": true,
+    "scalarCarrier": true,
+    "taxonomyAbsentFromSchema1AndPackBodies": true,
+    "canonicalURLMatchesCommittedFilename": true,
+    "originalFirstPartyLicense": true,
+    "lowerHalfPrimaryInput": true
+  }
+}

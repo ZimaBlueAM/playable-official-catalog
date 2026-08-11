@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "taxonomyVersion": 2,
+  "contract": "Candidate and audit sidecars only; no taxonomy fields in schema1 catalog entries or signed pack bodies.",
+  "decision": "accepted",
+  "entries": [
+    {
+      "gameID": "hidden-powerstation",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": "action",
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        },
+        "carrierIsScalar": true,
+        "mechanicsMatchRules": true,
+        "playerTagsMatchRange": true
+      }
+    },
+    {
+      "gameID": "canvas-wintermarket",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": "canvas",
+          "mechanics": [
+            "matching",
+            "word"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        },
+        "carrierIsScalar": true,
+        "mechanicsMatchRules": true,
+        "playerTagsMatchRange": true
+      }
+    }
+  ]
+}
