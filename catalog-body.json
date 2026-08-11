@@ -1,7 +1,7 @@
 {
-  "revision": 10,
-  "issuedAt": "2026-08-11T04:30:00Z",
-  "expiresAt": "2026-08-18T04:30:00Z",
+  "revision": 11,
+  "issuedAt": "2026-08-11T05:00:00Z",
+  "expiresAt": "2026-08-18T05:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -663,6 +663,123 @@
           "summary": "在狭长竖向棋盘中穿出三点连线，快速完成战术对决。",
           "systemImage": "square.grid.3x3.fill",
           "title": "窄道三连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-seven-span",
+      "packID": "seven-span-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-span-v1.playablepack",
+      "byteCount": 2290,
+      "envelopeSHA256": "ffd57f79da631169d8e9e39351fde84aaabc76ed9d5abb7ccfbe8b9d4b59da3b",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Stretch a patient line across the open board and reach seven in a row.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Seven Span"
+        },
+        "zh-Hans": {
+          "summary": "在开放棋盘中延展布局，先连成七子长线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "七格延展"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pinwheel-four",
+      "packID": "pinwheel-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pinwheel-four-v1.playablepack",
+      "byteCount": 1931,
+      "envelopeSHA256": "acb689b3c1a875168db30441bc4747403ea1b0aee3c56905049e4543e1d094fb",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Turn the corners of an open board and make a four-point pinwheel.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Pinwheel Four"
+        },
+        "zh-Hans": {
+          "summary": "在开放棋盘中转过角落，组成四点风车连线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "风车四连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-vertical-five",
+      "packID": "vertical-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-vertical-five-v1.playablepack",
+      "byteCount": 2044,
+      "envelopeSHA256": "fea1441a0079349997dc21b019e45ed01f35bb4725f6fdb62ab43f34e104b398",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Raise a quiet tower in one column and complete five stacked marks.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Vertical Five"
+        },
+        "zh-Hans": {
+          "summary": "在一列中安静筑塔，完成五枚叠起的标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "垂直五层"
         }
       }
     }
