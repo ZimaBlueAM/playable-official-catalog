@@ -177,3 +177,14 @@ Batch BL taxonomy is sidecar-only in `batch-20260812-bl.manifest.json` and
 
 Batch BM taxonomy is sidecar-only in `batch-20260812-bm.manifest.json` and
 `audits/batch-20260812-bm.json`; revision 73 contains no taxonomy fields.
+
+## Batch BN
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Colonnade | 10×4, 8 colors | 5 | 47 | exactly 2 | Four shallow rows keep rare duel colonnades inside the lower thumb sweep. |
+| Open Amber Gallery | 8×9, 4 colors | 4 | 133 | 2–3 | Local adjacent swaps keep the tall shared gallery focused in lower active rows. |
+| Six Seat Spectrum Promenade | 6×8, 7 colors | 3 | 90 | exactly 6 | Six compact columns keep quick six-seat promenade play inside one-thumb reach. |
+
+Batch BN taxonomy is sidecar-only in `batch-20260812-bn.manifest.json` and
+`audits/batch-20260812-bn.json`; revision 74 contains no taxonomy fields.
