@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-needle-fifteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"testedPlayerCounts":[2,3,4,5,6],"engine":"slidingGrid","board":"3x5","scrambleMoves":30,"turnLimit":30,"completionVectorActions":[30,30,30,30,30],"expectedWinnerSeats":[1,2,1,4,5]}},
+    {"gameID":"pack-plaza-twenty","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"testedPlayerCounts":[2,3,4],"engine":"slidingGrid","board":"5x4","scrambleMoves":64,"turnLimit":160,"completionVectorActions":[64,64,64],"expectedWinnerSeats":[1,0,3]}}
+  ]
+}

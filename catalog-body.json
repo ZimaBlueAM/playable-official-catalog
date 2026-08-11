@@ -1,7 +1,7 @@
 {
-  "revision": 9,
-  "issuedAt": "2026-08-11T02:25:39Z",
-  "expiresAt": "2026-08-18T02:25:39Z",
+  "revision": 20,
+  "issuedAt": "2026-08-11T02:34:57Z",
+  "expiresAt": "2026-08-18T02:34:57Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -312,6 +312,84 @@
           "summary": "轮流快速滑动九块方砖，在节奏中断前完成还原。",
           "systemImage": "square.grid.3x3.fill",
           "title": "九格快步"
+        }
+      }
+    },
+    {
+      "gameID": "pack-needle-fifteen",
+      "packID": "needle-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-needle-fifteen-v1.playablepack.json",
+      "byteCount": 11035,
+      "envelopeSHA256": "ee8ee56ea52b16babb563e59fe4ea3280b1560b10eb391d9187d2a061f1ba115",
+      "contentSHA256": "e6bcfe5a5dae7ad087cb25324a52b49fb8c5a2a4a3ce4b793802739eed7a41f9",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Thread fifteen tiles through a narrow tower with exactly thirty moves.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Needle Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "沿狭长针塔穿行十五块数字方砖，恰好三十步完成。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-plaza-twenty",
+      "packID": "plaza-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-plaza-twenty-v1.playablepack.json",
+      "byteCount": 13477,
+      "envelopeSHA256": "89f9170902cbaa272dae97a31c23309153223fccc524c0f1fd64eaa790f405d9",
+      "contentSHA256": "d0dd42a4d25729662955109e912022a3eaa6efa59632ffea21a8a1552cbaef50",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Cross a broad twenty-tile plaza with room to recover from a wrong turn.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Plaza Twenty"
+        },
+        "zh-Hans": {
+          "summary": "穿越宽阔二十格数字广场，并留出修正错误滑动的空间。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格广场"
         }
       }
     }
