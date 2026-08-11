@@ -78,6 +78,8 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Mountain Lodge Sketches** — sketch a lodge-side clue and race to identify it.
 - **Repair Shop Ticket** — compare reports and vote before pickup.
 - **Lakeside Sketches** — sketch a lakeside clue and race to identify it.
+- **Warehouse Manifest** — compare reports and vote before shipment.
+- **Stargarden Sketches** — sketch a night-garden clue and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

@@ -2191,6 +2191,68 @@
           ]
         }
       }
+    },
+    {
+      "gameID": "hidden-warehouse",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": [
+            "action"
+          ],
+          "mechanics": [
+            "bluff",
+            "deduction"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      }
+    },
+    {
+      "gameID": "canvas-stargarden",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "carrier": [
+            "canvas"
+          ],
+          "mechanics": [
+            "matching",
+            "word"
+          ],
+          "players": [
+            "two-player",
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      }
     }
   ]
 }

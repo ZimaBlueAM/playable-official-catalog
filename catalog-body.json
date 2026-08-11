@@ -1,7 +1,7 @@
 {
-  "revision": 27,
-  "issuedAt": "2026-08-11T19:00:00Z",
-  "expiresAt": "2026-08-18T19:00:00Z",
+  "revision": 28,
+  "issuedAt": "2026-08-11T20:00:00Z",
+  "expiresAt": "2026-08-18T20:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2769,6 +2769,84 @@
           "summary": "画出湖畔线索，和大家一起抢答。",
           "systemImage": "water.waves",
           "title": "湖畔速写"
+        }
+      }
+    },
+    {
+      "gameID": "hidden-warehouse",
+      "packID": "hidden-warehouse-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-warehouse-v1.playablepack",
+      "byteCount": 1941,
+      "envelopeSHA256": "106b9019ff1af62cbee4db4b2d8f9ea8df805e68ff7f8877c207b49137d3dcda",
+      "contentSHA256": "7564669353845aaf706a71c98d9edcea37c7054e5bbde95d906ddecba75d2615",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One loader changed the manifest; compare reports and vote before shipment.",
+          "systemImage": "shippingbox.fill",
+          "title": "Warehouse Manifest"
+        },
+        "zh-Hans": {
+          "summary": "一名装货员改动了清单；比较报告，在发运前投票。",
+          "systemImage": "shippingbox.fill",
+          "title": "仓库清单"
+        }
+      }
+    },
+    {
+      "gameID": "canvas-stargarden",
+      "packID": "canvas-stargarden-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-stargarden-v1.playablepack",
+      "byteCount": 1835,
+      "envelopeSHA256": "83bb5f20651987b080cf22d7bbe3936714bb7687e73893d68cfffa776b5060f9",
+      "contentSHA256": "92e8add2f20f298ee0a7a14c7bcf3ffa00452691816e4490db359d5339a2e6a2",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a night-garden clue and race the table to identify it.",
+          "systemImage": "moon.stars.fill",
+          "title": "Stargarden Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出夜间花园线索，和大家一起抢答。",
+          "systemImage": "moon.stars.fill",
+          "title": "星夜花园速写"
         }
       }
     }
