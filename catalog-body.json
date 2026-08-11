@@ -1,7 +1,7 @@
 {
-  "revision": 17,
-  "issuedAt": "2026-08-11T03:18:20Z",
-  "expiresAt": "2026-08-18T03:18:20Z",
+  "revision": 33,
+  "issuedAt": "2026-08-11T03:23:34Z",
+  "expiresAt": "2026-08-18T03:23:34Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -976,6 +976,84 @@
       "source": {
         "name": "Playable Studio",
         "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      }
+    },
+    {
+      "gameID": "pack-lattice-sixteen",
+      "packID": "lattice-sixteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-lattice-sixteen-v1.playablepack.json",
+      "byteCount": 9808,
+      "envelopeSHA256": "34c2b1e8550aa64688580e585ef2ce37547f086a1bf2c2c0f3edcdb184af97ad",
+      "contentSHA256": "85a77c2a62c5554c8474fd141c4ff942651b316bef0ceb79bba2b09eaca64bec",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Rebuild a sixteen-tile lattice with a balanced reserve for repairing crossed routes.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Lattice Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "两至四人轮流重建十六格晶格，并以均衡余量修正交错路线。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六格晶格"
+        }
+      }
+    },
+    {
+      "gameID": "pack-aster-twelve",
+      "packID": "aster-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-aster-twelve-v1.playablepack.json",
+      "byteCount": 17298,
+      "envelopeSHA256": "c39b220919045e36c69374320d3fafdf1e9af6fa955d603eb8f3babe99e5fa14",
+      "contentSHA256": "69daca33c45b1d553b1c85934bb09a03d6734ef123f130b29654c1f586b05ab4",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Chart a maximum-depth twelve-tile aster with a complete reserve for rerouting.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Aster Twelve"
+        },
+        "zh-Hans": {
+          "summary": "两至三人在最大深度的十二格星盘中轮流导航，并以完整余量调整路线。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格星盘"
+        }
       }
     }
   ]
