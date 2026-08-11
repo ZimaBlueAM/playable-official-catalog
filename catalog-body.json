@@ -1,7 +1,7 @@
 {
-  "revision": 52,
-  "issuedAt": "2026-08-11T21:20:00Z",
-  "expiresAt": "2026-08-18T21:20:00Z",
+  "revision": 53,
+  "issuedAt": "2026-08-11T21:30:00Z",
+  "expiresAt": "2026-08-18T21:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -5343,6 +5343,123 @@
           "summary": "严格三位玩家在狭长八色光谱潮流中引导稀有三连。",
           "systemImage": "water.waves",
           "title": "三席光谱潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-aurora-terrace",
+      "packID": "dual-aurora-terrace-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-terrace-v1.playablepack.json",
+      "byteCount": 1600,
+      "envelopeSHA256": "c1270213069bb28a274482658020d5c3960ecf619a8304363e20d3cfd12d0f3b",
+      "contentSHA256": "0044d22bf89ff1c23f20484ecd34f5b4baf33bec997ad51e5585a344e589108f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape scarce four-tile terraces across a shallow seven-color aurora field.",
+          "systemImage": "square.3.layers.3d",
+          "title": "Dual Aurora Terrace"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短七色极光棋盘中塑造稀有四连露台。",
+          "systemImage": "square.3.layers.3d",
+          "title": "双人极光露台"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-meadow-crownline",
+      "packID": "open-meadow-crownline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-meadow-crownline-v1.playablepack.json",
+      "byteCount": 1606,
+      "envelopeSHA256": "50224556d8a09e6909d91a91875f1508c9e551e9b040b1b8adedaf8fc22104b3",
+      "contentSHA256": "aebeaab68f72f8aed02c81b094a0ec99f1a3ac98370bb58b1b43300dec5bbf87",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to four players trace dense five-tile crownlines across a broad four-color meadow.",
+          "systemImage": "crown.fill",
+          "title": "Open Meadow Crownline"
+        },
+        "zh-Hans": {
+          "summary": "二至四位玩家在宽阔四色草甸中勾勒密集五连冠线。",
+          "systemImage": "crown.fill",
+          "title": "开放草甸冠线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-aurora-loom",
+      "packID": "four-seat-aurora-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-aurora-loom-v1.playablepack.json",
+      "byteCount": 1606,
+      "envelopeSHA256": "fee9f077282674104588b028ee29b216e93d7568419ee79f07a7882d287969c0",
+      "contentSHA256": "a35f7d885d994c8b09a0b309999fb6e2d18de479a0def5ed7be60e1b0b716477",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players weave scarce triples through a narrow six-color aurora loom.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Four Seat Aurora Loom"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家在狭长六色极光织机中编织稀有三连。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "四席极光织机"
         }
       }
     }

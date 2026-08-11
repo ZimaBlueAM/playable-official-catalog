@@ -22,3 +22,14 @@ simplified-Chinese metadata, empty resources, and a sealed deterministic test ve
 
 Batch AR taxonomy is sidecar-only in `batch-20260811-ar.manifest.json` and
 `audits/batch-20260811-ar.json`; revision 52 contains no taxonomy fields.
+
+## Batch AS
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Terrace | 6×4, 7 colors | 4 | 26 | exactly 2 | Four shallow rows keep scarce duel terraces inside the lower thumb sweep. |
+| Open Meadow Crownline | 9×8, 4 colors | 5 | 70 | 2–4 | Short local swaps keep the long shared crownline in the lower active rows. |
+| Four Seat Aurora Loom | 4×9, 6 colors | 3 | 48 | exactly 4 | Four narrow columns keep four-seat loom play entirely thumb reachable. |
+
+Batch AS taxonomy is sidecar-only in `batch-20260811-as.manifest.json` and
+`audits/batch-20260811-as.json`; revision 53 contains no taxonomy fields.
