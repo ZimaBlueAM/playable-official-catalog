@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "allowedValues": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "entries": [
+    {"gameID":"pack-precision-sixteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based","quick-round"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":2,"testedPlayerCount":2,"engine":"slidingGrid","board":"4x4","scrambleMoves":24,"turnLimit":24,"completionVectorActions":24,"expectedWinnerSeat":1}},
+    {"gameID":"pack-relay-twelve","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":6,"testedPlayerCount":6,"engine":"slidingGrid","board":"4x3","scrambleMoves":36,"turnLimit":72,"completionVectorActions":36,"expectedWinnerSeat":5}},
+    {"gameID":"pack-tower-fifteen","tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"evidence":{"minimumPlayers":2,"maximumPlayers":4,"testedPlayerCount":4,"engine":"slidingGrid","board":"3x5","scrambleMoves":96,"turnLimit":200,"completionVectorActions":96,"expectedWinnerSeat":3}}
+  ]
+}

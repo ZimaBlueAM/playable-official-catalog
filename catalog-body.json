@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 14,
+  "issuedAt": "2026-08-11T02:18:14Z",
+  "expiresAt": "2026-08-18T02:18:14Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-precision-sixteen",
+      "packID": "precision-sixteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-precision-sixteen-v1.playablepack.json",
+      "byteCount": 2986,
+      "envelopeSHA256": "f93a0a4fbb49014858598ea054cbc45dd9ff5a5564344a82a5a7d648d500c00d",
+      "contentSHA256": "39eeaeea5cd8fc18b139d6e433cc73a19cb8ab3f54c19c89b297997c028cb9cb",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Restore sixteen tiles with no spare moves: every shared slide must count.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Precision Sixteen"
+        },
+        "zh-Hans": {
+          "summary": "没有多余步数；轮流精准滑动，还原十六块数字方砖。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "十六格精准局"
+        }
+      }
+    },
+    {
+      "gameID": "pack-relay-twelve",
+      "packID": "relay-twelve-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-relay-twelve-v1.playablepack.json",
+      "byteCount": 3681,
+      "envelopeSHA256": "d8cb2e31565ab13bbd559b07fa558f5d0470af684c741189f99bc2d2f2b06501",
+      "contentSHA256": "0d87b1fc41c6c815984342f3bb259090bcbfc8b832de82c0eaf52af1f64cfa37",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Send the empty space around twelve tiles in a six-seat relay.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Relay Twelve"
+        },
+        "zh-Hans": {
+          "summary": "六席轮流接力，让空格穿过十二块数字方砖并完成还原。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十二格接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-tower-fifteen",
+      "packID": "tower-fifteen-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-tower-fifteen-v1.playablepack.json",
+      "byteCount": 7369,
+      "envelopeSHA256": "b5dfd5867e0745243f8e8aedfdb2b4efb817b1dc1bdde3941f821ba604d0772b",
+      "contentSHA256": "d008114e6ddc6777ccddb2dfd74382621c5bffbb59f734a11594ea7a4074c54d",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a narrow fifteen-tile tower through a four-seat chain of turns.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Tower Fifteen"
+        },
+        "zh-Hans": {
+          "summary": "四席依次滑动，沿狭长的十五格数字高塔向上还原。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "十五格高塔"
         }
       }
     }
