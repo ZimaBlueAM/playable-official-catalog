@@ -1,0 +1,1064 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "generatedAt": "2026-08-11T07:15:00Z",
+  "allowed": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
+    ]
+  },
+  "candidates": [
+    {
+      "gameID": "pack-stack-four",
+      "packID": "stack-four-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-last-one-loses",
+      "packID": "last-one-loses-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "tags": {
+        "carrier": "cards",
+        "mechanics": [
+          "take-away"
+        ],
+        "players": [
+          "two-player"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "cardTurn",
+        "declaredPlayerRange": "2-2",
+        "rangeMapping": "two-player",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-pocket-slider",
+      "packID": "pocket-slider-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "race",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "slidingGrid",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-prism-shift",
+      "packID": "prism-shift-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": [
+          "matching",
+          "race",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "two-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "matchClear",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-take-five",
+      "packID": "take-five-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "cards",
+        "mechanics": [
+          "take-away"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "cardTurn",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-edge-weave",
+      "packID": "edge-weave-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-skyline-five",
+      "packID": "skyline-five-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-triad-lane",
+      "packID": "triad-lane-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-hexa-rail",
+      "packID": "hexa-rail-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-corner-circuit",
+      "packID": "corner-circuit-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-twin-gates",
+      "packID": "twin-gates-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-orbit-ladder",
+      "packID": "orbit-ladder-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-beacon-five",
+      "packID": "beacon-five-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-cross-current",
+      "packID": "cross-current-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-quadra-bloom",
+      "packID": "quadra-bloom-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-ring-of-six",
+      "packID": "ring-of-six-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-narrow-three",
+      "packID": "narrow-three-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-seven-span",
+      "packID": "seven-span-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-pinwheel-four",
+      "packID": "pinwheel-four-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-vertical-five",
+      "packID": "vertical-five-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-octave-grid",
+      "packID": "octave-grid-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-ladder-five",
+      "packID": "ladder-five-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-trio-field",
+      "packID": "trio-field-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-nine-cross",
+      "packID": "nine-cross-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-stepped-four",
+      "packID": "stepped-four-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-wide-three",
+      "packID": "wide-three-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-harbor-six",
+      "packID": "harbor-six-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-column-sprint",
+      "packID": "column-sprint-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    },
+    {
+      "gameID": "pack-five-bridges",
+      "packID": "five-bridges-first-edition",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "rulesEngine": "gridBoard",
+        "declaredPlayerRange": "2-4",
+        "rangeMapping": "two-player + party-3-6",
+        "fixedDisplayMapping": "app-taxonomy-v2",
+        "publisherTransport": "candidate-sidecar-only-until-build107-taxonomy"
+      }
+    }
+  ]
+}
