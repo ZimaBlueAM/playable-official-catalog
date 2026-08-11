@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:31:50Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-z",
+  "sourceCommit": "b4b05bf8b64ae99a06e25b8db87adb7edb5808ff",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "The submitted match-clear vectors contain one action and do not establish a complete finished match under the production runtime contract.",
+  "games": [
+    {"gameID": "pack-dual-spectrum-spark", "vectorActionCount": 1},
+    {"gameID": "pack-party-clover-citadel", "vectorActionCount": 1},
+    {"gameID": "pack-five-seat-prism-court", "vectorActionCount": 1}
+  ],
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}
