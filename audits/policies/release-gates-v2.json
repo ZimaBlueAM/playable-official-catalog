@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "policy": "playable-release-gates-v2",
+  "catalogTier": "playable",
+  "featuredTier": "featured",
+  "catalogTierDoesNotRequireFeatured": true,
+  "playableRequired": [
+    "independent-non-reskin-rules",
+    "complete-game-and-terminal-state",
+    "official-signature",
+    "hash-and-byte-count-binding",
+    "schema-compatibility",
+    "license",
+    "minimum-app-build",
+    "non-executable-content",
+    "deterministic-rule-vector",
+    "launchable-and-finishable",
+    "pack-budget",
+    "basic-44pt-legibility",
+    "lower-half-thumb-operability"
+  ],
+  "playableRejects": [
+    "same-rule-parameters-with-title-only-change",
+    "duplicate-or-reskinned-game",
+    "missing-terminal-evidence"
+  ],
+  "featuredAdditional": [
+    "complete-carrier-ui",
+    "distinct-assets-and-animation",
+    "full-accessibility-review",
+    "full-graphic-acceptance",
+    "homepage-promotion-eligibility"
+  ],
+  "taxonomyTransport": "candidate-and-audit-sidecar-only-before-build-107",
+  "forbiddenTaxonomyDimensions": ["genre", "difficulty"]
+}
