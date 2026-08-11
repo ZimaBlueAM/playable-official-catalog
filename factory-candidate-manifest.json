@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "factory-candidate",
+  "taxonomyTransport": "deferred-until-build-107",
+  "entries": [
+    {"gameID":"pack-ember-nine","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-alpine-twenty","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-constellation-twenty-five","packVersion":1,"tags":{"carrier":"tiles","mechanics":["alignment","spatial"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
+  ]
+}

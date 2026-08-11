@@ -1,7 +1,7 @@
 {
-  "revision": 8,
-  "issuedAt": "2026-08-11T01:48:18Z",
-  "expiresAt": "2026-08-18T01:48:18Z",
+  "revision": 12,
+  "issuedAt": "2026-08-11T02:12:33Z",
+  "expiresAt": "2026-08-18T02:12:33Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -195,6 +195,123 @@
           "summary": "每回合拿走一、二或三个标记，拿走最后一个的人获胜。",
           "systemImage": "hand.tap.fill",
           "title": "拿五"
+        }
+      }
+    },
+    {
+      "gameID": "pack-alpine-twenty",
+      "packID": "alpine-twenty-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-alpine-twenty-v1.playablepack.json",
+      "byteCount": 6903,
+      "envelopeSHA256": "68df72ccd29883b4f2d5022aeaf1c2b371ba5fe25c841400ead4327976b0be63",
+      "contentSHA256": "fb45db00399848cf01a18457a61446d0c0cd7273d38560e3364b98662838e309",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Climb a tall twenty-tile route by sharing precise thumb moves.",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "Alpine Twenty"
+        },
+        "zh-Hans": {
+          "summary": "轮流做出精准拇指滑动，攀登纵向二十格数字路线。",
+          "systemImage": "rectangle.grid.3x2.fill",
+          "title": "二十格雪岭"
+        }
+      }
+    },
+    {
+      "gameID": "pack-constellation-twenty-five",
+      "packID": "constellation-twenty-five-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-constellation-twenty-five-v1.playablepack.json",
+      "byteCount": 9456,
+      "envelopeSHA256": "fc1aae19a968402d4843fc357e92097dc0904623ba8fd85171792415a7a35bd3",
+      "contentSHA256": "763f8b9a9148113aca8ae51a9eca758fa8282c6da4b689ead1437d0e75e69b70",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Reconnect a field of twenty-five numbered stars with the whole room.",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "Constellation Twenty-Five"
+        },
+        "zh-Hans": {
+          "summary": "与整个房间轮流滑动，重新连接二十五颗数字星辰。",
+          "systemImage": "square.grid.4x3.fill",
+          "title": "二十五星座"
+        }
+      }
+    },
+    {
+      "gameID": "pack-ember-nine",
+      "packID": "ember-nine-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "slidingGrid",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ember-nine-v1.playablepack.json",
+      "byteCount": 2839,
+      "envelopeSHA256": "dbcde1cb4dd137c2cc87c1294035627deca7d3418e747ceef188d9f82608456c",
+      "contentSHA256": "132c30169381a8190b9290dff8fadf8e0c0922bf92b19fa9ab77185193ae382d",
+      "packKeyID": "sliding-grid-content-2026-08",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Restore nine glowing tiles in a brisk two-player exchange.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Ember Nine"
+        },
+        "zh-Hans": {
+          "summary": "在轻快的双人轮换中，还原九块微光数字方砖。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九格余烬"
         }
       }
     }
