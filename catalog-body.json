@@ -1,7 +1,7 @@
 {
-  "revision": 30,
-  "issuedAt": "2026-08-11T17:40:00Z",
-  "expiresAt": "2026-08-18T17:40:00Z",
+  "revision": 31,
+  "issuedAt": "2026-08-11T17:50:00Z",
+  "expiresAt": "2026-08-18T17:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2769,6 +2769,123 @@
           "summary": "严格五位玩家在浅层三色棋盘锻造近满宽五连苜蓿条。",
           "systemImage": "rectangle.fill",
           "title": "五席苜蓿条"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-clover-ridge",
+      "packID": "dual-clover-ridge-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-ridge-v1.playablepack.json",
+      "byteCount": 1569,
+      "envelopeSHA256": "ed78c620e5b9f1516b458df0c59b343f6d39c2ef656e38f1543122e9533731d9",
+      "contentSHA256": "e5c98eec46571f383c623aed6daa8e8df046f1f6a311e96d06d6d1bb1c347039",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players raise dense five-tile clover ridges across a compact three-color field.",
+          "systemImage": "mountain.2.fill",
+          "title": "Dual Clover Ridge"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在紧凑三色棋盘筑起密集五连苜蓿脊。",
+          "systemImage": "mountain.2.fill",
+          "title": "双人苜蓿山脊"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spectrum-flash",
+      "packID": "open-spectrum-flash-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-flash-v1.playablepack.json",
+      "byteCount": 1569,
+      "envelopeSHA256": "e5e88d86f41cb09a28794b3eab23fae7c751bb4569f92e1eb5ddadf98d8d2385",
+      "contentSHA256": "f605a591f4018ac1347250873691d98b568530bd76b66dacfa512eb257ee2f6c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two or three players hunt rare four-tile flashes across a shallow eight-color spectrum.",
+          "systemImage": "bolt.fill",
+          "title": "Open Spectrum Flash"
+        },
+        "zh-Hans": {
+          "summary": "两至三位玩家在浅层八色光谱中追逐稀有四连闪光。",
+          "systemImage": "bolt.fill",
+          "title": "开放光谱闪击"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-amber-tower",
+      "packID": "party-amber-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-amber-tower-v1.playablepack.json",
+      "byteCount": 1570,
+      "envelopeSHA256": "70852fa905f51e4b9a3c83adc267a833bfbdff92e2ad67a5db51b23a905b5f32",
+      "contentSHA256": "9244eb154b935dacfb1b50dad041707678d671cead21fba38c030ac7b0b1cd3e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Four to six friends chase quick triples through a tall four-color amber tower.",
+          "systemImage": "building.2.fill",
+          "title": "Party Amber Tower"
+        },
+        "zh-Hans": {
+          "summary": "四至六位朋友在高耸四色琥珀塔中追逐快速三连。",
+          "systemImage": "building.2.fill",
+          "title": "派对琥珀塔"
         }
       }
     }

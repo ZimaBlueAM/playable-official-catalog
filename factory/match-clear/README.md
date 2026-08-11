@@ -55,3 +55,14 @@ Batch U taxonomy is sidecar-only in `batch-20260811-u.manifest.json` and
 
 Batch V taxonomy is sidecar-only in `batch-20260811-v.manifest.json` and
 `audits/batch-20260811-v.json`; revision 30 contains no taxonomy fields.
+
+## Batch W
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Ridge | 7×6, 3 colors | 5 | 16 | exactly 2 | Deliberate local swaps keep dense duel ridges in the lower thumb field. |
+| Open Spectrum Flash | 10×4, 8 colors | 4 | 8 | 2–3 | Four shallow rows expose rare flashes across a quick one-thumb sweep. |
+| Party Amber Tower | 5×9, 4 colors | 3 | 34 | 4–6 | Five narrow columns keep long party play inside the lower thumb lane. |
+
+Batch W taxonomy is sidecar-only in `batch-20260811-w.manifest.json` and
+`audits/batch-20260811-w.json`; revision 31 contains no taxonomy fields.
