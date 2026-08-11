@@ -1,5 +1,5 @@
 {
-  "revision": 23,
+  "revision": 24,
   "issuedAt": "2026-08-11T00:00:00Z",
   "expiresAt": "2026-08-18T00:00:00Z",
   "entries": [
@@ -1989,6 +1989,123 @@
           "summary": "每回合织走一、六、十二、十七或二十一缕经线，拿到最后一缕者获胜。",
           "systemImage": "globe.americas.fill",
           "title": "经线织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-fjord-reserve",
+      "packID": "pack-fjord-reserve-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-fjord-reserve-v1.playablepack.json",
+      "byteCount": 1725,
+      "envelopeSHA256": "ce765bb926440e56475c35965e87cd05410aad980b1b6e4369ba5d450d7d08c2",
+      "contentSHA256": "633934f9a78ca24b76a9bb835a36593872d59b05d92b992e8093fd9a02e1bd87",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Clear one, twelve, or nineteen channel markers, but the player clearing the final marker loses.",
+          "systemImage": "water.waves",
+          "title": "Fjord Reserve"
+        },
+        "zh-Hans": {
+          "summary": "每回合清除一、十二或十九枚航道标记，但清除最后一枚者落败。",
+          "systemImage": "water.waves",
+          "title": "峡湾留标"
+        }
+      }
+    },
+    {
+      "gameID": "pack-copper-count",
+      "packID": "pack-copper-count-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-copper-count-v1.playablepack.json",
+      "byteCount": 1755,
+      "envelopeSHA256": "03f299240d596e28c583ee7d1aaecbb592b1a22c00562cdd49a47dc88efddf11",
+      "contentSHA256": "90ff7efe26b5a46db189bfc44c4a5a2d19776622c2c8db16bd6588d4e8ffdcf7",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Take one, nine, fifteen, or twenty-two copper rings; whoever takes the final ring wins.",
+          "systemImage": "circle.grid.2x2.fill",
+          "title": "Copper Count"
+        },
+        "zh-Hans": {
+          "summary": "每回合拿取一、九、十五或二十二枚铜环，拿到最后一枚者获胜。",
+          "systemImage": "circle.grid.2x2.fill",
+          "title": "铜环计数"
+        }
+      }
+    },
+    {
+      "gameID": "pack-orbit-relay",
+      "packID": "pack-orbit-relay-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "cardTurn",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-orbit-relay-v1.playablepack.json",
+      "byteCount": 1827,
+      "envelopeSHA256": "55ff76ec2f22ed411141daea690c80cbdf5dcd2946457594985c63abfecd53b5",
+      "contentSHA256": "7553b545270601b2f7b378480fab6322795f07dae5a7215ae09c86fca0e7f894",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Pass the turn after collecting one, six, thirteen, nineteen, or twenty-three orbit tokens; the final collector wins.",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "Orbit Relay"
+        },
+        "zh-Hans": {
+          "summary": "每回合收取一、六、十三、十九或二十三枚轨道标记并交棒，收取最后一枚者获胜。",
+          "systemImage": "circle.hexagongrid.fill",
+          "title": "轨道接力"
         }
       }
     }
