@@ -1,7 +1,7 @@
 {
-  "revision": 15,
-  "issuedAt": "2026-08-11T07:00:00Z",
-  "expiresAt": "2026-08-18T07:00:00Z",
+  "revision": 16,
+  "issuedAt": "2026-08-11T07:30:00Z",
+  "expiresAt": "2026-08-18T07:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1248,6 +1248,123 @@
           "summary": "在四道深井棋盘中向上堆叠，率先垂直连成六枚标记。",
           "systemImage": "square.grid.3x3.fill",
           "title": "深井六层"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-relay",
+      "packID": "six-seat-relay-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-relay-v1.playablepack",
+      "byteCount": 3195,
+      "envelopeSHA256": "da75ce285bb99a2c2bd5ca4cd7c612cb8597c016c7c4d40d89b0a712fe41ebd8",
+      "contentSHA256": "410cb3184e226f221a1a38d0b24e5eb3172c50e5f010201ea806c209a9f586c7",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players relay turns across an open field; four aligned marks win.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Six-Seat Relay"
+        },
+        "zh-Hans": {
+          "summary": "两至六人轮流在开放棋面落子，率先四子成线获胜。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "六席接力"
+        }
+      }
+    },
+    {
+      "gameID": "pack-crowded-skyline",
+      "packID": "crowded-skyline-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-crowded-skyline-v1.playablepack",
+      "byteCount": 3683,
+      "envelopeSHA256": "870b96e3a1d7ddd2a69f20deae95454b50c7a561df1334ed552d36d7de095cc6",
+      "contentSHA256": "2aa6e0f541287280a45e5daab27ff559fc0b0ae2da5c61eae03e9cad5a405507",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players share a wide gravity rack and race to connect five.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Crowded Skyline"
+        },
+        "zh-Hans": {
+          "summary": "两至六人共享宽幅重力棋架，争先连成五枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "群星天际"
+        }
+      }
+    },
+    {
+      "gameID": "pack-council-diagonal",
+      "packID": "council-diagonal-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-council-diagonal-v1.playablepack",
+      "byteCount": 4213,
+      "envelopeSHA256": "75fd8eacc9eae75059134943b356b82d676aaae3295526c30bd9a778dad89118",
+      "contentSHA256": "196789615ba3ae3337a5a83d3b1ac07c71240fea0807342f86513d8fee81706d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players negotiate a crowded square while building a six-mark diagonal.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Council Diagonal"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在拥挤方阵中轮流布局，争先完成六子对角线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "议会斜线"
         }
       }
     }

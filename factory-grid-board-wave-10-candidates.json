@@ -1,0 +1,152 @@
+[
+  {
+    "gameID": "pack-six-seat-relay",
+    "packID": "six-seat-relay-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 8,
+      "connectionLength": 4,
+      "rows": 7,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "41ae0bbbcea1949b",
+        "5c914170a390c842"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-crowded-skyline",
+    "packID": "crowded-skyline-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 12,
+      "connectionLength": 5,
+      "rows": 8,
+      "usesGravity": true
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "093db4ee736ea8da",
+        "62aac1fa0835d060"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  },
+  {
+    "gameID": "pack-council-diagonal",
+    "packID": "council-diagonal-first-edition",
+    "packVersion": 1,
+    "minimumPlayers": 2,
+    "maximumPlayers": 6,
+    "rules": {
+      "columns": 9,
+      "connectionLength": 6,
+      "rows": 9,
+      "usesGravity": false
+    },
+    "tags": {
+      "carrier": "board",
+      "mechanics": [
+        "alignment",
+        "connection",
+        "spatial"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "carrierMatchesRules": true,
+      "mechanicsMatchCompleteGame": true,
+      "playerRangeMatches": true,
+      "completeGameVectorCheck": true,
+      "testedPlayerCounts": [
+        2,
+        6
+      ],
+      "expectedChecksums": [
+        "8e3a0d88e5a1f67a",
+        "3012b15d82fd7340"
+      ],
+      "fixedDisplayMapping": "app-taxonomy-v2"
+    }
+  }
+]
