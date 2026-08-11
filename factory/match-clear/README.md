@@ -187,3 +187,14 @@ Batch BF taxonomy is sidecar-only in `batch-20260811-bf.manifest.json` and
 
 Batch BG taxonomy is sidecar-only in `batch-20260811-bg.manifest.json` and
 `audits/batch-20260811-bg.json`; revision 67 contains no taxonomy fields.
+
+## Batch BH
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Gallery | 10×4, 7 colors | 5 | 41 | exactly 2 | Four shallow rows keep rare duel galleries inside the lower thumb sweep. |
+| Open Amber Promenade | 9×8, 8 colors | 4 | 115 | 2–3 | Adjacent local swaps keep scarce shared promenades focused in lower rows. |
+| Six Seat Meadow Courtyard | 6×9, 6 colors | 3 | 78 | exactly 6 | Six compact columns keep six-seat courtyard play inside one-thumb reach. |
+
+Batch BH taxonomy is sidecar-only in `batch-20260811-bh.manifest.json` and
+`audits/batch-20260811-bh.json`; revision 68 contains no taxonomy fields.
