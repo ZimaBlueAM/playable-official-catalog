@@ -4604,6 +4604,128 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-laundry",
+      "packID": "hidden-laundry-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-laundry-v1.playablepack",
+      "byteCount": 1940,
+      "envelopeSHA256": "94c3373dd66045f340fc346cda049451f515a2e837cc2dee89352af9383bad8c",
+      "contentSHA256": "1c994e15706b414cad9f4bf4322931e3455220266828b4e3ca4c138fe4c3463e",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One attendant changed the tag; compare reports and vote before collection.",
+          "systemImage": "washer.fill",
+          "title": "Laundry Tag"
+        },
+        "zh-Hans": {
+          "summary": "一名店员改动了标签；比较报告，在取衣前投票。",
+          "systemImage": "washer.fill",
+          "title": "洗衣店标签"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-riverwalk",
+      "packID": "canvas-riverwalk-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-riverwalk-v1.playablepack",
+      "byteCount": 1827,
+      "envelopeSHA256": "212e4363ccf689de96e6530b4cff0de1d5b6f5da992763fbd4006a3d536fdc7a",
+      "contentSHA256": "5a59a863f1a3139f8679827312d762ff43aba129facabea7e2df2d1c758d8675",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch a riverside clue and race the table to identify it.",
+          "systemImage": "water.waves",
+          "title": "Riverwalk Sketches"
+        },
+        "zh-Hans": {
+          "summary": "画出河畔步道线索，和大家一起抢答。",
+          "systemImage": "water.waves",
+          "title": "河畔步道速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
