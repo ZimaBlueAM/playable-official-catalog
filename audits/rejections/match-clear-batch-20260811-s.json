@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:18:30Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-s",
+  "sourceCommit": "422e5d2006c8f763721c8d631e89c70858fc9a3e",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "The submitted vectors reproduce their checksums but remain unfinished in the production declarative runtime.",
+  "games": [
+    {"gameID": "pack-dual-spectrum-flicker", "replayFinished": false, "checksum": "523f05c957eb4a3c"},
+    {"gameID": "pack-party-stone-loom", "replayFinished": false, "checksum": "59babea2de7ffaa5"},
+    {"gameID": "pack-four-seat-clover-crown", "replayFinished": false, "checksum": "de0ff114f9a7abe8"}
+  ],
+  "vectorActionCount": 1,
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}

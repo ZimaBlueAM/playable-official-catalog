@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:18:30Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-u",
+  "sourceCommit": "c9f7f087a1dfb48b8e457aae808e84ec0a9ec8f4",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "The submitted vectors reproduce their checksums but remain unfinished in the production declarative runtime.",
+  "games": [
+    {"gameID": "pack-dual-clover-shelf", "replayFinished": false, "checksum": "affa506c8b69ff5d"},
+    {"gameID": "pack-open-prism-spire", "replayFinished": false, "checksum": "a610a908f8d1e611"},
+    {"gameID": "pack-six-seat-amber-run", "replayFinished": false, "checksum": "e9d54885af117201"}
+  ],
+  "vectorActionCount": 1,
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}
