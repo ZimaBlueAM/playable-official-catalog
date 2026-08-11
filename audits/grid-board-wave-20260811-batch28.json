@@ -1,0 +1,676 @@
+{
+  "schema": 2,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "generatedAt": "2026-08-11T20:00:00Z",
+  "policy": "playable-release-gates-v2",
+  "candidateType": "publisher-retry",
+  "sourceMainCommit": "611e35b574da2f4360400e4fe182c0eec74ff629",
+  "allowed": {
+    "carrier": [
+      "board",
+      "cards",
+      "mahjong",
+      "tiles",
+      "dice",
+      "canvas",
+      "action"
+    ],
+    "mechanics": [
+      "alignment",
+      "connection",
+      "capture",
+      "shedding",
+      "set-collection",
+      "take-away",
+      "bluff",
+      "deduction",
+      "memory",
+      "matching",
+      "race",
+      "push-your-luck",
+      "dexterity",
+      "spatial",
+      "word"
+    ],
+    "players": [
+      "solo",
+      "two-player",
+      "party-3-6"
+    ],
+    "pace": [
+      "instant",
+      "turn-based",
+      "quick-round"
+    ],
+    "context": [
+      "independent",
+      "pass-and-play",
+      "friends-room"
+    ],
+    "input": [
+      "one-thumb",
+      "two-thumb",
+      "canvas"
+    ]
+  },
+  "publisherTransport": "candidate-and-audit-sidecar-only-before-build-107",
+  "retryRequirementsSatisfied": [
+    "canonical-download-url-bound-to-artifact-path",
+    "scalar-carrier",
+    "complete-terminal-vector-for-every-declared-player-count",
+    "official-signature",
+    "hash-and-byte-count-binding"
+  ],
+  "candidates": [
+    {
+      "gameID": "pack-seven-well-five",
+      "packID": "seven-well-five-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "artifactPath": "games/pack-seven-well-five-v1.playablepack.json",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-well-five-v1.playablepack.json",
+      "rules": {
+        "columns": 7,
+        "connectionLength": 5,
+        "rows": 11,
+        "usesGravity": true
+      },
+      "sourceRejection": "audits/rejections/grid-board-wave-20260811-batch22.json",
+      "repairReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+      "urlAudit": {
+        "status": "passed",
+        "matchesArtifactPath": true,
+        "canonicalSuffix": ".playablepack.json"
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "terminalEvidence": {
+        "status": "passed",
+        "declaredRangeCovered": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "731d3bf3552347fc",
+          "31cd014537055b77",
+          "bd85e56b3333fb3f",
+          "5dcdead83562e63e",
+          "22f41735363fc1ca"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "731d3bf3552347fc",
+          "31cd014537055b77",
+          "bd85e56b3333fb3f",
+          "5dcdead83562e63e",
+          "22f41735363fc1ca"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      },
+      "catalogEntry": {
+        "gameID": "pack-seven-well-five",
+        "packID": "seven-well-five-first-edition",
+        "packVersion": 1,
+        "rulesVersion": 1,
+        "minimumAppBuild": 106,
+        "engine": {
+          "family": "gridBoard",
+          "version": 1
+        },
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "lifecycle": "available",
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-seven-well-five-v1.playablepack.json",
+        "byteCount": 7059,
+        "envelopeSHA256": "4ccdad6e5a1fa1df6d4afe62ffb7ae68f129a198723694e5dc34a32e372c19a9",
+        "contentSHA256": "25db79dbbd67adccfa0a1e405e0a743f9688a92e35a75f4e45119062a4962235",
+        "packKeyID": "playable-content-2026-02",
+        "source": {
+          "name": "Playable Studio",
+          "url": "https://zimablueam.github.io/playable-official-catalog/source"
+        },
+        "license": {
+          "attribution": "Playable Studio",
+          "identifier": "LicenseRef-Playable"
+        },
+        "metadata": {
+          "en": {
+            "summary": "Two to six players drop stones into seven deep lanes and race to build a vertical line of five.",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "Seven-Well Five"
+          },
+          "zh-Hans": {
+            "summary": "两至六人在七道深井中落子，争先向上筑成纵向五连。",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "七井纵五"
+          }
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-column-five",
+      "packID": "open-column-five-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "artifactPath": "games/pack-open-column-five-v1.playablepack.json",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-column-five-v1.playablepack.json",
+      "rules": {
+        "columns": 6,
+        "connectionLength": 5,
+        "rows": 9,
+        "usesGravity": false
+      },
+      "sourceRejection": "audits/rejections/grid-board-wave-20260811-batch22.json",
+      "repairReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+      "urlAudit": {
+        "status": "passed",
+        "matchesArtifactPath": true,
+        "canonicalSuffix": ".playablepack.json"
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "terminalEvidence": {
+        "status": "passed",
+        "declaredRangeCovered": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "3761920930aac826",
+          "2fa889c91432e733",
+          "a460e984dd951ce7",
+          "baeecd9cbd13c59a",
+          "b8f610e7779ea712"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "3761920930aac826",
+          "2fa889c91432e733",
+          "a460e984dd951ce7",
+          "baeecd9cbd13c59a",
+          "b8f610e7779ea712"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      },
+      "catalogEntry": {
+        "gameID": "pack-open-column-five",
+        "packID": "open-column-five-first-edition",
+        "packVersion": 1,
+        "rulesVersion": 1,
+        "minimumAppBuild": 106,
+        "engine": {
+          "family": "gridBoard",
+          "version": 1
+        },
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "lifecycle": "available",
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-column-five-v1.playablepack.json",
+        "byteCount": 7119,
+        "envelopeSHA256": "24fa9bebeb0205dffa57b614e9186cf659e0e98adc1c7bb7d6823d0d0dea5710",
+        "contentSHA256": "02d87554d7142f215640357ed42b35f3b3c5cab399f6a65fe4d053a7dcc782c7",
+        "packKeyID": "playable-content-2026-02",
+        "source": {
+          "name": "Playable Studio",
+          "url": "https://zimablueam.github.io/playable-official-catalog/source"
+        },
+        "license": {
+          "attribution": "Playable Studio",
+          "identifier": "LicenseRef-Playable"
+        },
+        "metadata": {
+          "en": {
+            "summary": "Two to six players place freely on a tall open grid and race to claim a vertical column of five.",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "Open Column Five"
+          },
+          "zh-Hans": {
+            "summary": "两至六人在高挑开放棋盘中自由落子，争先占成纵向五连。",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "开放纵五"
+          }
+        }
+      }
+    },
+    {
+      "gameID": "pack-diagonal-causeway-six",
+      "packID": "diagonal-causeway-six-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "artifactPath": "games/pack-diagonal-causeway-six-v1.playablepack.json",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-diagonal-causeway-six-v1.playablepack.json",
+      "rules": {
+        "columns": 11,
+        "connectionLength": 6,
+        "rows": 7,
+        "usesGravity": false
+      },
+      "sourceRejection": "audits/rejections/grid-board-wave-20260811-batch22.json",
+      "repairReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+      "urlAudit": {
+        "status": "passed",
+        "matchesArtifactPath": true,
+        "canonicalSuffix": ".playablepack.json"
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "terminalEvidence": {
+        "status": "passed",
+        "declaredRangeCovered": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "3a9cdf37803caf84",
+          "10eca36ac5fa8f27",
+          "62d65638c2bdc716",
+          "6acde297e7640f5f",
+          "c7990cb4d11715de"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "3a9cdf37803caf84",
+          "10eca36ac5fa8f27",
+          "62d65638c2bdc716",
+          "6acde297e7640f5f",
+          "c7990cb4d11715de"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      },
+      "catalogEntry": {
+        "gameID": "pack-diagonal-causeway-six",
+        "packID": "diagonal-causeway-six-first-edition",
+        "packVersion": 1,
+        "rulesVersion": 1,
+        "minimumAppBuild": 106,
+        "engine": {
+          "family": "gridBoard",
+          "version": 1
+        },
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "lifecycle": "available",
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-diagonal-causeway-six-v1.playablepack.json",
+        "byteCount": 8410,
+        "envelopeSHA256": "69d850135093f5a938cd19ba06e138f7a4b99f5b6b515f2a5dfe38491378a1d6",
+        "contentSHA256": "3ed8101da8db27bfc983466b5153ac70c6e0f8f4df6edeed68151bee0f4db230",
+        "packKeyID": "playable-content-2026-02",
+        "source": {
+          "name": "Playable Studio",
+          "url": "https://zimablueam.github.io/playable-official-catalog/source"
+        },
+        "license": {
+          "attribution": "Playable Studio",
+          "identifier": "LicenseRef-Playable"
+        },
+        "metadata": {
+          "en": {
+            "summary": "Two to six players bridge a broad open board by completing a rising diagonal of six.",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "Diagonal Causeway Six"
+          },
+          "zh-Hans": {
+            "summary": "两至六人在宽阔开放棋盘中铺设斜桥，争先完成上升斜向六连。",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "斜桥六连"
+          }
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-span-six",
+      "packID": "open-span-six-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "artifactPath": "games/pack-open-span-six-v1.playablepack.json",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-span-six-v1.playablepack.json",
+      "rules": {
+        "columns": 10,
+        "connectionLength": 6,
+        "rows": 8,
+        "usesGravity": false
+      },
+      "sourceRejection": "audits/rejections/grid-board-wave-20260811-batch21.json",
+      "repairReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+      "urlAudit": {
+        "status": "passed",
+        "matchesArtifactPath": true,
+        "canonicalSuffix": ".playablepack.json"
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "terminalEvidence": {
+        "status": "passed",
+        "declaredRangeCovered": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "75bfcd07b9ea4a66",
+          "930bed332b01d799",
+          "8ab22ccd30b22a00",
+          "86bde767edda6fd1",
+          "b77bf9ae793c5bd0"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "75bfcd07b9ea4a66",
+          "930bed332b01d799",
+          "8ab22ccd30b22a00",
+          "86bde767edda6fd1",
+          "b77bf9ae793c5bd0"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      },
+      "catalogEntry": {
+        "gameID": "pack-open-span-six",
+        "packID": "open-span-six-first-edition",
+        "packVersion": 1,
+        "rulesVersion": 1,
+        "minimumAppBuild": 106,
+        "engine": {
+          "family": "gridBoard",
+          "version": 1
+        },
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "lifecycle": "available",
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-span-six-v1.playablepack.json",
+        "byteCount": 8336,
+        "envelopeSHA256": "48eb5447c9c6ad4ca342798ccf000a676e524d9449bd20bb32a63390f0c77505",
+        "contentSHA256": "d6f1ce81d09c5adfdb3ef920f85586f9d4053b395e0da9f546a0dace51cee793",
+        "packKeyID": "playable-content-2026-02",
+        "source": {
+          "name": "Playable Studio",
+          "url": "https://zimablueam.github.io/playable-official-catalog/source"
+        },
+        "license": {
+          "attribution": "Playable Studio",
+          "identifier": "LicenseRef-Playable"
+        },
+        "metadata": {
+          "en": {
+            "summary": "Two to six players stretch a horizontal line of six across a broad open board.",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "Open Span Six"
+          },
+          "zh-Hans": {
+            "summary": "两至六人在宽阔开放棋盘中布局，争先延展成横向六连。",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "开放横六"
+          }
+        }
+      }
+    },
+    {
+      "gameID": "pack-ten-lane-tower-seven",
+      "packID": "ten-lane-tower-seven-first-edition",
+      "packVersion": 1,
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "artifactPath": "games/pack-ten-lane-tower-seven-v1.playablepack.json",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ten-lane-tower-seven-v1.playablepack.json",
+      "rules": {
+        "columns": 10,
+        "connectionLength": 7,
+        "rows": 12,
+        "usesGravity": true
+      },
+      "sourceRejection": "audits/rejections/grid-board-wave-20260811-batch21.json",
+      "repairReasonCode": "MISSING_DECLARED_PLAYER_RANGE_TERMINAL_EVIDENCE",
+      "urlAudit": {
+        "status": "passed",
+        "matchesArtifactPath": true,
+        "canonicalSuffix": ".playablepack.json"
+      },
+      "tags": {
+        "carrier": "board",
+        "mechanics": [
+          "alignment",
+          "connection",
+          "spatial"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      },
+      "terminalEvidence": {
+        "status": "passed",
+        "declaredRangeCovered": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "354ac7a4e8886f58",
+          "69590fa9bf040058",
+          "c5622d4529fc7a49",
+          "69fca23d959c8e60",
+          "f380fa0f7cb3b4c6"
+        ]
+      },
+      "tagAudit": {
+        "status": "passed",
+        "carrierMatchesRules": true,
+        "mechanicsMatchCompleteGame": true,
+        "playerRangeMatches": true,
+        "completeGameVectorCheck": true,
+        "testedPlayerCounts": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "expectedChecksums": [
+          "354ac7a4e8886f58",
+          "69590fa9bf040058",
+          "c5622d4529fc7a49",
+          "69fca23d959c8e60",
+          "f380fa0f7cb3b4c6"
+        ],
+        "fixedDisplayMapping": "app-taxonomy-v2"
+      },
+      "catalogEntry": {
+        "gameID": "pack-ten-lane-tower-seven",
+        "packID": "ten-lane-tower-seven-first-edition",
+        "packVersion": 1,
+        "rulesVersion": 1,
+        "minimumAppBuild": 106,
+        "engine": {
+          "family": "gridBoard",
+          "version": 1
+        },
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "lifecycle": "available",
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-ten-lane-tower-seven-v1.playablepack.json",
+        "byteCount": 9500,
+        "envelopeSHA256": "016732d82434a336568cdf2372bdf48ce68e40b6450e82dafbcd743eb163cd5a",
+        "contentSHA256": "de2112036dfed52b2623b54eb70b88a7dca15c72a9a0bb6234cfe377c9393122",
+        "packKeyID": "playable-content-2026-02",
+        "source": {
+          "name": "Playable Studio",
+          "url": "https://zimablueam.github.io/playable-official-catalog/source"
+        },
+        "license": {
+          "attribution": "Playable Studio",
+          "identifier": "LicenseRef-Playable"
+        },
+        "metadata": {
+          "en": {
+            "summary": "Two to six players stack through ten gravity lanes and raise a vertical tower of seven.",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "Ten-Lane Tower Seven"
+          },
+          "zh-Hans": {
+            "summary": "两至六人在十条重力通道中堆叠，争先筑成竖向七连。",
+            "systemImage": "square.grid.3x3.fill",
+            "title": "十道七塔"
+          }
+        }
+      }
+    }
+  ]
+}
