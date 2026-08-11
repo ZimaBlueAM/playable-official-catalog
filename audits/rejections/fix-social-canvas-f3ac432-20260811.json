@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "fix/social-canvas-f3ac432-20260811",
+  "gateTier": "playable",
+  "fix": "add factory-candidate-manifest.json and tag-audit.json proving scalar carrier and complete taxonomy before resubmission",
+  "fields": ["factory-candidate-manifest.json", "tag-audit.json"]
+}
