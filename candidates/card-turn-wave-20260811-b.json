@@ -5,9 +5,9 @@
   "catalogRevision": 10,
   "status": "candidate",
   "games": [
-    {"gameID":"pack-cinder-choice","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=24; takeOptions=[2,3,5]; lastMoveWins=true"},
-    {"gameID":"pack-harbor-pull","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=31; takeOptions=[2,5]; lastMoveWins=true"},
-    {"gameID":"pack-orchard-ladder","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=42; takeOptions=[1,4,6]; lastMoveWins=true"}
+    {"gameID":"pack-cinder-choice","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=24; takeOptions=[2,3,5]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
+    {"gameID":"pack-harbor-pull","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=31; takeOptions=[2,5]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
+    {"gameID":"pack-orchard-ladder","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=42; takeOptions=[1,4,6]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}}
   ],
   "verification": {
     "packBuilder": "scripts/build_declarative_game_pack.sh",
@@ -15,6 +15,7 @@
     "catalogSignature": "P-256 local signing passed; key material not included",
     "source": "Playable Studio original declarative rule data",
     "license": "LicenseRef-Playable",
-    "runtimePayload": "non-executable declarative JSON only"
+    "runtimePayload": "non-executable declarative JSON only",
+    "tagAudit": "PASS: every tag is from the fixed contract vocabulary; players matches minimumPlayers/maximumPlayers; cardTurn is a one-thumb turn-based friends-room ruleset"
   }
 }
