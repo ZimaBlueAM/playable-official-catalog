@@ -1,7 +1,7 @@
 {
-  "revision": 16,
-  "issuedAt": "2026-08-11T07:30:00Z",
-  "expiresAt": "2026-08-18T07:30:00Z",
+  "revision": 17,
+  "issuedAt": "2026-08-11T08:00:00Z",
+  "expiresAt": "2026-08-18T08:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1365,6 +1365,123 @@
           "summary": "两至六人在拥挤方阵中轮流布局，争先完成六子对角线。",
           "systemImage": "square.grid.3x3.fill",
           "title": "议会斜线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grandstand-seven",
+      "packID": "grandstand-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grandstand-seven-v1.playablepack",
+      "byteCount": 4682,
+      "envelopeSHA256": "95c079c19ffdd5b34ac4db8bc0228e256fcc0c69044bea8a565f4435f8133ec4",
+      "contentSHA256": "5f38b9f5ecaf6b4973759dabcd1c74750c85432b541ce8915a8f6dd89cc847a0",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players fill a grand gravity board and race to connect seven.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Grandstand Seven"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在大型重力棋盘中落子，争先连成七枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "看台七连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-long-diagonal-eight",
+      "packID": "long-diagonal-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-long-diagonal-eight-v1.playablepack",
+      "byteCount": 5245,
+      "envelopeSHA256": "0d9c519b6451b9ac4c5de6fe3402d973cad3ca6bca215bfc2df24bf1a1740b76",
+      "contentSHA256": "025ed5dc12bac3117181d55a6995ede171e28257ad5e0b8220eba5433e46eaae",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players cross a broad open board and complete an eight-mark diagonal.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Long Diagonal Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人穿越宽阔开放棋盘，争先完成八子对角长线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "长斜八连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-deep-eight",
+      "packID": "deep-eight-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-deep-eight-v1.playablepack",
+      "byteCount": 5137,
+      "envelopeSHA256": "401fd38dfb47edadd3d436275b93aa8856fa58ef37c25140ac1daaab18d84413",
+      "contentSHA256": "066bed789f2e271faea2f17120933f46701ed3d5d78e9b5484a70bc924e5ad72",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players stack through a deep gravity well; eight vertical markers win.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Deep Eight"
+        },
+        "zh-Hans": {
+          "summary": "两至六人在深井重力棋盘中堆叠，率先垂直连成八枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "深井八层"
         }
       }
     }
