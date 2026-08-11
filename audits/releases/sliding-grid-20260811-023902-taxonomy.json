@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-gallery-twenty",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "board": "4x5",
+        "scrambleMoves": 90,
+        "turnLimit": 220,
+        "testedPlayerCounts": [2, 3, 4]
+      }
+    },
+    {
+      "gameID": "pack-switchback-fifteen",
+      "tags": {
+        "carrier": "tiles",
+        "mechanics": ["alignment", "spatial"],
+        "players": ["two-player", "party-3-6"],
+        "pace": ["turn-based"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "board": "5x3",
+        "scrambleMoves": 48,
+        "turnLimit": 48,
+        "testedPlayerCounts": [2, 3, 4, 5, 6]
+      }
+    }
+  ]
+}
