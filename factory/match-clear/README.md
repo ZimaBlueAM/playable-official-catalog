@@ -176,3 +176,14 @@ Batch AN taxonomy is sidecar-only in `batch-20260811-an.manifest.json` and
 
 Batch AO taxonomy is sidecar-only in `batch-20260811-ao.manifest.json` and
 `audits/batch-20260811-ao.json`; revision 49 contains no taxonomy fields.
+
+## Batch AP
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Current | 9×4, 8 colors | 3 | 23 | exactly 2 | Four shallow rows keep scarce duel triples inside the lower thumb sweep. |
+| Open Violet Citadel | 10×9, 6 colors | 4 | 61 | 2–5 | Short local swaps keep the long shared citadel focused in the lower rows. |
+| Five Seat Meadow Crown | 6×8, 5 colors | 5 | 42 | exactly 5 | Six compact columns keep rare five-seat crown work inside one-thumb reach. |
+
+Batch AP taxonomy is sidecar-only in `batch-20260811-ap.manifest.json` and
+`audits/batch-20260811-ap.json`; revision 50 contains no taxonomy fields.
