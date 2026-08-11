@@ -165,3 +165,14 @@ Batch BD taxonomy is sidecar-only in `batch-20260811-bd.manifest.json` and
 
 Batch BE taxonomy is sidecar-only in `batch-20260811-be.manifest.json` and
 `audits/batch-20260811-be.json`; revision 65 contains no taxonomy fields.
+
+## Batch BF
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Promenade | 8×4, 3 colors | 3 | 39 | exactly 2 | Four shallow rows keep dense duel promenade swaps inside the lower thumb sweep. |
+| Open Violet Gallery | 10×9, 5 colors | 4 | 109 | 2–5 | Adjacent local swaps keep the broad shared gallery focused in lower active rows. |
+| Four Seat Aurora Needle | 5×8, 8 colors | 5 | 74 | exactly 4 | Five narrow columns focus rare four-seat needles inside one-thumb reach. |
+
+Batch BF taxonomy is sidecar-only in `batch-20260811-bf.manifest.json` and
+`audits/batch-20260811-bf.json`; revision 66 contains no taxonomy fields.

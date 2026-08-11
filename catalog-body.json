@@ -1,7 +1,7 @@
 {
-  "revision": 65,
-  "issuedAt": "2026-08-11T23:30:00Z",
-  "expiresAt": "2026-08-18T23:30:00Z",
+  "revision": 66,
+  "issuedAt": "2026-08-11T23:40:00Z",
+  "expiresAt": "2026-08-18T23:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6461,6 +6461,21 @@
       "envelopeSHA256": "4258c331b8e7ce7c97e91079cb568f3d30a297e9a4b3260b24d22cb781ba02a3", "contentSHA256": "c8027feb76241fd2c398065763ca78b0eb13718ac16c0ba7d84a44a4feef1bf3", "packKeyID": "playable-content-2026-02",
       "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"}, "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"},
       "metadata": {"en": {"summary": "Exactly six players raise dense four-tile ramparts through a tall three-color clover field.", "systemImage": "shield.lefthalf.filled", "title": "Six Seat Clover Rampart"}, "zh-Hans": {"summary": "严格六位玩家在高耸三色苜蓿棋盘中筑起密集四连壁垒。", "systemImage": "shield.lefthalf.filled", "title": "六席苜蓿壁垒"}}
+    },
+    {
+      "gameID": "pack-dual-clover-promenade", "packID": "dual-clover-promenade-first-edition", "packVersion": 1, "rulesVersion": 1, "minimumAppBuild": 106, "engine": {"family": "matchClear", "version": 1}, "minimumPlayers": 2, "maximumPlayers": 2, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-clover-promenade-v1.playablepack.json", "byteCount": 1587, "envelopeSHA256": "359a394dab866b712f9a5bccc39df93a8ecf059a47d0add7696c0fbdbbe080cc", "contentSHA256": "9fd786cc4df507f724f63d2c4fcb131c7f52555f8bff20ae43879caaac061a2e", "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"}, "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"}, "metadata": {"en": {"summary": "Two players steer dense triples across a shallow three-color clover promenade.", "systemImage": "figure.walk", "title": "Dual Clover Promenade"}, "zh-Hans": {"summary": "两位玩家在浅短三色苜蓿长廊中引导密集三连。", "systemImage": "figure.walk", "title": "双人苜蓿长廊"}}
+    },
+    {
+      "gameID": "pack-open-violet-gallery", "packID": "open-violet-gallery-first-edition", "packVersion": 1, "rulesVersion": 1, "minimumAppBuild": 106, "engine": {"family": "matchClear", "version": 1}, "minimumPlayers": 2, "maximumPlayers": 5, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-violet-gallery-v1.playablepack.json", "byteCount": 1645, "envelopeSHA256": "128f6707bef97f0c78091a5db3ed52e1f7fac71337957fd942100b52a32da67d", "contentSHA256": "c52759b4a0efad2eeffd36a8d5952ca8c4e4780ed0c14d5e758c0da902fe77df", "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"}, "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"}, "metadata": {"en": {"summary": "Two to five players frame four-tile galleries across a broad five-color violet field.", "systemImage": "photo.on.rectangle.angled", "title": "Open Violet Gallery"}, "zh-Hans": {"summary": "二至五位玩家在宽阔五色紫罗兰棋盘中构筑四连画廊。", "systemImage": "photo.on.rectangle.angled", "title": "开放紫罗兰画廊"}}
+    },
+    {
+      "gameID": "pack-four-seat-aurora-needle", "packID": "four-seat-aurora-needle-first-edition", "packVersion": 1, "rulesVersion": 1, "minimumAppBuild": 106, "engine": {"family": "matchClear", "version": 1}, "minimumPlayers": 4, "maximumPlayers": 4, "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-aurora-needle-v1.playablepack.json", "byteCount": 1623, "envelopeSHA256": "8c981590c932ac40bad5adc6ad080900d82fe596e6feff4b8747a706478e9317", "contentSHA256": "e147a30aea066e47af79aaeae9e4f7ff9b0464fe8163eefdd8e024e8a2ce15b1", "packKeyID": "playable-content-2026-02",
+      "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"}, "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"}, "metadata": {"en": {"summary": "Exactly four players grow rare five-tile needles through a narrow eight-color aurora field.", "systemImage": "arrow.up.to.line", "title": "Four Seat Aurora Needle"}, "zh-Hans": {"summary": "严格四位玩家在狭长八色极光棋盘中培育稀有五连针塔。", "systemImage": "arrow.up.to.line", "title": "四席极光针塔"}}
     }
   ]
 }
