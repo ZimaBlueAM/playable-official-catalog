@@ -133,3 +133,14 @@ Batch CH taxonomy is sidecar-only in `batch-20260812-ch.manifest.json` and
 
 Batch CI taxonomy is sidecar-only in `batch-20260812-ci.manifest.json` and
 `audits/batch-20260812-ci.json`; revision 95 contains no taxonomy fields.
+
+## Batch CJ
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Pearl Gallery | 10×4, 7 colors | 4 | 69 | exactly 2 | Four shallow rows keep duel gallery swaps inside the lower thumb sweep. |
+| Open Ivory Courtyard | 8×10, 4 colors | 3 | 199 | 2–5 | Local adjacent swaps keep dense shared courtyard play focused in lower active rows. |
+| Four Seat Mint Gallery | 9×9, 6 colors | 5 | 134 | exactly 4 | Adjacent local swaps keep rare four-seat gallery play inside one-thumb reach. |
+
+Batch CJ taxonomy is sidecar-only in `batch-20260812-cj.manifest.json` and
+`audits/batch-20260812-cj.json`; revision 96 contains no taxonomy fields.
