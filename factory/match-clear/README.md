@@ -144,3 +144,14 @@ Batch BI taxonomy is sidecar-only in `batch-20260812-bi.manifest.json` and
 
 Batch BJ taxonomy is sidecar-only in `batch-20260812-bj.manifest.json` and
 `audits/batch-20260812-bj.json`; revision 70 contains no taxonomy fields.
+
+## Batch BK
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Aurora Promenade | 7×4, 5 colors | 5 | 44 | exactly 2 | Four shallow rows keep rare duel promenades inside the lower thumb sweep. |
+| Open Clover Gallery | 10×8, 8 colors | 3 | 124 | 2–4 | Short adjacent swaps keep the broad shared gallery focused in lower active rows. |
+| Three Seat Amber Colonnade | 5×10, 4 colors | 4 | 84 | exactly 3 | Five narrow columns keep dense three-seat colonnades inside one-thumb reach. |
+
+Batch BK taxonomy is sidecar-only in `batch-20260812-bk.manifest.json` and
+`audits/batch-20260812-bk.json`; revision 71 contains no taxonomy fields.

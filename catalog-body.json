@@ -1,7 +1,7 @@
 {
-  "revision": 70,
-  "issuedAt": "2026-08-12T00:20:00Z",
-  "expiresAt": "2026-08-19T00:20:00Z",
+  "revision": 71,
+  "issuedAt": "2026-08-12T00:30:00Z",
+  "expiresAt": "2026-08-19T00:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6512,6 +6512,15 @@
     },
     {
       "gameID":"pack-five-seat-violet-colonnade","packID":"five-seat-violet-colonnade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-violet-colonnade-v1.playablepack.json","byteCount":1665,"envelopeSHA256":"86dd54af2f022c4f9c242f58379b2e94ef141de52b507552366c01a28877d954","contentSHA256":"b7bcbc3224c851d1edcfd5f25cc7f5744417dbad851c7970018a59f42dedf500","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players raise rare five-tile colonnades across a square eight-color violet field.","systemImage":"rectangle.split.3x1.fill","title":"Five Seat Violet Colonnade"},"zh-Hans":{"summary":"严格五位玩家在方形八色紫罗兰棋盘中筑起稀有五连柱廊。","systemImage":"rectangle.split.3x1.fill","title":"五席紫罗兰柱廊"}}
+    },
+    {
+      "gameID":"pack-dual-aurora-promenade","packID":"dual-aurora-promenade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-aurora-promenade-v1.playablepack.json","byteCount":1600,"envelopeSHA256":"aeecf6645f524f39e693c6f6b1513c28c056d454b0de3d508bb32959889c2a0b","contentSHA256":"2dc6fe6a8a3b603864229b1c1d8365bfed86dda872899f5decb7ad69cc922bff","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players trace rare five-tile promenades across a shallow five-color aurora field.","systemImage":"figure.walk","title":"Dual Aurora Promenade"},"zh-Hans":{"summary":"两位玩家在浅层五色极光棋盘中铺展稀有五连长廊。","systemImage":"figure.walk","title":"双人极光长廊"}}
+    },
+    {
+      "gameID":"pack-open-clover-gallery","packID":"open-clover-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":4,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-clover-gallery-v1.playablepack.json","byteCount":1643,"envelopeSHA256":"833c36fe2dbcd0b49cc55532a38288584c5c579dd3ec6e06a7146a3c747e534a","contentSHA256":"30df1a3bd7f069ed2b84ed65d2876114589841d72a9f503ca1ad0d812c2310bb","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to four players hunt quick triples through a broad eight-color clover gallery.","systemImage":"photo.on.rectangle.angled","title":"Open Clover Gallery"},"zh-Hans":{"summary":"二至四位玩家在宽阔八色苜蓿画廊中追逐快速三连。","systemImage":"photo.on.rectangle.angled","title":"开放苜蓿画廊"}}
+    },
+    {
+      "gameID":"pack-three-seat-amber-colonnade","packID":"three-seat-amber-colonnade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":3,"maximumPlayers":3,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-amber-colonnade-v1.playablepack.json","byteCount":1641,"envelopeSHA256":"ba00d8f7a00bf17b808822a0d0ce9da294845760db789203e9c9c63365c1a238","contentSHA256":"34ef681f7c1c2708dd54ee92ab4b7b751a3cc0dcd1fd7fb66b9ce4251def6c8f","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly three players build dense four-tile colonnades through a narrow amber field.","systemImage":"rectangle.split.3x1.fill","title":"Three Seat Amber Colonnade"},"zh-Hans":{"summary":"严格三位玩家在狭长琥珀棋盘中筑起密集四连柱廊。","systemImage":"rectangle.split.3x1.fill","title":"三席琥珀柱廊"}}
     }
   ]
 }
