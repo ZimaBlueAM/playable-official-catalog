@@ -1,7 +1,7 @@
 {
-  "revision": 12,
-  "issuedAt": "2026-08-11T05:30:00Z",
-  "expiresAt": "2026-08-18T05:30:00Z",
+  "revision": 13,
+  "issuedAt": "2026-08-11T06:30:00Z",
+  "expiresAt": "2026-08-18T06:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -663,6 +663,123 @@
           "summary": "让下落的颜色连线穿过低矮棋盘，在雨幕移动前快速完成三连。",
           "systemImage": "cloud.rain.fill",
           "title": "雨幕连线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-triad-current",
+      "packID": "triad-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-triad-current-v1.playablepack.json",
+      "byteCount": 1600,
+      "envelopeSHA256": "f919faf080c4dc76a780d6b67b85642e90abd5f8d18b28739851ec8928d666da",
+      "contentSHA256": "929bb8528772f0deb8c57fbf68fbdabcf2c607fec944063c0b7050acf2c74328",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Send three-color currents down a tall board, opening a safe lane for the next player.",
+          "systemImage": "water.waves.and.arrow.down",
+          "title": "Triad Current"
+        },
+        "zh-Hans": {
+          "summary": "让三色潮流沿高棋盘下行，为下一位玩家打开安全路线。",
+          "systemImage": "water.waves.and.arrow.down",
+          "title": "三色潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-prism-ladder",
+      "packID": "prism-ladder-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-prism-ladder-v1.playablepack.json",
+      "byteCount": 1570,
+      "envelopeSHA256": "9f5aa39602b3904686b1cc7e70a914b4d74ff5d818b49d16e77405d4eadf2b39",
+      "contentSHA256": "1550668e6af8afe3d75a0ec5dfad521b88c0ea7ef7d5053a7b1a4726977b8fb9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Build four-color ladders through a compact prism board and protect the lead with each swap.",
+          "systemImage": "diamond.fill",
+          "title": "Prism Ladder"
+        },
+        "zh-Hans": {
+          "summary": "在紧凑棱镜棋盘中搭建四连梯，用每次交换守住领先。",
+          "systemImage": "diamond.fill",
+          "title": "棱镜梯阵"
+        }
+      }
+    },
+    {
+      "gameID": "pack-pocket-comet",
+      "packID": "pocket-comet-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-pocket-comet-v1.playablepack.json",
+      "byteCount": 1562,
+      "envelopeSHA256": "56cd4cafc2948cc68d3c257081f30d9bee0001da478fb3f0d4d6e1bded435e26",
+      "contentSHA256": "870c98ac27885dc6254955a1288c0df8c2959db9df8b4d171f4098351113face",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Chase fast three-tile comets across a wide pocket board before the turn clock burns out.",
+          "systemImage": "comet.fill",
+          "title": "Pocket Comet"
+        },
+        "zh-Hans": {
+          "summary": "在宽幅掌上棋盘追逐快速三连彗星，在回合耗尽前完成得分。",
+          "systemImage": "comet.fill",
+          "title": "掌上彗星"
         }
       }
     }

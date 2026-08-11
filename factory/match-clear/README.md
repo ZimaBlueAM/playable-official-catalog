@@ -37,3 +37,11 @@ private Playable content key locally; only their resulting signed envelopes are 
 | Mosaic March | 7×6, 4 colors | 3 | 16 | 2–6 | The seven-column lower board supports quick one-handed lane changes and passing turns. |
 | Fourfold Forge | 4×7, 5 colors | 4 | 14 | 2–4 | A compact four-column tower keeps vertical four-run setup inside the thumb sweep. |
 | Rainline | 8×5, 6 colors | 3 | 12 | 2–5 | The low wide board makes horizontal rain lines visible and adjacent swaps reachable. |
+
+## Batch E taxonomy sidecars
+
+Batch E stores bounded taxonomy only in `batch-20260811-e.manifest.json` and
+`audits/batch-20260811-e.json`. The signed schema-1 catalog intentionally omits
+these fields until Build107 taxonomy transport is sealed; this preserves Build106
+catalog verification and old-client availability. Carrier is the homepage class;
+mechanics are the secondary filters. No difficulty label is used.
