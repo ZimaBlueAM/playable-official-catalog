@@ -48,6 +48,10 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Lighthouse Log** — inspect the crew and find the hidden editor.
 - **Bakery Sketches** — draw a bakery favorite for friends to name.
 - **Festival Sketchbook** — sketch a festival sight and race to identify it.
+- **Archive Key** — compare the accounts and vote before lockup.
+- **Gate Change** — inspect the group and find the hidden traveler.
+- **Orchard Sketches** — draw an orchard clue for friends to name.
+- **Studio Sketchbook** — sketch an art-studio object and race to identify it.
 
 Candidate taxonomy (`carrier`, `mechanics`, `players`, `pace`, `context`, and
 `input`) and its audit are maintained separately from the signed schema 1

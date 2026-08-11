@@ -2535,6 +2535,249 @@
           "canvas"
         ]
       }
+    },
+    {
+      "gameID": "hidden-archive",
+      "packID": "hidden-archive-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-archive-v1.playablepack",
+      "byteCount": 1932,
+      "envelopeSHA256": "968da112a894ac8460f0f314fe60688973c9896bfbe2b6cd46bc99856e6774b5",
+      "contentSHA256": "0d99ec55bb5143d80f404e9ab8d0b9667107621cd10c443cdeb8611fb19003ad",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "One archivist moved the key; compare the accounts and vote before lockup.",
+          "systemImage": "archivebox.fill",
+          "title": "Archive Key"
+        },
+        "zh-Hans": {
+          "summary": "一名档案员移动了钥匙；比较说法，在封库前投票。",
+          "systemImage": "archivebox.fill",
+          "title": "档案室钥匙"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "hidden-airport",
+      "packID": "hidden-airport-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "hiddenRole",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/hidden-airport-v1.playablepack",
+      "byteCount": 2150,
+      "envelopeSHA256": "9a40edde0955f69e5867e36f8bb669311799669332c2b378287fbdf1f6c65653",
+      "contentSHA256": "9b32de6da21161b7219c24dc935c27cc17c0d71dcf92f6b1dc3f08531a847d30",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A hidden traveler changed the gate; inspect the group and vote before boarding.",
+          "systemImage": "airplane.departure",
+          "title": "Gate Change"
+        },
+        "zh-Hans": {
+          "summary": "隐藏旅客改动了登机口；观察大家，在登机前投票。",
+          "systemImage": "airplane.departure",
+          "title": "登机口变更"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "action"
+        ],
+        "mechanics": [
+          "bluff",
+          "deduction"
+        ],
+        "players": [
+          "party-3-6"
+        ],
+        "pace": [
+          "turn-based"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "one-thumb"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-orchard",
+      "packID": "canvas-orchard-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-orchard-v1.playablepack",
+      "byteCount": 1810,
+      "envelopeSHA256": "503f4a5400620d5a13d5dbc5aa23ae9483f47d0664e4727f9402f3f3cfe05cc9",
+      "contentSHA256": "fcbecc2d3d689d374b56ea9e1a231b3dea2ad959e67d4e6ca13928a8bc55c37c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Draw an orchard clue in a few strokes and let friends name it.",
+          "systemImage": "tree.fill",
+          "title": "Orchard Sketches"
+        },
+        "zh-Hans": {
+          "summary": "用几笔画出果园线索，让朋友说出它。",
+          "systemImage": "tree.fill",
+          "title": "果园速写"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
+    },
+    {
+      "gameID": "canvas-studio",
+      "packID": "canvas-studio-v1",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 105,
+      "engine": {
+        "family": "canvasGuess",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/canvas-studio-v1.playablepack",
+      "byteCount": 1818,
+      "envelopeSHA256": "b625a4b3ac81c99926f4619fa68fbf3bda98d6d457cbade9aa452762718122e0",
+      "contentSHA256": "06f8425d27d35fe528b83e07f2236c7634a257f7f66d01e6c4902dade446acbe",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio; original rules, copy, and assets",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Sketch an art-studio object and race the table to identify it.",
+          "systemImage": "paintpalette.fill",
+          "title": "Studio Sketchbook"
+        },
+        "zh-Hans": {
+          "summary": "画出画室里的物件，和大家一起抢答。",
+          "systemImage": "paintpalette.fill",
+          "title": "画室速写本"
+        }
+      },
+      "tags": {
+        "carrier": [
+          "canvas"
+        ],
+        "mechanics": [
+          "matching",
+          "word"
+        ],
+        "players": [
+          "two-player",
+          "party-3-6"
+        ],
+        "pace": [
+          "quick-round"
+        ],
+        "context": [
+          "friends-room"
+        ],
+        "input": [
+          "canvas"
+        ]
+      }
     }
   ]
 }
