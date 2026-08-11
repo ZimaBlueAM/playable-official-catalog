@@ -5,9 +5,9 @@
   "catalogRevision": 10,
   "status": "candidate",
   "games": [
-    {"gameID":"pack-cinder-choice","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=24; takeOptions=[2,3,5]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
-    {"gameID":"pack-harbor-pull","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=31; takeOptions=[2,5]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}},
-    {"gameID":"pack-orchard-ladder","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=42; takeOptions=[1,4,6]; lastMoveWins=true","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]}}
+    {"gameID":"pack-cinder-choice","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=24; takeOptions=[2,3,5]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-harbor-pull","packVersion":1,"minimumPlayers":2,"maximumPlayers":4,"rules":"initialCount=31; takeOptions=[2,5]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}},
+    {"gameID":"pack-orchard-ladder","packVersion":1,"minimumPlayers":2,"maximumPlayers":6,"rules":"initialCount=42; takeOptions=[1,4,6]; lastMoveWins=true","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]}}
   ],
   "verification": {
     "packBuilder": "scripts/build_declarative_game_pack.sh",

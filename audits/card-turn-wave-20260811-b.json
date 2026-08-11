@@ -4,8 +4,8 @@
   "transport": "factory-sidecar-only-before-build107",
   "releaseRule": "Do not add tags to signed catalog entries, pack bodies, or catalog metadata; publish with known schema only.",
   "games": [
-    {"gameID":"pack-cinder-choice","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]},"ruleAudit":"PASS: 24; [2,3,5]; lastMoveWins=true; min=2 max=6"},
-    {"gameID":"pack-harbor-pull","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]},"ruleAudit":"PASS: 31; [2,5]; lastMoveWins=true; min=2 max=4"},
-    {"gameID":"pack-orchard-ladder","tags":{"genre":["cards"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"],"difficulty":["strategy"]},"ruleAudit":"PASS: 42; [1,4,6]; lastMoveWins=true; min=2 max=6"}
+    {"gameID":"pack-cinder-choice","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 24; [2,3,5]; lastMoveWins=true; min=2 max=6"},
+    {"gameID":"pack-harbor-pull","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 31; [2,5]; lastMoveWins=true; min=2 max=4"},
+    {"gameID":"pack-orchard-ladder","tags":{"carrier":["cards"],"mechanics":["take-away"],"players":["two-player","party-3-6"],"pace":["turn-based"],"context":["friends-room"],"input":["one-thumb"]},"ruleAudit":"PASS: carrier cards; mechanics take-away; 42; [1,4,6]; lastMoveWins=true; min=2 max=6"}
   ]
 }
