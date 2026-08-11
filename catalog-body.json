@@ -368,9 +368,9 @@
       "maximumPlayers": 6,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-cinder-choice-v1.playablepack.json",
-      "byteCount": 1697,
-      "envelopeSHA256": "2104793c24c150f0e2dcc1fdc297eef5e741e832452ecdd3d915fe3e6b21c32a",
-      "contentSHA256": "facc30f7b173f907c070eb45054d6321806252eb4568f8a739098583d2ba127e",
+      "byteCount": 1719,
+      "envelopeSHA256": "bdefd8091bf6900c665c775e7bf6c5c18493693882b92ce9a088bdd19430d76a",
+      "contentSHA256": "5a8ea28037d026519761a79d89adcb3f1a6bdd1a6abcb98bff1095c24098a5ad",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -382,12 +382,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Choose two, three, or five cinders from the shared brazier; the final cinder wins the round.",
+          "summary": "Choose one, two, three, or five cinders from the shared brazier; the final cinder wins the round.",
           "systemImage": "sparkles",
           "title": "Cinder Choice"
         },
         "zh-Hans": {
-          "summary": "每回合从火盆取走二、三或五枚炭火，拿到最后一枚者赢得本局。",
+          "summary": "每回合从火盆取走一、二、三或五枚炭火，拿到最后一枚者赢得本局。",
           "systemImage": "sparkles",
           "title": "炭火择取"
         }
@@ -407,9 +407,9 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-harbor-pull-v1.playablepack.json",
-      "byteCount": 1689,
-      "envelopeSHA256": "ae078522f79261cb9a65b27d2ccbfba3edfaeb7fe3a6fa9f0273cd05b72858e6",
-      "contentSHA256": "10642a47a51ad7e11b08adef8cdd55b0931d94b730731401eeec43b86969bd02",
+      "byteCount": 1699,
+      "envelopeSHA256": "1c3a47b3392813f7026134342a23915efe8a2178245685cdd8fe1e91587585b6",
+      "contentSHA256": "6e0d40bf8c4048654a3bd0bb0e9b986e59119e532e2daf9eb4da50d67d159141",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -421,12 +421,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Pull two or five buoys from the harbor line; whoever takes the last buoy wins.",
+          "summary": "Pull one, two, or five buoys from the harbor line; whoever takes the last buoy wins.",
           "systemImage": "anchor.fill",
           "title": "Harbor Pull"
         },
         "zh-Hans": {
-          "summary": "每回合从港湾浮标线取走两或五枚浮标，拿到最后一枚者获胜。",
+          "summary": "每回合从港湾浮标线取走一、二或五枚浮标，拿到最后一枚者获胜。",
           "systemImage": "anchor.fill",
           "title": "港湾牵引"
         }
@@ -524,9 +524,9 @@
       "maximumPlayers": 4,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-glacier-steps-v1.playablepack.json",
-      "byteCount": 1676,
-      "envelopeSHA256": "4a39dc3909596a7e9dce220f09b0d64cdd5d3015553967e003d40e2d5ae57e26",
-      "contentSHA256": "339e581086c6d39c6c241831dbf4f15636defd7f26819f5b7dcbc089634926eb",
+      "byteCount": 1672,
+      "envelopeSHA256": "2c7f14b63b189e864925d326202f413845f61490b5aa5105d9ab07e3f1f0a10f",
+      "contentSHA256": "66ca96ce75de0dac7e49ca6bd7ea2b8cfa43f45d41c9bb06121863378fcc7813",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -538,12 +538,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Cross the ice by removing exactly three or seven markers; the final marker wins.",
+          "summary": "Cross the ice by removing one, three, or seven markers; the final marker wins.",
           "systemImage": "snowflake",
           "title": "Glacier Steps"
         },
         "zh-Hans": {
-          "summary": "每回合只能取走三或七枚冰标，拿到最后一枚者获胜。",
+          "summary": "每回合取走一、三或七枚冰标，拿到最后一枚者获胜。",
           "systemImage": "snowflake",
           "title": "冰川步幅"
         }
@@ -602,9 +602,9 @@
       "maximumPlayers": 5,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-rain-gauge-v1.playablepack.json",
-      "byteCount": 1661,
-      "envelopeSHA256": "6bc286ed8173fa4e13185a016001b0cdd39f784fb1c19fd3f63891c8ae40292c",
-      "contentSHA256": "3b32229e44f1650308f37728e0e374f815c003d6a736b145fef680c9d2fdc804",
+      "byteCount": 1685,
+      "envelopeSHA256": "e3c5151c7dc782312f2742a527f8d3d9cd5a7ddc6e679d2ff21e81f462b02da3",
+      "contentSHA256": "97e9bbf634236808bf508163ef7daefbecf1621ac179a8d3e19051b45b762575",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -616,12 +616,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Drain two or three drops from the gauge, but the player draining the final drop loses.",
+          "summary": "Drain one, two, or three drops from the gauge, but the player draining the final drop loses.",
           "systemImage": "drop.fill",
           "title": "Rain Gauge"
         },
         "zh-Hans": {
-          "summary": "每回合排出两或三滴雨水，但排出最后一滴者落败。",
+          "summary": "每回合排出一、二或三滴雨水，但排出最后一滴者落败。",
           "systemImage": "drop.fill",
           "title": "雨量避底"
         }
@@ -680,9 +680,9 @@
       "maximumPlayers": 5,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-star-harvest-v1.playablepack.json",
-      "byteCount": 1687,
-      "envelopeSHA256": "0cfd6ebab18b3ad2c45399bad0a8e60cc8e0f23160a677d40bf1c6e39988562c",
-      "contentSHA256": "f5f0755f5b23307538a0f05c88a2536e85d55f0b3d1bde3f1862b2be1e13d841",
+      "byteCount": 1709,
+      "envelopeSHA256": "7ad96eb5aee22dff6ad70dacdd4c948dd2b608031c17c3459e66edfc0bb7f8c3",
+      "contentSHA256": "883847ac71b1d152addd1e0c364673e0230714260a4fb9b01d55b828604197a4",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -694,12 +694,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Gather two, six, or seven stars from the shared sky; the final star wins.",
+          "summary": "Gather one, two, six, or seven stars from the shared sky; the final star wins.",
           "systemImage": "star.circle.fill",
           "title": "Star Harvest"
         },
         "zh-Hans": {
-          "summary": "每回合从星空取走二、六或七颗星，拿到最后一颗者获胜。",
+          "summary": "每回合从星空取走一、二、六或七颗星，拿到最后一颗者获胜。",
           "systemImage": "star.circle.fill",
           "title": "星野收获"
         }
@@ -758,9 +758,9 @@
       "maximumPlayers": 5,
       "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-river-knots-v1.playablepack.json",
-      "byteCount": 1682,
-      "envelopeSHA256": "fd6a9a558947a81a0cd6f59d6a6bf9aa23c623d50d73e1f0bfefe76a234ea8d8",
-      "contentSHA256": "0312ad4dc4cadec5b9c3932e84ba78e582767e8f1b7fec95626549edd6d5ac0a",
+      "byteCount": 1704,
+      "envelopeSHA256": "2f1c972585f16594bbd805016d571e6181b9c9de336fdd64203776e46f2456a6",
+      "contentSHA256": "26b780680dbe4eed0715a61287e25d0247fbac32064c4a96e488f40950a862c0",
       "packKeyID": "playable-content-2026-02",
       "source": {
         "name": "Playable Studio",
@@ -772,12 +772,12 @@
       },
       "metadata": {
         "en": {
-          "summary": "Untie three, five, or eight knots from the shared rope; the final knot wins.",
+          "summary": "Untie one, three, five, or eight knots from the shared rope; the final knot wins.",
           "systemImage": "water.waves",
           "title": "River Knots"
         },
         "zh-Hans": {
-          "summary": "每回合从共用绳索解开三、五或八个结，解开最后一个者获胜。",
+          "summary": "每回合从共用绳索解开一、三、五或八个结，解开最后一个者获胜。",
           "systemImage": "water.waves",
           "title": "河绳解结"
         }
