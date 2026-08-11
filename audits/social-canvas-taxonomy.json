@@ -1,0 +1,689 @@
+{
+  "auditVersion": 1,
+  "source": "factory/social-canvas/candidate-manifest.json",
+  "contract": "Every entry has only bounded taxonomy values; players is derived from min/maxPlayers and engine family is the stable runtime mapping.",
+  "checks": [
+    "required dimensions present",
+    "players agrees with minimumPlayers/maximumPlayers",
+    "genre/pace/input agree with engine family",
+    "context is friends-room for official social content",
+    "unknown future values must be ignored by older readers"
+  ],
+  "entries": [
+    {
+      "gameID": "pack-stack-four",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "gridBoard",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "tags": {
+          "genre": [
+            "board"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "pack-last-one-loses",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "cardTurn",
+        "minimumPlayers": 2,
+        "maximumPlayers": 2,
+        "tags": {
+          "genre": [
+            "cards"
+          ],
+          "players": [
+            "two-player"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "pack-pocket-slider",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "slidingGrid",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "tags": {
+          "genre": [
+            "puzzle"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "pack-prism-shift",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "matchClear",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "tags": {
+          "genre": [
+            "puzzle"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "pack-take-five",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "cardTurn",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "tags": {
+          "genre": [
+            "cards"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-signal",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-lantern",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-postcard",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-shadow",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-ribbon",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-weather",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-constellation",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-whisper",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-tide",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-garden",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-toolbox",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-market",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-mosaic",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-orbit",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-cabin",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-parade",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-clock",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "hidden-bell",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 3,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "party"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "turn-based"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "one-thumb"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-picnic",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    },
+    {
+      "gameID": "canvas-library",
+      "decision": "accepted",
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 6,
+        "tags": {
+          "genre": [
+            "drawing"
+          ],
+          "players": [
+            "party-3-6"
+          ],
+          "pace": [
+            "quick-round"
+          ],
+          "context": [
+            "friends-room"
+          ],
+          "input": [
+            "canvas"
+          ]
+        }
+      },
+      "tags": null
+    }
+  ]
+}

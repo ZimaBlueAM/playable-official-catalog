@@ -28,6 +28,15 @@ Never add signing keys, source code, or arbitrary executable content here.
 - **Orbit Signal** — notice the odd movement and vote for the quiet satellite.
 - **Cabin Sketches** — draw a cozy cabin detail for the table to guess.
 - **Parade Doodles** — sketch a parade favorite and race to call it out.
+- **Clockwork Secret** — spot the strange rhythm and vote before the bell.
+- **Bell Tower** — listen to the table and vote for the hidden ringer.
+- **Picnic Pictures** — draw a picnic favorite for friends to guess.
+- **Library Doodles** — sketch a quiet library object and race to recognize it.
+
+Candidate taxonomy and its audit are maintained separately from the signed
+schema 1 catalog so older Playable builds can ignore future taxonomy fields.
+See `factory/social-canvas/candidate-manifest.json` and
+`audits/social-canvas-taxonomy.json`.
 
 The catalog is signed and revisioned. Playable verifies the catalog and every
 pack before activation, keeps a last-known-good version for offline play, and
