@@ -1,7 +1,7 @@
 {
-  "revision": 12,
-  "issuedAt": "2026-08-11T05:30:00Z",
-  "expiresAt": "2026-08-18T05:30:00Z",
+  "revision": 13,
+  "issuedAt": "2026-08-11T06:00:00Z",
+  "expiresAt": "2026-08-18T06:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -897,6 +897,123 @@
           "summary": "在宽阔低矮的棋面上落子，三点成线即可改变局势。",
           "systemImage": "square.grid.3x3.fill",
           "title": "三点平野"
+        }
+      }
+    },
+    {
+      "gameID": "pack-nine-cross",
+      "packID": "nine-cross-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-nine-cross-v1.playablepack",
+      "byteCount": 2419,
+      "envelopeSHA256": "08b37ad2828e6ac39e63b84eca5c1e8da873eef547090df835afb1e72ebcf251",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Hold the open square together and complete a patient nine-mark cross-line.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Nine Cross"
+        },
+        "zh-Hans": {
+          "summary": "在开放方阵中稳住布局，完成九枚标记的长线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "九方交叉"
+        }
+      }
+    },
+    {
+      "gameID": "pack-stepped-four",
+      "packID": "stepped-four-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-stepped-four-v1.playablepack",
+      "byteCount": 1932,
+      "envelopeSHA256": "c72198f778cbe3b8ff18c19597cc3b843c443647e67bb160484a08cffb3d50d2",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Use a compact gravity rack to build a four-mark stair in the landing rows.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Stepped Four"
+        },
+        "zh-Hans": {
+          "summary": "在紧凑重力棋架中堆叠，筑出四枚标记的阶梯。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "阶梯四连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-wide-three",
+      "packID": "wide-three-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-wide-three-v1.playablepack",
+      "byteCount": 1795,
+      "envelopeSHA256": "7c80f3827427466070dc00bf850d0c7e43f7094b8a26f94094bd1cf0748109d0",
+      "contentSHA256": null,
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "A low, wide field where a quick three-mark line can appear anywhere.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Wide Three"
+        },
+        "zh-Hans": {
+          "summary": "在低矮宽阔的棋面上布局，快速三点成线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "宽场三连"
         }
       }
     }

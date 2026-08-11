@@ -1,0 +1,662 @@
+[
+  {
+    "gameID": "pack-stack-four",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-edge-weave",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-skyline-five",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-triad-lane",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-hexa-rail",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-corner-circuit",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-twin-gates",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-orbit-ladder",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-beacon-five",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-cross-current",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-quadra-bloom",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-ring-of-six",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-narrow-three",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-seven-span",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-pinwheel-four",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-vertical-five",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-octave-grid",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-ladder-five",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-trio-field",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-nine-cross",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-stepped-four",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  },
+  {
+    "gameID": "pack-wide-three",
+    "minimumPlayers": 2,
+    "maximumPlayers": 4,
+    "tags": {
+      "genre": [
+        "board"
+      ],
+      "players": [
+        "two-player",
+        "party-3-6"
+      ],
+      "pace": [
+        "turn-based"
+      ],
+      "context": [
+        "friends-room"
+      ],
+      "input": [
+        "one-thumb"
+      ]
+    },
+    "tagAudit": {
+      "status": "passed",
+      "rulesEngine": "gridBoard",
+      "declaredPlayerRange": "2-4",
+      "rangeMapping": "two-player + party-3-6",
+      "fixedDisplayMapping": "app-taxonomy-v1"
+    }
+  }
+]
