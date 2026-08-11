@@ -13,3 +13,11 @@ The three packs are signed, non-executable schema-2 declarations for the install
 Source and license for every pack are the official `LicenseRef-Playable` declaration
 with attribution to Playable Studio. Deterministic publisher vectors are sealed by the
 private Playable content key locally; only their resulting signed envelopes are public.
+
+## Batch B
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Orbit Garden | 7×5, 5 colors | 3 | 14 | 2–6 | Seven columns remain within the lower-half thumb sweep; adjacent vertical swaps create shared garden chains. |
+| Switchback | 5×7, 6 colors | 3 | 15 | 2–5 | The taller five-column board preserves one-handed reach while vertical swaps reverse crowded columns. |
+| Tide Three | 8×4, 4 colors | 3 | 10 | 2–4 | The low four-row board keeps horizontal tides visible and every move thumb-accessible in the lower screen. |
