@@ -1,7 +1,7 @@
 {
-  "revision": 43,
-  "issuedAt": "2026-08-11T19:50:00Z",
-  "expiresAt": "2026-08-18T19:50:00Z",
+  "revision": 44,
+  "issuedAt": "2026-08-11T20:00:00Z",
+  "expiresAt": "2026-08-18T20:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4290,6 +4290,123 @@
           "summary": "六位玩家在狭长四色紫罗兰织机中编织四连色带。",
           "systemImage": "rectangle.split.3x1.fill",
           "title": "六席紫罗兰织机"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-amber-causeway",
+      "packID": "dual-amber-causeway-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-amber-causeway-v1.playablepack.json",
+      "byteCount": 1568,
+      "envelopeSHA256": "3729a37313278c4d62efeb3cc93268af8005f84cd850965566c4235da835f367",
+      "contentSHA256": "299a0dc080cbc273023afeabbc3d07948ed64be3241bc38592619535c10cb388",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players build rare five-tile amber causeways across four shallow rows.",
+          "systemImage": "road.lanes",
+          "title": "Dual Amber Causeway"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在四行浅盘中构筑稀有五连琥珀堤道。",
+          "systemImage": "road.lanes",
+          "title": "双人琥珀堤道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-meadow-vault",
+      "packID": "open-meadow-vault-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-meadow-vault-v1.playablepack.json",
+      "byteCount": 1607,
+      "envelopeSHA256": "057452e39a9e183b74e68fce7c00e60268c3ac7600c371aab02a062b4363fd64",
+      "contentSHA256": "c0d221a5adc4c317ee20d559c33cdc56c41e802fc5a1cba3e99d67d864770510",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players raise four-tile arches through a broad five-color meadow vault.",
+          "systemImage": "building.columns.fill",
+          "title": "Open Meadow Vault"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在宽阔五色草甸穹顶中搭建四连拱廊。",
+          "systemImage": "building.columns.fill",
+          "title": "开放草甸穹顶"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-spectrum-needle",
+      "packID": "three-seat-spectrum-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-spectrum-needle-v1.playablepack.json",
+      "byteCount": 1618,
+      "envelopeSHA256": "2d3a161ffa156d2be62010ba32075266e9b53a5eb255f66cd4ad7e31fb9a3098",
+      "contentSHA256": "08147950489386d53471e6ed3a669e2e95074a36497a3c59d36f74b10715c57a",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players hunt scarce triples through a tall eight-color spectrum needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Three Seat Spectrum Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在高耸八色光谱针塔中寻找稀有三连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "三席光谱针塔"
         }
       }
     }

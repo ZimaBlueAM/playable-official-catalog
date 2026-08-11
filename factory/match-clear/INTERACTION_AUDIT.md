@@ -1,4 +1,4 @@
-# Match-clear interaction audit: batches A–R
+# Match-clear interaction audit: batches A–Z
 
 This directory records the public audit scope for the 2026-08-11 candidate batch.
 The three packs are signed, non-executable schema-2 declarations for the installed
@@ -199,3 +199,91 @@ Batch Q taxonomy is sidecar-only in `batch-20260811-q.manifest.json` and
 
 Batch R taxonomy is sidecar-only in `batch-20260811-r.manifest.json` and
 `audits/batch-20260811-r.json`; revision 26 contains no taxonomy fields.
+
+## Batch S
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Flicker | 6×4, 8 colors | 3 | 6 | exactly 2 | Four shallow rows keep the complete rapid duel field in the lower thumb sweep. |
+| Party Stone Loom | 9×8, 5 colors | 4 | 33 | 3–5 | Short local swaps concentrate repeated party input in the lower active rows. |
+| Four Seat Clover Crown | 5×7, 3 colors | 5 | 21 | exactly 4 | Five narrow columns keep full-width crown setup inside one-thumb reach. |
+
+Batch S taxonomy is sidecar-only in `batch-20260811-s.manifest.json` and
+`audits/batch-20260811-s.json`; revision 27 contains no taxonomy fields.
+
+## Batch T
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Terrace | 7×4, 6 colors | 4 | 10 | exactly 2 | Four shallow rows keep deliberate duel swaps across the lower thumb sweep. |
+| Grand Prism Bastion | 10×9, 7 colors | 5 | 44 | 2–6 | Frequent input remains short adjacent swaps in the lower active rows of the grand field. |
+| Three Seat Clover Tower | 4×8, 3 colors | 4 | 18 | exactly 3 | Four narrow columns keep full-width clover bands inside one-thumb reach. |
+
+Batch T taxonomy is sidecar-only in `batch-20260811-t.manifest.json` and
+`audits/batch-20260811-t.json`; revision 28 contains no taxonomy fields.
+
+## Batch U
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Shelf | 8×4, 3 colors | 4 | 14 | exactly 2 | Four shallow rows keep dense duel shelves inside the lower one-thumb sweep. |
+| Open Prism Spire | 6×9, 7 colors | 5 | 25 | 2–4 | Six narrow columns keep vertical spire building in the thumb wiper arc. |
+| Six Seat Amber Run | 9×5, 4 colors | 3 | 31 | exactly 6 | Five shallow rows concentrate fast six-seat swaps across the lower active field. |
+
+Batch U taxonomy is sidecar-only in `batch-20260811-u.manifest.json` and
+`audits/batch-20260811-u.json`; revision 29 contains no taxonomy fields.
+
+## Batch V
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Tower | 4×9, 5 colors | 3 | 12 | exactly 2 | Four narrow columns keep vertical duel swaps inside the lower one-thumb lane. |
+| Party Prism Square | 8×8, 7 colors | 4 | 38 | 3–6 | Short local swaps keep frequent party input in the lower active square. |
+| Five Seat Clover Bar | 6×4, 3 colors | 5 | 17 | exactly 5 | Four shallow rows keep near-full-width bars visible and thumb reachable. |
+
+Batch V taxonomy is sidecar-only in `batch-20260811-v.manifest.json` and
+`audits/batch-20260811-v.json`; revision 30 contains no taxonomy fields.
+
+## Batch W
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Clover Ridge | 7×6, 3 colors | 5 | 16 | exactly 2 | Deliberate local swaps keep dense duel ridges in the lower thumb field. |
+| Open Spectrum Flash | 10×4, 8 colors | 4 | 8 | 2–3 | Four shallow rows expose rare flashes across a quick one-thumb sweep. |
+| Party Amber Tower | 5×9, 4 colors | 3 | 34 | 4–6 | Five narrow columns keep long party play inside the lower thumb lane. |
+
+Batch W taxonomy is sidecar-only in `batch-20260811-w.manifest.json` and
+`audits/batch-20260811-w.json`; revision 31 contains no taxonomy fields.
+
+## Batch X
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Causeway | 9×4, 6 colors | 5 | 11 | exactly 2 | Four shallow rows keep long duel causeways visible in the lower thumb sweep. |
+| Open Spectrum Canal | 7×9, 8 colors | 3 | 27 | 2–5 | Seven narrow columns keep scarce canal swaps inside the lower one-thumb lane. |
+| Party Amber Needle | 4×10, 4 colors | 4 | 30 | 3–6 | Four columns keep full-width party bands entirely thumb reachable. |
+
+Batch X taxonomy is sidecar-only in `batch-20260811-x.manifest.json` and
+`audits/batch-20260811-x.json`; revision 32 contains no taxonomy fields.
+
+## Batch Y
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Boulevard | 10×5, 6 colors | 4 | 19 | exactly 2 | Five shallow rows keep wide duel boulevards in the lower thumb sweep. |
+| Open Spectrum Tower | 6×10, 8 colors | 3 | 23 | 2–6 | Six narrow columns keep vertical spectrum play inside the one-thumb lane. |
+| Four Seat Amber Crown | 8×6, 4 colors | 5 | 37 | exactly 4 | Short local swaps concentrate four-seat crown building in the lower field. |
+
+Batch Y taxonomy is sidecar-only in `batch-20260811-y.manifest.json` and
+`audits/batch-20260811-y.json`; revision 33 contains no taxonomy fields.
+
+## Batch Z
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Spark | 5×4, 7 colors | 3 | 4 | exactly 2 | The tiny board fits wholly inside the lower thumb sweep for a four-turn duel. |
+| Party Clover Citadel | 9×10, 3 colors | 5 | 60 | 3–6 | Frequent long-game input remains short swaps in the lower active citadel rows. |
+| Five Seat Prism Court | 7×7, 6 colors | 4 | 22 | exactly 5 | Local swaps keep five-seat court play concentrated in the lower square. |
+
+Batch Z taxonomy is sidecar-only in `batch-20260811-z.manifest.json` and
+`audits/batch-20260811-z.json`; revision 34 contains no taxonomy fields.
