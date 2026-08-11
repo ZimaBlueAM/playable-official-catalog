@@ -144,3 +144,14 @@ Batch BW taxonomy is sidecar-only in `batch-20260812-bw.manifest.json` and
 
 Batch BX taxonomy is sidecar-only in `batch-20260812-bx.manifest.json` and
 `audits/batch-20260812-bx.json`; revision 84 contains no taxonomy fields.
+
+## Batch BY
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Coral Courtyard | 9×4, 6 colors | 3 | 58 | exactly 2 | Four shallow rows keep dense duel courtyard swaps inside the lower thumb sweep. |
+| Open Indigo Gallery | 7×10, 6 colors | 4 | 166 | 2–5 | Seven compact columns keep shared gallery play focused in lower active rows. |
+| Three Seat Prism Gallery | 8×8, 8 colors | 5 | 112 | exactly 3 | Adjacent local swaps keep rare three-seat gallery play inside one-thumb reach. |
+
+Batch BY taxonomy is sidecar-only in `batch-20260812-by.manifest.json` and
+`audits/batch-20260812-by.json`; revision 85 contains no taxonomy fields.
