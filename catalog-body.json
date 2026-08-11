@@ -1,7 +1,7 @@
 {
-  "revision": 66,
-  "issuedAt": "2026-08-11T23:40:00Z",
-  "expiresAt": "2026-08-18T23:40:00Z",
+  "revision": 67,
+  "issuedAt": "2026-08-11T23:50:00Z",
+  "expiresAt": "2026-08-18T23:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -6476,6 +6476,15 @@
       "gameID": "pack-four-seat-aurora-needle", "packID": "four-seat-aurora-needle-first-edition", "packVersion": 1, "rulesVersion": 1, "minimumAppBuild": 106, "engine": {"family": "matchClear", "version": 1}, "minimumPlayers": 4, "maximumPlayers": 4, "lifecycle": "available",
       "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-aurora-needle-v1.playablepack.json", "byteCount": 1623, "envelopeSHA256": "8c981590c932ac40bad5adc6ad080900d82fe596e6feff4b8747a706478e9317", "contentSHA256": "e147a30aea066e47af79aaeae9e4f7ff9b0464fe8163eefdd8e024e8a2ce15b1", "packKeyID": "playable-content-2026-02",
       "source": {"name": "Playable Studio", "url": "https://zimablueam.github.io/playable-official-catalog/source"}, "license": {"attribution": "Playable Studio", "identifier": "LicenseRef-Playable"}, "metadata": {"en": {"summary": "Exactly four players grow rare five-tile needles through a narrow eight-color aurora field.", "systemImage": "arrow.up.to.line", "title": "Four Seat Aurora Needle"}, "zh-Hans": {"summary": "严格四位玩家在狭长八色极光棋盘中培育稀有五连针塔。", "systemImage": "arrow.up.to.line", "title": "四席极光针塔"}}
+    },
+    {
+      "gameID":"pack-dual-amber-gallery","packID":"dual-amber-gallery-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":2,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-dual-amber-gallery-v1.playablepack.json","byteCount":1606,"envelopeSHA256":"e02497c96616aa4edc491a317f507f3560fcabf7a434e85afd5370fd84788651","contentSHA256":"ff9ce79767f86a922e0f3280558f18a47929d27ec15e754a0d9e4db58cbf64bf","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two players frame scarce four-tile galleries across a shallow eight-color amber field.","systemImage":"photo.on.rectangle.angled","title":"Dual Amber Gallery"},"zh-Hans":{"summary":"两位玩家在浅短八色琥珀棋盘中构筑稀有四连画廊。","systemImage":"photo.on.rectangle.angled","title":"双人琥珀画廊"}}
+    },
+    {
+      "gameID":"pack-open-clover-colonnade","packID":"open-clover-colonnade-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":2,"maximumPlayers":6,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-open-clover-colonnade-v1.playablepack.json","byteCount":1664,"envelopeSHA256":"308a92babfea071078c6ba83c739f30833801f89365c5aac5b5111bdfb01bdec","contentSHA256":"07da525e8e974a8569c9c61d230402ec8e067f538a9b70abf3cf4a11dbfde4c0","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Two to six players raise rare five-tile colonnades across a broad six-color clover field.","systemImage":"rectangle.split.3x1.fill","title":"Open Clover Colonnade"},"zh-Hans":{"summary":"二至六位玩家在宽阔六色苜蓿棋盘中筑起稀有五连柱廊。","systemImage":"rectangle.split.3x1.fill","title":"开放苜蓿柱廊"}}
+    },
+    {
+      "gameID":"pack-five-seat-aurora-causeway","packID":"five-seat-aurora-causeway-first-edition","packVersion":1,"rulesVersion":1,"minimumAppBuild":106,"engine":{"family":"matchClear","version":1},"minimumPlayers":5,"maximumPlayers":5,"lifecycle":"available","downloadURL":"https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-aurora-causeway-v1.playablepack.json","byteCount":1607,"envelopeSHA256":"6ccb6ab0fba35ab1084693d3aa31a540a342a957ddb844282ac25f238242a75b","contentSHA256":"3c3358074df180eb1026f98b07735b6519be2de8c353591df685ee7ceafd6752","packKeyID":"playable-content-2026-02","source":{"name":"Playable Studio","url":"https://zimablueam.github.io/playable-official-catalog/source"},"license":{"attribution":"Playable Studio","identifier":"LicenseRef-Playable"},"metadata":{"en":{"summary":"Exactly five players steer quick triples through a narrow five-color aurora causeway.","systemImage":"road.lanes","title":"Five Seat Aurora Causeway"},"zh-Hans":{"summary":"严格五位玩家在狭长五色极光堤道中引导灵活三连。","systemImage":"road.lanes","title":"五席极光堤道"}}
     }
   ]
 }

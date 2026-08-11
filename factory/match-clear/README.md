@@ -176,3 +176,14 @@ Batch BE taxonomy is sidecar-only in `batch-20260811-be.manifest.json` and
 
 Batch BF taxonomy is sidecar-only in `batch-20260811-bf.manifest.json` and
 `audits/batch-20260811-bf.json`; revision 66 contains no taxonomy fields.
+
+## Batch BG
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Gallery | 9×4, 8 colors | 4 | 40 | exactly 2 | Four shallow rows keep scarce duel galleries inside the lower thumb sweep. |
+| Open Clover Colonnade | 8×9, 6 colors | 5 | 112 | 2–6 | Adjacent local swaps keep rare shared colonnades focused in lower active rows. |
+| Five Seat Aurora Causeway | 4×10, 5 colors | 3 | 76 | exactly 5 | Four narrow columns keep five-seat causeway play inside one-thumb reach. |
+
+Batch BG taxonomy is sidecar-only in `batch-20260811-bg.manifest.json` and
+`audits/batch-20260811-bg.json`; revision 67 contains no taxonomy fields.
