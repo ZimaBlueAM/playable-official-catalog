@@ -1,7 +1,7 @@
 {
-  "revision": 14,
-  "issuedAt": "2026-08-11T06:30:00Z",
-  "expiresAt": "2026-08-18T06:30:00Z",
+  "revision": 15,
+  "issuedAt": "2026-08-11T07:00:00Z",
+  "expiresAt": "2026-08-18T07:00:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1131,6 +1131,123 @@
           "summary": "在狭长开放棋面上铺设布局，完成五点桥梁连线。",
           "systemImage": "square.grid.3x3.fill",
           "title": "五桥连阵"
+        }
+      }
+    },
+    {
+      "gameID": "pack-diagonal-seven",
+      "packID": "diagonal-seven-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-diagonal-seven-v1.playablepack",
+      "byteCount": 2322,
+      "envelopeSHA256": "493d4fdea9bd72941092371dec55f360c847d41d014a247e23f1510e1190b66b",
+      "contentSHA256": "6f38d7781ced22dfbc922bc97bf4f44e79dc145ee3ffe61a54482f778071540b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Cross a large open square and complete a seven-mark diagonal.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Diagonal Seven"
+        },
+        "zh-Hans": {
+          "summary": "穿越大型开放方阵，率先完成七枚标记的对角长线。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "斜贯七连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-skyline-six",
+      "packID": "skyline-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-skyline-six-v1.playablepack",
+      "byteCount": 2181,
+      "envelopeSHA256": "296803015f24a095c7645158a6d9e43b604780085ae7034398e0aad3a355b40f",
+      "contentSHA256": "640964cec94e25089c2fcefa667010846592506f8fd55645bc1f472783ec2844",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Drop across a twelve-column skyline and connect six along the base.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Skyline Six"
+        },
+        "zh-Hans": {
+          "summary": "沿十二列天际棋架落子，在底部率先连成六枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "天际六连"
+        }
+      }
+    },
+    {
+      "gameID": "pack-deep-column-six",
+      "packID": "deep-column-six-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "gridBoard",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-deep-column-six-v1.playablepack",
+      "byteCount": 2191,
+      "envelopeSHA256": "d36737ad3cea19b1012d559e7274b71a9f3dbe1842205f7013b00bde3aaef75c",
+      "contentSHA256": "3161a398f52f9ade490b6e4814f1541320172661db5e5b96eb8f53ea4bf7efbc",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Build upward in a deep four-lane well and stack six markers vertically.",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "Deep Column Six"
+        },
+        "zh-Hans": {
+          "summary": "在四道深井棋盘中向上堆叠，率先垂直连成六枚标记。",
+          "systemImage": "square.grid.3x3.fill",
+          "title": "深井六层"
         }
       }
     }
