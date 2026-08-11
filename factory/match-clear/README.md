@@ -22,3 +22,14 @@ simplified-Chinese metadata, empty resources, and a sealed deterministic test ve
 
 Batch S taxonomy is sidecar-only in `batch-20260811-s.manifest.json` and
 `audits/batch-20260811-s.json`; revision 27 contains no taxonomy fields.
+
+## Batch T
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Violet Terrace | 7×4, 6 colors | 4 | 10 | exactly 2 | Four shallow rows keep deliberate duel swaps across the lower thumb sweep. |
+| Grand Prism Bastion | 10×9, 7 colors | 5 | 44 | 2–6 | Frequent input remains short adjacent swaps in the lower active rows of the grand field. |
+| Three Seat Clover Tower | 4×8, 3 colors | 4 | 18 | exactly 3 | Four narrow columns keep full-width clover bands inside one-thumb reach. |
+
+Batch T taxonomy is sidecar-only in `batch-20260811-t.manifest.json` and
+`audits/batch-20260811-t.json`; revision 28 contains no taxonomy fields.

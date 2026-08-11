@@ -1,7 +1,7 @@
 {
-  "revision": 27,
-  "issuedAt": "2026-08-11T17:10:00Z",
-  "expiresAt": "2026-08-18T17:10:00Z",
+  "revision": 28,
+  "issuedAt": "2026-08-11T17:20:00Z",
+  "expiresAt": "2026-08-18T17:20:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -2418,6 +2418,123 @@
           "summary": "严格四位玩家在狭长三色棋盘完成满宽五连苜蓿冠。",
           "systemImage": "crown.fill",
           "title": "四席苜蓿冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-violet-terrace",
+      "packID": "dual-violet-terrace-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-violet-terrace-v1.playablepack.json",
+      "byteCount": 1587,
+      "envelopeSHA256": "b3d45cdca5ac12870315e600b0cf43dd4396c6e91234664edd6830dd2d43c753",
+      "contentSHA256": "ad1dafb07f0b519390fc00ac45754e5102dda6a8d9d82e76166ffcc0fe51c079",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape scarce four-tile terraces across a shallow six-color field.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Dual Violet Terrace"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅层六色棋盘塑造稀有四连台地。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "双人紫罗兰台地"
+        }
+      }
+    },
+    {
+      "gameID": "pack-grand-prism-bastion",
+      "packID": "grand-prism-bastion-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-grand-prism-bastion-v1.playablepack.json",
+      "byteCount": 1601,
+      "envelopeSHA256": "58bb676a2ff08820d5b3ffabe428a2119554d9605d3348f439ee931ae13a9315",
+      "contentSHA256": "19bb87597692ca8f0766b67591f4bb46645300720d6cf12f5e1daef880f1ee3d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players raise rare five-tile bastions on a vast seven-color prism.",
+          "systemImage": "shield.lefthalf.filled",
+          "title": "Grand Prism Bastion"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在巨型七色棱镜上筑起稀有五连堡垒。",
+          "systemImage": "shield.lefthalf.filled",
+          "title": "宏伟棱镜堡垒"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-clover-tower",
+      "packID": "three-seat-clover-tower-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-clover-tower-v1.playablepack.json",
+      "byteCount": 1596,
+      "envelopeSHA256": "825176ad2267edd33b6c068a6cbc835be823d4b12d08befc82216c0461ffeb21",
+      "contentSHA256": "b7c320c34c6be1d6500d9e6020362c4d58ff0a463aa0dc842f7d7eeffbc22455",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players complete full-width clover bands in a narrow three-color tower.",
+          "systemImage": "building.2.fill",
+          "title": "Three Seat Clover Tower"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在狭长三色塔中完成满宽四连苜蓿带。",
+          "systemImage": "building.2.fill",
+          "title": "三席苜蓿塔"
         }
       }
     }
