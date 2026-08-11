@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-11T03:25:40Z",
+  "sourceBranch": "factory/match-clear/batch-20260811-w",
+  "sourceCommit": "81a332e7beafb554293a49b9c2e0a3f31df07ffc",
+  "decision": "rejected",
+  "reasonCode": "MISSING_COMPLETE_TERMINAL_VECTOR",
+  "message": "All submitted one-action vectors remain unfinished in the production declarative runtime.",
+  "games": [
+    {"gameID": "pack-dual-clover-ridge", "playerCount": 2, "vectorActionCount": 1, "replayFinished": false, "checksum": "4f2fef375d9bba08"},
+    {"gameID": "pack-open-spectrum-flash", "playerCount": 3, "vectorActionCount": 1, "replayFinished": false, "checksum": "c9221a7d66228d2a"},
+    {"gameID": "pack-party-amber-tower", "playerCount": 6, "vectorActionCount": 1, "replayFinished": false, "checksum": "e924c56b63ddc7e3"}
+  ],
+  "catalogAction": "none",
+  "retryRequirement": "Provide deterministic legal vectors that reach a finished state and verify every declared player count."
+}
