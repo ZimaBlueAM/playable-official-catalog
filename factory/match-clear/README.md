@@ -187,3 +187,14 @@ Batch AG taxonomy is sidecar-only in `batch-20260811-ag.manifest.json` and
 
 Batch AH taxonomy is sidecar-only in `batch-20260811-ah.manifest.json` and
 `audits/batch-20260811-ah.json`; revision 42 contains no taxonomy fields.
+
+## Batch AI
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Meadow Crown | 7×4, 5 colors | 5 | 16 | exactly 2 | Four shallow rows keep rare duel crowns inside the lower thumb sweep. |
+| Open Spectrum Current | 9×6, 7 colors | 3 | 39 | 2–5 | Short adjacent swaps keep the broad current playable from the lower active rows. |
+| Six Seat Violet Loom | 5×8, 4 colors | 4 | 31 | exactly 6 | Five narrow columns keep six-seat loom play inside the one-thumb wiper lane. |
+
+Batch AI taxonomy is sidecar-only in `batch-20260811-ai.manifest.json` and
+`audits/batch-20260811-ai.json`; revision 43 contains no taxonomy fields.

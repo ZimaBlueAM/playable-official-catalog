@@ -1,7 +1,7 @@
 {
-  "revision": 42,
-  "issuedAt": "2026-08-11T19:40:00Z",
-  "expiresAt": "2026-08-18T19:40:00Z",
+  "revision": 43,
+  "issuedAt": "2026-08-11T19:50:00Z",
+  "expiresAt": "2026-08-18T19:50:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4173,6 +4173,123 @@
           "summary": "严格五位玩家在狭长六色紫罗兰针塔中寻找三连。",
           "systemImage": "arrow.up.to.line",
           "title": "五席紫罗兰针塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-meadow-crown",
+      "packID": "dual-meadow-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-meadow-crown-v1.playablepack.json",
+      "byteCount": 1551,
+      "envelopeSHA256": "11bdb8183d5ec7a2d863884ff34e606811b1f98fdbc20df1a97577c63287281a",
+      "contentSHA256": "18a2102dc9e82bb7371863e709ba2b9f5f110b3e5203c012f7d16140ac78b569",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players shape rare five-tile crowns across a shallow five-color meadow.",
+          "systemImage": "crown.fill",
+          "title": "Dual Meadow Crown"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短五色草甸中塑造稀有五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "双人草甸王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spectrum-current",
+      "packID": "open-spectrum-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-current-v1.playablepack.json",
+      "byteCount": 1605,
+      "envelopeSHA256": "28418955efff81a48eb16b5824cd11468c0c2e4b37663301fccce03a262953c3",
+      "contentSHA256": "ffa96a01a99d0e5b5bb0226024c048cd0425b0aa136fda7174c69586b281f990",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to five players steer quick three-tile clears through a broad seven-color current.",
+          "systemImage": "water.waves",
+          "title": "Open Spectrum Current"
+        },
+        "zh-Hans": {
+          "summary": "二至五位玩家在宽阔七色潮流中引导灵活三连消除。",
+          "systemImage": "water.waves",
+          "title": "开放光谱潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-six-seat-violet-loom",
+      "packID": "six-seat-violet-loom-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 6,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-six-seat-violet-loom-v1.playablepack.json",
+      "byteCount": 1597,
+      "envelopeSHA256": "cedeb7b67e4bf8d26ac36ad8aa14c47760223f66c0c7b639050993eb38cc2213",
+      "contentSHA256": "15f4dd68d61021d791e14cca49e288676ab0145d47d1039007d1003f61aea5d9",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Six players weave four-tile bands through a narrow four-color violet loom.",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "Six Seat Violet Loom"
+        },
+        "zh-Hans": {
+          "summary": "六位玩家在狭长四色紫罗兰织机中编织四连色带。",
+          "systemImage": "rectangle.split.3x1.fill",
+          "title": "六席紫罗兰织机"
         }
       }
     }
