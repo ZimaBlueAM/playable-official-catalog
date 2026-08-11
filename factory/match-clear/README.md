@@ -154,3 +154,14 @@ Batch AL taxonomy is sidecar-only in `batch-20260811-al.manifest.json` and
 
 Batch AM taxonomy is sidecar-only in `batch-20260811-am.manifest.json` and
 `audits/batch-20260811-am.json`; revision 47 contains no taxonomy fields.
+
+## Batch AN
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Amber Current | 7×4, 6 colors | 3 | 21 | exactly 2 | Four shallow rows keep all duel-current swaps inside the lower thumb sweep. |
+| Open Spectrum Citadel | 8×10, 8 colors | 4 | 55 | 2–6 | Eight compact columns keep rare citadel work in the lower one-thumb arc. |
+| Three Seat Clover Needle | 4×8, 4 colors | 5 | 38 | exactly 3 | Four narrow columns emphasize vertical five-lines while remaining thumb reachable. |
+
+Batch AN taxonomy is sidecar-only in `batch-20260811-an.manifest.json` and
+`audits/batch-20260811-an.json`; revision 48 contains no taxonomy fields.

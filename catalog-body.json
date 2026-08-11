@@ -1,7 +1,7 @@
 {
-  "revision": 47,
-  "issuedAt": "2026-08-11T20:30:00Z",
-  "expiresAt": "2026-08-18T20:30:00Z",
+  "revision": 48,
+  "issuedAt": "2026-08-11T20:40:00Z",
+  "expiresAt": "2026-08-18T20:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4758,6 +4758,123 @@
           "summary": "严格六位玩家在高耸三色苜蓿潮流中引导密集三连。",
           "systemImage": "water.waves",
           "title": "六席苜蓿潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-amber-current",
+      "packID": "dual-amber-current-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-amber-current-v1.playablepack.json",
+      "byteCount": 1568,
+      "envelopeSHA256": "8da37cf4310daf765d09f9ea4b9d434e6c9ba5223c577b61416eeebda13f6ecd",
+      "contentSHA256": "fcb869cb76c3fff1393da130575659569bbde21c340065a531e1cfce31d9b596",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players steer scarce triples across a shallow six-color amber current.",
+          "systemImage": "water.waves",
+          "title": "Dual Amber Current"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在浅短六色琥珀潮流中引导稀有三连。",
+          "systemImage": "water.waves",
+          "title": "双人琥珀潮流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-open-spectrum-citadel",
+      "packID": "open-spectrum-citadel-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-open-spectrum-citadel-v1.playablepack.json",
+      "byteCount": 1625,
+      "envelopeSHA256": "23504bc94661b7f1c8bbe0a872cc6b8c7b0a58e0f2828dfabf54d36ba9722c70",
+      "contentSHA256": "1b2db088780edf37bfb2b4676507d8bf752fb98deace80b2116bdb069a25cc83",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two to six players raise rare four-tile walls through a tall eight-color spectrum citadel.",
+          "systemImage": "building.2.fill",
+          "title": "Open Spectrum Citadel"
+        },
+        "zh-Hans": {
+          "summary": "二至六位玩家在高耸八色光谱城堡中筑起稀有四连城墙。",
+          "systemImage": "building.2.fill",
+          "title": "开放光谱城堡"
+        }
+      }
+    },
+    {
+      "gameID": "pack-three-seat-clover-needle",
+      "packID": "three-seat-clover-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 3,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-seat-clover-needle-v1.playablepack.json",
+      "byteCount": 1621,
+      "envelopeSHA256": "b6354463c6e8da0b28e1a717bc7e5567eb832061b71d7e3eb3a9ebd7198bfff7",
+      "contentSHA256": "b47d9513527f492966da7591dff050a88f866de03a9f6e2e2efe1dc08246a94c",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly three players grow vertical five-tile lines through a narrow four-color clover needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Three Seat Clover Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格三位玩家在狭长四色苜蓿针塔中培育纵向五连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "三席苜蓿针塔"
         }
       }
     }
