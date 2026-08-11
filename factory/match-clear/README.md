@@ -176,3 +176,14 @@ Batch AF taxonomy is sidecar-only in `batch-20260811-af.manifest.json` and
 
 Batch AG taxonomy is sidecar-only in `batch-20260811-ag.manifest.json` and
 `audits/batch-20260811-ag.json`; revision 41 contains no taxonomy fields.
+
+## Batch AH
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Spectrum Crown | 6×5, 8 colors | 5 | 14 | exactly 2 | Five shallow rows keep rare duel crowns inside the lower thumb sweep. |
+| Party Clover Boulevard | 10×7, 3 colors | 4 | 65 | 3–6 | Frequent long-game swaps stay across the lower active boulevard rows. |
+| Five Seat Violet Needle | 4×9, 6 colors | 3 | 28 | exactly 5 | Four narrow columns keep five-seat needle play entirely thumb reachable. |
+
+Batch AH taxonomy is sidecar-only in `batch-20260811-ah.manifest.json` and
+`audits/batch-20260811-ah.json`; revision 42 contains no taxonomy fields.

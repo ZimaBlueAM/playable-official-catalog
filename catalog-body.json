@@ -1,7 +1,7 @@
 {
-  "revision": 41,
-  "issuedAt": "2026-08-11T19:30:00Z",
-  "expiresAt": "2026-08-18T19:30:00Z",
+  "revision": 42,
+  "issuedAt": "2026-08-11T19:40:00Z",
+  "expiresAt": "2026-08-18T19:40:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -4056,6 +4056,123 @@
           "summary": "四至六位朋友在高耸三色苜蓿塔中引导密集三连瀑布。",
           "systemImage": "building.2.fill",
           "title": "派对苜蓿塔"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-spectrum-crown",
+      "packID": "dual-spectrum-crown-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-spectrum-crown-v1.playablepack.json",
+      "byteCount": 1560,
+      "envelopeSHA256": "6a348aa535c47c8210625efb09c4d7a982f67d4dcac92ba2f5e558f55f075803",
+      "contentSHA256": "7eb4658060aa6188412960dcbebc89d8c76e07a5e6f46d0136fca802241e356f",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players forge rare five-tile crowns across a compact eight-color spectrum.",
+          "systemImage": "crown.fill",
+          "title": "Dual Spectrum Crown"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在紧凑八色光谱中锻造稀有五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "双人光谱王冠"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-clover-boulevard",
+      "packID": "party-clover-boulevard-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-clover-boulevard-v1.playablepack.json",
+      "byteCount": 1597,
+      "envelopeSHA256": "dfb610d8a8eeffb10fe27cd1d0c51559ba3a68d66dbf62291b2cb4b480308dba",
+      "contentSHA256": "ec3dcdf3dbfaef5b16c1516adb10670fac1e055f7dd4a2d4dd4709ae27023d9d",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends build dense four-tile clover boulevards across a broad field.",
+          "systemImage": "road.lanes",
+          "title": "Party Clover Boulevard"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在宽阔棋盘构筑密集四连苜蓿大道。",
+          "systemImage": "road.lanes",
+          "title": "派对苜蓿大道"
+        }
+      }
+    },
+    {
+      "gameID": "pack-five-seat-violet-needle",
+      "packID": "five-seat-violet-needle-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 5,
+      "maximumPlayers": 5,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-five-seat-violet-needle-v1.playablepack.json",
+      "byteCount": 1597,
+      "envelopeSHA256": "c5d20ffcdcdd9ccf546271bfefc48dbe08bbb85f41bab2e3fc7c6aa8d27a3782",
+      "contentSHA256": "280606ebf93aed428eace3af18ef891d8075a9d707423c410e8f7c1fe5b44a10",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly five players hunt triples through a narrow six-color violet needle.",
+          "systemImage": "arrow.up.to.line",
+          "title": "Five Seat Violet Needle"
+        },
+        "zh-Hans": {
+          "summary": "严格五位玩家在狭长六色紫罗兰针塔中寻找三连。",
+          "systemImage": "arrow.up.to.line",
+          "title": "五席紫罗兰针塔"
         }
       }
     }
