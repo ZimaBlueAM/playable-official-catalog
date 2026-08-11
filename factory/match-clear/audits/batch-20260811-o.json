@@ -1,0 +1,17 @@
+{
+  "contract": "playable-taxonomy-audit-v1",
+  "allowed": {
+    "carrier": ["board", "cards", "mahjong", "tiles", "dice", "canvas", "action"],
+    "mechanics": ["alignment", "connection", "capture", "shedding", "set-collection", "take-away", "bluff", "deduction", "memory", "matching", "race", "push-your-luck", "dexterity", "spatial", "word"],
+    "players": ["solo", "two-player", "party-3-6"],
+    "pace": ["instant", "turn-based", "quick-round"],
+    "context": ["independent", "pass-and-play", "friends-room"],
+    "input": ["one-thumb", "two-thumb", "canvas"]
+  },
+  "checks": [
+    {"gameID":"pack-dual-prism-rush","carrier":"tiles","mechanics":["matching","alignment","race"],"minPlayers":2,"maxPlayers":2,"players":["two-player"],"pace":"quick-round","context":"friends-room","input":"one-thumb","evidence":"8x5 board; adjacent swap; eight-color three-tile clears; strict 2-player; 13 turns; vector 9074f27868107bb0"},
+    {"gameID":"pack-four-seat-flood","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":4,"maxPlayers":4,"players":["party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"9x6 board; adjacent swap; dense three-color four-tile clears; strict 4-player; 20 turns; vector 30b6dc2ac884726f"},
+    {"gameID":"pack-party-crownfield","carrier":"board","mechanics":["matching","alignment","spatial"],"minPlayers":3,"maxPlayers":6,"players":["party-3-6"],"pace":"turn-based","context":"friends-room","input":"one-thumb","evidence":"10x7 board; adjacent swap; five-color five-tile clears; strict 3-6 players; 35 turns; vector 26dca08b81d635c7"}
+  ],
+  "catalogCompatibility": "Labels remain sidecar-only until Build107 taxonomy transport; schema1 catalog entries contain no taxonomy fields so Build106 verification remains available."
+}

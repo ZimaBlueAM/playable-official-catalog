@@ -149,3 +149,14 @@ Batch M taxonomy is sidecar-only in `batch-20260811-m.manifest.json` and
 
 Batch N taxonomy is sidecar-only in `batch-20260811-n.manifest.json` and
 `audits/batch-20260811-n.json`; revision 22 contains no taxonomy fields.
+
+## Batch O
+
+| Pack | Board | Match | Turns | Players | Interaction note |
+| --- | --- | --- | --- | --- | --- |
+| Dual Prism Rush | 8×5, 8 colors | 3 | 13 | exactly 2 | Five shallow rows keep scarce prism triples in a lower one-thumb duel field. |
+| Four Seat Flood | 9×6, 3 colors | 4 | 20 | exactly 4 | Dense flood input uses short adjacent swaps concentrated in the lower active rows. |
+| Party Crownfield | 10×7, 5 colors | 5 | 35 | 3–6 | Long crown setup uses local swaps, with frequent party input in the lower board half. |
+
+Batch O taxonomy is sidecar-only in `batch-20260811-o.manifest.json` and
+`audits/batch-20260811-o.json`; revision 23 contains no taxonomy fields.

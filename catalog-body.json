@@ -1,7 +1,7 @@
 {
-  "revision": 22,
-  "issuedAt": "2026-08-11T15:30:00Z",
-  "expiresAt": "2026-08-18T15:30:00Z",
+  "revision": 23,
+  "issuedAt": "2026-08-11T16:30:00Z",
+  "expiresAt": "2026-08-18T16:30:00Z",
   "entries": [
     {
       "gameID": "pack-stack-four",
@@ -1833,6 +1833,123 @@
           "summary": "三至六位朋友在七色高格阵中构筑稀有四连。",
           "systemImage": "grid",
           "title": "派对格线"
+        }
+      }
+    },
+    {
+      "gameID": "pack-dual-prism-rush",
+      "packID": "dual-prism-rush-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-dual-prism-rush-v1.playablepack.json",
+      "byteCount": 1567,
+      "envelopeSHA256": "fdb9ea0db2ca237f8dc9e3372ce97af3a51585d88ad380e0dbdbb5f90c6ff919",
+      "contentSHA256": "b5b39df723b9323fc2af2a7df2099d2545e5c406d9c4f367c643b4c1d9eed848",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Two players hunt scarce triples through an eight-color prism field over thirteen turns.",
+          "systemImage": "diamond.fill",
+          "title": "Dual Prism Rush"
+        },
+        "zh-Hans": {
+          "summary": "两位玩家在八色棱镜棋盘寻找稀有三连，共十三回合。",
+          "systemImage": "diamond.fill",
+          "title": "双人棱镜冲刺"
+        }
+      }
+    },
+    {
+      "gameID": "pack-four-seat-flood",
+      "packID": "four-seat-flood-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 4,
+      "maximumPlayers": 4,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-four-seat-flood-v1.playablepack.json",
+      "byteCount": 1540,
+      "envelopeSHA256": "3f46a8a4f631cffcda16be01b08f4a4fc2ef3ab82e01e03ded372949f6ead85d",
+      "contentSHA256": "3b500f18f4cb68069c2f1f2776a5237157fbc1bf69928ce14080c73cf4057e5b",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Exactly four players steer dense three-color floods into four-tile lines.",
+          "systemImage": "drop.fill",
+          "title": "Four Seat Flood"
+        },
+        "zh-Hans": {
+          "summary": "严格四位玩家把密集三色洪流引导成四连。",
+          "systemImage": "drop.fill",
+          "title": "四席洪流"
+        }
+      }
+    },
+    {
+      "gameID": "pack-party-crownfield",
+      "packID": "party-crownfield-first-edition",
+      "packVersion": 1,
+      "rulesVersion": 1,
+      "minimumAppBuild": 106,
+      "engine": {
+        "family": "matchClear",
+        "version": 1
+      },
+      "minimumPlayers": 3,
+      "maximumPlayers": 6,
+      "lifecycle": "available",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-party-crownfield-v1.playablepack.json",
+      "byteCount": 1588,
+      "envelopeSHA256": "34572ff83f142919bf658b019cf41579e7b9cb7df077e961cfc67c65109f5b55",
+      "contentSHA256": "e710ab7e9d5bba423cc3c936fa2ca8293028a963f45b779278c1e8423a6720d5",
+      "packKeyID": "playable-content-2026-02",
+      "source": {
+        "name": "Playable Studio",
+        "url": "https://zimablueam.github.io/playable-official-catalog/source"
+      },
+      "license": {
+        "attribution": "Playable Studio",
+        "identifier": "LicenseRef-Playable"
+      },
+      "metadata": {
+        "en": {
+          "summary": "Three to six friends cultivate five-tile crowns across a broad five-color field.",
+          "systemImage": "crown.fill",
+          "title": "Party Crownfield"
+        },
+        "zh-Hans": {
+          "summary": "三至六位朋友在五色宽阔棋盘培育五连王冠。",
+          "systemImage": "crown.fill",
+          "title": "派对王冠场"
         }
       }
     }
