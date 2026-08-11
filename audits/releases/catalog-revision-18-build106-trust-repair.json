@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "type": "catalog-repair",
+  "status": "published",
+  "revision": 18,
+  "previousRevision": 17,
+  "reason": "Build106 shipping verification rejected revision 17 because 20 sliding-grid packs used an untrusted signing key ID.",
+  "repair": {
+    "affectedPackCount": 20,
+    "oldPackKeyID": "sliding-grid-content-2026-08",
+    "newPackKeyID": "playable-content-2026-02",
+    "canonicalBodiesChanged": false,
+    "catalogKeyID": "playable-catalog-2026-02"
+  },
+  "verification": {
+    "catalogEntries": 25,
+    "packTrustRingVerified": 25,
+    "catalogSignatureVerified": true,
+    "urlBindingsVerified": 25,
+    "legacyEntriesPreserved": 5,
+    "build106EndpointPolicy": "pending-fresh-pages-check"
+  },
+  "privateMaterial": "not included"
+}
