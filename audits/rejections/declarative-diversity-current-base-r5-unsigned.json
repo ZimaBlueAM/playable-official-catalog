@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/declarative-diversity/20260812-current-base-r5-unsigned",
+  "commit": "d38e711400d28829ad9b7847a373870082e537af",
+  "gateTier": "playable",
+  "reasons": [
+    "unsigned_candidate_no_envelopes",
+    "content_signature_trust_mismatch",
+    "publisher_runtime_journey_blocked",
+    "taxonomy_evidence_missing",
+    "no_publishable_catalog_delta"
+  ],
+  "observed": {
+    "parent": "2b8a258502a6fe99615d972afc69f083c5242431",
+    "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
+    "baseMainCommit": "9787cf7ee3a7fbd4aed41a5e7accb024e9721395",
+    "baseCatalogRevision": 19,
+    "baseCatalogEntries": 25,
+    "candidateCatalogRevision": null,
+    "candidateCatalogEntries": 25,
+    "candidateManifestStatus": "blocked-unsigned-draft",
+    "candidatePackIDs": [
+      "pack-three-line",
+      "pack-secret-majority",
+      "pack-sketch-relay"
+    ],
+    "draftPackCount": 3,
+    "signedEnvelopeCount": 0,
+    "contentKeyID": "playable-content-2026-02",
+    "signatureStatus": "blocked-existing-local-key-does-not-match-trusted-production-public-key",
+    "runtimeStatus": "blocked-provider-contract-isolated-branch-not-in-private-main",
+    "normalJourney": "blocked-runtime-publisher",
+    "pagesBinding": "blocked-no-publisher-envelope",
+    "taxonomyStatus": "blocked-before-signature",
+    "taxonomyTags": "exact-two-player-for-all-three",
+    "taxonomyEvidence": "missing-for-all-three-entries",
+    "bodyChecks": {
+      "nonExecutableJSON": true,
+      "resources": 0,
+      "bilingualMetadata": true,
+      "licenseAndSourcePresent": true,
+      "declaredPlayerRange": "2-2"
+    },
+    "noCatalogMutation": true,
+    "catalogRevisionUnchanged": true
+  },
+  "fix": {
+    "resubmitOnCurrentBase": true,
+    "required": [
+      "materialize signed schema2 envelopes with the approved content key ID playable-content-2026-02 whose public key matches the installed Build trust ring",
+      "restore per-entry taxonomy evidence tying carrier/mechanics/players/pace/context/input to the complete deterministic rule and terminal replay",
+      "close the private runtime provider path and replay Home-to-Setup-to-Solo-or-fair-Bot-to-Result-to-Rematch for every declared two-player candidate",
+      "publish only after a bounded catalog delta has verified public URL, byte count, content hash, envelope hash, signature, license and offline Add/Play"
+    ]
+  }
+}
