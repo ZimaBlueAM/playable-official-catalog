@@ -1,0 +1,389 @@
+{
+  "createdAt": "2026-08-12T04:05:00Z",
+  "defaultPresetID": "four-round-relay",
+  "definition": {
+    "canvasGuess": {
+      "maximumStrokesPerRound": 8,
+      "prompts": [
+        "apple",
+        "bridge",
+        "cloud",
+        "drum",
+        "flower",
+        "key",
+        "moon",
+        "star"
+      ],
+      "roundCount": 4
+    },
+    "engine": "canvasGuess",
+    "engineVersion": 1,
+    "format": 1,
+    "maximumPlayers": 4,
+    "minimumPlayers": 2,
+    "tests": [
+      {
+        "actions": [
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 140,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 7
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 110,
+                  "y": 100
+                },
+                {
+                  "x": 150,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 4
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 120,
+                  "y": 100
+                },
+                {
+                  "x": 160,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 1
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 130,
+                  "y": 100
+                },
+                {
+                  "x": 170,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 6
+            },
+            "seat": 0
+          }
+        ],
+        "expectedChecksum": "baedc990861cc7ca",
+        "playerCount": 2,
+        "seed": 271
+      },
+      {
+        "actions": [
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 140,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 7
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 110,
+                  "y": 100
+                },
+                {
+                  "x": 150,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 4
+            },
+            "seat": 2
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 120,
+                  "y": 100
+                },
+                {
+                  "x": 160,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 2
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 1
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 130,
+                  "y": 100
+                },
+                {
+                  "x": 170,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 6
+            },
+            "seat": 1
+          }
+        ],
+        "expectedChecksum": "dde8a836c2ba1a6a",
+        "playerCount": 3,
+        "seed": 271
+      },
+      {
+        "actions": [
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 100,
+                  "y": 100
+                },
+                {
+                  "x": 140,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 0
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 7
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 110,
+                  "y": 100
+                },
+                {
+                  "x": 150,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 1
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 4
+            },
+            "seat": 2
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 120,
+                  "y": 100
+                },
+                {
+                  "x": 160,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 2
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 1
+            },
+            "seat": 3
+          },
+          {
+            "action": {
+              "kind": "stroke",
+              "points": [
+                {
+                  "x": 130,
+                  "y": 100
+                },
+                {
+                  "x": 170,
+                  "y": 140
+                }
+              ],
+              "primary": 0
+            },
+            "seat": 3
+          },
+          {
+            "action": {
+              "kind": "guess",
+              "points": [],
+              "primary": 6
+            },
+            "seat": 0
+          }
+        ],
+        "expectedChecksum": "0f4356f2bca3bc96",
+        "playerCount": 4,
+        "seed": 271
+      }
+    ]
+  },
+  "gameID": "pack-sketch-relay",
+  "license": {
+    "attribution": "Playable Studio",
+    "identifier": "LicenseRef-Playable"
+  },
+  "metadata": {
+    "en": {
+      "summary": "Draw a clue, guess a clue, and pass the sketchbook around for four quick rounds.",
+      "systemImage": "pencil.and.scribble",
+      "title": "Sketch Relay"
+    },
+    "zh-Hans": {
+      "summary": "画出提示、猜中提示，四轮接力把画板传下去。",
+      "systemImage": "pencil.and.scribble",
+      "title": "画猜接力"
+    }
+  },
+  "minimumAppBuild": 104,
+  "packID": "sketch-relay-first-edition",
+  "presets": [
+    {
+      "id": "four-round-relay",
+      "parameters": {},
+      "summary": {
+        "en": "Two to four players. Draw, guess, and rotate the artist for four rounds.",
+        "zh-Hans": "两至四人。画、猜并轮换画手，完成四轮接力。"
+      },
+      "systemImage": "pencil.and.scribble",
+      "title": {
+        "en": "Four-Round Relay",
+        "zh-Hans": "四轮接力"
+      }
+    }
+  ],
+  "resources": [],
+  "rulesVersion": 1,
+  "source": {
+    "name": "Playable Studio",
+    "url": "https://zimablueam.github.io/playable-official-catalog/source"
+  },
+  "version": 1
+}
