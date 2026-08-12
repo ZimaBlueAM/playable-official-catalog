@@ -2,9 +2,9 @@
   "schema": 1,
   "status": "blocked-unsigned-draft",
   "gateTier": "playable",
-  "candidateRef": "factory/declarative-diversity/20260812-current-base-r5-unsigned",
-  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
-  "baseMainCommit": "9787cf7ee3a7fbd4aed41a5e7accb024e9721395",
+  "candidateRef": "factory/declarative-diversity/20260812-current-base-r6-unsigned",
+  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r5-unsigned",
+  "baseMainCommit": "d3b3c84b20d55b9c40cfe083791cdf93a87007d0",
   "baseCatalogRevision": 19,
   "baseCatalogEntryCount": 25,
   "candidateCatalogRevision": null,
@@ -12,7 +12,8 @@
   "catalogMutation": "none-publisher-only",
   "taxonomyVersion": "app-taxonomy-v2",
   "taxonomyTransport": "candidate-and-audit-sidecar-only",
-  "contentStatus": "three-current-base-body-drafts-no-envelopes-exact-two-player-range-rebased",
+  "taxonomyEvidenceSidecar": "audits/candidates/taxonomy-evidence-current-base-r6-20260812.json",
+  "contentStatus": "three-current-base-body-drafts-no-envelopes-exact-two-player-range-taxonomy-evidence-bound",
   "signatureStatus": "blocked-existing-local-key-does-not-match-trusted-production-public-key",
   "runtimeStatus": "blocked-provider-contract-isolated-branch-not-in-private-main",
   "entries": [
@@ -33,8 +34,20 @@
       },
       "mechanismDifference": "Free placement on a 3x3 board, no gravity, first straight line of three; not the current gravity-based four-disc game.",
       "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" } },
+      "taxonomyEvidence": {
+        "carrier": { "tag": "board", "ruleField": "definition.gridBoard", "binding": "3x3 free-placement board" },
+        "mechanics": { "tags": ["alignment", "connection"], "ruleFields": ["definition.gridBoard.connectionLength", "definition.gridBoard.usesGravity"], "binding": "straight connection of three; no gravity" },
+        "players": { "tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2] },
+        "pace": { "tags": ["quick-round"], "binding": "bounded by nine placements; submitted replay finishes after five" },
+        "context": { "tags": ["independent"], "binding": "no network or external material" },
+        "input": { "tags": ["one-thumb"], "legalActionKinds": ["place"], "binding": "current seat places an unoccupied cell 0...8" },
+        "deterministicRule": { "terminalRule": "first line of three, otherwise board-full draw", "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" } }, "complete": true, "deterministic": true }
+      },
+      "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false },
+      "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true },
       "integrity": {
         "draftByteCount": 2551,
+        "canonicalBodyByteCount": 1582,
         "canonicalBodySHA256": "acfe2f04b2d56ab66a52b036eab33f36a5aa7c44e027a7b3603e9fedde2ab560",
         "envelopeByteCount": null,
         "envelopeSHA256": null,
@@ -68,8 +81,20 @@
       "terminalReplay": {
         "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" }
       },
+      "taxonomyEvidence": {
+        "carrier": { "tag": "action", "ruleField": "definition.hiddenRole", "binding": "bounded vote-action game with private role projection" },
+        "mechanics": { "tags": ["bluff", "deduction"], "ruleFields": ["definition.hiddenRole.roles", "definition.hiddenRole.maximumRounds"], "binding": "private roles plus one bounded ballot" },
+        "players": { "tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2] },
+        "pace": { "tags": ["quick-round"], "binding": "one round and one vote per seat" },
+        "context": { "tags": ["friends-room"], "binding": "local pass-and-play secrecy; no network or external material" },
+        "input": { "tags": ["one-thumb"], "legalActionKinds": ["vote"], "binding": "each active seat votes once for the other active seat" },
+        "deterministicRule": { "terminalRule": "after both legal votes, deterministic majority elimination resolves the winner", "terminalReplay": { "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" } }, "complete": true, "deterministic": true }
+      },
+      "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false },
+      "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true },
       "integrity": {
         "draftByteCount": 2428,
+        "canonicalBodyByteCount": 1585,
         "canonicalBodySHA256": "b3a27a4f50ca2168e064d6ecd86e995ff9e552fcda77bdbfc2f7a6b4c1aca5e6",
         "envelopeByteCount": null,
         "envelopeSHA256": null,
@@ -103,8 +128,20 @@
       "terminalReplay": {
         "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" }
       },
+      "taxonomyEvidence": {
+        "carrier": { "tag": "canvas", "ruleField": "definition.canvasGuess", "binding": "bounded stroke canvas plus prompt-choice guessing" },
+        "mechanics": { "tags": ["matching", "word"], "ruleFields": ["definition.canvasGuess.prompts", "definition.canvasGuess.roundCount", "definition.canvasGuess.maximumStrokesPerRound"], "binding": "rotating drawer matches a private word to a bounded sketch" },
+        "players": { "tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2] },
+        "pace": { "tags": ["quick-round"], "binding": "four rounds and at most eight strokes per round" },
+        "context": { "tags": ["friends-room"], "binding": "local pass-and-play drawing; no network or external material" },
+        "input": { "tags": ["canvas"], "legalActionKinds": ["stroke", "guess"], "binding": "bounded stroke then prompt index 0...7, alternating for four rounds" },
+        "deterministicRule": { "terminalRule": "after four legal stroke/guess rounds, deterministic prompt scoring resolves the winner", "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" } }, "complete": true, "deterministic": true }
+      },
+      "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false },
+      "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true },
       "integrity": {
         "draftByteCount": 4001,
+        "canonicalBodyByteCount": 1976,
         "canonicalBodySHA256": "680aca84fdfc0ff48b9d23fa5c35eb32f828bdcfd3446960f97eb5e9163f23c9",
         "envelopeByteCount": null,
         "envelopeSHA256": null,
@@ -120,6 +157,13 @@
       }
     }
   ],
+  "taxonomyAudit": {
+    "status": "pass-body-rule-bound-runtime-unverified",
+    "transport": "candidate-and-audit-sidecar-only",
+    "carrierIsScalar": true,
+    "forbiddenCatalogDimensionsPresent": false,
+    "evidenceBoundTo": ["definition", "legalActionKinds", "terminalReplay", "minimumPlayers", "maximumPlayers"]
+  },
   "blockingEvidence": [
     "audits/candidates/declarative-diversity-current-base-20260812.md",
     "audits/candidates/signature-trust-mismatch-20260812.json",
@@ -127,7 +171,9 @@
     "audits/rejections/declarative-diversity-current-base-r2-unsigned.json",
     "audits/rejections/declarative-diversity-current-base-r3-unsigned.json",
     "audits/rejections/declarative-diversity-current-base-r4-unsigned.json",
-    "audits/candidates/current-base-r5-revalidation-20260812.json"
+    "audits/candidates/current-base-r5-revalidation-20260812.json",
+    "audits/candidates/taxonomy-evidence-current-base-r6-20260812.json",
+    "audits/candidates/current-base-r6-revalidation-20260812.json"
   ],
   "requiredPublisherActions": [
     "Use the approved existing production content signing key whose public key matches Build runtime key ID playable-content-2026-02; do not generate or substitute a key.",

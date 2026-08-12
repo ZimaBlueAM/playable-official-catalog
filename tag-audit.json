@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "status": "blocked-unsigned-draft",
+  "gateTier": "playable",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "source": "factory-candidate-manifest.json",
+  "taxonomyAudit": {
+    "status": "pass-body-rule-bound-runtime-unverified",
+    "carrierIsScalar": true,
+    "forbiddenCatalogDimensionsPresent": false,
+    "evidenceBoundTo": ["definition", "legalActionKinds", "terminalReplay", "minimumPlayers", "maximumPlayers"]
+  },
+  "entries": [
+    {
+      "gameID": "pack-three-line",
+      "decision": "blocked-before-signature",
+      "tags": { "carrier": "board", "mechanics": ["alignment", "connection"], "players": ["two-player"], "pace": ["quick-round"], "context": ["independent"], "input": ["one-thumb"] },
+      "evidence": { "engine": "gridBoard", "minimumPlayers": 2, "maximumPlayers": 2, "testedPlayerCounts": [2], "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" } }, "actionKinds": ["place"], "bodyDraft": "drafts/pack-three-line-body.json", "ruleBinding": { "definitionPath": "definition.gridBoard", "legalInput": "unoccupied primary cell 0...8", "terminalRule": "connectionLength 3 or board-full draw" }, "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false }, "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true } },
+      "taxonomyEvidence": { "sidecar": "audits/candidates/taxonomy-evidence-current-base-r6-20260812.json#pack-three-line", "carrier": "board", "mechanics": ["alignment", "connection"], "players": ["two-player"], "pace": ["quick-round"], "context": ["independent"], "input": ["one-thumb"] }
+    },
+    {
+      "gameID": "pack-secret-majority",
+      "decision": "blocked-before-signature",
+      "tags": { "carrier": "action", "mechanics": ["bluff", "deduction"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["one-thumb"] },
+      "evidence": { "engine": "hiddenRole", "minimumPlayers": 2, "maximumPlayers": 2, "testedPlayerCounts": [2], "terminalReplay": { "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" } }, "actionKinds": ["vote"], "bodyDraft": "drafts/pack-secret-majority-body.json", "ruleBinding": { "definitionPath": "definition.hiddenRole", "legalInput": "one vote for the other active seat", "terminalRule": "both legal votes complete the one-round majority resolution" }, "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false }, "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true } },
+      "taxonomyEvidence": { "sidecar": "audits/candidates/taxonomy-evidence-current-base-r6-20260812.json#pack-secret-majority", "carrier": "action", "mechanics": ["bluff", "deduction"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["one-thumb"] }
+    },
+    {
+      "gameID": "pack-sketch-relay",
+      "decision": "blocked-before-signature",
+      "tags": { "carrier": "canvas", "mechanics": ["matching", "word"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["canvas"] },
+      "evidence": { "engine": "canvasGuess", "minimumPlayers": 2, "maximumPlayers": 2, "testedPlayerCounts": [2], "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" } }, "actionKinds": ["stroke", "guess"], "bodyDraft": "drafts/pack-sketch-relay-body.json", "ruleBinding": { "definitionPath": "definition.canvasGuess", "legalInput": "bounded stroke then prompt index 0...7", "terminalRule": "four legal stroke/guess rounds complete prompt scoring" }, "uiFastGate": { "status": "static-design-pass-runtime-unverified", "minimumTouchTargetPt": 44, "coreInteractionLowerHalf": true, "oneHand": true, "twoThumb": true, "topBarDependency": false }, "provenance": { "source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true } },
+      "taxonomyEvidence": { "sidecar": "audits/candidates/taxonomy-evidence-current-base-r6-20260812.json#pack-sketch-relay", "carrier": "canvas", "mechanics": ["matching", "word"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["canvas"] }
+    }
+  ]
+}

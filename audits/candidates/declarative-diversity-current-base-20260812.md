@@ -1,6 +1,6 @@
 # Current-base declarative diversity repair — 2026-08-12
 
-This candidate is based directly on public `main` commit `9787cf7ee3a7fbd4aed41a5e7accb024e9721395`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three rule families from the prior handoff; the two previously rejected 2–4 declarations are now honestly bounded to exact two-player support because the public taxonomy has no 3–4 tag. This is a current-base rebase only, not three new games.
+This candidate is based directly on public `main` commit `d3b3c84b20d55b9c40cfe083791cdf93a87007d0`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three rule families from the prior handoff; the two previously rejected 2–4 declarations are honestly bounded to exact two-player support because the public taxonomy has no 3–4 tag. This is a current-base rebase plus evidence repair, not three new games.
 
 The bounded repair carries three body-only candidates that are absent from current main:
 
@@ -16,7 +16,7 @@ The body drafts are non-executable JSON only. Their canonical body hashes are re
 
 - Body schema/rule budget/legal vectors: pass in the isolated declarative pack tool before the previous signed attempt.
 - Mechanism de-duplication: pass for the three independent families; current main has no matching game IDs or rules.
-- Taxonomy/provenance: recorded in `factory-candidate-manifest.json` and `tag-audit.json`; carriers are scalar and all three ranges now exactly match the allowed `two-player` tag.
+- Taxonomy/provenance: recorded in `factory-candidate-manifest.json`, `tag-audit.json`, and `audits/candidates/taxonomy-evidence-current-base-r6-20260812.json`; each scalar carrier, mechanic, player range, pace, context, input, legal-action binding, deterministic terminal replay, source/license, and static thumb gate is tied to a definition field. All three ranges exactly match the allowed `two-player` tag.
 - Official signature, envelope hash/byte binding, Pages URL and offline Add/Play: blocked because no trusted envelope can be created in this environment.
 - Normal Home → Setup → Solo/fair Bot → Result → Rematch: blocked until the isolated provider contract is merged into the private App runtime and publisher replay is run. This public ref does not claim that evidence.
 

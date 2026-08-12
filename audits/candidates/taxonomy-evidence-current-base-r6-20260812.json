@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "status": "body-rule-bound-runtime-unverified",
+  "canonicalHashRule": "SHA-256 of compact body JSON with trailing newline removed; draftByteCount records the submitted pretty draft",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "entries": [
+    {
+      "gameID": "pack-three-line",
+      "taxonomyEvidence": {
+        "carrier": {"tag": "board", "ruleField": "definition.gridBoard", "binding": "3x3 free-placement board"},
+        "mechanics": {"tags": ["alignment", "connection"], "ruleFields": ["definition.gridBoard.connectionLength", "definition.gridBoard.usesGravity"], "binding": "a player wins by completing a straight connection of exactly three; gravity is false"},
+        "players": {"tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2]},
+        "pace": {"tags": ["quick-round"], "binding": "at most nine placements before board fill; submitted terminal replay ends after five legal placements"},
+        "context": {"tags": ["independent"], "binding": "no hidden information, network state, or required external material"},
+        "input": {"tags": ["one-thumb"], "legalActionKinds": ["place"], "binding": "current seat places one unoccupied primary cell in 0...8; occupied cells and out-of-range cells are illegal"},
+        "deterministicRule": {"engine": "gridBoard", "terminalRule": "first straight line of connectionLength three, otherwise board-full draw", "terminalReplay": {"2": {"finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe"}}, "complete": true, "deterministic": true}
+      },
+      "uiFastGate": {"status": "static-design-pass-runtime-unverified", "coreInteraction": "3x3 board and rematch control remain in the lower half", "minimumTouchTargetPt": 44, "topBarDependency": false, "oneHand": true, "twoThumb": true},
+      "provenance": {"source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true}
+    },
+    {
+      "gameID": "pack-secret-majority",
+      "taxonomyEvidence": {
+        "carrier": {"tag": "action", "ruleField": "definition.hiddenRole", "binding": "bounded vote-action game with private role projection"},
+        "mechanics": {"tags": ["bluff", "deduction"], "ruleFields": ["definition.hiddenRole.roles", "definition.hiddenRole.maximumRounds"], "binding": "each seat privately receives a role projection and casts one ballot to infer and remove the rival team"},
+        "players": {"tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2]},
+        "pace": {"tags": ["quick-round"], "binding": "maximumRounds is one and each seat submits at most one vote"},
+        "context": {"tags": ["friends-room"], "binding": "pass-and-play secrecy is local; no network or external material is required"},
+        "input": {"tags": ["one-thumb"], "legalActionKinds": ["vote"], "binding": "each active seat votes once for the other active seat; self-votes, duplicate votes, and out-of-range seats are illegal"},
+        "deterministicRule": {"engine": "hiddenRole", "terminalRule": "after both legal votes in the one-round ballot, deterministic majority elimination resolves the winner", "terminalReplay": {"2": {"finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816"}}, "complete": true, "deterministic": true}
+      },
+      "uiFastGate": {"status": "static-design-pass-runtime-unverified", "coreInteraction": "role reveal and single lower-half vote targets are at least 44pt", "minimumTouchTargetPt": 44, "topBarDependency": false, "oneHand": true, "twoThumb": true},
+      "provenance": {"source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true}
+    },
+    {
+      "gameID": "pack-sketch-relay",
+      "taxonomyEvidence": {
+        "carrier": {"tag": "canvas", "ruleField": "definition.canvasGuess", "binding": "bounded stroke canvas plus prompt-choice guessing"},
+        "mechanics": {"tags": ["matching", "word"], "ruleFields": ["definition.canvasGuess.prompts", "definition.canvasGuess.roundCount", "definition.canvasGuess.maximumStrokesPerRound"], "binding": "rotating drawer matches a private word prompt to a bounded sketch; the other seat selects a prompt"},
+        "players": {"tags": ["two-player"], "ruleFields": ["definition.minimumPlayers", "definition.maximumPlayers"], "minimum": 2, "maximum": 2, "tested": [2]},
+        "pace": {"tags": ["quick-round"], "binding": "four rounds and at most eight strokes per round bound the complete session"},
+        "context": {"tags": ["friends-room"], "binding": "local pass-and-play drawing and guessing; no network or external material is required"},
+        "input": {"tags": ["canvas"], "legalActionKinds": ["stroke", "guess"], "binding": "drawer submits bounded stroke points, then the other seat selects one prompt index 0...7; actions alternate for four rounds"},
+        "deterministicRule": {"engine": "canvasGuess", "terminalRule": "after four legal stroke/guess rounds, deterministic prompt scoring resolves the winner", "terminalReplay": {"2": {"finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca"}}, "complete": true, "deterministic": true}
+      },
+      "uiFastGate": {"status": "static-design-pass-runtime-unverified", "coreInteraction": "drawing surface and guess targets occupy the lower-half thumb zone", "minimumTouchTargetPt": 44, "topBarDependency": false, "oneHand": false, "twoThumb": true},
+      "provenance": {"source": "https://zimablueam.github.io/playable-official-catalog/source", "license": "LicenseRef-Playable", "locales": ["en", "zh-Hans"], "resources": 0, "nonExecutableJSON": true}
+    }
+  ]
+}
