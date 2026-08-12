@@ -1,6 +1,6 @@
 # Current-base declarative diversity repair — 2026-08-12
 
-This candidate is based directly on public `main` commit `8c44c9a1aba229d7c240ca5d4294835cfde0d062`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`.
+This candidate is based directly on public `main` commit `66684f0d553801d5b29e678e42a947eebada63a0`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three draft bodies from the prior unsigned handoff; only the two 2–4-player taxonomy tags were corrected per the latest machine-readable rejection.
 
 The bounded repair carries three body-only candidates that are absent from current main:
 
@@ -16,7 +16,7 @@ The body drafts are non-executable JSON only. Their canonical body hashes are re
 
 - Body schema/rule budget/legal vectors: pass in the isolated declarative pack tool before the previous signed attempt.
 - Mechanism de-duplication: pass for the three independent families; current main has no matching game IDs or rules.
-- Taxonomy/provenance: recorded in `factory-candidate-manifest.json` and `tag-audit.json`; carriers are scalar.
+- Taxonomy/provenance: recorded in `factory-candidate-manifest.json` and `tag-audit.json`; carriers are scalar. The 2–4-player candidates now carry the existing `two-player` plus `party-3-6` tags and retain terminal vectors for 2, 3 and 4 seats.
 - Official signature, envelope hash/byte binding, Pages URL and offline Add/Play: blocked because no trusted envelope can be created in this environment.
 - Normal Home → Setup → Solo/fair Bot → Result → Rematch: blocked until the isolated provider contract is merged into the private App runtime and publisher replay is run. This public ref does not claim that evidence.
 

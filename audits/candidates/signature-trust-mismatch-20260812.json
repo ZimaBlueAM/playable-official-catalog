@@ -1,8 +1,9 @@
 {
   "schema": 1,
   "status": "blocked",
-  "candidate": "factory/declarative-diversity/20260812-current-base-unsigned",
-  "baseMainCommit": "8c44c9a1aba229d7c240ca5d4294835cfde0d062",
+  "candidate": "factory/declarative-diversity/20260812-current-base-r3-unsigned",
+  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r2-unsigned",
+  "baseMainCommit": "66684f0d553801d5b29e678e42a947eebada63a0",
   "baseCatalogRevision": 19,
   "keyID": "playable-content-2026-02",
   "checks": {
@@ -10,7 +11,16 @@
     "derivedPublicKeyMatchesInstalledRuntime": false,
     "productionTrustedVerifier": "not-passable-with-existing-local-key",
     "replacementKeyGenerated": false,
-    "privateKeyPrintedOrCommitted": false
+    "privateKeyPrintedOrCommitted": false,
+    "latestMainCatalogRevision": 19,
+    "latestMainCatalogEntryCount": 25,
+    "latestMainCatalogBodySHA256": "72cb26b793cf8b9b1cc284963f050e7f300f0c3071159110e156b4776c2974ed",
+    "pagesHTTPStatus": 200,
+    "pagesCatalogRevision": 19,
+    "pagesCatalogEntryCount": 25,
+    "pagesBodySHA256": "72cb26b793cf8b9b1cc284963f050e7f300f0c3071159110e156b4776c2974ed",
+    "pagesBodyMatchesLatestMain": true,
+    "taxonomyPlayerRangeFix": "pack-secret-majority and pack-sketch-relay now use two-player plus party-3-6 for declared 2-4 range"
   },
   "observedPacks": [
     { "gameID": "pack-three-line", "canonicalBodySHA256": "acfe2f04b2d56ab66a52b036eab33f36a5aa7c44e027a7b3603e9fedde2ab560", "envelope": "not-created" },
