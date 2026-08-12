@@ -2,8 +2,9 @@
   "schema": 1,
   "status": "blocked-unsigned-draft",
   "gateTier": "playable",
-  "candidateRef": "factory/declarative-diversity/20260812-current-base-unsigned",
-  "baseMainCommit": "8c44c9a1aba229d7c240ca5d4294835cfde0d062",
+  "candidateRef": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
+  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r3-unsigned",
+  "baseMainCommit": "da245991fc03df9af3cb5b54e00ea60f204acec4",
   "baseCatalogRevision": 19,
   "baseCatalogEntryCount": 25,
   "candidateCatalogRevision": null,
@@ -11,7 +12,7 @@
   "catalogMutation": "none-publisher-only",
   "taxonomyVersion": "app-taxonomy-v2",
   "taxonomyTransport": "candidate-and-audit-sidecar-only",
-  "contentStatus": "three-current-base-body-drafts-no-envelopes",
+  "contentStatus": "three-current-base-body-drafts-no-envelopes-exact-two-player-range",
   "signatureStatus": "blocked-existing-local-key-does-not-match-trusted-production-public-key",
   "runtimeStatus": "blocked-provider-contract-isolated-branch-not-in-private-main",
   "entries": [
@@ -54,7 +55,7 @@
       "engine": "hiddenRole",
       "bodyDraft": "drafts/pack-secret-majority-body.json",
       "minimumPlayers": 2,
-      "maximumPlayers": 4,
+      "maximumPlayers": 2,
       "tags": {
         "carrier": "action",
         "mechanics": ["bluff", "deduction"],
@@ -65,13 +66,11 @@
       },
       "mechanismDifference": "Private role projection, one ballot and deterministic majority elimination; not card take-away, tile sliding or board alignment.",
       "terminalReplay": {
-        "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" },
-        "3": { "finished": true, "winnerSeat": 1, "checksum": "cccb780b0db24a3b" },
-        "4": { "finished": true, "winnerSeat": 1, "checksum": "c6ff2a71f58d588c" }
+        "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" }
       },
       "integrity": {
-        "draftByteCount": 3917,
-        "canonicalBodySHA256": "10f74ba9ba6e5abedb64b200a2ca80269fff314ee0acd0e3027a46d3f23c0353",
+        "draftByteCount": 2428,
+        "canonicalBodySHA256": "b3a27a4f50ca2168e064d6ecd86e995ff9e552fcda77bdbfc2f7a6b4c1aca5e6",
         "envelopeByteCount": null,
         "envelopeSHA256": null,
         "signature": "not-created"
@@ -91,7 +90,7 @@
       "engine": "canvasGuess",
       "bodyDraft": "drafts/pack-sketch-relay-body.json",
       "minimumPlayers": 2,
-      "maximumPlayers": 4,
+      "maximumPlayers": 2,
       "tags": {
         "carrier": "canvas",
         "mechanics": ["matching", "word"],
@@ -102,13 +101,11 @@
       },
       "mechanismDifference": "Rotating drawer, private prompt, bounded strokes and guess scoring over four rounds; not the board or hidden-vote rules above.",
       "terminalReplay": {
-        "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" },
-        "3": { "finished": true, "winnerSeat": 0, "checksum": "dde8a836c2ba1a6a" },
-        "4": { "finished": true, "winnerSeat": 0, "checksum": "0f4356f2bca3bc96" }
+        "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" }
       },
       "integrity": {
-        "draftByteCount": 8637,
-        "canonicalBodySHA256": "bf27c30b63871d71954a1b32e5c33d31c0a6324b12b2d02eb066a472aded19f2",
+        "draftByteCount": 4001,
+        "canonicalBodySHA256": "680aca84fdfc0ff48b9d23fa5c35eb32f828bdcfd3446960f97eb5e9163f23c9",
         "envelopeByteCount": null,
         "envelopeSHA256": null,
         "signature": "not-created"
@@ -126,7 +123,9 @@
   "blockingEvidence": [
     "audits/candidates/declarative-diversity-current-base-20260812.md",
     "audits/candidates/signature-trust-mismatch-20260812.json",
-    "audits/rejections/declarative-diversity-batch1-invalid-signature.json"
+    "audits/rejections/declarative-diversity-batch1-invalid-signature.json",
+    "audits/rejections/declarative-diversity-current-base-r2-unsigned.json",
+    "audits/rejections/declarative-diversity-current-base-r3-unsigned.json"
   ],
   "requiredPublisherActions": [
     "Use the approved existing production content signing key whose public key matches Build runtime key ID playable-content-2026-02; do not generate or substitute a key.",

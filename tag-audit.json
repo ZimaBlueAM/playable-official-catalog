@@ -17,13 +17,13 @@
       "gameID": "pack-secret-majority",
       "decision": "blocked-before-signature",
       "tags": { "carrier": "action", "mechanics": ["bluff", "deduction"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["one-thumb"] },
-      "evidence": { "engine": "hiddenRole", "minimumPlayers": 2, "maximumPlayers": 4, "testedPlayerCounts": [2, 3, 4], "terminalReplay": { "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" }, "3": { "finished": true, "winnerSeat": 1, "checksum": "cccb780b0db24a3b" }, "4": { "finished": true, "winnerSeat": 1, "checksum": "c6ff2a71f58d588c" } }, "actionKinds": ["vote"], "bodyDraft": "drafts/pack-secret-majority-body.json" }
+      "evidence": { "engine": "hiddenRole", "minimumPlayers": 2, "maximumPlayers": 2, "testedPlayerCounts": [2], "terminalReplay": { "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" } }, "actionKinds": ["vote"], "bodyDraft": "drafts/pack-secret-majority-body.json" }
     },
     {
       "gameID": "pack-sketch-relay",
       "decision": "blocked-before-signature",
       "tags": { "carrier": "canvas", "mechanics": ["matching", "word"], "players": ["two-player"], "pace": ["quick-round"], "context": ["friends-room"], "input": ["canvas"] },
-      "evidence": { "engine": "canvasGuess", "minimumPlayers": 2, "maximumPlayers": 4, "testedPlayerCounts": [2, 3, 4], "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" }, "3": { "finished": true, "winnerSeat": 0, "checksum": "dde8a836c2ba1a6a" }, "4": { "finished": true, "winnerSeat": 0, "checksum": "0f4356f2bca3bc96" } }, "actionKinds": ["stroke", "guess"], "bodyDraft": "drafts/pack-sketch-relay-body.json" }
+      "evidence": { "engine": "canvasGuess", "minimumPlayers": 2, "maximumPlayers": 2, "testedPlayerCounts": [2], "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" } }, "actionKinds": ["stroke", "guess"], "bodyDraft": "drafts/pack-sketch-relay-body.json" }
     }
   ]
 }

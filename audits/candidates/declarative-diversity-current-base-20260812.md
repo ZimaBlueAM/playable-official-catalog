@@ -1,22 +1,22 @@
 # Current-base declarative diversity repair — 2026-08-12
 
-This candidate is based directly on public `main` commit `8c44c9a1aba229d7c240ca5d4294835cfde0d062`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`.
+This candidate is based directly on public `main` commit `da245991fc03df9af3cb5b54e00ea60f204acec4`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three rule families from the prior handoff; the two previously rejected 2–4 declarations are now honestly bounded to exact two-player support because the public taxonomy has no 3–4 tag.
 
 The bounded repair carries three body-only candidates that are absent from current main:
 
 | ID | Engine | Rule distinction | Terminal vectors |
 | --- | --- | --- | --- |
 | `pack-three-line` | `gridBoard` | Free 3×3 placement, no gravity, first line of three | 2 seats: `4586d29f0a423abe` |
-| `pack-secret-majority` | `hiddenRole` | Private roles plus one bounded majority ballot | 2/3/4 seats: `c09fe47fcb2f2816`, `cccb780b0db24a3b`, `c6ff2a71f58d588c` |
-| `pack-sketch-relay` | `canvasGuess` | Rotating drawer, private prompt, bounded stroke/guess scoring | 2/3/4 seats: `baedc990861cc7ca`, `dde8a836c2ba1a6a`, `0f4356f2bca3bc96` |
+| `pack-secret-majority` | `hiddenRole` | Private roles plus one bounded majority ballot | 2 seats: `c09fe47fcb2f2816` |
+| `pack-sketch-relay` | `canvasGuess` | Rotating drawer, private prompt, bounded stroke/guess scoring | 2 seats: `baedc990861cc7ca` |
 
-The body drafts are non-executable JSON only. Their canonical body hashes are retained from the validated definitions and their metadata contains English and Simplified Chinese, source and `LicenseRef-Playable`. No signed envelope is included because the existing secure workstation key was proven not to match the Build runtime's trusted public key for `playable-content-2026-02`; no replacement key was generated.
+The body drafts are non-executable JSON only. Their canonical body hashes are retained from the validated definitions and their metadata contains English and Simplified Chinese, source and `LicenseRef-Playable`. The exact-two-player correction changes the canonical hashes for `pack-secret-majority` and `pack-sketch-relay`; all three were re-sealed and validated. No signed envelope is included because the existing secure workstation key was proven not to match the Build runtime's trusted public key for `playable-content-2026-02`; no replacement key was generated.
 
 ## Gate state
 
 - Body schema/rule budget/legal vectors: pass in the isolated declarative pack tool before the previous signed attempt.
 - Mechanism de-duplication: pass for the three independent families; current main has no matching game IDs or rules.
-- Taxonomy/provenance: recorded in `factory-candidate-manifest.json` and `tag-audit.json`; carriers are scalar.
+- Taxonomy/provenance: recorded in `factory-candidate-manifest.json` and `tag-audit.json`; carriers are scalar and all three ranges now exactly match the allowed `two-player` tag.
 - Official signature, envelope hash/byte binding, Pages URL and offline Add/Play: blocked because no trusted envelope can be created in this environment.
 - Normal Home → Setup → Solo/fair Bot → Result → Rematch: blocked until the isolated provider contract is merged into the private App runtime and publisher replay is run. This public ref does not claim that evidence.
 
