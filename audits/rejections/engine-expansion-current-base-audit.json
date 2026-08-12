@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/engine-expansion/20260811-current-base-audit",
+  "commit": "7b4f9b3c6c38d4750770d422c2bb9e10db09958a",
+  "gateTier": "playable",
+  "reasons": [
+    "blocked_engine_expansion",
+    "no_content_delta",
+    "no_new_pack_entries",
+    "solo_or_fair_bot_path_not_configured_for_target_families"
+  ],
+  "observed": {
+    "parent": "ecec858c6a32272e73030d9fbbd4e806f7ffbbac",
+    "baseCatalogRevision": 19,
+    "baseCatalogEntries": 25,
+    "candidateCatalogRevision": 19,
+    "candidateEntries": 25,
+    "candidateManifestEntries": 0,
+    "noCatalogMutation": true,
+    "signatureHashPagesVerification": true,
+    "verifiedPackCount": 25
+  },
+  "fix": "submit a bounded current-base pack delta only after the target installed engine has a configured Solo/fair-Bot launch path and full UI Fast Gate evidence"
+}
