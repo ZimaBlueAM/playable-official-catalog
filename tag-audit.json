@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "status": "publisher-review-required",
+  "gateTier": "playable",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "transport": "candidate-and-audit-sidecar-only",
+  "forbiddenCatalogDimensions": ["genre", "difficulty"],
+  "source": "factory-candidate-manifest.json",
+  "entries": [
+    {
+      "gameID": "pack-three-line",
+      "decision": "accepted-for-publisher-replay",
+      "tags": {
+        "carrier": "board",
+        "mechanics": ["alignment", "connection"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["independent"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {
+        "engine": "gridBoard",
+        "minimumPlayers": 2,
+        "maximumPlayers": 2,
+        "testedPlayerCounts": [2],
+        "terminalReplay": {
+          "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" }
+        },
+        "actionKinds": ["place"],
+        "ruleConfiguration": {
+          "columns": 3,
+          "rows": 3,
+          "connectionLength": 3,
+          "usesGravity": false
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-line-v1.playablepack.json",
+        "byteCount": 1831,
+        "envelopeSHA256": "536ef028f1e062d96588f08009b6d7b2f5ae0f94cc6c27dddb6d1dbd71e6a374",
+        "contentSHA256": "acfe2f04b2d56ab66a52b036eab33f36a5aa7c44e027a7b3603e9fedde2ab560"
+      }
+    },
+    {
+      "gameID": "pack-secret-majority",
+      "decision": "accepted-for-publisher-replay",
+      "tags": {
+        "carrier": "action",
+        "mechanics": ["bluff", "deduction"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "evidence": {
+        "engine": "hiddenRole",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "testedPlayerCounts": [2, 3, 4],
+        "terminalReplay": {
+          "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" },
+          "3": { "finished": true, "winnerSeat": 1, "checksum": "cccb780b0db24a3b" },
+          "4": { "finished": true, "winnerSeat": 1, "checksum": "c6ff2a71f58d588c" }
+        },
+        "actionKinds": ["vote"],
+        "ruleConfiguration": {
+          "teamCount": 2,
+          "maximumRounds": 1,
+          "minimumPlayers": 2,
+          "maximumPlayers": 4
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-secret-majority-v1.playablepack.json",
+        "byteCount": 2420,
+        "envelopeSHA256": "581c56563fa06e6083a380c39cdda02688295909e39640fac82be0920e12b92c",
+        "contentSHA256": "10f74ba9ba6e5abedb64b200a2ca80269fff314ee0acd0e3027a46d3f23c0353"
+      }
+    },
+    {
+      "gameID": "pack-sketch-relay",
+      "decision": "accepted-for-publisher-replay",
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": ["matching", "word"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["canvas"]
+      },
+      "evidence": {
+        "engine": "canvasGuess",
+        "minimumPlayers": 2,
+        "maximumPlayers": 4,
+        "testedPlayerCounts": [2, 3, 4],
+        "terminalReplay": {
+          "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" },
+          "3": { "finished": true, "winnerSeat": 0, "checksum": "dde8a836c2ba1a6a" },
+          "4": { "finished": true, "winnerSeat": 0, "checksum": "0f4356f2bca3bc96" }
+        },
+        "actionKinds": ["stroke", "guess"],
+        "ruleConfiguration": {
+          "roundCount": 4,
+          "maximumStrokesPerRound": 8,
+          "promptCount": 8,
+          "minimumPlayers": 2,
+          "maximumPlayers": 4
+        },
+        "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-sketch-relay-v1.playablepack.json",
+        "byteCount": 3655,
+        "envelopeSHA256": "e03c5eef0cd2a76336314124d04cece263840951f5d793d94fc4a665d89f763e",
+        "contentSHA256": "bf27c30b63871d71954a1b32e5c33d31c0a6324b12b2d02eb066a472aded19f2"
+      }
+    }
+  ]
+}

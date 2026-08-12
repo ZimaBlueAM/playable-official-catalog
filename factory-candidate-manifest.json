@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "status": "publisher-review-required",
+  "gateTier": "playable",
+  "candidateRef": "factory/declarative-diversity/20260812-batch1",
+  "sourceBranch": "factory/declarative-diversity/20260812-batch1",
+  "sourceCommit": "5dfc999f5f0c12de618d3dc2b2ac16308900c193",
+  "baseMainCommit": "77cbf469f31ed3c90702aa289caa4282b1ce6143",
+  "baseCatalogRevision": 19,
+  "baseCatalogEntryCount": 25,
+  "catalogRevision": 19,
+  "catalogEntryCount": 25,
+  "catalogMutation": "none-publisher-only",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "candidate-and-audit-sidecar-only",
+  "entries": [
+    {
+      "gameID": "pack-three-line",
+      "packVersion": 1,
+      "engine": "gridBoard",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-three-line-v1.playablepack.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "tags": {
+        "carrier": "board",
+        "mechanics": ["alignment", "connection"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["independent"],
+        "input": ["one-thumb"]
+      },
+      "mechanismDifference": "Free placement on a 3x3 board with a three-in-a-row terminal rule; no gravity and no four-disc column race.",
+      "terminalReplay": {
+        "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" }
+      },
+      "actionKinds": ["place"],
+      "integrity": {
+        "schema": 2,
+        "keyID": "playable-content-2026-02",
+        "byteCount": 1831,
+        "envelopeSHA256": "536ef028f1e062d96588f08009b6d7b2f5ae0f94cc6c27dddb6d1dbd71e6a374",
+        "contentSHA256": "acfe2f04b2d56ab66a52b036eab33f36a5aa7c44e027a7b3603e9fedde2ab560"
+      },
+      "license": "LicenseRef-Playable",
+      "provenance": "Playable Studio clean-room declarative definition; no third-party code or assets.",
+      "checks": {
+        "signature": "pass",
+        "hashAndByteBinding": "pass",
+        "schemaAndBudget": "pass",
+        "deterministicTerminalVector": "pass",
+        "normalAppJourney": "open-publisher-replay",
+        "offlinePagesInstall": "open-until-publisher-mirror",
+        "thumbUI": "open-publisher-screenshot"
+      }
+    },
+    {
+      "gameID": "pack-secret-majority",
+      "packVersion": 1,
+      "engine": "hiddenRole",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-secret-majority-v1.playablepack.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "action",
+        "mechanics": ["bluff", "deduction"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "mechanismDifference": "Private role projection plus a one-round simultaneous-feeling vote and deterministic majority elimination; not a card take-away or tile slide.",
+      "terminalReplay": {
+        "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" },
+        "3": { "finished": true, "winnerSeat": 1, "checksum": "cccb780b0db24a3b" },
+        "4": { "finished": true, "winnerSeat": 1, "checksum": "c6ff2a71f58d588c" }
+      },
+      "actionKinds": ["vote"],
+      "integrity": {
+        "schema": 2,
+        "keyID": "playable-content-2026-02",
+        "byteCount": 2420,
+        "envelopeSHA256": "581c56563fa06e6083a380c39cdda02688295909e39640fac82be0920e12b92c",
+        "contentSHA256": "10f74ba9ba6e5abedb64b200a2ca80269fff314ee0acd0e3027a46d3f23c0353"
+      },
+      "license": "LicenseRef-Playable",
+      "provenance": "Playable Studio clean-room declarative definition; roles and copy are original and contain no third-party assets.",
+      "checks": {
+        "signature": "pass",
+        "hashAndByteBinding": "pass",
+        "schemaAndBudget": "pass",
+        "deterministicTerminalVector": "pass-all-declared-counts",
+        "normalAppJourney": "open-publisher-replay",
+        "offlinePagesInstall": "open-until-publisher-mirror",
+        "thumbUI": "open-publisher-screenshot"
+      }
+    },
+    {
+      "gameID": "pack-sketch-relay",
+      "packVersion": 1,
+      "engine": "canvasGuess",
+      "downloadURL": "https://zimablueam.github.io/playable-official-catalog/games/pack-sketch-relay-v1.playablepack.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": ["matching", "word"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["canvas"]
+      },
+      "mechanismDifference": "Alternating drawer and guesser with prompt privacy, strokes, scoring and four-round rotation; not a board alignment or hidden vote game.",
+      "terminalReplay": {
+        "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" },
+        "3": { "finished": true, "winnerSeat": 0, "checksum": "dde8a836c2ba1a6a" },
+        "4": { "finished": true, "winnerSeat": 0, "checksum": "0f4356f2bca3bc96" }
+      },
+      "actionKinds": ["stroke", "guess"],
+      "integrity": {
+        "schema": 2,
+        "keyID": "playable-content-2026-02",
+        "byteCount": 3655,
+        "envelopeSHA256": "e03c5eef0cd2a76336314124d04cece263840951f5d793d94fc4a665d89f763e",
+        "contentSHA256": "bf27c30b63871d71954a1b32e5c33d31c0a6324b12b2d02eb066a472aded19f2"
+      },
+      "license": "LicenseRef-Playable",
+      "provenance": "Playable Studio clean-room declarative definition; prompts and drawing vectors are original and resource-free.",
+      "checks": {
+        "signature": "pass",
+        "hashAndByteBinding": "pass",
+        "schemaAndBudget": "pass",
+        "deterministicTerminalVector": "pass-all-declared-counts",
+        "normalAppJourney": "open-publisher-replay",
+        "offlinePagesInstall": "open-until-publisher-mirror",
+        "thumbUI": "open-publisher-screenshot"
+      }
+    }
+  ],
+  "contentStatus": "three-signed-candidate-packs",
+  "signatureStatus": "pass-existing-official-content-key",
+  "auditSidecars": [
+    "tag-audit.json",
+    "audits/candidates/declarative-diversity-20260812.md",
+    "audits/ui/pack-three-line.game-ui-acceptance.json",
+    "audits/ui/pack-secret-majority.game-ui-acceptance.json",
+    "audits/ui/pack-sketch-relay.game-ui-acceptance.json"
+  ],
+  "requiredPublisherActions": [
+    "Replay normal Home-to-Setup-to-Solo-to-Result-to-Rematch journeys with the current installed Build runtime.",
+    "Mirror packs to the publisher-controlled catalog revision and verify GitHub Pages bytes, hashes, signatures and offline Add/Play before any main write.",
+    "Do not increment catalog revision from this candidate ref without closing every open UI/Pages check."
+  ],
+  "noCatalogMutation": true,
+  "noPrivateAppMutation": true
+}

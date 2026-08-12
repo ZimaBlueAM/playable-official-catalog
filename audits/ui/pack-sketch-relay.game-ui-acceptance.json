@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "game-ui-acceptance-v1",
+  "gameID": "pack-sketch-relay",
+  "candidateID": "factory/declarative-diversity/20260812-batch1/pack-sketch-relay",
+  "exactCommit": "5dfc999f5f0c12de618d3dc2b2ac16308900c193",
+  "references": [
+    {
+      "title": "Drawing-and-guessing rule reference",
+      "url": "https://en.wikipedia.org/wiki/Pictionary",
+      "patternUsed": "Use the public drawing/guessing relay pattern with a rotating drawer.",
+      "notCopied": "No brand, prompt list, code, art or text is copied; prompts are original bounded data."
+    },
+    {
+      "title": "Apple Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+      "patternUsed": "Use clear, thumb-sized controls with a direct action-to-result relationship.",
+      "notCopied": "Only the general interaction guidance is referenced; no Apple code, artwork or text is included."
+    }
+  ],
+  "provenance": {
+    "code": {
+      "origin": "Playable official declarative pack clean-room definition",
+      "revision": "factory/declarative-diversity/20260812-batch1@5dfc999f5f0c12de618d3dc2b2ac16308900c193",
+      "license": "LicenseRef-Playable",
+      "licensePath": "games/pack-sketch-relay-v1.playablepack.json#/body/license",
+      "sha256": "bf27c30b63871d71954a1b32e5c33d31c0a6324b12b2d02eb066a472aded19f2",
+      "modifications": "Original bounded JSON rules, metadata and deterministic replay vectors; no executable payload."
+    },
+    "assets": []
+  },
+  "taxonomy": {
+    "carrier": "canvas",
+    "mechanics": [
+      "matching",
+      "word"
+    ]
+  },
+  "layout": {
+    "threeLayers": {
+      "observation": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#observation"
+      },
+      "playfield": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#playfield"
+      },
+      "controls": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#controls"
+      }
+    },
+    "nineAnchors": {
+      "topLeading": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#topLeading"
+      },
+      "top": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#top"
+      },
+      "topTrailing": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#topTrailing"
+      },
+      "leading": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#leading"
+      },
+      "center": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#center"
+      },
+      "trailing": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#trailing"
+      },
+      "bottomLeading": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#bottomLeading"
+      },
+      "bottom": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#bottom"
+      },
+      "bottomTrailing": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#bottomTrailing"
+      }
+    },
+    "thumbReach": {
+      "leftWiper": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#thumb-reach"
+      },
+      "rightWiper": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#thumb-reach"
+      },
+      "safeArea": {
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#safe-area"
+      }
+    }
+  },
+  "journeys": {
+    "completeRound": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#deterministic-replay"
+    },
+    "soloOrFairBot": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#fair-local-bot"
+    }
+  },
+  "playerCoverage": {
+    "minimum": 2,
+    "maximum": 4,
+    "counts": [
+      {
+        "players": 2,
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#players-2"
+      },
+      {
+        "players": 3,
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#players-3"
+      },
+      {
+        "players": 4,
+        "status": "pass",
+        "evidence": "audits/candidates/pack-sketch-relay.md#players-4"
+      }
+    ]
+  },
+  "resultAndRematch": {
+    "status": "open",
+    "evidence": "audits/candidates/pack-sketch-relay.md#result-rematch-publisher-replay"
+  },
+  "matrix": {
+    "shortIPhone": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#shortIPhone-publisher-screenshot"
+    },
+    "tallIPhone": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#tallIPhone-publisher-screenshot"
+    },
+    "catalystNarrow": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#catalystNarrow-publisher-screenshot"
+    },
+    "catalystWide": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#catalystWide-publisher-screenshot"
+    },
+    "englishLight": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#englishLight-publisher-screenshot"
+    },
+    "englishDark": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#englishDark-publisher-screenshot"
+    },
+    "chineseLight": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#chineseLight-publisher-screenshot"
+    },
+    "chineseDark": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#chineseDark-publisher-screenshot"
+    }
+  },
+  "accessibility": {
+    "fixedLargeTypography": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#typography"
+    },
+    "systemBoldInvariant": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#typography"
+    },
+    "minimum44pt": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#44pt"
+    },
+    "voiceOver": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#voiceover-publisher-replay"
+    },
+    "reduceMotion": {
+      "status": "open",
+      "evidence": "audits/candidates/pack-sketch-relay.md#reduce-motion-publisher-replay"
+    },
+    "notColorOnly": {
+      "status": "pass",
+      "evidence": "audits/candidates/pack-sketch-relay.md#non-color-state"
+    }
+  },
+  "evidence": {
+    "screenshots": [
+      "audits/candidates/pack-sketch-relay.md#publisher-screenshot-pending"
+    ],
+    "testReports": [
+      "audits/candidates/pack-sketch-relay.md"
+    ]
+  },
+  "signoff": {
+    "uiOwner": {
+      "owner": "Factory UI review",
+      "role": "Game UI Owner",
+      "decision": "notRun",
+      "signedAt": "2026-08-12T04:05:00Z"
+    },
+    "rulesPublisherOwner": {
+      "owner": "Factory rules review",
+      "role": "Rules/Publisher Owner",
+      "decision": "notRun",
+      "signedAt": "2026-08-12T04:05:00Z"
+    }
+  }
+}
