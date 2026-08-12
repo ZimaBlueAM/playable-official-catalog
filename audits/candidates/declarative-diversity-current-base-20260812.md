@@ -1,6 +1,6 @@
 # Current-base declarative diversity repair — 2026-08-12
 
-This candidate is based directly on public `main` commit `da245991fc03df9af3cb5b54e00ea60f204acec4`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three rule families from the prior handoff; the two previously rejected 2–4 declarations are now honestly bounded to exact two-player support because the public taxonomy has no 3–4 tag.
+This candidate is based directly on public `main` commit `9787cf7ee3a7fbd4aed41a5e7accb024e9721395`, whose catalog is revision 19 with 25 entries. It preserves the catalog, provenance pages and all existing game packs. It does not replay revision 108/305 aggregates and does not write public `main`. It carries forward the same three rule families from the prior handoff; the two previously rejected 2–4 declarations are now honestly bounded to exact two-player support because the public taxonomy has no 3–4 tag. This is a current-base rebase only, not three new games.
 
 The bounded repair carries three body-only candidates that are absent from current main:
 

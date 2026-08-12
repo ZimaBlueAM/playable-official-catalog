@@ -2,9 +2,9 @@
   "schema": 1,
   "status": "blocked-unsigned-draft",
   "gateTier": "playable",
-  "candidateRef": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
-  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r3-unsigned",
-  "baseMainCommit": "da245991fc03df9af3cb5b54e00ea60f204acec4",
+  "candidateRef": "factory/declarative-diversity/20260812-current-base-r5-unsigned",
+  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
+  "baseMainCommit": "9787cf7ee3a7fbd4aed41a5e7accb024e9721395",
   "baseCatalogRevision": 19,
   "baseCatalogEntryCount": 25,
   "candidateCatalogRevision": null,
@@ -12,7 +12,7 @@
   "catalogMutation": "none-publisher-only",
   "taxonomyVersion": "app-taxonomy-v2",
   "taxonomyTransport": "candidate-and-audit-sidecar-only",
-  "contentStatus": "three-current-base-body-drafts-no-envelopes-exact-two-player-range",
+  "contentStatus": "three-current-base-body-drafts-no-envelopes-exact-two-player-range-rebased",
   "signatureStatus": "blocked-existing-local-key-does-not-match-trusted-production-public-key",
   "runtimeStatus": "blocked-provider-contract-isolated-branch-not-in-private-main",
   "entries": [
@@ -125,7 +125,9 @@
     "audits/candidates/signature-trust-mismatch-20260812.json",
     "audits/rejections/declarative-diversity-batch1-invalid-signature.json",
     "audits/rejections/declarative-diversity-current-base-r2-unsigned.json",
-    "audits/rejections/declarative-diversity-current-base-r3-unsigned.json"
+    "audits/rejections/declarative-diversity-current-base-r3-unsigned.json",
+    "audits/rejections/declarative-diversity-current-base-r4-unsigned.json",
+    "audits/candidates/current-base-r5-revalidation-20260812.json"
   ],
   "requiredPublisherActions": [
     "Use the approved existing production content signing key whose public key matches Build runtime key ID playable-content-2026-02; do not generate or substitute a key.",

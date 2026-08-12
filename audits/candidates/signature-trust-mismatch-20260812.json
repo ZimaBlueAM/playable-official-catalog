@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "status": "blocked",
-  "candidate": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
-  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r3-unsigned",
-  "baseMainCommit": "da245991fc03df9af3cb5b54e00ea60f204acec4",
+  "candidate": "factory/declarative-diversity/20260812-current-base-r5-unsigned",
+  "resubmissionOf": "factory/declarative-diversity/20260812-current-base-r4-unsigned",
+  "baseMainCommit": "9787cf7ee3a7fbd4aed41a5e7accb024e9721395",
   "baseCatalogRevision": 19,
   "keyID": "playable-content-2026-02",
   "checks": {
