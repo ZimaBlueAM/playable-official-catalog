@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "status": "blocked-unsigned-draft",
+  "gateTier": "playable",
+  "candidateRef": "factory/declarative-diversity/20260812-current-base-unsigned",
+  "baseMainCommit": "8c44c9a1aba229d7c240ca5d4294835cfde0d062",
+  "baseCatalogRevision": 19,
+  "baseCatalogEntryCount": 25,
+  "candidateCatalogRevision": null,
+  "candidateCatalogEntryCount": 25,
+  "catalogMutation": "none-publisher-only",
+  "taxonomyVersion": "app-taxonomy-v2",
+  "taxonomyTransport": "candidate-and-audit-sidecar-only",
+  "contentStatus": "three-current-base-body-drafts-no-envelopes",
+  "signatureStatus": "blocked-existing-local-key-does-not-match-trusted-production-public-key",
+  "runtimeStatus": "blocked-provider-contract-isolated-branch-not-in-private-main",
+  "entries": [
+    {
+      "gameID": "pack-three-line",
+      "packVersion": 1,
+      "engine": "gridBoard",
+      "bodyDraft": "drafts/pack-three-line-body.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 2,
+      "tags": {
+        "carrier": "board",
+        "mechanics": ["alignment", "connection"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["independent"],
+        "input": ["one-thumb"]
+      },
+      "mechanismDifference": "Free placement on a 3x3 board, no gravity, first straight line of three; not the current gravity-based four-disc game.",
+      "terminalReplay": { "2": { "finished": true, "winnerSeat": 0, "checksum": "4586d29f0a423abe" } },
+      "integrity": {
+        "draftByteCount": 2551,
+        "canonicalBodySHA256": "acfe2f04b2d56ab66a52b036eab33f36a5aa7c44e027a7b3603e9fedde2ab560",
+        "envelopeByteCount": null,
+        "envelopeSHA256": null,
+        "signature": "not-created"
+      },
+      "gate": {
+        "schemaAndBudget": "pass-body-only",
+        "legalTerminalVector": "pass-body-only",
+        "licenseProvenanceMetadata": "pass-body-only",
+        "signatureHashByteBinding": "blocked",
+        "normalHomeSoloResultRematch": "blocked-runtime-publisher",
+        "offlinePagesAddPlay": "blocked-no-publisher-envelope"
+      }
+    },
+    {
+      "gameID": "pack-secret-majority",
+      "packVersion": 1,
+      "engine": "hiddenRole",
+      "bodyDraft": "drafts/pack-secret-majority-body.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "action",
+        "mechanics": ["bluff", "deduction"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["one-thumb"]
+      },
+      "mechanismDifference": "Private role projection, one ballot and deterministic majority elimination; not card take-away, tile sliding or board alignment.",
+      "terminalReplay": {
+        "2": { "finished": true, "winnerSeat": 1, "checksum": "c09fe47fcb2f2816" },
+        "3": { "finished": true, "winnerSeat": 1, "checksum": "cccb780b0db24a3b" },
+        "4": { "finished": true, "winnerSeat": 1, "checksum": "c6ff2a71f58d588c" }
+      },
+      "integrity": {
+        "draftByteCount": 3917,
+        "canonicalBodySHA256": "10f74ba9ba6e5abedb64b200a2ca80269fff314ee0acd0e3027a46d3f23c0353",
+        "envelopeByteCount": null,
+        "envelopeSHA256": null,
+        "signature": "not-created"
+      },
+      "gate": {
+        "schemaAndBudget": "pass-body-only",
+        "legalTerminalVector": "pass-body-only-all-declared-counts",
+        "licenseProvenanceMetadata": "pass-body-only",
+        "signatureHashByteBinding": "blocked",
+        "normalHomeSoloResultRematch": "blocked-runtime-publisher",
+        "offlinePagesAddPlay": "blocked-no-publisher-envelope"
+      }
+    },
+    {
+      "gameID": "pack-sketch-relay",
+      "packVersion": 1,
+      "engine": "canvasGuess",
+      "bodyDraft": "drafts/pack-sketch-relay-body.json",
+      "minimumPlayers": 2,
+      "maximumPlayers": 4,
+      "tags": {
+        "carrier": "canvas",
+        "mechanics": ["matching", "word"],
+        "players": ["two-player"],
+        "pace": ["quick-round"],
+        "context": ["friends-room"],
+        "input": ["canvas"]
+      },
+      "mechanismDifference": "Rotating drawer, private prompt, bounded strokes and guess scoring over four rounds; not the board or hidden-vote rules above.",
+      "terminalReplay": {
+        "2": { "finished": true, "winnerSeat": 0, "checksum": "baedc990861cc7ca" },
+        "3": { "finished": true, "winnerSeat": 0, "checksum": "dde8a836c2ba1a6a" },
+        "4": { "finished": true, "winnerSeat": 0, "checksum": "0f4356f2bca3bc96" }
+      },
+      "integrity": {
+        "draftByteCount": 8637,
+        "canonicalBodySHA256": "bf27c30b63871d71954a1b32e5c33d31c0a6324b12b2d02eb066a472aded19f2",
+        "envelopeByteCount": null,
+        "envelopeSHA256": null,
+        "signature": "not-created"
+      },
+      "gate": {
+        "schemaAndBudget": "pass-body-only",
+        "legalTerminalVector": "pass-body-only-all-declared-counts",
+        "licenseProvenanceMetadata": "pass-body-only",
+        "signatureHashByteBinding": "blocked",
+        "normalHomeSoloResultRematch": "blocked-runtime-publisher",
+        "offlinePagesAddPlay": "blocked-no-publisher-envelope"
+      }
+    }
+  ],
+  "blockingEvidence": [
+    "audits/candidates/declarative-diversity-current-base-20260812.md",
+    "audits/candidates/signature-trust-mismatch-20260812.json",
+    "audits/rejections/declarative-diversity-batch1-invalid-signature.json"
+  ],
+  "requiredPublisherActions": [
+    "Use the approved existing production content signing key whose public key matches Build runtime key ID playable-content-2026-02; do not generate or substitute a key.",
+    "After product runtime provider changes are merged into the private App branch, replay normal Home-to-Setup-to-Solo/fair-Bot-to-Result-to-Rematch journeys.",
+    "Only then create exact signed envelopes, mirror them on Pages, verify public hashes/signatures/byte counts and offline Add/Play, and let the unique publisher write a later catalog revision."
+  ],
+  "noCatalogMutation": true,
+  "noPrivateAppMutation": true,
+  "noPrivateKeyMaterial": true
+}
