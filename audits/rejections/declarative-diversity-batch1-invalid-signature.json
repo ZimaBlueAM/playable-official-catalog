@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "status": "rejected",
+  "candidate": "factory/declarative-diversity/20260812-batch1",
+  "commit": "77c870a6940467975e9584aada8c7358942331e6",
+  "gateTier": "playable",
+  "reasons": [
+    "pack_signature_invalid_for_trusted_key",
+    "publisher_normal_journey_open",
+    "publisher_pages_binding_open"
+  ],
+  "observed": {
+    "parent": "5dfc999f5f0c12de618d3dc2b2ac16308900c193",
+    "baseMainCommit": "77cbf469f31ed3c90702aa289caa4282b1ce6143",
+    "baseCatalogRevision": 19,
+    "candidateCatalogRevision": null,
+    "candidateManifestStatus": "publisher-review-required",
+    "candidateManifestEntries": 3,
+    "candidatePackIDs": [
+      "pack-three-line",
+      "pack-secret-majority",
+      "pack-sketch-relay"
+    ],
+    "candidateNoCatalogMutation": true,
+    "packSignatureVerification": {
+      "keyID": "playable-content-2026-02",
+      "trustedProductionVerifier": "failed",
+      "failedPackIDs": [
+        "pack-three-line",
+        "pack-secret-majority",
+        "pack-sketch-relay"
+      ]
+    },
+    "tagAuditStatus": "publisher-review-required",
+    "uiEvidence": {
+      "normalHomeSetupSoloResultRematch": "open",
+      "pagesPackBinding": "open",
+      "packIDs": [
+        "pack-three-line",
+        "pack-secret-majority",
+        "pack-sketch-relay"
+      ]
+    },
+    "catalogRevisionUnchanged": true
+  },
+  "fix": {
+    "resubmitOnCurrentBase": true,
+    "required": [
+      "sign each exact canonical envelope body with the approved official content key ID playable-content-2026-02",
+      "provide publisher-controlled normal Home-to-Setup-to-Solo-or-fair-Bot-to-Result-to-Rematch evidence for every pack",
+      "materialize only the bounded catalog delta and verify public URL, byte count, content hash, envelope hash, signature and offline Add/Play before publication"
+    ]
+  }
+}
