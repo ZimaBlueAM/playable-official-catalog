@@ -1,6 +1,6 @@
 {
   "indexIdentity": "playable-official-web",
-  "revision": 13,
+  "revision": 14,
   "expiresAt": "2027-08-16T00:00:00Z",
   "signingKeyID": "playable-web-index-2026-02",
   "packageBaseURL": "https://zimablueam.github.io/playable-official-catalog/web/",
@@ -10,6 +10,6 @@
     "releases/gr-go9-r1-v8.playable.json",
     "releases/gr-yacht-r1-v11.playable.json",
     "releases/gr-zsy-r1-v11.playable.json",
-    "releases/gr-mahjong-r1-v11.playable.json"
+    "releases/gr-mahjong-r1-v12.playable.json"
   ]
 }

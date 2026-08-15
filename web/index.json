@@ -2,13 +2,13 @@
   "body" : {
     "entries" : [
       {
-        "byteCount" : 798540,
-        "contentAddress" : "sha256:f14aa071e62b6317dc543cd525942ce59a463fe1a26a80c9979c5bc385a37f10",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-mahjong-r1-v11.playable.json",
+        "byteCount" : 798497,
+        "contentAddress" : "sha256:71eea32df2bdaee62c72deeca8f2fb3a3c5cfd1799998ce64f39e35ed79f79b6",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-mahjong-r1-v12.playable.json",
         "gameID" : "chinese-mahjong",
         "lifecycle" : "available",
         "releaseID" : "gr-mahjong-r1",
-        "releaseVersion" : 11,
+        "releaseVersion" : 12,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -64,8 +64,8 @@
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 13
+    "revision" : 14
   },
-  "signature" : "MEQCIEk0dxN65YKW9DxGANAh8qbOtXnYPnNr18asZkepGZScAiBFjjy2uxWuEQcW13k8sbaccQb/v0JG9Ii45C8D7kXVKg==",
+  "signature" : "MEUCIGn9dKkMHG+HqRSdph/KrNYx+5AjRldzDDTmh5bBeIHAAiEAm1/PANNvTMT52S9uGLqf06pvPg9puVU4tFJWDenM11s=",
   "signingKeyID" : "playable-web-index-2026-02"
 }
