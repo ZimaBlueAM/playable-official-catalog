@@ -2,13 +2,13 @@
   "body" : {
     "entries" : [
       {
-        "byteCount" : 805082,
-        "contentAddress" : "sha256:d33e58c0fe5b2451d31bf62bdfebe4c2d85371acc21f980346d6658f6852f537",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-mahjong-r1-v21.playable.json",
+        "byteCount" : 805345,
+        "contentAddress" : "sha256:642afa6975196e375196688f99c690ce8fc0c9825273435b2bdca348a987eb06",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-mahjong-r1-v22.playable.json",
         "gameID" : "chinese-mahjong",
         "lifecycle" : "available",
         "releaseID" : "gr-mahjong-r1",
-        "releaseVersion" : 21,
+        "releaseVersion" : 22,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -32,13 +32,13 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 805047,
-        "contentAddress" : "sha256:2eabc5c9a057f2ec077f938f9598ad629f058fd05fbe8c10b99fe46e3a0bce1e",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-yacht-r1-v21.playable.json",
+        "byteCount" : 805308,
+        "contentAddress" : "sha256:241c36022fcdebd6cce1532a3777b07866dced5a7c9ee1997a3d3a19ac193cd5",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-yacht-r1-v22.playable.json",
         "gameID" : "party-yacht",
         "lifecycle" : "available",
         "releaseID" : "gr-yacht-r1",
-        "releaseVersion" : 21,
+        "releaseVersion" : 22,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -52,20 +52,20 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 805059,
-        "contentAddress" : "sha256:3aa24ea539705f95154faa71cfd6c1acbe819651581bf31446e134fd6c690a7d",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-zsy-r1-v21.playable.json",
+        "byteCount" : 805323,
+        "contentAddress" : "sha256:00226aa6e6ad163cee44e8ff3bf9e9f847e9967a77cba6ace54732d8fed688fd",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-zsy-r1-v22.playable.json",
         "gameID" : "zheng-shangyou",
         "lifecycle" : "available",
         "releaseID" : "gr-zsy-r1",
-        "releaseVersion" : 21,
+        "releaseVersion" : 22,
         "signingKeyID" : "playable-content-build165"
       }
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 23
+    "revision" : 24
   },
-  "signature" : "MEQCIDNj6Da57W/C2jtNjdg7PjPfS3bzFa+FZCS6uWdPIGu/AiBKLxhWOb0EgNmPKpZQp/Ly58/4mMRH0euvU8TzY7hlaw==",
+  "signature" : "MEUCIQCRkmgX1knx669riiUMcO2fCl7LNsmZviyKVKLfxr8RAAIgRKvntc3PzaOUgLiU7YdMzzjV1uYo/tJYPEtwODquxwY=",
   "signingKeyID" : "playable-web-index-2026-02"
 }
