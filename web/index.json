@@ -22,13 +22,13 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 768526,
-        "contentAddress" : "sha256:e4e62daba0b6d692e9bf2bb093a9d5c1c246683bf6c3d97dc566f90a61a58799",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-chess-r1-v8.playable.json",
+        "byteCount" : 768634,
+        "contentAddress" : "sha256:9fd01e1bb366cde1385c8d86c6965fb59a93fd0d18201b67603315356ade02f8",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-chess-r1-v9.playable.json",
         "gameID" : "international-chess",
         "lifecycle" : "available",
         "releaseID" : "gr-chess-r1",
-        "releaseVersion" : 8,
+        "releaseVersion" : 9,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -64,8 +64,8 @@
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 6
+    "revision" : 7
   },
-  "signature" : "MEQCICEKdBtXPWVIFQ703VEdhd8qUBuFyWf99sF837BD+mVzAiAu1jTYht/9MaIFmqyiLS1n2i6xIiiS2KKPzwJ6/bw4hw==",
+  "signature" : "MEYCIQDGJvL+u/CNXQBuC2AXJMw83KldXC09Dynfv+t1OAoEYAIhAMtuFkWpPYiPgvucc6CJPZz+ZifiPcTKj0rxPwrotHmT",
   "signingKeyID" : "playable-web-index-2026-02"
 }
