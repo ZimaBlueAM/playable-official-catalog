@@ -1,0 +1,71 @@
+{
+  "body" : {
+    "entries" : [
+      {
+        "byteCount" : 797273,
+        "contentAddress" : "sha256:540d2c2e534b80fadcd5bc8eac3fc21f19f600ca4093f7945b95e828e3577673",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-mahjong-r1-v3.playable.json",
+        "gameID" : "chinese-mahjong",
+        "lifecycle" : "available",
+        "releaseID" : "gr-mahjong-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      },
+      {
+        "byteCount" : 767073,
+        "contentAddress" : "sha256:eafb13433b8e929aef4a48d2fbf74a94e7a23d6b804b1e0a789fa3aa0d0a03fc",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-go9-r1-v3.playable.json",
+        "gameID" : "go9",
+        "lifecycle" : "available",
+        "releaseID" : "gr-go9-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      },
+      {
+        "byteCount" : 767174,
+        "contentAddress" : "sha256:6403a565aafaadbf4b13d49807bda226fd34e1d20884a7af2f1fac36459bc5c0",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-chess-r1-v3.playable.json",
+        "gameID" : "international-chess",
+        "lifecycle" : "available",
+        "releaseID" : "gr-chess-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      },
+      {
+        "byteCount" : 797237,
+        "contentAddress" : "sha256:87b4d0e8db47512291388a385a78b6b56f20f57cc3402325ea0da6e95365eef0",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-yacht-r1-v3.playable.json",
+        "gameID" : "party-yacht",
+        "lifecycle" : "available",
+        "releaseID" : "gr-yacht-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      },
+      {
+        "byteCount" : 767123,
+        "contentAddress" : "sha256:4862a5073ac3659c17ddaaf64864280cbe6150252510c5af02947063b28afa1a",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-xiangqi-r1-v3.playable.json",
+        "gameID" : "xiangqi",
+        "lifecycle" : "available",
+        "releaseID" : "gr-xiangqi-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      },
+      {
+        "byteCount" : 797253,
+        "contentAddress" : "sha256:6ae8779cea29052759f9c99c35d459bd39f8739946be522f694d1820cea601fa",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-zsy-r1-v3.playable.json",
+        "gameID" : "zheng-shangyou",
+        "lifecycle" : "available",
+        "releaseID" : "gr-zsy-r1",
+        "releaseVersion" : 3,
+        "signingKeyID" : "playable-content-build165"
+      }
+    ],
+    "expiresAt" : 840067200,
+    "indexIdentity" : "playable-official-web",
+    "revision" : 1
+  },
+  "signature" : "MEYCIQDXpaVDUUmOoN0Ugt3pdDnpjEBGwoktJDPOB2dM+JjUJQIhALMdUCXdwQs4ee4X9Tlu3CawwMsjJoVjCfDezqdC1aHV",
+  "signingKeyID" : "playable-web-index-2026-02"
+}
