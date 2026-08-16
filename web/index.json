@@ -42,13 +42,13 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 969199,
-        "contentAddress" : "sha256:9369119fc93683f63fce894f5872c9c2050d07b4ec8bd8db2ef6262b71c8e6e2",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-xiangqi-r1-v27.playable.json",
+        "byteCount" : 965956,
+        "contentAddress" : "sha256:6a77b975c7da4fd2e7b1a000127173090fe648f2d8246ad0f11f8b52a44e1122",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-xiangqi-r1-v28.playable.json",
         "gameID" : "xiangqi",
         "lifecycle" : "available",
         "releaseID" : "gr-xiangqi-r1",
-        "releaseVersion" : 27,
+        "releaseVersion" : 28,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -64,8 +64,8 @@
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 30
+    "revision" : 31
   },
-  "signature" : "MEYCIQCdnPod3gVoBDpzLDvJ5loginv0DCBd3IP+B1sqlQj7ZQIhAONdYCNITFBkmoalPWtupA6w7xZAxeMe4YRmRBko8qDb",
+  "signature" : "MEYCIQCyHFuiFtU2JXTAp+OoQyyWMYxcqRrhl8ISY2pS9MV/4gIhAIyOp0as9Em3BbrSeh92RhpbWeKIkQ0DWnx1hLeADYn7",
   "signingKeyID" : "playable-web-index-2026-02"
 }
