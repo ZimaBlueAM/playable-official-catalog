@@ -12,23 +12,23 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 972074,
-        "contentAddress" : "sha256:a0f1afe66c0f874ab8799b3ddc50140ba3dd6d52cb49d15610629650cef5edce",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-go9-r1-v25.playable.json",
+        "byteCount" : 965906,
+        "contentAddress" : "sha256:70f427625284df4248bb736f3f58ed7d7538c9b15b02ef553eb575faf23e2ba7",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-go9-r1-v28.playable.json",
         "gameID" : "go9",
         "lifecycle" : "available",
         "releaseID" : "gr-go9-r1",
-        "releaseVersion" : 25,
+        "releaseVersion" : 28,
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 972173,
-        "contentAddress" : "sha256:1e0ca0c9e524a4264c5d73d870271f8176a7677518bcd357550c512750fa97e6",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-chess-r1-v25.playable.json",
+        "byteCount" : 966008,
+        "contentAddress" : "sha256:d760b8f9b2c2c8ac5de936729842bfc8287b9abc42cae085e9ce1667f7d33270",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-chess-r1-v28.playable.json",
         "gameID" : "international-chess",
         "lifecycle" : "available",
         "releaseID" : "gr-chess-r1",
-        "releaseVersion" : 25,
+        "releaseVersion" : 28,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -64,8 +64,8 @@
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 31
+    "revision" : 32
   },
-  "signature" : "MEYCIQCyHFuiFtU2JXTAp+OoQyyWMYxcqRrhl8ISY2pS9MV/4gIhAIyOp0as9Em3BbrSeh92RhpbWeKIkQ0DWnx1hLeADYn7",
+  "signature" : "MEUCIHrZbu853fCxYsbdmRqk3VPqNSffMdasHj+csyt0JHQpAiEAlPjzScm0Bdw9H/zR0BURI+rtu3pxP5heQvRgKuBsMM8=",
   "signingKeyID" : "playable-web-index-2026-02"
 }
