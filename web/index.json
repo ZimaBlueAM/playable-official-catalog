@@ -32,13 +32,13 @@
         "signingKeyID" : "playable-content-build165"
       },
       {
-        "byteCount" : 939316,
-        "contentAddress" : "sha256:7a493f227bc41e468859cc1ab833358a26b0dcd26bf2609140ba2f24a113526b",
-        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-yacht-r1-v25.playable.json",
+        "byteCount" : 941727,
+        "contentAddress" : "sha256:cd81f9062b45ba155986015579454bbc2a1f7e6d7637859e6ba8beeff3393d16",
+        "downloadURL" : "https://zimablueam.github.io/playable-official-catalog/web/releases/gr-yacht-r1-v26.playable.json",
         "gameID" : "party-yacht",
         "lifecycle" : "available",
         "releaseID" : "gr-yacht-r1",
-        "releaseVersion" : 25,
+        "releaseVersion" : 26,
         "signingKeyID" : "playable-content-build165"
       },
       {
@@ -64,8 +64,8 @@
     ],
     "expiresAt" : 840067200,
     "indexIdentity" : "playable-official-web",
-    "revision" : 27
+    "revision" : 28
   },
-  "signature" : "MEUCIQCDbatkN3EIlh5LTIv5ToZ8wOmoleBxz7S8i7NRWWmKcAIgV6KnGTtMlwQAWKns2MLC+nUkOlfli5BW75H2Ervecfg=",
+  "signature" : "MEUCIH4q7+tDXbw4+rPm+kCJkLr4bONUFEg4oj+LvE0nYgiDAiEAnMGcIGxUqRDWHQHcHqVKu1lmUBHhHW4oVqgPnHyvW1A=",
   "signingKeyID" : "playable-web-index-2026-02"
 }
